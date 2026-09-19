@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en-UG">
+<head>
+{{> head}}
+</head>
+<body class="{{bodyClass}}">
+  <a class="skip-link" href="#main">Skip to content</a>
+{{> announcement}}
+{{> header}}
+  <main id="main">
+{{content}}
+  </main>
+{{> footer}}
+{{> cart-drawer}}
+{{> search-overlay}}
+{{> mobile-nav}}
+  <div class="toast" data-toast role="status" aria-live="polite"></div>
+  <script src="/assets/js/config.js" defer></script>
+  <script src="/assets/js/store.js" defer></script>
+  <script src="/assets/js/ui.js" defer></script>
+  {{pageScripts}}
+</body>
+</html>

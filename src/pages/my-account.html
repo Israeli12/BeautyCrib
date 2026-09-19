@@ -1,0 +1,103 @@
+<!--meta
+{
+  "path": "/my-account/",
+  "title": "My Account | Beauty Crib",
+  "description": "Your Beauty Crib account: orders, delivery addresses, account details and wishlist.",
+  "bodyClass": "page-account",
+  "noindex": true,
+  "scripts": ["account"]
+}
+-->
+
+    <div class="container" data-account>
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="/">Home</a></li>
+          <li aria-current="page">My account</li>
+        </ol>
+      </nav>
+
+      <header class="page-head">
+        <p class="eyebrow">Account</p>
+        <h1 class="display-l page-head__title" data-account-greeting>Hello.</h1>
+        <p class="note" data-signed-out hidden>
+          You are not signed in. <a href="/login/">Sign in</a> or <a href="/register/">create an account</a> to keep
+          your orders and wishlist on every device.
+        </p>
+      </header>
+
+      <div class="account-layout" data-tabs>
+        <nav class="account-nav" aria-label="Account">
+          <div class="account-nav__list" role="tablist" aria-orientation="vertical">
+            <button role="tab" id="tab-dashboard" aria-controls="panel-dashboard" aria-selected="true">Dashboard</button>
+            <button role="tab" id="tab-orders" aria-controls="panel-orders" aria-selected="false">Orders</button>
+            <button role="tab" id="tab-addresses" aria-controls="panel-addresses" aria-selected="false">Addresses</button>
+            <button role="tab" id="tab-details" aria-controls="panel-details" aria-selected="false">Account details</button>
+            <button role="tab" id="tab-wishlist" aria-controls="panel-wishlist" aria-selected="false">Wishlist</button>
+          </div>
+          <button class="account-nav__signout" type="button" data-sign-out>Log out</button>
+        </nav>
+
+        <div class="account-main">
+          <section class="account-panel" id="panel-dashboard" role="tabpanel" aria-labelledby="tab-dashboard">
+            <div class="account-cards">
+              <div class="account-card">
+                <h2 class="account-card__title">Latest order</h2>
+                <div data-account-orders></div>
+                <p class="note" data-orders-empty hidden>No orders yet. When you place one it appears here with its delivery status.</p>
+              </div>
+              <div class="account-card">
+                <h2 class="account-card__title">Delivery address</h2>
+                <div data-account-address></div>
+              </div>
+            </div>
+            <div class="account-card" style="margin-top: 24px">
+              <h2 class="account-card__title">Wishlist</h2>
+              <div data-account-wishlist></div>
+              <p style="margin-top: 16px"><a class="btn btn--outline btn--sm" href="/wishlist/">Open wishlist</a></p>
+            </div>
+          </section>
+
+          <section class="account-panel" id="panel-orders" role="tabpanel" aria-labelledby="tab-orders" hidden>
+            <h2 class="heading-2" style="margin-bottom: 20px">Orders</h2>
+            <div data-account-orders></div>
+            <p class="note" data-orders-empty hidden>
+              No orders yet. <a href="/shop/">Start with the shop</a>.
+            </p>
+          </section>
+
+          <section class="account-panel" id="panel-addresses" role="tabpanel" aria-labelledby="tab-addresses" hidden>
+            <h2 class="heading-2" style="margin-bottom: 20px">Delivery address</h2>
+            <div class="account-card" data-account-address></div>
+            <p class="note" style="margin-top: 16px">Your address is saved from your most recent order and used to prefill the next checkout.</p>
+          </section>
+
+          <section class="account-panel" id="panel-details" role="tabpanel" aria-labelledby="tab-details" hidden>
+            <h2 class="heading-2" style="margin-bottom: 20px">Account details</h2>
+            <form class="form" data-account-form novalidate style="max-width: 520px">
+              <div class="field">
+                <label for="account-name">Full name</label>
+                <input type="text" id="account-name" name="name" autocomplete="name" required>
+              </div>
+              <div class="field">
+                <label for="account-email-input">Email address</label>
+                <input type="email" id="account-email-input" name="email" autocomplete="email" required>
+              </div>
+              <div class="field">
+                <label for="account-phone">Phone number</label>
+                <input type="tel" id="account-phone" name="phone" inputmode="tel" autocomplete="tel">
+              </div>
+              <button class="btn btn--solid" type="submit">Save changes</button>
+              <p class="form__status" role="status" aria-live="polite"></p>
+            </form>
+            <p class="note" style="margin-top: 20px">Signed in as <span data-account-email>Not signed in</span>.</p>
+          </section>
+
+          <section class="account-panel" id="panel-wishlist" role="tabpanel" aria-labelledby="tab-wishlist" hidden>
+            <h2 class="heading-2" style="margin-bottom: 20px">Wishlist</h2>
+            <div data-account-wishlist></div>
+            <p style="margin-top: 20px"><a class="btn btn--outline btn--sm" href="/wishlist/">Open full wishlist</a></p>
+          </section>
+        </div>
+      </div>
+    </div>

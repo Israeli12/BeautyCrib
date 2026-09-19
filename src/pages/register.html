@@ -1,0 +1,59 @@
+<!--meta
+{
+  "path": "/register/",
+  "title": "Create an Account | Beauty Crib",
+  "description": "Create a Beauty Crib account for faster checkout, order tracking and a saved wishlist.",
+  "bodyClass": "page-auth",
+  "noindex": true,
+  "scripts": ["account"]
+}
+-->
+
+    <div class="auth-layout">
+      <div class="auth-media">{{authMedia}}</div>
+
+      <div class="auth-body">
+        <p class="eyebrow">Account</p>
+        <h1 class="display-m auth-body__title">Create an account.</h1>
+        <p class="auth-body__lead">It takes a minute, and it makes every order after this one faster.</p>
+
+        <ul class="tick-list" style="margin-bottom: 28px">
+          <li>Track your orders from confirmation to delivery</li>
+          <li>Check out without retyping your address</li>
+          <li>Keep your wishlist on every device</li>
+        </ul>
+
+        <form class="form" data-register-form novalidate>
+          <div class="field">
+            <label for="register-name">Full name</label>
+            <input type="text" id="register-name" name="name" autocomplete="name" required>
+          </div>
+          <div class="field">
+            <label for="register-email">Email address</label>
+            <input type="email" id="register-email" name="email" autocomplete="email" required>
+          </div>
+          <div class="field">
+            <label for="register-phone">Phone number</label>
+            <input type="tel" id="register-phone" name="phone" inputmode="tel" autocomplete="tel" required placeholder="0712 345 678">
+          </div>
+          <div class="field">
+            <label for="register-password">Password</label>
+            <input type="password" id="register-password" name="password" autocomplete="new-password" required>
+            <p class="field__hint">At least 8 characters.</p>
+          </div>
+          <label class="checkbox">
+            <input type="checkbox" name="newsletter">
+            <span class="checkbox__box" aria-hidden="true"></span>
+            <span class="checkbox__label">Send me new arrivals and guides, at most twice a month</span>
+          </label>
+          <label class="checkbox">
+            <input type="checkbox" name="privacy" required>
+            <span class="checkbox__box" aria-hidden="true"></span>
+            <span class="checkbox__label">I accept the <a href="/privacy-policy/">privacy policy</a></span>
+          </label>
+          <button class="btn btn--solid btn--block" type="submit">Create account</button>
+        </form>
+
+        <p class="auth-alt">Already have an account? <a href="/login/">Sign in</a></p>
+      </div>
+    </div>

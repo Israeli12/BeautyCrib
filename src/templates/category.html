@@ -1,0 +1,73 @@
+    <div class="container">
+      {{breadcrumbs}}
+
+      <header class="category-hero page-head">
+        <div class="category-hero__body">
+          <p class="eyebrow category-hero__index">{{categoryIndex}} {{categoryName}}</p>
+          <h1 class="display-l">{{tagline}}</h1>
+          <p class="category-hero__intro">{{intro}}</p>
+          {{subLinks}}
+        </div>
+        <div class="category-hero__media reveal-media">{{image}}</div>
+      </header>
+
+      <div class="shop-layout {{hasProducts}}">
+        <div class="filter-bar">
+          <div class="filter-bar__left">
+            <button class="filter-trigger" type="button" data-filter-open aria-haspopup="dialog">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16"/><path d="M7 12h10"/><path d="M10 17h4"/></svg>
+              Filter
+            </button>
+            <span class="filter-bar__count" data-result-count>{{productCount}} products</span>
+          </div>
+          <div class="filter-bar__right">
+            <div class="sort-select">
+              <label for="sort">Sort</label>
+              <select id="sort" data-sort>
+                <option value="featured">Featured</option>
+                <option value="price-asc">Price, low to high</option>
+                <option value="price-desc">Price, high to low</option>
+                <option value="name-asc">Name, A to Z</option>
+                <option value="brand-asc">Brand, A to Z</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="active-filters" data-active-filters></div>
+
+        <h2 class="visually-hidden">{{categoryName}} products</h2>
+        <div class="grid grid--4 shop-grid" data-product-grid>
+          {{grid}}
+        </div>
+
+        {{emptyState}}
+
+        <p class="note" data-no-results hidden style="margin-top: 32px">
+          No products match those filters. Clear a filter, or <a href="/contact/">ask us to source something</a>.
+        </p>
+
+        <div class="load-more" data-load-more hidden>
+          <button class="btn btn--outline" type="button" data-load-more-button>Load more</button>
+          <p class="load-more__status" data-load-status></p>
+        </div>
+
+        <section class="section section--tight">
+          <div class="guide-link">
+            <div>
+              <p class="eyebrow">From the Journal</p>
+              <h2 class="guide-link__title">{{guideTitle}}</h2>
+              <p class="guide-link__text">{{guideExcerpt}}</p>
+            </div>
+            <a class="btn btn--outline" href="{{guideUrl}}">Read the guide</a>
+          </div>
+        </section>
+
+        <div class="seo-text">
+          <h2 class="eyebrow" style="margin-bottom: 12px">About {{categoryName}} at Beauty Crib</h2>
+          <p>{{seoText}}</p>
+        </div>
+      </div>
+    </div>
+
+{{> filters-drawer}}

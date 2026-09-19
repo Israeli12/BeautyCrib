@@ -1,0 +1,126 @@
+<!--meta
+{
+  "path": "/contact/",
+  "title": "Contact Beauty Crib | Beauty Shop in Kampala",
+  "description": "Contact Beauty Crib for product advice, orders and deliveries. Message us on WhatsApp, call, email or send a message from this page. Kampala, Uganda.",
+  "bodyClass": "page-contact",
+  "ogImage": "gallery/gallery-03"
+}
+-->
+
+    <div class="container">
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="/">Home</a></li>
+          <li aria-current="page">Contact</li>
+        </ol>
+      </nav>
+
+      <header class="page-head page-head--split">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h1 class="display-l">Ask us <em>anything.</em></h1>
+        </div>
+        <div>
+          <p class="page-head__lead">
+            Not sure which cleanser suits your skin, or where your order has reached? Send a message and a person
+            will answer. {{site.contact.responseTime}}
+          </p>
+        </div>
+      </header>
+
+      <div class="contact-layout">
+        <div class="contact-details">
+          <div class="contact-block">
+            <dl>
+              <dt>WhatsApp</dt>
+              <dd><a href="https://wa.me/{{site.contact.whatsappHref}}" rel="noopener">{{site.contact.whatsappDisplay}}</a></dd>
+              <dt style="margin-top: 16px">Phone</dt>
+              <dd><a href="tel:{{site.contact.phoneHref}}">{{site.contact.phoneDisplay}}</a></dd>
+              <dt style="margin-top: 16px">Email</dt>
+              <dd><a href="mailto:{{site.contact.email}}">{{site.contact.email}}</a></dd>
+            </dl>
+          </div>
+
+          <div class="contact-block">
+            <dl>
+              <dt>Where we are</dt>
+              <dd>{{site.contact.addressLine}}</dd>
+              <dd class="note">Orders are packed and dispatched from Kampala. Collection is by appointment.</dd>
+            </dl>
+          </div>
+
+          <div class="contact-block">
+            <dl>
+              <dt>Hours</dt>
+              <dd>Monday to Friday, 9:00 to 18:00</dd>
+              <dd>Saturday, 10:00 to 16:00</dd>
+              <dd>Sunday, closed. Orders online any time.</dd>
+            </dl>
+          </div>
+
+          <div class="contact-block">
+            <dl>
+              <dt>Follow</dt>
+              {{socialContactLinks}}
+              </dl>
+          </div>
+
+          <div class="contact-block">
+            <dl>
+              <dt>Quick answers</dt>
+              <dd><a href="/faq/">Frequently asked questions</a></dd>
+              <dd><a href="/shipping-delivery/">Shipping and delivery</a></dd>
+              <dd><a href="/returns-refunds/">Returns and refunds</a></dd>
+            </dl>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <form class="form" data-contact-form novalidate>
+            <div class="field-row">
+              <div class="field">
+                <label for="contact-name">Your name</label>
+                <input type="text" id="contact-name" name="name" autocomplete="name" required>
+              </div>
+              <div class="field">
+                <label for="contact-email">Email address</label>
+                <input type="email" id="contact-email" name="email" autocomplete="email" required>
+              </div>
+            </div>
+            <div class="field-row">
+              <div class="field">
+                <label for="contact-phone">Phone number</label>
+                <input type="tel" id="contact-phone" name="phone" inputmode="tel" autocomplete="tel" placeholder="0712 345 678">
+              </div>
+              <div class="field">
+                <label for="contact-subject">What is this about?</label>
+                <select id="contact-subject" name="subject" required>
+                  <option value="">Choose a subject</option>
+                  <option>An order I have placed</option>
+                  <option>Product advice</option>
+                  <option>A review of something I bought</option>
+                  <option>Delivery</option>
+                  <option>Returns or a problem with an item</option>
+                  <option>Wholesale and bulk orders</option>
+                  <option>Something else</option>
+                </select>
+              </div>
+            </div>
+            <div class="field">
+              <label for="contact-message">Message</label>
+              <textarea id="contact-message" name="message" rows="6" required placeholder="Tell us about your skin, your order number, or what you are looking for."></textarea>
+            </div>
+            <label class="checkbox">
+              <input type="checkbox" name="privacy" required>
+              <span class="checkbox__box" aria-hidden="true"></span>
+              <span class="checkbox__label">I am happy for Beauty Crib to contact me about this message, in line with the <a href="/privacy-policy/">privacy policy</a>.</span>
+            </label>
+            <button class="btn btn--solid" type="submit">Send message</button>
+            <p class="form__status" role="status" aria-live="polite"></p>
+          </form>
+
+          <div style="margin-top: 40px">{{contactMedia}}</div>
+        </div>
+      </div>
+    </div>

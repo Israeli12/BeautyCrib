@@ -1,0 +1,41 @@
+<!--meta
+{
+  "path": "/wishlist/",
+  "title": "Wishlist | Beauty Crib",
+  "description": "The products you have saved at Beauty Crib. Move them to your bag whenever you are ready, with delivery across Uganda from Kampala.",
+  "bodyClass": "page-wishlist",
+  "noindex": true,
+  "scripts": ["wishlist-page"]
+}
+-->
+
+    <div class="container">
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="/">Home</a></li>
+          <li aria-current="page">Wishlist</li>
+        </ol>
+      </nav>
+
+      <header class="page-head">
+        <p class="eyebrow">Saved</p>
+        <h1 class="display-l page-head__title">Wishlist</h1>
+        <p class="page-head__lead" data-wishlist-total>0 saved products</p>
+      </header>
+
+      <div class="wishlist-actions" data-wishlist-actions hidden>
+        <button class="btn btn--outline btn--sm" type="button" data-share-wishlist>Copy wishlist link</button>
+        <a class="btn btn--text" href="/shop/">Keep shopping</a>
+      </div>
+
+      <div class="grid grid--4" data-wishlist-grid></div>
+
+      <div class="empty-state" data-wishlist-empty hidden>
+        <h2 class="empty-state__title">Nothing saved yet</h2>
+        <p>Tap the heart on any product and it will wait for you here. Your wishlist stays in this browser, and moves to your account once you sign in.</p>
+        <div class="btn-row">
+          <a class="btn btn--solid" href="/shop/">Browse products</a>
+          <a class="btn btn--outline" href="/product-category/skincare/cleansers/">Shop cleansers</a>
+        </div>
+      </div>
+    </div>

@@ -1,0 +1,110 @@
+    <div class="container">
+      {{breadcrumbs}}
+
+      <div class="product-layout">
+        <div class="product-media" data-gallery>
+          <div class="product-gallery__thumbs">
+            {{thumbs}}
+          </div>
+          <div class="product-gallery__main">
+            {{gallery}}
+          </div>
+        </div>
+
+        <div class="product-info">
+          <a class="eyebrow product-info__brand" href="/shop/?brand={{brandSlug}}">{{brand}}</a>
+          <h1 class="product-info__title">{{name}}</h1>
+          {{rating}}
+          <p class="product-info__excerpt">{{excerpt}}</p>
+          <div class="product-info__price">{{price}}</div>
+
+          <div class="product-info__meta">
+            <div class="product-info__meta-row">
+              <span class="product-info__meta-label">Skin type</span>
+              <ul class="chip-row">{{skinTypes}}</ul>
+            </div>
+            <div class="product-info__meta-row">
+              <span class="product-info__meta-label">Targets</span>
+              <ul class="chip-row">{{concerns}}</ul>
+            </div>
+            <div class="product-info__meta-row">
+              <span class="product-info__meta-label">Format</span>
+              <span>{{format}}</span>
+            </div>
+          </div>
+
+          <div class="product-buy">
+            <span class="qty" data-qty>
+              <button type="button" data-qty-step="-1" aria-label="Decrease quantity">&minus;</button>
+              <input type="number" min="1" value="1" data-qty-input aria-label="Quantity">
+              <button type="button" data-qty-step="1" aria-label="Increase quantity">+</button>
+            </span>
+            <button class="btn btn--solid product-buy__add" type="button" data-add-to-cart {{productData}}>Add to bag</button>
+            <button class="product-buy__wishlist" type="button" data-wishlist {{productData}} aria-pressed="false">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20.2 4.6 13a4.4 4.4 0 0 1 0-6.2 4.4 4.4 0 0 1 6.2 0l1.2 1.2 1.2-1.2a4.4 4.4 0 0 1 6.2 0 4.4 4.4 0 0 1 0 6.2z"/></svg>
+              Save for later
+            </button>
+          </div>
+
+          <ul class="product-assurance">
+            <li>{{stockLabel}}</li>
+            <li>Same or next day delivery in Kampala, countrywide by courier</li>
+            <li>Pay with MTN MoMo, Airtel Money, card, bank transfer or on delivery</li>
+            <li>Sourced genuine. If anything looks wrong, we replace it</li>
+            <li>SKU {{sku}}</li>
+          </ul>
+
+          <div class="product-accordions">
+            {{accordions}}
+          </div>
+        </div>
+      </div>
+
+      <section class="section section--tight">
+        <div class="product-reviews__summary">
+          <div>
+            <p class="eyebrow">Reviews</p>
+            <p class="product-reviews__score">&mdash;</p>
+          </div>
+          <div>
+            <p class="product-reviews__note">
+              No reviews yet. Reviews on Beauty Crib come only from customers who have bought the product, so this
+              space stays empty until someone has actually used it.
+            </p>
+            <p style="margin-top: 16px"><a class="btn btn--outline btn--sm" href="/contact/">Bought this? Write a review</a></p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--tight section--flush-top">
+        <div class="guide-link">
+          <div>
+            <p class="eyebrow">From the Journal</p>
+            <h2 class="guide-link__title">{{guideTitle}}</h2>
+            <p class="guide-link__text">{{guideExcerpt}}</p>
+          </div>
+          <a class="btn btn--outline" href="{{guideUrl}}">Read the guide</a>
+        </div>
+      </section>
+
+      <section class="section section--flush-top">
+        <div class="section__head">
+          <div>
+            <p class="eyebrow">Also consider</p>
+            <h2 class="display-m">Pairs well with</h2>
+          </div>
+          <a class="btn btn--text" href="{{categoryUrl}}">All {{categoryName}}</a>
+        </div>
+        <div class="product-row">
+          {{related}}
+        </div>
+      </section>
+    </div>
+
+    <div class="sticky-buy" data-sticky-buy>
+      <div class="sticky-buy__info">
+        <p class="sticky-buy__name">{{brand}} {{name}}</p>
+        <p class="sticky-buy__price">{{price}}</p>
+      </div>
+      <button class="btn btn--solid btn--sm" type="button" data-add-to-cart {{productData}}>Add to bag</button>
+    </div>

@@ -1,0 +1,41 @@
+  <div class="mobile-nav" data-mobile-nav hidden aria-hidden="true">
+    <div class="mobile-nav__panel" role="dialog" aria-modal="true" aria-label="Menu">
+      <div class="mobile-nav__head">
+        <a class="mobile-nav__logo" href="/" aria-label="Beauty Crib, home">
+          <img src="/assets/img/logo/wordmark.svg" alt="Beauty Crib" width="1022" height="352">
+        </a>
+        <button class="icon-btn" type="button" data-nav-close aria-label="Close menu">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12"/><path d="m18 6-12 12"/></svg>
+        </button>
+      </div>
+
+      <nav class="mobile-nav__primary" aria-label="Mobile">
+        <ul>
+          <li style="--i:0"><a href="/shop/">Shop</a></li>
+          <li style="--i:1"><a href="/philosophy/">Philosophy</a></li>
+          <li style="--i:2"><a href="/journal/">Journal</a></li>
+          <li style="--i:3"><a href="/gallery/">Gallery</a></li>
+        </ul>
+      </nav>
+
+      <div class="mobile-nav__section">
+        <p class="eyebrow">Categories</p>
+        <ul class="mobile-nav__list">
+          {{navCategories}}
+        </ul>
+      </div>
+
+      <div class="mobile-nav__section">
+        <ul class="mobile-nav__list mobile-nav__list--small">
+          <li><a href="/my-account/">Account</a></li>
+          <li><a href="/wishlist/">Wishlist</a></li>
+          <li><a href="/contact/">Contact</a></li>
+          <li><a href="/faq/">FAQ</a></li>
+        </ul>
+      </div>
+
+      <div class="mobile-nav__foot">
+        <a class="btn btn--outline btn--block btn--invert" href="https://wa.me/{{site.contact.whatsappHref}}" rel="noopener">Message us on WhatsApp</a>
+      </div>
+    </div>
+  </div>

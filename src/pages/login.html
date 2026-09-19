@@ -1,0 +1,59 @@
+<!--meta
+{
+  "path": "/login/",
+  "title": "Login | Beauty Crib",
+  "description": "Sign in to your Beauty Crib account to track orders, save addresses and keep your wishlist.",
+  "bodyClass": "page-auth",
+  "noindex": true,
+  "scripts": ["account"]
+}
+-->
+
+    <div class="auth-layout">
+      <div class="auth-media">{{authMedia}}</div>
+
+      <div class="auth-body">
+        <div data-login-panel>
+          <p class="eyebrow">Account</p>
+          <h1 class="display-m auth-body__title">Welcome back.</h1>
+          <p class="auth-body__lead">Sign in to track orders, save your delivery address and keep your wishlist across devices.</p>
+
+          <form class="form" data-login-form novalidate>
+            <div class="field">
+              <label for="login-email">Email address</label>
+              <input type="email" id="login-email" name="email" autocomplete="email" required>
+            </div>
+            <div class="field">
+              <label for="login-password">Password</label>
+              <input type="password" id="login-password" name="password" autocomplete="current-password" required>
+            </div>
+            <label class="checkbox">
+              <input type="checkbox" name="remember">
+              <span class="checkbox__box" aria-hidden="true"></span>
+              <span class="checkbox__label">Keep me signed in</span>
+            </label>
+            <button class="btn btn--solid btn--block" type="submit">Sign in</button>
+            <p><a class="btn btn--text" href="#lost-password" data-lost-password-toggle>Forgotten your password?</a></p>
+          </form>
+
+          <p class="auth-alt">New to Beauty Crib? <a href="/register/">Create an account</a></p>
+        </div>
+
+        <div id="lost-password" data-lost-password hidden>
+          <p class="eyebrow">Account</p>
+          <h2 class="display-m auth-body__title">Reset your password.</h2>
+          <p class="auth-body__lead">Enter the email address on your account and we will send a link to set a new password.</p>
+
+          <form class="form" data-lost-password-form novalidate>
+            <div class="field">
+              <label for="reset-email">Email address</label>
+              <input type="email" id="reset-email" name="email" autocomplete="email" required>
+            </div>
+            <button class="btn btn--solid btn--block" type="submit">Send reset link</button>
+            <p class="form__status" role="status" aria-live="polite"></p>
+          </form>
+
+          <p class="auth-alt"><a href="#login" data-lost-password-toggle>Back to sign in</a></p>
+        </div>
+      </div>
+    </div>

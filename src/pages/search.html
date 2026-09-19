@@ -1,0 +1,59 @@
+<!--meta
+{
+  "path": "/search/",
+  "title": "Search | Beauty Crib",
+  "description": "Search the Beauty Crib catalogue and Journal by brand, product type or skin concern, and order online for delivery across Uganda.",
+  "bodyClass": "page-search",
+  "noindex": true,
+  "scripts": ["search-page"]
+}
+-->
+
+    <div class="container">
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="/">Home</a></li>
+          <li aria-current="page">Search</li>
+        </ol>
+      </nav>
+
+      <header class="page-head">
+        <p class="eyebrow">Search</p>
+        <h1 class="display-m page-head__title">Results for <span data-search-term>everything</span></h1>
+        <form class="search-page__form" action="/search/" method="get" role="search">
+          <div class="field">
+            <label for="search-q">Search</label>
+            <input type="search" id="search-q" name="q" data-search-page-input placeholder="Product, brand or concern">
+          </div>
+          <button class="btn btn--solid" type="submit">Search</button>
+        </form>
+      </header>
+
+      <div data-tabs>
+        <div class="search-tabs" role="tablist">
+          <button role="tab" id="tab-products" aria-controls="panel-products" aria-selected="true">
+            Products <span data-search-product-count></span>
+          </button>
+          <button role="tab" id="tab-articles" aria-controls="panel-articles" aria-selected="false">
+            Journal <span data-search-article-count></span>
+          </button>
+        </div>
+
+        <section id="panel-products" role="tabpanel" aria-labelledby="tab-products">
+          <div class="grid grid--4" data-search-products></div>
+        </section>
+
+        <section id="panel-articles" role="tabpanel" aria-labelledby="tab-articles" hidden>
+          <div class="grid grid--3" data-search-articles></div>
+        </section>
+      </div>
+
+      <div class="empty-state" data-search-empty hidden style="margin-top: 32px">
+        <h2 class="empty-state__title">Nothing matched that</h2>
+        <p>Try a brand such as Anua or COSRX, a concern such as acne or blackheads, or a product type such as cleansing oil.</p>
+        <div class="btn-row">
+          <a class="btn btn--solid" href="/shop/">Browse everything</a>
+          <a class="btn btn--outline" href="/contact/">Ask us to source it</a>
+        </div>
+      </div>
+    </div>

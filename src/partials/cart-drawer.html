@@ -1,0 +1,32 @@
+  <div class="drawer" data-cart-drawer hidden aria-hidden="true">
+    <div class="drawer__overlay" data-drawer-close></div>
+    <aside class="drawer__panel" role="dialog" aria-modal="true" aria-labelledby="cart-drawer-title">
+      <header class="drawer__head">
+        <h2 class="drawer__title" id="cart-drawer-title">Your bag <span data-cart-count-label>(0)</span></h2>
+        <button class="icon-btn" type="button" data-drawer-close aria-label="Close bag">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12"/><path d="m18 6-12 12"/></svg>
+        </button>
+      </header>
+
+      <div class="drawer__body">
+        <ul class="cart-lines" data-cart-items></ul>
+        <div class="drawer__empty" data-cart-empty>
+          <p class="drawer__empty-title">Your bag is empty.</p>
+          <p>Start with the cleansing shelf, or read the Journal for where to begin.</p>
+          <a class="btn btn--solid btn--block" href="/product-category/skincare/cleansers/">Shop cleansers</a>
+          <a class="btn btn--text btn--block" href="/journal/">Read the Journal</a>
+        </div>
+      </div>
+
+      <footer class="drawer__foot" data-cart-foot hidden>
+        <div class="drawer__row">
+          <span>Subtotal</span>
+          <span data-cart-subtotal>UGX 0</span>
+        </div>
+        <p class="drawer__note">Delivery is confirmed at checkout. Prices include all applicable taxes.</p>
+        <a class="btn btn--solid btn--block" href="/checkout/">Checkout</a>
+        <a class="btn btn--outline btn--block" href="/cart/">View bag</a>
+        <button class="btn btn--text btn--block" type="button" data-drawer-close>Continue shopping</button>
+      </footer>
+    </aside>
+  </div>

@@ -1,0 +1,57 @@
+<!--meta
+{
+  "path": "/journal/",
+  "title": "The Journal: Skincare & Beauty Advice | Beauty Crib",
+  "description": "Skincare guides, beauty routines and product advice written for Uganda. Learn double cleansing, choosing a cleanser and spotting counterfeit products.",
+  "bodyClass": "page-journal",
+  "scripts": ["journal"],
+  "ogImage": "editorial/journal-double-cleanse"
+}
+-->
+
+    <div class="container">
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="/">Home</a></li>
+          <li aria-current="page">Journal</li>
+        </ol>
+      </nav>
+
+      <header class="journal-masthead">
+        <p class="eyebrow reveal">The Journal</p>
+        <h1 class="display-l reveal">Beauty, <em>explained.</em></h1>
+        <p class="lead measure reveal reveal--1" style="margin: 20px auto 0">
+          Guides, routines and honest product advice, written for skin living in Uganda's climate. No miracle claims,
+          no ten-step routines you will abandon by Thursday.
+        </p>
+        <ul class="pill-row" data-journal-filters>
+          <li><button class="pill is-active" type="button" data-topic="all">All</button></li>
+          <li><button class="pill" type="button" data-topic="Skincare">Skincare</button></li>
+          <li><button class="pill" type="button" data-topic="Guides">Guides</button></li>
+          <li><button class="pill" type="button" data-topic="Routines">Routines</button></li>
+          <li><button class="pill" type="button" data-topic="Makeup">Makeup</button></li>
+          <li><button class="pill" type="button" data-topic="Body">Body</button></li>
+        </ul>
+      </header>
+
+      <div class="journal-grid reveal" data-journal-grid>
+        {{journalAll}}
+      </div>
+
+      <p class="note" data-journal-empty hidden style="margin-top: 32px">
+        Nothing filed under that topic yet. <button class="btn btn--text" type="button" data-topic-reset>Show everything</button>
+      </p>
+    </div>
+
+    <section class="section">
+      <div class="container">
+        <div class="section__head">
+          <div>
+            <p class="eyebrow">Shop the stories</p>
+            <h2 class="display-m">What we reach for</h2>
+          </div>
+          <a class="btn btn--text" href="/shop/">All products</a>
+        </div>
+        <div class="product-row">{{bestSellers}}</div>
+      </div>
+    </section>

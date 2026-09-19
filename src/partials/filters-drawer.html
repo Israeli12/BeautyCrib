@@ -1,0 +1,18 @@
+    <div class="drawer drawer--left" data-filter-drawer hidden aria-hidden="true">
+      <div class="drawer__overlay" data-drawer-close></div>
+      <aside class="drawer__panel" role="dialog" aria-modal="true" aria-labelledby="filters-title">
+        <header class="drawer__head">
+          <h2 class="drawer__title" id="filters-title">Filter</h2>
+          <button class="icon-btn" type="button" data-drawer-close aria-label="Close filters">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12"/><path d="m18 6-12 12"/></svg>
+          </button>
+        </header>
+        <div class="drawer__body">
+          {{shopFilters}}
+        </div>
+        <footer class="drawer__foot">
+          <button class="btn btn--solid btn--block" type="button" data-drawer-close>Show <span data-result-count></span></button>
+          <button class="btn btn--text btn--block" type="button" data-clear-all>Clear all filters</button>
+        </footer>
+      </aside>
+    </div>

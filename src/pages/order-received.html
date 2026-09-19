@@ -1,0 +1,90 @@
+<!--meta
+{
+  "path": "/checkout/order-received/",
+  "title": "Order Confirmed | Beauty Crib",
+  "description": "Your Beauty Crib order has been received. Here are your order number, delivery details and what happens next before your order is dispatched.",
+  "bodyClass": "page-confirmation",
+  "noindex": true,
+  "scripts": ["order"]
+}
+-->
+
+    <div class="container confirmation">
+      <h1 class="visually-hidden">Order confirmation</h1>
+
+      <div class="empty-state" data-order-empty hidden>
+        <h2 class="empty-state__title">No recent order</h2>
+        <p>We cannot find a recent order in this browser. If you have just placed one, check your email for the confirmation, or contact us and we will look it up.</p>
+        <div class="btn-row">
+          <a class="btn btn--solid" href="/shop/">Continue shopping</a>
+          <a class="btn btn--outline" href="/contact/">Contact us</a>
+        </div>
+      </div>
+
+      <div data-order>
+        <p class="eyebrow">Order confirmed</p>
+        <p class="display-l confirmation__title" data-order-greeting>Thank you.</p>
+        <p class="lead confirmation__lead">
+          Your order has been received. A confirmation is on its way to
+          <strong data-order-email></strong>, and we will send a message when it leaves our hands.
+        </p>
+
+        <ol class="timeline">
+          <li class="timeline__step is-done">
+            <p class="timeline__label">Received</p>
+            <p class="timeline__note">We have your order</p>
+          </li>
+          <li class="timeline__step">
+            <p class="timeline__label">Confirmed</p>
+            <p class="timeline__note">Payment and stock checked</p>
+          </li>
+          <li class="timeline__step">
+            <p class="timeline__label">Out for delivery</p>
+            <p class="timeline__note">On the way to you</p>
+          </li>
+          <li class="timeline__step">
+            <p class="timeline__label">Delivered</p>
+            <p class="timeline__note">Enjoy it</p>
+          </li>
+        </ol>
+
+        <div class="confirmation-layout">
+          <div class="confirmation-main">
+            <div class="account-card">
+              <h2 class="account-card__title">What happens next</h2>
+              <p data-order-payment-note></p>
+              <p class="note" style="margin-top: 12px">
+                Questions about this order? <a href="/contact/">Contact us</a> and quote your order number.
+              </p>
+            </div>
+
+            <div style="margin-top: 32px">
+              <h2 class="heading-3" style="margin-bottom: 18px">Order details</h2>
+              <dl class="detail-list">
+                <div><dt>Order number</dt><dd data-order-number></dd></div>
+                <div><dt>Date</dt><dd data-order-date></dd></div>
+                <div><dt>Phone</dt><dd data-order-phone></dd></div>
+                <div><dt>Delivery address</dt><dd data-order-address></dd></div>
+                <div><dt>Delivery method</dt><dd data-order-delivery></dd></div>
+                <div><dt>Payment method</dt><dd data-order-payment></dd></div>
+              </dl>
+            </div>
+
+            <div class="btn-row" style="margin-top: 32px">
+              <a class="btn btn--solid" href="/shop/">Continue shopping</a>
+              <a class="btn btn--outline" href="/my-account/">View my account</a>
+            </div>
+          </div>
+
+          <aside class="confirmation-aside">
+            <div class="summary">
+              <h2 class="summary__title">Your order</h2>
+              <ul class="order-summary__items" data-order-items></ul>
+              <div class="summary__row"><span>Subtotal</span><span data-order-subtotal></span></div>
+              <div class="summary__row"><span>Delivery</span><span data-order-delivery-cost></span></div>
+              <div class="summary__row summary__row--total"><span>Total</span><span data-order-total></span></div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </div>

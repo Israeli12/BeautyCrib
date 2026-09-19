@@ -1,0 +1,762 @@
+{
+  "products/anua-8-hyaluronic-acid-hydrating-gentle-foaming-cleanser-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/anua-8-hyaluronic-acid-hydrating-gentle-foaming-cleanser-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2498
+  },
+  "products/anua-heartleaf-pore-control-cleansing-oil-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/anua-heartleaf-pore-control-cleansing-oil-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2498
+  },
+  "products/anua-peach-niacin-spread-cleansing-foam-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/anua-peach-niacin-spread-cleansing-foam-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/anua-rice-ceramide-cleansing-powder-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2498
+  },
+  "products/anua-rice-ceramide-cleansing-powder-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/aprilskin-carrotene-ipmp-hydromelt-cleansing-balm-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/aprilskin-carrotene-ipmp-hydromelt-cleansing-balm-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/cosrx-salicylic-acid-daily-gentle-cleanser-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/cosrx-salicylic-acid-daily-gentle-cleanser-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/isntree-green-tea-cleanser-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2498
+  },
+  "products/isntree-green-tea-cleanser-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/k-secret-seoul-1988-cleansing-foam-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/k-secret-seoul-1988-cleansing-foam-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/medicube-zero-foam-cleanser-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/medicube-zero-foam-cleanser-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/medicube-zero-pore-blackhead-deep-cleansing-oil-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/medicube-zero-pore-blackhead-deep-cleansing-oil-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2498
+  },
+  "products/nineless-a-control-heartleaf-bha-cleanser-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/nineless-a-control-heartleaf-bha-cleanser-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/panoxyl-acne-creamy-wash-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2498
+  },
+  "products/panoxyl-acne-creamy-wash-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/skin1004-centella-ampoule-foam-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/skin1004-centella-ampoule-foam-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/skin1004-centella-light-cleansing-oil-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2498
+  },
+  "products/skin1004-centella-light-cleansing-oil-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/skin1004-centella-poremizing-deep-cleansing-foam-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/skin1004-centella-poremizing-deep-cleansing-foam-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/skin1004-centella-tea-trica-bha-foam-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/skin1004-centella-tea-trica-bha-foam-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/somebymi-aha-bha-pha-30-days-miracle-acne-clear-foam-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/somebymi-aha-bha-pha-30-days-miracle-acne-clear-foam-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2498
+  },
+  "products/cosrx-advanced-snail-96-mucin-power-essence-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/cosrx-advanced-snail-96-mucin-power-essence-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/cosrx-aha-bha-clarifying-treatment-toner-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/cosrx-aha-bha-clarifying-treatment-toner-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/cosrx-bha-blackhead-power-liquid-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/cosrx-bha-blackhead-power-liquid-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/dr-althea-345-relief-cream-mist-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/dr-althea-345-relief-cream-mist-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/eqqualberry-bakuchiol-plumping-toner-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2498
+  },
+  "products/eqqualberry-bakuchiol-plumping-toner-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/eqqualberry-vitamin-illuminating-toner-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/eqqualberry-vitamin-illuminating-toner-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/medicube-age-r-glutathione-glow-toner-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/medicube-age-r-glutathione-glow-toner-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/medicube-pdrn-pink-niacinamide-milky-toner-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/medicube-pdrn-pink-niacinamide-milky-toner-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2498
+  },
+  "products/medicube-pdrn-pink-cica-soothing-toner-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/medicube-pdrn-pink-cica-soothing-toner-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/nineless-mela-pro-rice-txa-toner-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/nineless-mela-pro-rice-txa-toner-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2498
+  },
+  "products/numbuzin-no9-nad-pdrn-glow-boosting-toner-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/numbuzin-no9-nad-pdrn-glow-boosting-toner-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2498
+  },
+  "editorial/hero-home": {
+    "widths": [
+      400,
+      600,
+      900,
+      1200,
+      1365
+    ],
+    "ratio": 0.5626
+  },
+  "editorial/hero-home-portrait": {
+    "widths": [
+      400,
+      600
+    ],
+    "ratio": 1.2508
+  },
+  "editorial/philosophy-hero": {
+    "widths": [
+      400,
+      600,
+      900,
+      980
+    ],
+    "ratio": 0.7837
+  },
+  "editorial/still-life-serum": {
+    "widths": [
+      400,
+      600,
+      900,
+      1200
+    ],
+    "ratio": 0.7498
+  },
+  "editorial/campaign-double-cleanse": {
+    "widths": [
+      400,
+      600,
+      735
+    ],
+    "ratio": 1.2503
+  },
+  "editorial/campaign-body": {
+    "widths": [
+      400,
+      600,
+      736
+    ],
+    "ratio": 1.25
+  },
+  "editorial/category-skincare": {
+    "widths": [
+      400,
+      600,
+      736
+    ],
+    "ratio": 1.3329
+  },
+  "editorial/category-makeup": {
+    "widths": [
+      400,
+      600,
+      736
+    ],
+    "ratio": 1.3329
+  },
+  "editorial/category-hair-care": {
+    "widths": [
+      400,
+      600,
+      690
+    ],
+    "ratio": 1.3333
+  },
+  "editorial/category-body-care": {
+    "widths": [
+      400,
+      600,
+      736
+    ],
+    "ratio": 1.3329
+  },
+  "editorial/category-fragrance": {
+    "widths": [
+      400,
+      600,
+      736
+    ],
+    "ratio": 1.3329
+  },
+  "editorial/category-beauty-tools": {
+    "widths": [
+      400,
+      600,
+      736
+    ],
+    "ratio": 1.3329
+  },
+  "editorial/journal-double-cleanse": {
+    "widths": [
+      400,
+      600,
+      736
+    ],
+    "ratio": 0.6671
+  },
+  "editorial/journal-choose-cleanser": {
+    "widths": [
+      400,
+      600,
+      736
+    ],
+    "ratio": 0.6671
+  },
+  "editorial/journal-humidity": {
+    "widths": [
+      400,
+      600,
+      736
+    ],
+    "ratio": 0.6671
+  },
+  "editorial/journal-spot-fakes": {
+    "widths": [
+      400,
+      600
+    ],
+    "ratio": 0.6667
+  },
+  "editorial/journal-skin-prep": {
+    "widths": [
+      400,
+      545
+    ],
+    "ratio": 0.6661
+  },
+  "editorial/journal-body-glow": {
+    "widths": [
+      400,
+      600,
+      735
+    ],
+    "ratio": 0.6667
+  },
+  "gallery/gallery-01": {
+    "widths": [
+      400,
+      600,
+      736
+    ],
+    "ratio": 1.7813
+  },
+  "gallery/gallery-02": {
+    "widths": [
+      400,
+      600,
+      736
+    ],
+    "ratio": 1.5
+  },
+  "gallery/gallery-03": {
+    "widths": [
+      400,
+      600,
+      900,
+      1200
+    ],
+    "ratio": 0.7467
+  },
+  "gallery/gallery-04": {
+    "widths": [
+      400,
+      600,
+      736
+    ],
+    "ratio": 1.25
+  },
+  "gallery/gallery-05": {
+    "widths": [
+      400,
+      600,
+      736
+    ],
+    "ratio": 1.7772
+  },
+  "gallery/gallery-06": {
+    "widths": [
+      400,
+      600,
+      736
+    ],
+    "ratio": 1.7908
+  },
+  "gallery/gallery-07": {
+    "widths": [
+      400,
+      600,
+      736
+    ],
+    "ratio": 1.5
+  },
+  "gallery/gallery-08": {
+    "widths": [
+      400,
+      600,
+      736
+    ],
+    "ratio": 1.5625
+  },
+  "gallery/gallery-09": {
+    "widths": [
+      400,
+      600,
+      735
+    ],
+    "ratio": 1.2503
+  },
+  "gallery/gallery-10": {
+    "widths": [
+      400,
+      600,
+      736
+    ],
+    "ratio": 1.6902
+  },
+  "gallery/gallery-11": {
+    "widths": [
+      400,
+      600,
+      736
+    ],
+    "ratio": 1.5
+  },
+  "gallery/gallery-12": {
+    "widths": [
+      400,
+      600,
+      736
+    ],
+    "ratio": 1.5
+  },
+  "gallery/gallery-13": {
+    "widths": [
+      400,
+      600
+    ],
+    "ratio": 1.2508
+  },
+  "gallery/gallery-14": {
+    "widths": [
+      400,
+      600
+    ],
+    "ratio": 1.3333
+  }
+}

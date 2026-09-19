@@ -1,0 +1,1344 @@
+[
+  {
+    "slug": "anua-heartleaf-pore-control-cleansing-oil",
+    "sku": "BC-ANU-001",
+    "name": "Heartleaf Pore Control Cleansing Oil",
+    "brand": "Anua",
+    "brandSlug": "anua",
+    "price": 80000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "cleansers",
+    "format": "Cleansing oil",
+    "skinTypes": [
+      "Oily",
+      "Combination",
+      "Acne-prone"
+    ],
+    "concerns": [
+      "Pores & blackheads",
+      "Makeup removal",
+      "Oil control"
+    ],
+    "keyIngredients": [
+      "Heartleaf (Houttuynia cordata) extract",
+      "Lightweight plant oils"
+    ],
+    "match": "Anua Heartleaf Pore control",
+    "featured": true,
+    "featuredLarge": true,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Dissolves sunscreen, makeup and the day's build-up, leaving skin smooth rather than stripped.",
+    "description": [
+      "The first step of a double cleanse, and the one most routines skip. This lightweight oil melts sunscreen, long-wear makeup and the sebum that settles into pores through a Kampala afternoon, then emulsifies with water and rinses away completely.",
+      "Heartleaf extract is the reason it suits congested and reactive skin at the same time. It calms the look of redness while the oil phase lifts what water-based cleansers leave behind."
+    ],
+    "benefits": [
+      "Melts sunscreen, makeup and excess sebum in one pass",
+      "Loosens the build-up that turns into blackheads",
+      "Rinses clean with no greasy film",
+      "Calms the look of redness with heartleaf extract"
+    ],
+    "howToUse": [
+      "Apply 2 to 3 pumps to dry hands and dry face.",
+      "Massage for 30 to 60 seconds, working over the nose, chin and hairline.",
+      "Add a little water to emulsify until milky, then rinse with lukewarm water.",
+      "Follow with a foaming or gel cleanser to complete the double cleanse."
+    ]
+  },
+  {
+    "slug": "somebymi-aha-bha-pha-30-days-miracle-acne-clear-foam",
+    "sku": "BC-SBM-001",
+    "name": "AHA. BHA. PHA 30 Days Miracle Acne Clear Foam",
+    "brand": "SOME BY MI",
+    "brandSlug": "some-by-mi",
+    "price": 80000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "cleansers",
+    "format": "Foam",
+    "skinTypes": [
+      "Acne-prone",
+      "Oily",
+      "Combination"
+    ],
+    "concerns": [
+      "Acne & breakouts",
+      "Texture",
+      "Dullness & uneven tone"
+    ],
+    "keyIngredients": [
+      "AHA, BHA and PHA blend",
+      "Centella asiatica",
+      "Tea tree"
+    ],
+    "match": "Someby mi Miracle",
+    "featured": true,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "A gentle daily acid cleanser for skin that breaks out, congests and holds onto rough texture.",
+    "description": [
+      "Three acids, each doing a different job. AHA loosens dead surface cells, BHA works inside the pore where blackheads form, and PHA exfoliates slowly enough for skin that usually reacts.",
+      "Centella and tea tree keep the formula from tipping into tightness, which is what makes it workable as an everyday cleanser rather than an occasional treatment."
+    ],
+    "benefits": [
+      "Clears the dead skin and oil that block pores",
+      "Smooths rough, bumpy texture over consistent use",
+      "Helps calm the look of active breakouts",
+      "Gentle enough for daily use on most skin"
+    ],
+    "howToUse": [
+      "Lather a small amount between wet palms.",
+      "Massage over damp skin for 20 to 30 seconds, avoiding the eye area.",
+      "Rinse thoroughly with lukewarm water.",
+      "Use sunscreen daily, as acids leave skin more sensitive to sun."
+    ]
+  },
+  {
+    "slug": "skin1004-centella-ampoule-foam",
+    "sku": "BC-SK1-001",
+    "name": "Centella Ampoule Foam",
+    "brand": "SKIN1004",
+    "brandSlug": "skin1004",
+    "price": 70000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "cleansers",
+    "format": "Foam",
+    "skinTypes": [
+      "All",
+      "Sensitive",
+      "Dry"
+    ],
+    "concerns": [
+      "Sensitivity",
+      "Dryness"
+    ],
+    "keyIngredients": [
+      "Centella asiatica extract",
+      "Low-pH surfactants"
+    ],
+    "match": "Skin1004 Centella Ampoule Foam",
+    "featured": true,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "A soft, low-irritation foam for every skin type, and the one to reach for when skin feels reactive.",
+    "description": [
+      "Centella asiatica grown in Madagascar sits at the centre of this formula, whipped into a dense foam that cleans without the squeak. Skin is left comfortable rather than tight, which is the whole test of a good daily cleanser.",
+      "It suits all skin types, but it earns its place with sensitive and barrier-stressed skin that reacts to almost everything else."
+    ],
+    "benefits": [
+      "Cleanses without stripping the moisture barrier",
+      "Soothes the look of redness and irritation",
+      "Dense, cushioned foam that rinses fast",
+      "Suitable for all skin types, including sensitive"
+    ],
+    "howToUse": [
+      "Work a coin-sized amount into a lather with water.",
+      "Massage gently over damp skin for 20 seconds.",
+      "Rinse with lukewarm water and pat dry.",
+      "Use morning and evening."
+    ]
+  },
+  {
+    "slug": "cosrx-salicylic-acid-daily-gentle-cleanser",
+    "sku": "BC-CSX-001",
+    "name": "Salicylic Acid Daily Gentle Cleanser",
+    "brand": "COSRX",
+    "brandSlug": "cosrx",
+    "price": 65000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "cleansers",
+    "format": "Foam",
+    "skinTypes": [
+      "Oily",
+      "Combination",
+      "Acne-prone"
+    ],
+    "concerns": [
+      "Acne & breakouts",
+      "Pores & blackheads",
+      "Oil control"
+    ],
+    "keyIngredients": [
+      "Salicylic acid (BHA)",
+      "Tea tree leaf oil"
+    ],
+    "match": "Cosrx Salycylic",
+    "featured": true,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Salicylic acid at a daily-use strength: unclogs pores, controls shine and calms breakouts.",
+    "description": [
+      "Salicylic acid is oil-soluble, so it travels into the pore rather than sitting on top of it. In a cleanser that matters most for the nose, chin and forehead, where oil and dead skin compact into blackheads.",
+      "The concentration here is deliberately mild. It is built for daily use alongside the rest of a routine, not as a weekly treatment."
+    ],
+    "benefits": [
+      "Unclogs pores and reduces blackheads over time",
+      "Controls excess oil through the day",
+      "Soothes and helps prevent new breakouts",
+      "Mild enough for everyday cleansing"
+    ],
+    "howToUse": [
+      "Lather a small amount with water.",
+      "Massage over damp skin, concentrating on oily areas.",
+      "Rinse with lukewarm water.",
+      "Start once daily in the evening, then build up as skin allows."
+    ]
+  },
+  {
+    "slug": "aprilskin-carrotene-ipmp-hydromelt-cleansing-balm",
+    "sku": "BC-APR-001",
+    "name": "Carrotene IPMP Hydromelt Cleansing Balm",
+    "brand": "APRILSKIN",
+    "brandSlug": "aprilskin",
+    "price": 90000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "cleansers",
+    "format": "Balm",
+    "skinTypes": [
+      "All",
+      "Oily",
+      "Combination",
+      "Acne-prone"
+    ],
+    "concerns": [
+      "Makeup removal",
+      "Pores & blackheads",
+      "Oil control"
+    ],
+    "keyIngredients": [
+      "Carrot (carotene) extract",
+      "IPMP"
+    ],
+    "match": "APRILSKIN Carrotene",
+    "featured": true,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "A sherbet balm that melts on contact, taking makeup, sunscreen and blackhead build-up with it.",
+    "description": [
+      "The balm turns to oil the moment it meets skin, which makes it far easier to work over the face than a liquid oil. It handles full-coverage makeup and water-resistant sunscreen without tugging.",
+      "Carrot extract and IPMP give it a clarifying edge, so it suits oilier and congestion-prone skin that usually avoids balms."
+    ],
+    "benefits": [
+      "Melts away makeup, sunscreen and excess oil",
+      "Helps loosen blackheads with regular use",
+      "Turns milky and rinses off completely",
+      "Comfortable on skin that reacts to harsh removers"
+    ],
+    "howToUse": [
+      "Scoop with the spatula and warm between dry fingertips.",
+      "Massage over dry skin until makeup dissolves.",
+      "Add water to emulsify, then rinse.",
+      "Follow with your second cleanser."
+    ]
+  },
+  {
+    "slug": "medicube-zero-foam-cleanser",
+    "sku": "BC-MDC-001",
+    "name": "Zero Foam Cleanser",
+    "brand": "Medicube",
+    "brandSlug": "medicube",
+    "price": 70000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "cleansers",
+    "format": "Foam",
+    "skinTypes": [
+      "Oily",
+      "Sensitive",
+      "Acne-prone"
+    ],
+    "concerns": [
+      "Acne & breakouts",
+      "Oil control",
+      "Sensitivity"
+    ],
+    "keyIngredients": [
+      "Centella asiatica",
+      "Witch hazel extract"
+    ],
+    "match": "Medicube Zero Foam",
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": true,
+    "stock": "in-stock",
+    "excerpt": "A deep but low-irritation daily foam for oily, sensitive and breakout-prone skin.",
+    "description": [
+      "Zero is Medicube's line for skin that is both oily and easily irritated, a combination most acne cleansers handle badly. This one cleans thoroughly at a skin-friendly pH.",
+      "Expect a tight-free finish, less midday shine, and fewer of the small congestion bumps that appear along the jaw and hairline."
+    ],
+    "benefits": [
+      "Removes excess oil and daily pollution",
+      "Keeps the barrier intact at a low pH",
+      "Helps reduce the look of congestion",
+      "Formulated for sensitive, acne-prone skin"
+    ],
+    "howToUse": [
+      "Lather with water between your palms.",
+      "Massage over damp skin for 30 seconds.",
+      "Rinse well with lukewarm water.",
+      "Use twice daily."
+    ]
+  },
+  {
+    "slug": "anua-8-hyaluronic-acid-hydrating-gentle-foaming-cleanser",
+    "sku": "BC-ANU-002",
+    "name": "8 Hyaluronic Acid Hydrating Gentle Foaming Cleanser",
+    "brand": "Anua",
+    "brandSlug": "anua",
+    "price": 70000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "cleansers",
+    "format": "Foam",
+    "skinTypes": [
+      "Dry",
+      "Sensitive",
+      "Normal"
+    ],
+    "concerns": [
+      "Dryness",
+      "Sensitivity"
+    ],
+    "keyIngredients": [
+      "Eight hyaluronic acids",
+      "Panthenol"
+    ],
+    "match": "Anua 8 Hyaluronic",
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": true,
+    "stock": "in-stock",
+    "excerpt": "Eight molecular weights of hyaluronic acid, so skin is left hydrated instead of tight.",
+    "description": [
+      "Most foaming cleansers leave dry skin worse than they found it. This one pairs mild surfactants with eight forms of hyaluronic acid and panthenol, so water is drawn back into the skin as it rinses.",
+      "It is the right first step for dry and sensitive skin, and the right reset for any skin type after a long, hot day."
+    ],
+    "benefits": [
+      "Cleanses while replenishing hydration",
+      "Leaves skin soft rather than tight",
+      "Supports a comfortable moisture barrier",
+      "Gentle enough for dry, sensitive skin"
+    ],
+    "howToUse": [
+      "Lather a small amount with lukewarm water.",
+      "Massage over damp skin for 20 to 30 seconds.",
+      "Rinse and immediately apply your next step.",
+      "Use morning and evening."
+    ]
+  },
+  {
+    "slug": "panoxyl-acne-creamy-wash",
+    "sku": "BC-PNX-001",
+    "name": "Acne Creamy Wash",
+    "brand": "PanOxyl",
+    "brandSlug": "panoxyl",
+    "price": 80000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "cleansers",
+    "format": "Cream wash",
+    "skinTypes": [
+      "Oily",
+      "Acne-prone",
+      "Combination"
+    ],
+    "concerns": [
+      "Acne & breakouts",
+      "Oil control"
+    ],
+    "keyIngredients": [
+      "Benzoyl peroxide"
+    ],
+    "match": "PanOxyl Acne Cream Wash",
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": true,
+    "stock": "in-stock",
+    "excerpt": "Benzoyl peroxide in a creamy base, for face and body breakouts that need more than a gentle wash.",
+    "description": [
+      "Benzoyl peroxide works on the bacteria involved in acne, which is why it remains a dermatology staple decades after gentler trends have come and gone. The creamy base makes it tolerable for daily use.",
+      "Use it on the face, and on the chest, back and shoulders where breakouts are common in humid weather."
+    ],
+    "benefits": [
+      "Targets acne-causing bacteria",
+      "Treats existing breakouts and helps prevent new ones",
+      "Works on the face and body",
+      "Creamy base cushions a strong active"
+    ],
+    "howToUse": [
+      "Wet the area, apply and lather gently.",
+      "Leave on the skin for one to two minutes, then rinse well.",
+      "Begin once daily and build up slowly.",
+      "Benzoyl peroxide bleaches fabric, so use white towels and bedding."
+    ],
+    "caution": "Benzoyl peroxide can bleach coloured towels, clothing and bedding. Introduce it gradually and always wear sunscreen."
+  },
+  {
+    "slug": "skin1004-centella-tea-trica-bha-foam",
+    "sku": "BC-SK1-002",
+    "name": "Centella Tea-Trica BHA Foam",
+    "brand": "SKIN1004",
+    "brandSlug": "skin1004",
+    "price": 70000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "cleansers",
+    "format": "Foam",
+    "skinTypes": [
+      "Acne-prone",
+      "Oily",
+      "Sensitive"
+    ],
+    "concerns": [
+      "Acne & breakouts",
+      "Pores & blackheads",
+      "Sensitivity"
+    ],
+    "keyIngredients": [
+      "Tea tree",
+      "Centella asiatica",
+      "BHA"
+    ],
+    "match": "Tea-trica BHA Foam",
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": true,
+    "stock": "in-stock",
+    "excerpt": "Tea tree and BHA for breakouts, with centella to keep the formula calm.",
+    "description": [
+      "A cleanser built around the two things breakout-prone skin needs at once: an exfoliating acid inside the pore, and something soothing on the surface so the skin does not overreact.",
+      "It is a sensible daily option for oily and acne-prone skin that finds stronger acid cleansers too much."
+    ],
+    "benefits": [
+      "BHA clears oil and dead skin from inside pores",
+      "Tea tree helps keep breakouts in check",
+      "Centella soothes the look of irritation",
+      "Balanced enough for daily use"
+    ],
+    "howToUse": [
+      "Lather with water and massage over damp skin.",
+      "Focus on the T-zone and any congested areas.",
+      "Rinse with lukewarm water.",
+      "Use daily, and wear sunscreen during the day."
+    ]
+  },
+  {
+    "slug": "anua-peach-niacin-spread-cleansing-foam",
+    "sku": "BC-ANU-003",
+    "name": "Peach Niacin Spread Cleansing Foam",
+    "brand": "Anua",
+    "brandSlug": "anua",
+    "price": 70000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "cleansers",
+    "format": "Foam",
+    "skinTypes": [
+      "All",
+      "Combination",
+      "Normal"
+    ],
+    "concerns": [
+      "Dullness & uneven tone",
+      "Texture"
+    ],
+    "keyIngredients": [
+      "Peach extract",
+      "Niacinamide"
+    ],
+    "match": "Anua Peach Niacin",
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Niacinamide and peach extract in a daily foam, for skin that looks dull and uneven.",
+    "description": [
+      "Niacinamide is the ingredient most people reach for when tone looks uneven, and here it arrives in the simplest possible step. The foam is soft, low-irritation and rinses clean.",
+      "Not a replacement for a niacinamide serum, but a good way to make a basic routine work harder morning and evening."
+    ],
+    "benefits": [
+      "Brightens the look of dull skin",
+      "Supports a more even-looking tone",
+      "Cleanses without tightness",
+      "Suits most skin types"
+    ],
+    "howToUse": [
+      "Lather a small amount with water.",
+      "Massage over damp skin for 20 seconds.",
+      "Rinse with lukewarm water.",
+      "Use morning and evening."
+    ]
+  },
+  {
+    "slug": "anua-rice-ceramide-cleansing-powder",
+    "sku": "BC-ANU-004",
+    "name": "Rice + Ceramide Cleansing Powder",
+    "brand": "Anua",
+    "brandSlug": "anua",
+    "price": 80000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "cleansers",
+    "format": "Powder",
+    "skinTypes": [
+      "All",
+      "Dry",
+      "Sensitive"
+    ],
+    "concerns": [
+      "Texture",
+      "Dullness & uneven tone",
+      "Dryness"
+    ],
+    "keyIngredients": [
+      "Rice extract",
+      "Ceramides",
+      "Papain enzyme"
+    ],
+    "match": "Anua Rice + Ceramide",
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "An enzyme powder that polishes away dead skin while ceramides hold the barrier steady.",
+    "description": [
+      "Powder cleansers activate only when they meet water, which keeps the enzymes stable and lets you control the strength by how much water you add. The result is a gentle polish rather than a scrub.",
+      "Ceramides and rice extract mean skin is left smooth and soft, not stripped, so it can be used several times a week."
+    ],
+    "benefits": [
+      "Removes dead skin and daily build-up",
+      "Leaves skin smoother and brighter looking",
+      "Ceramides help protect the moisture barrier",
+      "No harsh scrub particles"
+    ],
+    "howToUse": [
+      "Tip a small amount into wet palms.",
+      "Add water and work into a light lather.",
+      "Massage over damp skin, then rinse.",
+      "Use two to three times a week, or daily if skin tolerates it."
+    ]
+  },
+  {
+    "slug": "medicube-zero-pore-blackhead-deep-cleansing-oil",
+    "sku": "BC-MDC-002",
+    "name": "Zero Pore Blackhead Deep Cleansing Oil",
+    "brand": "Medicube",
+    "brandSlug": "medicube",
+    "price": 80000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "cleansers",
+    "format": "Cleansing oil",
+    "skinTypes": [
+      "Oily",
+      "Combination",
+      "Acne-prone"
+    ],
+    "concerns": [
+      "Pores & blackheads",
+      "Makeup removal",
+      "Oil control"
+    ],
+    "keyIngredients": [
+      "Plant oil blend",
+      "Pore-clarifying complex"
+    ],
+    "match": "Medicube Zero Pore",
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "A cleansing oil aimed squarely at blackheads, whiteheads and pores that never look clear.",
+    "description": [
+      "Oil dissolves oil. That is why a cleansing oil reaches the hardened sebum inside a pore that foam simply cannot move.",
+      "Worked over the nose and chin for a full minute each evening, it is the most effective non-abrasive way to keep blackheads from returning."
+    ],
+    "benefits": [
+      "Dissolves blackheads and whiteheads over time",
+      "Deep cleanses visibly open pores",
+      "Removes makeup and sunscreen in one step",
+      "Emulsifies and rinses without residue"
+    ],
+    "howToUse": [
+      "Apply to dry skin with dry hands.",
+      "Massage over the nose, chin and any congested areas for 60 seconds.",
+      "Emulsify with water until milky, then rinse.",
+      "Follow with a foaming cleanser."
+    ]
+  },
+  {
+    "slug": "nineless-a-control-heartleaf-bha-cleanser",
+    "sku": "BC-NIN-001",
+    "name": "A-Control Heartleaf & BHA Cleanser",
+    "brand": "Nineless",
+    "brandSlug": "nineless",
+    "price": 70000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "cleansers",
+    "format": "Gel",
+    "skinTypes": [
+      "Acne-prone",
+      "Oily",
+      "Combination"
+    ],
+    "concerns": [
+      "Acne & breakouts",
+      "Pores & blackheads",
+      "Sensitivity"
+    ],
+    "keyIngredients": [
+      "Heartleaf extract",
+      "BHA"
+    ],
+    "match": "Nineless A-Control",
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Fights acne and unclogs pores while heartleaf keeps inflammation from flaring.",
+    "description": [
+      "An acne cleanser that does not trade a clearer week for a compromised barrier. BHA clears the pore, heartleaf settles the look of inflammation, and the gel base keeps everything mild.",
+      "A good daily choice when skin is actively breaking out and feels sore rather than simply oily."
+    ],
+    "benefits": [
+      "Helps clear and prevent breakouts",
+      "Unclogs pores without stripping",
+      "Soothes the look of inflamed skin",
+      "Leaves no tight, squeaky finish"
+    ],
+    "howToUse": [
+      "Lather with water and massage over damp skin.",
+      "Leave for 20 seconds on breakout-prone areas.",
+      "Rinse with lukewarm water.",
+      "Use morning and evening."
+    ]
+  },
+  {
+    "slug": "skin1004-centella-light-cleansing-oil",
+    "sku": "BC-SK1-003",
+    "name": "Centella Light Cleansing Oil",
+    "brand": "SKIN1004",
+    "brandSlug": "skin1004",
+    "price": 80000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "cleansers",
+    "format": "Cleansing oil",
+    "skinTypes": [
+      "All",
+      "Sensitive",
+      "Combination"
+    ],
+    "concerns": [
+      "Makeup removal",
+      "Sensitivity"
+    ],
+    "keyIngredients": [
+      "Centella asiatica",
+      "Light plant oils"
+    ],
+    "match": "Centella light Cleansing Oil",
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "A featherweight oil that takes off makeup and sunscreen, calm enough for sensitive skin.",
+    "description": [
+      "Lighter than most cleansing oils, which makes it the easy recommendation for anyone who has been put off by heavy, slippery formulas.",
+      "Centella keeps it comfortable on reactive skin, and it emulsifies quickly so nothing is left sitting on the face."
+    ],
+    "benefits": [
+      "Removes makeup, sunscreen and excess oil",
+      "Light texture that rinses clean",
+      "Centella soothes as it cleanses",
+      "Suitable for sensitive skin"
+    ],
+    "howToUse": [
+      "Apply to dry skin and massage for 30 to 60 seconds.",
+      "Add water to emulsify, then rinse.",
+      "Follow with a water-based cleanser.",
+      "Use in the evening."
+    ]
+  },
+  {
+    "slug": "skin1004-centella-poremizing-deep-cleansing-foam",
+    "sku": "BC-SK1-004",
+    "name": "Centella Poremizing Deep Cleansing Foam",
+    "brand": "SKIN1004",
+    "brandSlug": "skin1004",
+    "price": 70000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "cleansers",
+    "format": "Foam",
+    "skinTypes": [
+      "Oily",
+      "Combination"
+    ],
+    "concerns": [
+      "Pores & blackheads",
+      "Oil control"
+    ],
+    "keyIngredients": [
+      "Centella asiatica",
+      "Pore-refining complex"
+    ],
+    "match": "Centella Poremizing",
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "A deep-cleaning foam for oily and combination skin, focused on visible pores.",
+    "description": [
+      "Built for the T-zone. The foam clears the oil and debris that make pores look larger, while centella keeps the formula from tipping into harshness.",
+      "Pair it with a cleansing oil in the evening for the most noticeable difference around the nose."
+    ],
+    "benefits": [
+      "Deep cleanses oily, congested areas",
+      "Helps pores look smaller and clearer",
+      "Controls shine without stripping",
+      "Rich foam that rinses quickly"
+    ],
+    "howToUse": [
+      "Lather with water between palms.",
+      "Massage over damp skin, concentrating on the T-zone.",
+      "Rinse with lukewarm water.",
+      "Use twice daily."
+    ]
+  },
+  {
+    "slug": "isntree-green-tea-cleanser",
+    "sku": "BC-IST-001",
+    "name": "Green Tea Cleanser",
+    "brand": "Isntree",
+    "brandSlug": "isntree",
+    "price": 70000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "cleansers",
+    "format": "Foam",
+    "skinTypes": [
+      "Oily",
+      "Combination",
+      "Acne-prone"
+    ],
+    "concerns": [
+      "Oil control",
+      "Acne & breakouts"
+    ],
+    "keyIngredients": [
+      "Green tea extract",
+      "Green tea seed oil"
+    ],
+    "match": "Instree Green tea",
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Green tea for oily, combination and acne-prone skin that needs calm rather than stripping.",
+    "description": [
+      "Green tea has a long record in skincare for a reason: it is antioxidant-rich and soothing, which is a useful combination for skin that is both oily and easily provoked.",
+      "The cleanser removes the day's oil and leaves the skin balanced, making it a straightforward morning option."
+    ],
+    "benefits": [
+      "Balances excess oil",
+      "Antioxidant green tea soothes the skin",
+      "Comfortable, non-stripping finish",
+      "Good daily cleanser for oily skin"
+    ],
+    "howToUse": [
+      "Lather with water and massage over damp skin.",
+      "Rinse with lukewarm water.",
+      "Use morning and evening.",
+      "Follow with toner and moisturiser."
+    ]
+  },
+  {
+    "slug": "k-secret-seoul-1988-cleansing-foam",
+    "sku": "BC-KSC-001",
+    "name": "Seoul 1988 Cleansing Foam",
+    "brand": "K-SECRET",
+    "brandSlug": "k-secret",
+    "price": 70000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "cleansers",
+    "format": "Foam",
+    "skinTypes": [
+      "Sensitive",
+      "Oily",
+      "Acne-prone"
+    ],
+    "concerns": [
+      "Sensitivity",
+      "Acne & breakouts",
+      "Oil control"
+    ],
+    "keyIngredients": [
+      "Mild amino-acid surfactants"
+    ],
+    "match": "K-SECRET SEOUL 1988",
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "A quiet daily foam for sensitive, oily and acne-prone skin.",
+    "description": [
+      "Nothing dramatic, which is the point. A mild foam that takes off oil and sunscreen residue and leaves skin calm, at a price that makes twice-daily use easy.",
+      "A sensible everyday cleanser for skin that is oily but reacts to strong actives."
+    ],
+    "benefits": [
+      "Gentle daily cleansing",
+      "Suits sensitive and acne-prone skin",
+      "Removes oil without tightness",
+      "Light, fast-rinsing foam"
+    ],
+    "howToUse": [
+      "Lather with water.",
+      "Massage over damp skin for 20 seconds.",
+      "Rinse with lukewarm water.",
+      "Use morning and evening."
+    ]
+  },
+  {
+    "slug": "cosrx-aha-bha-clarifying-treatment-toner",
+    "sku": "BC-CSX-002",
+    "name": "AHA/BHA Clarifying Treatment Toner",
+    "brand": "COSRX",
+    "brandSlug": "cosrx",
+    "price": 60000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "toners",
+    "format": "Toner",
+    "skinTypes": [
+      "Oily",
+      "Combination",
+      "Acne-prone"
+    ],
+    "concerns": [
+      "Acne & breakouts",
+      "Pores & blackheads",
+      "Texture"
+    ],
+    "keyIngredients": [
+      "AHA (glycolic acid)",
+      "BHA (betaine salicylate)",
+      "Willow bark water"
+    ],
+    "match": "Cosrx AHA-BHA Clarifying",
+    "featured": true,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "A daily acid toner that lifts dead skin, clears congested pores and keeps oil in check.",
+    "description": [
+      "The step between cleansing and treating. A light pass of AHA loosens dull surface cells while BHA works inside the pore, so the products that follow actually reach skin instead of sitting on top of it.",
+      "Gentle enough for daily use on oily and combination skin, and a sensible first acid for anyone who has been nervous about exfoliation."
+    ],
+    "benefits": [
+      "Clears dead skin that dulls the complexion",
+      "Helps keep pores from clogging and congesting",
+      "Balances oil through the day",
+      "Preps skin so serums absorb properly"
+    ],
+    "howToUse": [
+      "After cleansing, apply to a cotton pad or press on with clean hands.",
+      "Sweep over the T-zone and any congested areas, avoiding the eyes.",
+      "Follow with essence, serum and moisturiser.",
+      "Start every other evening, then build up. Wear sunscreen daily."
+    ]
+  },
+  {
+    "slug": "cosrx-advanced-snail-96-mucin-power-essence",
+    "sku": "BC-CSX-003",
+    "name": "Advanced Snail 96 Mucin Power Essence",
+    "brand": "COSRX",
+    "brandSlug": "cosrx",
+    "price": 80000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "toners",
+    "format": "Essence",
+    "skinTypes": [
+      "All",
+      "Dry",
+      "Sensitive"
+    ],
+    "concerns": [
+      "Dryness",
+      "Dullness & uneven tone",
+      "Sensitivity"
+    ],
+    "keyIngredients": [
+      "96% snail secretion filtrate",
+      "Sodium hyaluronate",
+      "Panthenol"
+    ],
+    "match": "Snail 96 Mucin",
+    "featured": true,
+    "featuredLarge": false,
+    "bestSeller": true,
+    "stock": "in-stock",
+    "excerpt": "The essence that made snail mucin famous: repairs a stressed barrier and leaves skin plump.",
+    "description": [
+      "Ninety-six per cent snail secretion filtrate, and almost nothing else. It is thick without being sticky, and it sinks in rather than sitting on the surface.",
+      "This is the product to reach for when skin is over-exfoliated, wind-burnt or simply flat. Used nightly it makes a visible difference to bounce and tone within a fortnight."
+    ],
+    "benefits": [
+      "Repairs a damaged moisture barrier",
+      "Plumps and hydrates without heaviness",
+      "Helps fade the marks breakouts leave behind",
+      "Calms skin that has been pushed too hard"
+    ],
+    "howToUse": [
+      "Apply to clean, slightly damp skin after toner.",
+      "Press in gently with your palms rather than rubbing.",
+      "Follow with serum and moisturiser.",
+      "Safe to use morning and evening."
+    ]
+  },
+  {
+    "slug": "cosrx-bha-blackhead-power-liquid",
+    "sku": "BC-CSX-004",
+    "name": "BHA Blackhead Power Liquid",
+    "brand": "COSRX",
+    "brandSlug": "cosrx",
+    "price": 80000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "toners",
+    "format": "Treatment liquid",
+    "skinTypes": [
+      "Oily",
+      "Combination",
+      "Acne-prone"
+    ],
+    "concerns": [
+      "Pores & blackheads",
+      "Acne & breakouts",
+      "Oil control"
+    ],
+    "keyIngredients": [
+      "4% BHA (betaine salicylate)",
+      "Niacinamide",
+      "Willow bark water"
+    ],
+    "match": "BHA Blackhead Power Liquid",
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": true,
+    "stock": "in-stock",
+    "excerpt": "A leave-on BHA for blackheads that keep coming back around the nose and chin.",
+    "description": [
+      "Salicylic acid is oil-soluble, so it travels into the pore rather than working only on the surface. This is the reason a BHA liquid clears blackheads that scrubs simply polish around.",
+      "Niacinamide sits alongside it to even tone, which matters because congestion and dark marks usually arrive together."
+    ],
+    "benefits": [
+      "Dissolves the plug that becomes a blackhead",
+      "Helps prevent new breakouts forming",
+      "Refines the look of visible pores over time",
+      "Controls shine without stripping"
+    ],
+    "howToUse": [
+      "Apply to dry skin after cleansing, before heavier layers.",
+      "Concentrate on the nose, chin and forehead.",
+      "Leave on. Do not rinse.",
+      "Begin two or three evenings a week and build up slowly."
+    ],
+    "caution": "Acids increase sun sensitivity. Wear broad spectrum sunscreen every day while using this."
+  },
+  {
+    "slug": "dr-althea-345-relief-cream-mist",
+    "sku": "BC-DRA-001",
+    "name": "345 Relief Cream Mist",
+    "brand": "Dr. Althea",
+    "brandSlug": "dr-althea",
+    "price": 90000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "toners",
+    "format": "Mist",
+    "skinTypes": [
+      "Sensitive",
+      "Dry",
+      "All"
+    ],
+    "concerns": [
+      "Dryness",
+      "Sensitivity"
+    ],
+    "keyIngredients": [
+      "Panthenol",
+      "Ceramides",
+      "Madecassoside"
+    ],
+    "match": "Dr. Althea 345 Relief",
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "A cream in a mist: hydrates and soothes without disturbing makeup or a finished routine.",
+    "description": [
+      "Most face mists are water with a fragrance, and they evaporate leaving skin drier than before. This one carries ceramides and panthenol, so it actually leaves something behind.",
+      "Useful in air conditioning, on long days, and over makeup when skin starts to look tight by mid-afternoon."
+    ],
+    "benefits": [
+      "Rehydrates without removing makeup",
+      "Calms heat and the look of redness",
+      "Supports the moisture barrier with ceramides",
+      "Comfortable on reactive, easily irritated skin"
+    ],
+    "howToUse": [
+      "Shake, hold about 20cm from the face and mist.",
+      "Press in lightly with clean hands rather than letting it dry on its own.",
+      "Use any time of day, over or under makeup.",
+      "Follow with moisturiser when using it as a routine step."
+    ]
+  },
+  {
+    "slug": "eqqualberry-bakuchiol-plumping-toner",
+    "sku": "BC-EQB-001",
+    "name": "Bakuchiol Plumping Toner",
+    "brand": "Eqqualberry",
+    "brandSlug": "eqqualberry",
+    "price": 100000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "toners",
+    "format": "Toner",
+    "skinTypes": [
+      "Sensitive",
+      "Dry",
+      "Normal"
+    ],
+    "concerns": [
+      "Dryness",
+      "Texture"
+    ],
+    "keyIngredients": [
+      "Bakuchiol",
+      "Hyaluronic acid",
+      "Panthenol"
+    ],
+    "match": "Bakuchiol Plumping",
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Bakuchiol, the gentler answer to retinol, in a hydrating toner for sensitive skin.",
+    "description": [
+      "Bakuchiol is the plant-derived alternative people move to when retinol is too much: it addresses fine lines and firmness without the peeling, stinging fortnight.",
+      "Because it arrives here in a hydrating toner rather than a strong serum, it fits into a routine at the very first step and suits skin that reacts to almost everything."
+    ],
+    "benefits": [
+      "Softens the look of fine lines over consistent use",
+      "Deeply hydrates and plumps",
+      "A retinol alternative that suits sensitive skin",
+      "Layers easily under the rest of a routine"
+    ],
+    "howToUse": [
+      "Apply to clean skin, morning and evening.",
+      "Press in with your palms or sweep on with a cotton pad.",
+      "Follow with serum and moisturiser.",
+      "Introduce gradually if your skin is very reactive."
+    ]
+  },
+  {
+    "slug": "eqqualberry-vitamin-illuminating-toner",
+    "sku": "BC-EQB-002",
+    "name": "Vitamin Illuminating Toner",
+    "brand": "Eqqualberry",
+    "brandSlug": "eqqualberry",
+    "price": 100000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "toners",
+    "format": "Toner",
+    "skinTypes": [
+      "All",
+      "Normal",
+      "Combination"
+    ],
+    "concerns": [
+      "Dullness & uneven tone"
+    ],
+    "keyIngredients": [
+      "Vitamin C derivative",
+      "Niacinamide",
+      "Berry extracts"
+    ],
+    "match": "Vitamin illuminating",
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "A brightening toner for dark spots and the dullness that creeps in after a hot season.",
+    "description": [
+      "Vitamin C and niacinamide are the two most reliable ingredients for uneven tone, and a toner is the easiest way to use them every day without a routine getting heavy.",
+      "Expect gradual work rather than an overnight change: dark marks soften, and skin looks more awake in the mornings."
+    ],
+    "benefits": [
+      "Helps fade dark spots and post-breakout marks",
+      "Brightens skin that has gone flat and dull",
+      "Suits every skin type as a daily first step",
+      "Light enough to layer in warm weather"
+    ],
+    "howToUse": [
+      "Apply to clean skin after cleansing.",
+      "Use morning and evening.",
+      "Follow with serum and moisturiser.",
+      "Pair with daily sunscreen, or the dark spots come straight back."
+    ]
+  },
+  {
+    "slug": "medicube-age-r-glutathione-glow-toner",
+    "sku": "BC-MDC-003",
+    "name": "AGE-R Glutathione Glow Toner",
+    "brand": "Medicube",
+    "brandSlug": "medicube",
+    "price": 90000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "toners",
+    "format": "Toner",
+    "skinTypes": [
+      "All",
+      "Normal",
+      "Combination"
+    ],
+    "concerns": [
+      "Dullness & uneven tone",
+      "Texture"
+    ],
+    "keyIngredients": [
+      "Glutathione",
+      "Niacinamide",
+      "Hyaluronic acid"
+    ],
+    "match": "AGE-R Glutathione",
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": true,
+    "stock": "in-stock",
+    "excerpt": "Glutathione and niacinamide for dull, uneven skin, aimed squarely at a glass-skin finish.",
+    "description": [
+      "Glutathione is the ingredient behind most of the brightening conversation in Korean skincare, and it works best applied consistently rather than in one strong dose.",
+      "This toner is watery, absorbs immediately and leaves the slight sheen that people mean when they say glass skin."
+    ],
+    "benefits": [
+      "Brightens skin that looks tired and grey",
+      "Evens out patchy tone with repeated use",
+      "Hydrates without a sticky finish",
+      "Builds towards a smooth, reflective look"
+    ],
+    "howToUse": [
+      "Apply to clean skin morning and evening.",
+      "Press in two thin layers for more hydration.",
+      "Follow with serum and moisturiser.",
+      "Use sunscreen daily to protect the results."
+    ]
+  },
+  {
+    "slug": "medicube-pdrn-pink-cica-soothing-toner",
+    "sku": "BC-MDC-004",
+    "name": "PDRN Pink Cica Soothing Toner",
+    "brand": "Medicube",
+    "brandSlug": "medicube",
+    "price": 90000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "toners",
+    "format": "Toner",
+    "skinTypes": [
+      "Sensitive",
+      "Acne-prone",
+      "All"
+    ],
+    "concerns": [
+      "Sensitivity",
+      "Dullness & uneven tone"
+    ],
+    "keyIngredients": [
+      "PDRN",
+      "Centella asiatica",
+      "Panthenol"
+    ],
+    "match": "Pink Cica soothing",
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Centella and PDRN for skin that is irritated, blotchy or recovering from breakouts.",
+    "description": [
+      "Centella is the reliable calming ingredient; PDRN is the one Korean clinics use for recovery. Together they suit skin that is inflamed rather than simply dry.",
+      "A good choice while you are using actives elsewhere in a routine, because it buys back some of the tolerance strong ingredients take away."
+    ],
+    "benefits": [
+      "Soothes the look of redness and irritation",
+      "Supports barrier repair after actives or sun",
+      "Brightens gradually without stinging",
+      "Light, fast-absorbing, no residue"
+    ],
+    "howToUse": [
+      "Apply to clean skin morning and evening.",
+      "Press in gently, especially over irritated areas.",
+      "Follow with a simple moisturiser while skin recovers.",
+      "Safe to use on consecutive days."
+    ]
+  },
+  {
+    "slug": "medicube-pdrn-pink-niacinamide-milky-toner",
+    "sku": "BC-MDC-005",
+    "name": "PDRN Pink Niacinamide Milky Toner",
+    "brand": "Medicube",
+    "brandSlug": "medicube",
+    "price": 90000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "toners",
+    "format": "Toner",
+    "skinTypes": [
+      "All",
+      "Normal",
+      "Dry"
+    ],
+    "concerns": [
+      "Dullness & uneven tone",
+      "Dryness"
+    ],
+    "keyIngredients": [
+      "PDRN",
+      "Niacinamide",
+      "Hyaluronic acid"
+    ],
+    "match": "Niacinamide Milky Toner",
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "A milky toner that hydrates and evens tone in one step, for a soft glass-skin finish.",
+    "description": [
+      "Milky toners sit between a watery toner and a light lotion. This one carries niacinamide for tone and PDRN for recovery, so a two-step routine still does real work.",
+      "It suits anyone whose skin feels tight after a watery toner but who does not want another heavy cream in Kampala's humidity."
+    ],
+    "benefits": [
+      "Evens skin tone with daily niacinamide",
+      "Hydrates more than a standard toner",
+      "Leaves a soft, glowing finish",
+      "Keeps a short routine effective"
+    ],
+    "howToUse": [
+      "Shake well before use.",
+      "Apply to clean skin morning and evening.",
+      "Press in with your palms, adding a second layer where skin is dry.",
+      "Follow with serum or moisturiser as needed."
+    ]
+  },
+  {
+    "slug": "nineless-mela-pro-rice-txa-toner",
+    "sku": "BC-NIN-002",
+    "name": "MELA PRO Rice & TXA Toner",
+    "brand": "Nineless",
+    "brandSlug": "nineless",
+    "price": 80000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "toners",
+    "format": "Toner",
+    "skinTypes": [
+      "All",
+      "Combination",
+      "Normal"
+    ],
+    "concerns": [
+      "Dullness & uneven tone",
+      "Texture"
+    ],
+    "keyIngredients": [
+      "Rice extract",
+      "Tranexamic acid",
+      "Niacinamide"
+    ],
+    "match": "MELA PRO Rice",
+    "featured": true,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Tranexamic acid and rice extract, aimed at melasma, stubborn dark spots and dullness.",
+    "description": [
+      "Tranexamic acid is the ingredient dermatologists reach for with melasma and stubborn pigmentation, because it works on the process that creates the patch rather than only bleaching what is there.",
+      "Rice extract softens and brightens alongside it, which makes this usable daily rather than as an occasional treatment."
+    ],
+    "benefits": [
+      "Targets melasma and long-standing dark patches",
+      "Softens post-breakout marks",
+      "Brightens overall dullness",
+      "Gentle enough for consistent daily use"
+    ],
+    "howToUse": [
+      "Apply to clean skin morning and evening.",
+      "Sweep or press over the whole face, focusing on darker areas.",
+      "Follow with serum and moisturiser.",
+      "Daily sunscreen is essential, or pigmentation returns."
+    ]
+  },
+  {
+    "slug": "numbuzin-no9-nad-pdrn-glow-boosting-toner",
+    "sku": "BC-NUM-001",
+    "name": "No.9 NAD+ PDRN Glow Boosting Toner",
+    "brand": "numbuzin",
+    "brandSlug": "numbuzin",
+    "price": 90000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "toners",
+    "format": "Toner",
+    "skinTypes": [
+      "All",
+      "Normal",
+      "Dry"
+    ],
+    "concerns": [
+      "Dullness & uneven tone",
+      "Texture"
+    ],
+    "keyIngredients": [
+      "NAD+",
+      "PDRN",
+      "Niacinamide"
+    ],
+    "match": "numbuzin No.9",
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "NAD+ and PDRN for skin that has lost its bounce, aimed at radiance rather than quick fixes.",
+    "description": [
+      "NAD+ is one of the more interesting recent additions to skincare, borrowed from longevity research and aimed at skin that looks tired rather than damaged.",
+      "Paired with PDRN for recovery, this is a toner for the stage where skin is not breaking out or flaking, it has simply gone dull and slack."
+    ],
+    "benefits": [
+      "Restores radiance to tired, ageing skin",
+      "Supports firmness and bounce over time",
+      "Hydrates without weight",
+      "Works as the first step of an anti-ageing routine"
+    ],
+    "howToUse": [
+      "Apply to clean skin morning and evening.",
+      "Press in one or two layers.",
+      "Follow with serum and moisturiser.",
+      "Give it six to eight weeks before judging results."
+    ]
+  }
+]

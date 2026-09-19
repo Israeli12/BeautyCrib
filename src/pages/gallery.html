@@ -1,0 +1,46 @@
+<!--meta
+{
+  "path": "/gallery/",
+  "title": "Gallery | Beauty Crib",
+  "description": "The Beauty Crib visual world: campaign photography, product still life and the skin we make products for. Beauty and skincare in Uganda.",
+  "bodyClass": "page-gallery",
+  "ogImage": "gallery/gallery-03"
+}
+-->
+
+    <div class="container">
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="/">Home</a></li>
+          <li aria-current="page">Gallery</li>
+        </ol>
+      </nav>
+
+      <header class="page-head page-head--split">
+        <div>
+          <p class="eyebrow">Gallery</p>
+          <h1 class="display-l">The Beauty Crib <em>world.</em></h1>
+        </div>
+        <div>
+          <p class="page-head__lead">
+            Campaign photography, product still life and the skin all of it is for. Select any image to view it
+            larger, then use the arrow keys to move through the set.
+          </p>
+        </div>
+      </header>
+
+      <div class="gallery-grid reveal">
+        {{galleryFull}}
+      </div>
+
+      <section class="section">
+        <div class="section__head">
+          <div>
+            <p class="eyebrow">Shop the look</p>
+            <h2 class="display-m">What is in the pictures</h2>
+          </div>
+          <a class="btn btn--text" href="/shop/">All products</a>
+        </div>
+        <div class="product-row">{{featuredGrid}}</div>
+      </section>
+    </div>

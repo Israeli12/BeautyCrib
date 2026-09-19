@@ -1,0 +1,410 @@
+[
+  {
+    "slug": "cosrx-aha-bha-clarifying-treatment-toner",
+    "sku": "BC-CSX-002",
+    "name": "AHA/BHA Clarifying Treatment Toner",
+    "brand": "COSRX",
+    "brandSlug": "cosrx",
+    "price": 60000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "toners",
+    "format": "Toner",
+    "skinTypes": ["Oily", "Combination", "Acne-prone"],
+    "concerns": ["Acne & breakouts", "Pores & blackheads", "Texture"],
+    "keyIngredients": ["AHA (glycolic acid)", "BHA (betaine salicylate)", "Willow bark water"],
+    "match": "Cosrx AHA-BHA Clarifying",
+    "featured": true,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "A daily acid toner that lifts dead skin, clears congested pores and keeps oil in check.",
+    "description": [
+      "The step between cleansing and treating. A light pass of AHA loosens dull surface cells while BHA works inside the pore, so the products that follow actually reach skin instead of sitting on top of it.",
+      "Gentle enough for daily use on oily and combination skin, and a sensible first acid for anyone who has been nervous about exfoliation."
+    ],
+    "benefits": [
+      "Clears dead skin that dulls the complexion",
+      "Helps keep pores from clogging and congesting",
+      "Balances oil through the day",
+      "Preps skin so serums absorb properly"
+    ],
+    "howToUse": [
+      "After cleansing, apply to a cotton pad or press on with clean hands.",
+      "Sweep over the T-zone and any congested areas, avoiding the eyes.",
+      "Follow with essence, serum and moisturiser.",
+      "Start every other evening, then build up. Wear sunscreen daily."
+    ]
+  },
+  {
+    "slug": "cosrx-advanced-snail-96-mucin-power-essence",
+    "sku": "BC-CSX-003",
+    "name": "Advanced Snail 96 Mucin Power Essence",
+    "brand": "COSRX",
+    "brandSlug": "cosrx",
+    "price": 80000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "toners",
+    "format": "Essence",
+    "skinTypes": ["All", "Dry", "Sensitive"],
+    "concerns": ["Dryness", "Dullness & uneven tone", "Sensitivity"],
+    "keyIngredients": ["96% snail secretion filtrate", "Sodium hyaluronate", "Panthenol"],
+    "match": "Snail 96 Mucin",
+    "featured": true,
+    "featuredLarge": false,
+    "bestSeller": true,
+    "stock": "in-stock",
+    "excerpt": "The essence that made snail mucin famous: repairs a stressed barrier and leaves skin plump.",
+    "description": [
+      "Ninety-six per cent snail secretion filtrate, and almost nothing else. It is thick without being sticky, and it sinks in rather than sitting on the surface.",
+      "This is the product to reach for when skin is over-exfoliated, wind-burnt or simply flat. Used nightly it makes a visible difference to bounce and tone within a fortnight."
+    ],
+    "benefits": [
+      "Repairs a damaged moisture barrier",
+      "Plumps and hydrates without heaviness",
+      "Helps fade the marks breakouts leave behind",
+      "Calms skin that has been pushed too hard"
+    ],
+    "howToUse": [
+      "Apply to clean, slightly damp skin after toner.",
+      "Press in gently with your palms rather than rubbing.",
+      "Follow with serum and moisturiser.",
+      "Safe to use morning and evening."
+    ]
+  },
+  {
+    "slug": "cosrx-bha-blackhead-power-liquid",
+    "sku": "BC-CSX-004",
+    "name": "BHA Blackhead Power Liquid",
+    "brand": "COSRX",
+    "brandSlug": "cosrx",
+    "price": 80000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "toners",
+    "format": "Treatment liquid",
+    "skinTypes": ["Oily", "Combination", "Acne-prone"],
+    "concerns": ["Pores & blackheads", "Acne & breakouts", "Oil control"],
+    "keyIngredients": ["4% BHA (betaine salicylate)", "Niacinamide", "Willow bark water"],
+    "match": "BHA Blackhead Power Liquid",
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": true,
+    "stock": "in-stock",
+    "excerpt": "A leave-on BHA for blackheads that keep coming back around the nose and chin.",
+    "description": [
+      "Salicylic acid is oil-soluble, so it travels into the pore rather than working only on the surface. This is the reason a BHA liquid clears blackheads that scrubs simply polish around.",
+      "Niacinamide sits alongside it to even tone, which matters because congestion and dark marks usually arrive together."
+    ],
+    "benefits": [
+      "Dissolves the plug that becomes a blackhead",
+      "Helps prevent new breakouts forming",
+      "Refines the look of visible pores over time",
+      "Controls shine without stripping"
+    ],
+    "howToUse": [
+      "Apply to dry skin after cleansing, before heavier layers.",
+      "Concentrate on the nose, chin and forehead.",
+      "Leave on. Do not rinse.",
+      "Begin two or three evenings a week and build up slowly."
+    ],
+    "caution": "Acids increase sun sensitivity. Wear broad spectrum sunscreen every day while using this."
+  },
+  {
+    "slug": "dr-althea-345-relief-cream-mist",
+    "sku": "BC-DRA-001",
+    "name": "345 Relief Cream Mist",
+    "brand": "Dr. Althea",
+    "brandSlug": "dr-althea",
+    "price": 90000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "toners",
+    "format": "Mist",
+    "skinTypes": ["Sensitive", "Dry", "All"],
+    "concerns": ["Dryness", "Sensitivity"],
+    "keyIngredients": ["Panthenol", "Ceramides", "Madecassoside"],
+    "match": "Dr. Althea 345 Relief",
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "A cream in a mist: hydrates and soothes without disturbing makeup or a finished routine.",
+    "description": [
+      "Most face mists are water with a fragrance, and they evaporate leaving skin drier than before. This one carries ceramides and panthenol, so it actually leaves something behind.",
+      "Useful in air conditioning, on long days, and over makeup when skin starts to look tight by mid-afternoon."
+    ],
+    "benefits": [
+      "Rehydrates without removing makeup",
+      "Calms heat and the look of redness",
+      "Supports the moisture barrier with ceramides",
+      "Comfortable on reactive, easily irritated skin"
+    ],
+    "howToUse": [
+      "Shake, hold about 20cm from the face and mist.",
+      "Press in lightly with clean hands rather than letting it dry on its own.",
+      "Use any time of day, over or under makeup.",
+      "Follow with moisturiser when using it as a routine step."
+    ]
+  },
+  {
+    "slug": "eqqualberry-bakuchiol-plumping-toner",
+    "sku": "BC-EQB-001",
+    "name": "Bakuchiol Plumping Toner",
+    "brand": "Eqqualberry",
+    "brandSlug": "eqqualberry",
+    "price": 100000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "toners",
+    "format": "Toner",
+    "skinTypes": ["Sensitive", "Dry", "Normal"],
+    "concerns": ["Dryness", "Texture"],
+    "keyIngredients": ["Bakuchiol", "Hyaluronic acid", "Panthenol"],
+    "match": "Bakuchiol Plumping",
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Bakuchiol, the gentler answer to retinol, in a hydrating toner for sensitive skin.",
+    "description": [
+      "Bakuchiol is the plant-derived alternative people move to when retinol is too much: it addresses fine lines and firmness without the peeling, stinging fortnight.",
+      "Because it arrives here in a hydrating toner rather than a strong serum, it fits into a routine at the very first step and suits skin that reacts to almost everything."
+    ],
+    "benefits": [
+      "Softens the look of fine lines over consistent use",
+      "Deeply hydrates and plumps",
+      "A retinol alternative that suits sensitive skin",
+      "Layers easily under the rest of a routine"
+    ],
+    "howToUse": [
+      "Apply to clean skin, morning and evening.",
+      "Press in with your palms or sweep on with a cotton pad.",
+      "Follow with serum and moisturiser.",
+      "Introduce gradually if your skin is very reactive."
+    ]
+  },
+  {
+    "slug": "eqqualberry-vitamin-illuminating-toner",
+    "sku": "BC-EQB-002",
+    "name": "Vitamin Illuminating Toner",
+    "brand": "Eqqualberry",
+    "brandSlug": "eqqualberry",
+    "price": 100000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "toners",
+    "format": "Toner",
+    "skinTypes": ["All", "Normal", "Combination"],
+    "concerns": ["Dullness & uneven tone"],
+    "keyIngredients": ["Vitamin C derivative", "Niacinamide", "Berry extracts"],
+    "match": "Vitamin illuminating",
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "A brightening toner for dark spots and the dullness that creeps in after a hot season.",
+    "description": [
+      "Vitamin C and niacinamide are the two most reliable ingredients for uneven tone, and a toner is the easiest way to use them every day without a routine getting heavy.",
+      "Expect gradual work rather than an overnight change: dark marks soften, and skin looks more awake in the mornings."
+    ],
+    "benefits": [
+      "Helps fade dark spots and post-breakout marks",
+      "Brightens skin that has gone flat and dull",
+      "Suits every skin type as a daily first step",
+      "Light enough to layer in warm weather"
+    ],
+    "howToUse": [
+      "Apply to clean skin after cleansing.",
+      "Use morning and evening.",
+      "Follow with serum and moisturiser.",
+      "Pair with daily sunscreen, or the dark spots come straight back."
+    ]
+  },
+  {
+    "slug": "medicube-age-r-glutathione-glow-toner",
+    "sku": "BC-MDC-003",
+    "name": "AGE-R Glutathione Glow Toner",
+    "brand": "Medicube",
+    "brandSlug": "medicube",
+    "price": 90000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "toners",
+    "format": "Toner",
+    "skinTypes": ["All", "Normal", "Combination"],
+    "concerns": ["Dullness & uneven tone", "Texture"],
+    "keyIngredients": ["Glutathione", "Niacinamide", "Hyaluronic acid"],
+    "match": "AGE-R Glutathione",
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": true,
+    "stock": "in-stock",
+    "excerpt": "Glutathione and niacinamide for dull, uneven skin, aimed squarely at a glass-skin finish.",
+    "description": [
+      "Glutathione is the ingredient behind most of the brightening conversation in Korean skincare, and it works best applied consistently rather than in one strong dose.",
+      "This toner is watery, absorbs immediately and leaves the slight sheen that people mean when they say glass skin."
+    ],
+    "benefits": [
+      "Brightens skin that looks tired and grey",
+      "Evens out patchy tone with repeated use",
+      "Hydrates without a sticky finish",
+      "Builds towards a smooth, reflective look"
+    ],
+    "howToUse": [
+      "Apply to clean skin morning and evening.",
+      "Press in two thin layers for more hydration.",
+      "Follow with serum and moisturiser.",
+      "Use sunscreen daily to protect the results."
+    ]
+  },
+  {
+    "slug": "medicube-pdrn-pink-cica-soothing-toner",
+    "sku": "BC-MDC-004",
+    "name": "PDRN Pink Cica Soothing Toner",
+    "brand": "Medicube",
+    "brandSlug": "medicube",
+    "price": 90000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "toners",
+    "format": "Toner",
+    "skinTypes": ["Sensitive", "Acne-prone", "All"],
+    "concerns": ["Sensitivity", "Dullness & uneven tone"],
+    "keyIngredients": ["PDRN", "Centella asiatica", "Panthenol"],
+    "match": "Pink Cica soothing",
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Centella and PDRN for skin that is irritated, blotchy or recovering from breakouts.",
+    "description": [
+      "Centella is the reliable calming ingredient; PDRN is the one Korean clinics use for recovery. Together they suit skin that is inflamed rather than simply dry.",
+      "A good choice while you are using actives elsewhere in a routine, because it buys back some of the tolerance strong ingredients take away."
+    ],
+    "benefits": [
+      "Soothes the look of redness and irritation",
+      "Supports barrier repair after actives or sun",
+      "Brightens gradually without stinging",
+      "Light, fast-absorbing, no residue"
+    ],
+    "howToUse": [
+      "Apply to clean skin morning and evening.",
+      "Press in gently, especially over irritated areas.",
+      "Follow with a simple moisturiser while skin recovers.",
+      "Safe to use on consecutive days."
+    ]
+  },
+  {
+    "slug": "medicube-pdrn-pink-niacinamide-milky-toner",
+    "sku": "BC-MDC-005",
+    "name": "PDRN Pink Niacinamide Milky Toner",
+    "brand": "Medicube",
+    "brandSlug": "medicube",
+    "price": 90000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "toners",
+    "format": "Toner",
+    "skinTypes": ["All", "Normal", "Dry"],
+    "concerns": ["Dullness & uneven tone", "Dryness"],
+    "keyIngredients": ["PDRN", "Niacinamide", "Hyaluronic acid"],
+    "match": "Niacinamide Milky Toner",
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "A milky toner that hydrates and evens tone in one step, for a soft glass-skin finish.",
+    "description": [
+      "Milky toners sit between a watery toner and a light lotion. This one carries niacinamide for tone and PDRN for recovery, so a two-step routine still does real work.",
+      "It suits anyone whose skin feels tight after a watery toner but who does not want another heavy cream in Kampala's humidity."
+    ],
+    "benefits": [
+      "Evens skin tone with daily niacinamide",
+      "Hydrates more than a standard toner",
+      "Leaves a soft, glowing finish",
+      "Keeps a short routine effective"
+    ],
+    "howToUse": [
+      "Shake well before use.",
+      "Apply to clean skin morning and evening.",
+      "Press in with your palms, adding a second layer where skin is dry.",
+      "Follow with serum or moisturiser as needed."
+    ]
+  },
+  {
+    "slug": "nineless-mela-pro-rice-txa-toner",
+    "sku": "BC-NIN-002",
+    "name": "MELA PRO Rice & TXA Toner",
+    "brand": "Nineless",
+    "brandSlug": "nineless",
+    "price": 80000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "toners",
+    "format": "Toner",
+    "skinTypes": ["All", "Combination", "Normal"],
+    "concerns": ["Dullness & uneven tone", "Texture"],
+    "keyIngredients": ["Rice extract", "Tranexamic acid", "Niacinamide"],
+    "match": "MELA PRO Rice",
+    "featured": true,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Tranexamic acid and rice extract, aimed at melasma, stubborn dark spots and dullness.",
+    "description": [
+      "Tranexamic acid is the ingredient dermatologists reach for with melasma and stubborn pigmentation, because it works on the process that creates the patch rather than only bleaching what is there.",
+      "Rice extract softens and brightens alongside it, which makes this usable daily rather than as an occasional treatment."
+    ],
+    "benefits": [
+      "Targets melasma and long-standing dark patches",
+      "Softens post-breakout marks",
+      "Brightens overall dullness",
+      "Gentle enough for consistent daily use"
+    ],
+    "howToUse": [
+      "Apply to clean skin morning and evening.",
+      "Sweep or press over the whole face, focusing on darker areas.",
+      "Follow with serum and moisturiser.",
+      "Daily sunscreen is essential, or pigmentation returns."
+    ]
+  },
+  {
+    "slug": "numbuzin-no9-nad-pdrn-glow-boosting-toner",
+    "sku": "BC-NUM-001",
+    "name": "No.9 NAD+ PDRN Glow Boosting Toner",
+    "brand": "numbuzin",
+    "brandSlug": "numbuzin",
+    "price": 90000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "toners",
+    "format": "Toner",
+    "skinTypes": ["All", "Normal", "Dry"],
+    "concerns": ["Dullness & uneven tone", "Texture"],
+    "keyIngredients": ["NAD+", "PDRN", "Niacinamide"],
+    "match": "numbuzin No.9",
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "NAD+ and PDRN for skin that has lost its bounce, aimed at radiance rather than quick fixes.",
+    "description": [
+      "NAD+ is one of the more interesting recent additions to skincare, borrowed from longevity research and aimed at skin that looks tired rather than damaged.",
+      "Paired with PDRN for recovery, this is a toner for the stage where skin is not breaking out or flaking, it has simply gone dull and slack."
+    ],
+    "benefits": [
+      "Restores radiance to tired, ageing skin",
+      "Supports firmness and bounce over time",
+      "Hydrates without weight",
+      "Works as the first step of an anti-ageing routine"
+    ],
+    "howToUse": [
+      "Apply to clean skin morning and evening.",
+      "Press in one or two layers.",
+      "Follow with serum and moisturiser.",
+      "Give it six to eight weeks before judging results."
+    ]
+  }
+]

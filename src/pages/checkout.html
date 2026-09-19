@@ -1,0 +1,152 @@
+<!--meta
+{
+  "path": "/checkout/",
+  "title": "Checkout | Beauty Crib",
+  "description": "Complete your Beauty Crib order. Pay with MTN Mobile Money, Airtel Money, card, bank transfer or cash on delivery.",
+  "bodyClass": "page-checkout",
+  "noindex": true,
+  "scripts": ["checkout"]
+}
+-->
+
+    <div class="container">
+      <div class="checkout-header">
+        <a class="btn btn--text" href="/cart/">Back to bag</a>
+        <p class="checkout-header__secure">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="10.5" width="14" height="9.5"/><path d="M8.5 10.5V7.8a3.5 3.5 0 0 1 7 0v2.7"/></svg>
+          Secure checkout
+        </p>
+      </div>
+
+      <div class="empty-state" data-checkout-empty hidden style="margin-top: 40px">
+        <h2 class="empty-state__title">There is nothing to check out</h2>
+        <p>Your bag is empty, so there is no order to place yet.</p>
+        <div class="btn-row"><a class="btn btn--solid" href="/shop/">Shop products</a></div>
+      </div>
+
+      <form class="checkout-layout" data-checkout-form novalidate>
+        <div class="checkout-main">
+          <h1 class="display-s" style="margin-bottom: 8px">Checkout</h1>
+          <p class="note" style="margin-bottom: 32px">Delivery across Uganda. All prices in Ugandan shillings.</p>
+
+          <section class="checkout-step">
+            <div class="checkout-step__head">
+              <span class="checkout-step__index">01</span>
+              <h2 class="checkout-step__title">Contact</h2>
+            </div>
+            <div class="field-row">
+              <div class="field">
+                <label for="email">Email address</label>
+                <input type="email" id="email" name="email" autocomplete="email" required placeholder="you@example.com">
+                <p class="field__hint">Your order confirmation is sent here.</p>
+              </div>
+              <div class="field">
+                <label for="phone">Phone number</label>
+                <input type="tel" id="phone" name="phone" inputmode="tel" autocomplete="tel" required placeholder="0712 345 678">
+                <p class="field__hint">Used by the rider on the day of delivery.</p>
+              </div>
+            </div>
+            <label class="checkbox" style="margin-top: 18px">
+              <input type="checkbox" name="createAccount">
+              <span class="checkbox__box" aria-hidden="true"></span>
+              <span class="checkbox__label">Create an account so I can track this order</span>
+            </label>
+          </section>
+
+          <section class="checkout-step">
+            <div class="checkout-step__head">
+              <span class="checkout-step__index">02</span>
+              <h2 class="checkout-step__title">Delivery address</h2>
+            </div>
+            <div class="field">
+              <label for="name">Full name</label>
+              <input type="text" id="name" name="name" autocomplete="name" required>
+            </div>
+            <div class="field-row" style="margin-top: 18px">
+              <div class="field">
+                <label for="district">District</label>
+                <select id="district" name="district" required>
+                  <option value="">Select a district</option>
+                  {{districtOptions}}
+                </select>
+              </div>
+              <div class="field">
+                <label for="city">Town or city</label>
+                <input type="text" id="city" name="city" autocomplete="address-level2" required placeholder="Ntinda, Entebbe, Mbarara">
+              </div>
+            </div>
+            <div class="field" style="margin-top: 18px">
+              <label for="address">Area, street and landmark</label>
+              <input type="text" id="address" name="address" autocomplete="street-address" required placeholder="Plot 12 Kira Road, opposite the fuel station">
+              <p class="field__hint">A landmark helps our riders far more than a street name alone.</p>
+            </div>
+            <div class="field" style="margin-top: 18px">
+              <label for="instructions">Delivery instructions <span class="field__hint" style="text-transform: none; letter-spacing: 0">(optional)</span></label>
+              <textarea id="instructions" name="instructions" rows="3" placeholder="Call when you arrive at the gate, deliver after 5pm, leave with reception"></textarea>
+            </div>
+          </section>
+
+          <section class="checkout-step">
+            <div class="checkout-step__head">
+              <span class="checkout-step__index">03</span>
+              <h2 class="checkout-step__title">Delivery method</h2>
+            </div>
+            {{shippingOptions}}
+            <p class="note" style="margin-top: 14px">{{site.delivery.cutOff}}</p>
+          </section>
+
+          <section class="checkout-step">
+            <div class="checkout-step__head">
+              <span class="checkout-step__index">04</span>
+              <h2 class="checkout-step__title">Payment</h2>
+            </div>
+            {{paymentOptions}}
+            <p class="note" style="margin-top: 14px">
+              Card details are never entered on this site or stored by Beauty Crib. Card payments are completed on
+              our payment provider's secure page.
+            </p>
+          </section>
+
+          <section class="checkout-step">
+            <label class="checkbox">
+              <input type="checkbox" name="terms" required>
+              <span class="checkbox__box" aria-hidden="true"></span>
+              <span class="checkbox__label">
+                I have read and accept the <a href="/terms-conditions/">terms and conditions</a> and
+                <a href="/privacy-policy/">privacy policy</a>.
+              </span>
+            </label>
+            <button class="btn btn--solid btn--lg btn--block" type="submit" data-place-order style="margin-top: 24px">Place order</button>
+          </section>
+        </div>
+
+        <aside class="checkout-aside">
+          <button class="order-summary__toggle" type="button" data-summary-toggle aria-expanded="false">
+            <span>Show order summary</span>
+            <span data-toggle-total>UGX 0</span>
+          </button>
+
+          <div class="summary" data-summary-body>
+            <h2 class="summary__title">Order summary</h2>
+            <ul class="order-summary__items" data-summary-items></ul>
+            <div class="summary__row">
+              <span>Subtotal</span>
+              <span data-summary-subtotal>UGX 0</span>
+            </div>
+            <div class="summary__row">
+              <span>Delivery</span>
+              <span data-summary-delivery>Confirmed on order</span>
+            </div>
+            <div class="summary__row summary__row--total">
+              <span>Total</span>
+              <span data-summary-total>UGX 0</span>
+            </div>
+            <p class="summary__note" data-summary-note>
+              Delivery is confirmed by our team before dispatch and added to this total. We will contact you if
+              anything changes.
+            </p>
+            <p class="note"><a href="/returns-refunds/">Returns and refunds</a> &middot; <a href="/shipping-delivery/">Delivery information</a></p>
+          </div>
+        </aside>
+      </form>
+    </div>

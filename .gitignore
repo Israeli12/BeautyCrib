@@ -1,0 +1,11 @@
+# Dependencies (reinstall with: cd tools && npm install)
+node_modules/
+
+# Local Claude Code settings may hold machine-specific permissions
+.claude/settings.local.json
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log

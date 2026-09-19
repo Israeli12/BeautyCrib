@@ -1,0 +1,199 @@
+[
+  {
+    "slug": "skincare",
+    "name": "Skincare",
+    "index": "01",
+    "image": "editorial/category-skincare",
+    "imageAlt": "Close portrait of a woman with hydrated, glowing skin",
+    "title": "Skincare Products in Uganda | Beauty Crib",
+    "meta": "Shop cleansers, serums and moisturisers at Beauty Crib. Authentic skincare from Anua, COSRX, SKIN1004 and more, delivered across Uganda.",
+    "tagline": "Where every routine starts.",
+    "intro": "Skincare is the part of beauty that rewards patience. Our skincare shelf is built around the steps that actually change how skin behaves: a cleanse that respects the barrier, an active that earns its place, and sun protection worn every day. Everything here is sourced genuine, and chosen for skin living in Uganda's sun and humidity.",
+    "seoText": "Beauty Crib stocks authentic skincare products in Uganda, from Korean cleansers and serums to dermatologist staples. Order online from Kampala and we deliver countrywide.",
+    "subcategories": [
+      {
+        "slug": "cleansers",
+        "name": "Cleansers",
+        "title": "Face Cleansers in Uganda: Anua, COSRX & SKIN1004 | Beauty Crib",
+        "meta": "Shop genuine face cleansers in Uganda: cleansing oils, foams, balms and acid washes for oily, dry, sensitive and acne-prone skin. Delivery countrywide.",
+        "tagline": "The first step, done properly.",
+        "intro": "A cleanser is the only product your skin meets twice a day, every day, so it sets the tone for everything after it. This is our full cleansing shelf: oils and balms that dissolve sunscreen and makeup, foams that clean without stripping, and acid washes for skin that breaks out.",
+        "seoText": "Face cleansers from Anua, COSRX, SKIN1004, Medicube, SOME BY MI, Isntree, PanOxyl and more. Every cleanser at Beauty Crib is sourced genuine and dispatched from Kampala."
+      },
+      {
+        "slug": "toners",
+        "name": "Toners & Essences",
+        "title": "Toners & Essences in Uganda: COSRX & Medicube | Beauty Crib",
+        "meta": "Shop genuine toners and essences in Uganda: hydrating, brightening and exfoliating toners for oily, dry, sensitive and acne-prone skin. Delivery countrywide.",
+        "tagline": "The step that decides how the rest performs.",
+        "intro": "A toner is not an afterthought. It is the layer that resets skin after cleansing and decides how well everything after it absorbs. This shelf runs from gentle hydrating toners and essences to acid liquids for congestion, and brightening formulas for dark marks and uneven tone.",
+        "seoText": "Toners and essences from COSRX, Medicube, Eqqualberry, Nineless, numbuzin and Dr. Althea. Every product at Beauty Crib is sourced genuine and dispatched from Kampala."
+      },
+      {
+        "slug": "serums-treatments",
+        "name": "Serums & Treatments",
+        "comingSoon": true
+      },
+      {
+        "slug": "moisturisers",
+        "name": "Moisturisers",
+        "comingSoon": true
+      },
+      {
+        "slug": "sun-care",
+        "name": "Sun Care",
+        "comingSoon": true
+      },
+      {
+        "slug": "masks-exfoliants",
+        "name": "Masks & Exfoliants",
+        "comingSoon": true
+      }
+    ]
+  },
+  {
+    "slug": "makeup",
+    "name": "Makeup",
+    "index": "02",
+    "image": "editorial/category-makeup",
+    "imageAlt": "Editorial beauty portrait with a glossy lip",
+    "comingSoon": true,
+    "title": "Makeup Products in Uganda | Beauty Crib",
+    "meta": "Makeup at Beauty Crib: complexion, eyes and lips chosen for deeper skin tones. Join the list to hear when the makeup edit arrives in Uganda.",
+    "tagline": "Complexion first, colour second.",
+    "intro": "Our makeup edit is being built around a simple test: does it hold up in Kampala heat, and does the shade range treat deeper skin tones as the default rather than an afterthought. Face, eyes and lips arrive together.",
+    "seoText": "Beauty Crib is curating an authentic makeup range for Uganda, with foundations, lipsticks and complexion products selected for deeper skin tones.",
+    "subcategories": [
+      {
+        "slug": "face",
+        "name": "Face",
+        "comingSoon": true
+      },
+      {
+        "slug": "eyes",
+        "name": "Eyes",
+        "comingSoon": true
+      },
+      {
+        "slug": "lips",
+        "name": "Lips",
+        "comingSoon": true
+      }
+    ]
+  },
+  {
+    "slug": "hair-care",
+    "name": "Hair Care",
+    "index": "03",
+    "image": "editorial/category-hair-care",
+    "imageAlt": "Black and white portrait of a woman with sculpted finger waves",
+    "comingSoon": true,
+    "title": "Hair Care Products in Uganda | Beauty Crib",
+    "meta": "Hair care at Beauty Crib: cleansing, treatment and styling for textured hair. Join the list to hear when the hair edit arrives in Uganda.",
+    "tagline": "Built for textured hair.",
+    "intro": "Textured hair needs moisture, protein and protection in the right order, not a shelf of products fighting each other. The hair edit is being assembled with that sequence in mind.",
+    "seoText": "Beauty Crib is building a hair care range for Uganda, focused on shampoos, treatments and styling products that suit textured and natural hair.",
+    "subcategories": [
+      {
+        "slug": "shampoo-conditioner",
+        "name": "Shampoo & Conditioner",
+        "comingSoon": true
+      },
+      {
+        "slug": "treatments",
+        "name": "Treatments",
+        "comingSoon": true
+      },
+      {
+        "slug": "styling",
+        "name": "Styling",
+        "comingSoon": true
+      }
+    ]
+  },
+  {
+    "slug": "body-care",
+    "name": "Body Care",
+    "index": "04",
+    "image": "editorial/category-body-care",
+    "imageAlt": "Warm portrait of glowing, well-cared-for skin",
+    "comingSoon": true,
+    "title": "Body Care Products in Uganda | Beauty Crib",
+    "meta": "Body care at Beauty Crib: washes, scrubs, lotions and oils for soft, even skin. Join the list to hear when the body edit arrives in Uganda.",
+    "tagline": "The glow below the neck.",
+    "intro": "Most people give their face five steps and their body none. The body edit is being chosen to close that gap: cleansing that does not strip, exfoliation that is not sandpaper, and moisture that lasts a full day.",
+    "seoText": "Beauty Crib is curating body care for Uganda, including body washes, scrubs, lotions and oils for smooth, even-toned skin.",
+    "subcategories": [
+      {
+        "slug": "wash",
+        "name": "Wash",
+        "comingSoon": true
+      },
+      {
+        "slug": "lotions-oils",
+        "name": "Lotions & Oils",
+        "comingSoon": true
+      },
+      {
+        "slug": "scrubs",
+        "name": "Scrubs",
+        "comingSoon": true
+      }
+    ]
+  },
+  {
+    "slug": "fragrance",
+    "name": "Fragrance",
+    "index": "05",
+    "image": "editorial/category-fragrance",
+    "imageAlt": "Dramatic beauty portrait with water on the skin",
+    "comingSoon": true,
+    "title": "Fragrance & Perfume in Uganda | Beauty Crib",
+    "meta": "Fragrance at Beauty Crib: perfumes and body mists chosen to last in warm weather. Join the list to hear when the fragrance edit arrives in Uganda.",
+    "tagline": "Worn, not announced.",
+    "intro": "Heat changes how a fragrance behaves. The fragrance edit is being selected for scents that hold their shape through a warm afternoon rather than disappearing by midday.",
+    "seoText": "Beauty Crib is curating authentic perfume and body mist for Uganda, chosen to perform in a warm climate.",
+    "subcategories": [
+      {
+        "slug": "perfume",
+        "name": "Perfume",
+        "comingSoon": true
+      },
+      {
+        "slug": "body-mist",
+        "name": "Body Mist",
+        "comingSoon": true
+      }
+    ]
+  },
+  {
+    "slug": "beauty-tools",
+    "name": "Beauty Tools",
+    "index": "06",
+    "image": "editorial/category-beauty-tools",
+    "imageAlt": "Close-up of a hand resting against glowing skin",
+    "comingSoon": true,
+    "title": "Beauty Tools & Accessories in Uganda | Beauty Crib",
+    "meta": "Beauty tools at Beauty Crib: brushes, sponges and devices that make a routine work. Join the list to hear when the tools edit arrives in Uganda.",
+    "tagline": "The quiet half of a routine.",
+    "intro": "Good tools make ordinary products perform better. Brushes, sponges, cleansing tools and the small accessories that keep a routine running are on their way.",
+    "seoText": "Beauty Crib is curating beauty tools and accessories for Uganda, including brushes, sponges and cleansing devices.",
+    "subcategories": [
+      {
+        "slug": "brushes",
+        "name": "Brushes",
+        "comingSoon": true
+      },
+      {
+        "slug": "sponges",
+        "name": "Sponges",
+        "comingSoon": true
+      },
+      {
+        "slug": "devices",
+        "name": "Devices",
+        "comingSoon": true
+      }
+    ]
+  }
+]

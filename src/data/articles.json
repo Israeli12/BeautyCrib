@@ -1,0 +1,291 @@
+[
+  {
+    "slug": "the-double-cleanse-explained",
+    "title": "The double cleanse, explained",
+    "category": "Skincare",
+    "date": "2026-09-02",
+    "dateDisplay": "2 September 2026",
+    "readTime": "6 minute read",
+    "author": "The Beauty Crib Editors",
+    "image": "editorial/journal-double-cleanse",
+    "imageAlt": "Close-up of skin with a fresh, hydrated finish after cleansing",
+    "featured": true,
+    "seoTitle": "The Double Cleanse, Explained | Beauty Crib Journal",
+    "meta": "What double cleansing is, why sunscreen and makeup need an oil first, and how to do it in two minutes. A practical guide from Beauty Crib, Uganda.",
+    "excerpt": "Two cleansers sound like one too many. Here is why the order matters more than the number.",
+    "standfirst": "Oil first, water second. It is the least glamorous habit in skincare and the one that changes the most.",
+    "body": [
+      { "type": "p", "text": "If you wear sunscreen, and you should, you are already a candidate for double cleansing. Modern sunscreens are built to resist water and sweat, which is exactly what makes them stubborn. A foaming cleanser is water-based, and water-based cleansers are not designed to dissolve a film that was engineered to survive a swim." },
+      { "type": "p", "text": "That is the whole argument. Not a trend, not an extra step for its own sake, but a matter of chemistry: oil dissolves oil. Sunscreen, long-wear makeup, sebum and the fine dust that settles on skin during a Kampala commute all belong to the oil family. Give them an oil to leave with and they go quietly." },
+      { "type": "h2", "text": "What each step actually does" },
+      { "type": "p", "text": "The first cleanse is an oil, a balm or a cleansing powder that turns to milk. It goes onto dry skin with dry hands, because water gets in the way of the reaction you want. You massage for thirty to sixty seconds, add water until the product turns milky, then rinse. This is the step doing the heavy lifting." },
+      { "type": "p", "text": "The second cleanse is your everyday foam or gel. It removes what the oil left behind and resets the skin's surface so that whatever you apply next can actually absorb. This step should be brief and gentle. If your face feels tight afterwards, the cleanser is too strong, not the routine." },
+      { "type": "quote", "text": "If your skin squeaks, that is not clean. That is stripped." },
+      { "type": "h2", "text": "The two-minute version" },
+      { "type": "list", "items": [
+        "Dry hands, dry face. Two to three pumps of cleansing oil, or a scoop of balm.",
+        "Massage in slow circles for thirty to sixty seconds, spending most of it on the nose, chin and hairline.",
+        "Wet your fingers and keep massaging until the oil turns milky. This is the emulsifying stage, and skipping it is why people think oils leave residue.",
+        "Rinse with lukewarm water, never hot.",
+        "Follow with a small amount of foam or gel cleanser, thirty seconds, then rinse.",
+        "Pat dry, leave skin slightly damp, and move on to your next step within a minute."
+      ] },
+      { "type": "products", "heading": "What we use for step one", "slugs": ["anua-heartleaf-pore-control-cleansing-oil", "aprilskin-carrotene-ipmp-hydromelt-cleansing-balm", "medicube-zero-pore-blackhead-deep-cleansing-oil"] },
+      { "type": "h2", "text": "Common mistakes" },
+      { "type": "p", "text": "Double cleansing in the morning is the first one. There is nothing to dissolve at 7am beyond your night cream, so one gentle cleanse is enough. Save the full routine for the evening, when there is sunscreen and a day's worth of everything else to remove." },
+      { "type": "p", "text": "Rushing the massage is the second. Thirty seconds feels much longer than it sounds, and it is where the difference between a clean surface and clear pores lives. Set a timer once and you will recalibrate for good." },
+      { "type": "p", "text": "The third is treating an oil cleanser as a moisturiser. It leaves, taking the day with it. Hydration comes from what you apply afterwards, onto skin still slightly damp." },
+      { "type": "h2", "text": "If your skin is oily or breaking out" },
+      { "type": "p", "text": "Oily skin benefits from double cleansing more than most, not less. Stripping oil aggressively tends to push skin into producing more of it, which is how a harsh routine quietly makes congestion worse. A cleansing oil followed by a gentle salicylic acid wash is a calmer and more effective pairing than one very strong cleanser doing everything." },
+      { "type": "products", "heading": "And for step two", "slugs": ["cosrx-salicylic-acid-daily-gentle-cleanser", "skin1004-centella-ampoule-foam", "somebymi-aha-bha-pha-30-days-miracle-acne-clear-foam"] },
+      { "type": "takeaways", "items": [
+        "Double cleanse in the evening only, when sunscreen and makeup need removing.",
+        "Oil onto dry skin, massage, emulsify with water, then rinse.",
+        "The second cleanse should be short and gentle, not a second scrub.",
+        "Tight, squeaky skin is a sign to soften the routine, not to push harder."
+      ] }
+    ],
+    "faqs": [
+      { "q": "Do I need to double cleanse if I do not wear makeup?", "a": "If you wear sunscreen, yes. Sunscreen is designed to resist water, so an oil-based first cleanse removes it far more reliably than foam alone." },
+      { "q": "Will a cleansing oil cause breakouts?", "a": "A well-formulated cleansing oil is rinsed off, so it does not sit on the skin. Congestion is more often caused by skipping the emulsifying step, which leaves a film behind." },
+      { "q": "Can I use a cleansing balm and a cleansing oil together?", "a": "There is no benefit. They do the same job, so pick whichever texture you prefer and follow it with a water-based cleanser." }
+    ],
+    "related": ["how-to-choose-a-face-cleanser-for-your-skin-type", "skincare-for-kampala-heat-and-humidity"]
+  },
+  {
+    "slug": "how-to-choose-a-face-cleanser-for-your-skin-type",
+    "title": "How to choose a face cleanser for your skin type",
+    "category": "Guides",
+    "date": "2026-08-21",
+    "dateDisplay": "21 August 2026",
+    "readTime": "7 minute read",
+    "author": "The Beauty Crib Editors",
+    "image": "editorial/journal-choose-cleanser",
+    "imageAlt": "Portrait of a woman with calm, well-moisturised skin",
+    "featured": false,
+    "seoTitle": "How to Choose a Face Cleanser for Your Skin Type | Beauty Crib",
+    "meta": "Dry, oily, combination, sensitive or acne-prone: how to pick the right face cleanser, and the signs yours is wrong. Beauty Crib, Uganda.",
+    "excerpt": "The most-used product in your routine, chosen by texture instead of need. Here is a better method.",
+    "standfirst": "Your cleanser is the only product your skin meets twice a day. It deserves more thought than it usually gets.",
+    "body": [
+      { "type": "p", "text": "Most people inherit their cleanser. It was on a shelf, it smelled good, the foam was satisfying. Then they spend money on serums trying to fix the dryness or congestion that the cleanser is quietly causing." },
+      { "type": "p", "text": "Start instead with one question: how does your skin feel fifteen minutes after washing? Not immediately, when everything feels fresh, but a quarter of an hour later. Comfortable means the cleanser fits. Tight, itchy or shiny within the hour means it does not." },
+      { "type": "h2", "text": "Dry and sensitive skin" },
+      { "type": "p", "text": "Look for cream, milk or a low-foam wash built around hydrating and barrier-supporting ingredients such as hyaluronic acid, panthenol, ceramides or centella. Avoid high-foam formulas that rely on strong surfactants, and avoid anything that lists alcohol high in the ingredients." },
+      { "type": "products", "heading": "For dry and sensitive skin", "slugs": ["anua-8-hyaluronic-acid-hydrating-gentle-foaming-cleanser", "skin1004-centella-ampoule-foam"] },
+      { "type": "h2", "text": "Oily and combination skin" },
+      { "type": "p", "text": "A gel or foam with a mild exfoliating acid keeps pores clear without the rebound oiliness of a harsh wash. Salicylic acid is oil-soluble, which is why it reaches inside the pore rather than working only on the surface. If only your T-zone is oily, treat that zone rather than the whole face." },
+      { "type": "products", "heading": "For oily and combination skin", "slugs": ["skin1004-centella-poremizing-deep-cleansing-foam", "isntree-green-tea-cleanser", "cosrx-salicylic-acid-daily-gentle-cleanser"] },
+      { "type": "h2", "text": "Acne-prone skin" },
+      { "type": "p", "text": "Two active routes are worth knowing. Salicylic acid clears the pore lining, and benzoyl peroxide works on the bacteria involved in breakouts. Benzoyl peroxide is stronger and drier, so introduce it slowly, use it as a short-contact wash, and expect it to bleach coloured towels and bedding." },
+      { "type": "p", "text": "Whichever you choose, one active cleanser is enough. Stacking an acid wash, an acid toner and a strong treatment is the most common route to a damaged barrier, which looks confusingly similar to the problem you were trying to solve." },
+      { "type": "products", "heading": "For breakout-prone skin", "slugs": ["panoxyl-acne-creamy-wash", "nineless-a-control-heartleaf-bha-cleanser", "skin1004-centella-tea-trica-bha-foam"] },
+      { "type": "quote", "text": "One active cleanser, used consistently, beats three used nervously." },
+      { "type": "h2", "text": "Normal skin, and everyone in between" },
+      { "type": "p", "text": "If your skin is largely uncomplicated, use that freedom on texture and tone rather than on damage control. A niacinamide foam or an enzyme powder gives a gentle polish and keeps skin looking even without asking much of it." },
+      { "type": "products", "heading": "For most skin, most days", "slugs": ["anua-peach-niacin-spread-cleansing-foam", "anua-rice-ceramide-cleansing-powder", "k-secret-seoul-1988-cleansing-foam"] },
+      { "type": "h2", "text": "Four signs your cleanser is wrong" },
+      { "type": "list", "items": [
+        "Skin feels tight and needs moisturiser urgently rather than eventually.",
+        "You are oilier by midday than you were before you changed cleanser.",
+        "Small, rough bumps appear along the jaw and hairline, which often means residue.",
+        "Stinging, flushing or a rash-like reaction, which means stop, not persevere."
+      ] },
+      { "type": "takeaways", "items": [
+        "Judge a cleanser fifteen minutes after rinsing, not while your face is still wet.",
+        "Match the cleanser to how your skin behaves now, not to how it behaved two years ago.",
+        "Skin changes with season and climate, so a cleanser that worked in December may not suit March.",
+        "Give a new cleanser two weeks before deciding, unless it stings."
+      ] }
+    ],
+    "faqs": [
+      { "q": "How often should I change cleanser?", "a": "Only when your skin changes. Season, climate and treatments such as acne medication all shift what your skin needs." },
+      { "q": "Is a foaming cleanser bad for dry skin?", "a": "Not necessarily. A low-pH foam built with mild surfactants and hydrating ingredients can suit dry skin. The foam itself is not the problem, the strength of the surfactants is." },
+      { "q": "Should I use a different cleanser morning and evening?", "a": "Many people do. A gentle cleanser in the morning and an active or oil-based routine at night is a sensible split." }
+    ],
+    "related": ["the-double-cleanse-explained", "how-to-spot-fake-skincare-products"]
+  },
+  {
+    "slug": "skincare-for-kampala-heat-and-humidity",
+    "title": "Skincare for Kampala heat and humidity",
+    "category": "Routines",
+    "date": "2026-08-07",
+    "dateDisplay": "7 August 2026",
+    "readTime": "6 minute read",
+    "author": "The Beauty Crib Editors",
+    "image": "editorial/journal-humidity",
+    "imageAlt": "Beauty portrait with water across the skin",
+    "featured": false,
+    "seoTitle": "A Skincare Routine for Kampala Heat and Humidity | Beauty Crib",
+    "meta": "How to build a skincare routine for Uganda's climate: lighter layers, real sun protection and control of midday shine. From Beauty Crib in Kampala.",
+    "excerpt": "Routines written for cold, dry winters do not translate. Here is what works in our weather.",
+    "standfirst": "Most skincare advice online is written for a climate none of us live in. Ours needs fewer layers and better sun protection.",
+    "body": [
+      { "type": "p", "text": "Uganda sits on the equator at altitude, which is a particular combination: strong ultraviolet light year round, warm days, and humidity that rises sharply in the rainy seasons. Skin behaves differently here than it does in the places most tutorials are filmed." },
+      { "type": "p", "text": "Two practical consequences. Products absorb more slowly when the air is already holding moisture, so heavy layers sit on the skin and mix with sweat. And ultraviolet exposure is high on cloudy days, so sun protection is not a dry-season decision." },
+      { "type": "h2", "text": "Fewer steps, better chosen" },
+      { "type": "p", "text": "A ten-step routine in this climate usually turns into pilling, shine and congestion. Four steps in the morning and four at night are plenty for most people: cleanse, treat, moisturise, protect." },
+      { "type": "list", "items": [
+        "Morning: gentle cleanse, a lightweight hydrating layer, a gel or fluid moisturiser, then sunscreen.",
+        "Evening: cleansing oil if you wore sunscreen or makeup, a second gentle cleanse, your active, then moisturiser.",
+        "Swap heavy creams for gel textures in the hotter months and save richer formulas for skin that genuinely needs them."
+      ] },
+      { "type": "h2", "text": "Sunscreen is the whole routine" },
+      { "type": "p", "text": "Deeper skin tones have more natural protection against burning, and this is the source of a persistent myth that sunscreen is optional. It is not. Ultraviolet exposure drives hyperpigmentation and uneven tone, which is the concern that brings more people to a skincare counter here than any other." },
+      { "type": "p", "text": "Look for broad spectrum SPF 30 or higher in a texture you will actually wear every day. Modern Korean and Japanese formulas tend to be lighter and leave less of a white cast, which matters when the alternative is not wearing any." },
+      { "type": "quote", "text": "The dark marks people spend the most money treating are largely a sun protection problem." },
+      { "type": "h2", "text": "Controlling shine without stripping" },
+      { "type": "p", "text": "Midday shine is the most common complaint, and the most commonly mishandled. Washing more often, with something stronger, tends to make it worse: skin compensates for aggressive cleansing by producing more oil." },
+      { "type": "p", "text": "A better approach is a mild salicylic acid or green tea cleanser used twice a day, a light moisturiser that does not tempt you to skip it, and blotting rather than rewashing at lunchtime." },
+      { "type": "products", "heading": "Cleansers that suit the climate", "slugs": ["isntree-green-tea-cleanser", "cosrx-salicylic-acid-daily-gentle-cleanser", "skin1004-centella-ampoule-foam"] },
+      { "type": "h2", "text": "Rainy season adjustments" },
+      { "type": "p", "text": "When humidity climbs, most people can drop one layer and stay comfortable. Move a rich cream to night only, keep the hydrating layer, and let sunscreen do the sealing during the day. When the dry, dusty weeks arrive, reverse it: skin will ask for more, and there is no prize for refusing." },
+      { "type": "takeaways", "items": [
+        "Wear broad spectrum sunscreen daily, including cloudy days.",
+        "Prefer gel and fluid textures in hot, humid weeks.",
+        "Do not fight oil by cleansing harder. Fight it by cleansing consistently and gently.",
+        "Adjust your routine by season, not by trend."
+      ] }
+    ],
+    "faqs": [
+      { "q": "Do deeper skin tones need sunscreen?", "a": "Yes. Melanin offers some protection from burning, but not from the ultraviolet exposure that drives dark marks and uneven tone." },
+      { "q": "Why does my sunscreen pill under makeup?", "a": "Usually too many layers, or not enough time between them. Give each layer a minute to set and reduce the number of products underneath." },
+      { "q": "Should I moisturise if my skin is oily?", "a": "Yes. Skipping moisturiser tends to increase oil production. Use a light gel formula rather than nothing." }
+    ],
+    "related": ["the-double-cleanse-explained", "the-body-glow-routine"]
+  },
+  {
+    "slug": "how-to-spot-fake-skincare-products",
+    "title": "How to spot fake skincare products",
+    "category": "Guides",
+    "date": "2026-07-24",
+    "dateDisplay": "24 July 2026",
+    "readTime": "7 minute read",
+    "author": "The Beauty Crib Editors",
+    "image": "editorial/journal-spot-fakes",
+    "imageAlt": "Woman applying cream to her cheek against a white background",
+    "featured": false,
+    "seoTitle": "How to Spot Fake Skincare Products in Uganda | Beauty Crib",
+    "meta": "Counterfeit skincare is common online. Batch codes, packaging, texture and price: how to check that beauty products in Uganda are genuine.",
+    "excerpt": "Counterfeits have improved. Your checks need to improve too.",
+    "standfirst": "The difference between a genuine product and a convincing copy is rarely the box. It is everything around it.",
+    "body": [
+      { "type": "p", "text": "Counterfeit cosmetics are a real problem across the region, and the imitations are no longer crude. Printing is sharp, holograms are copied, and photographs used in adverts are simply lifted from the brand. The reliable checks have moved elsewhere." },
+      { "type": "h2", "text": "Check the batch code first" },
+      { "type": "p", "text": "Genuine products carry a batch code printed or stamped on both the carton and the bottle, and the two should match. Free online batch-code checkers will decode manufacture dates for most major brands. A missing code, a code that appears on a sticker only, or a mismatch between box and bottle are all reasons to stop." },
+      { "type": "h2", "text": "Read the small print, not the front" },
+      { "type": "list", "items": [
+        "Ingredient lists on genuine packaging are printed crisply, in full, and in a consistent typeface.",
+        "Spelling and grammar errors in the small print are a strong signal, because brands proof this text carefully.",
+        "Check that the country of manufacture and the importer details are present and plausible.",
+        "Compare the shade of the packaging with the brand's own website. Counterfeits often drift a tone or two."
+      ] },
+      { "type": "h2", "text": "Trust the texture and the seal" },
+      { "type": "p", "text": "Open it. A genuine product will have an intact inner seal, the pump or dropper will work smoothly, and the texture and scent will match what the brand describes. Copies are frequently thinner, more strongly perfumed to mask a cheap base, and separate in the bottle." },
+      { "type": "quote", "text": "If the price looks like a miracle, it is usually a warning." },
+      { "type": "h2", "text": "Price, and where you buy" },
+      { "type": "p", "text": "Imported skincare carries freight, duty and handling before it reaches a shelf in Kampala. A price far below every other seller is not a bargain, it is information. The most reliable protection is the boring one: buy from a seller who will answer a question about sourcing, who accepts returns, and who can be found again next month." },
+      { "type": "p", "text": "That is the standard we hold ourselves to. Every product we list is sourced through channels we can account for, and if anything you receive from us looks wrong, we want to hear about it and will replace it." },
+      { "type": "takeaways", "items": [
+        "Match the batch code on the carton to the one on the bottle.",
+        "Read the small print for print quality, spelling and importer details.",
+        "Check seals, pumps, texture and scent as soon as you open it.",
+        "Be suspicious of prices far below the market, and buy from sellers you can return to."
+      ] }
+    ],
+    "faqs": [
+      { "q": "Are cheaper imported products always fake?", "a": "No. Prices vary with sourcing route, shipment size and exchange rates. A price far below every other seller in the market is the signal worth investigating." },
+      { "q": "What should I do if I think a product is counterfeit?", "a": "Stop using it, photograph the packaging and batch codes, and contact the seller. A legitimate seller will investigate and replace or refund." },
+      { "q": "Does packaging in another language mean it is fake?", "a": "Not at all. Korean and Japanese products are frequently sold in their domestic packaging. Look for a proper ingredient list and importer information rather than language alone." }
+    ],
+    "related": ["how-to-choose-a-face-cleanser-for-your-skin-type", "the-double-cleanse-explained"]
+  },
+  {
+    "slug": "skin-prep-before-makeup",
+    "title": "Skin prep: why your base starts the night before",
+    "category": "Makeup",
+    "date": "2026-07-09",
+    "dateDisplay": "9 July 2026",
+    "readTime": "5 minute read",
+    "author": "The Beauty Crib Editors",
+    "image": "editorial/journal-skin-prep",
+    "imageAlt": "Editorial close-up of an eye and brow with luminous skin",
+    "featured": false,
+    "seoTitle": "Skin Prep Before Makeup: How to Make Your Base Last | Beauty Crib",
+    "meta": "Foundation separating or clinging to dry patches? The fix is skin prep, not more product. A practical makeup guide from Beauty Crib, Uganda.",
+    "excerpt": "Foundation that separates by noon is usually a skincare problem wearing a makeup costume.",
+    "standfirst": "Every complexion problem blamed on foundation has a skincare explanation underneath it.",
+    "body": [
+      { "type": "p", "text": "Base makeup cannot correct the surface it sits on. If skin is dehydrated, foundation clings to the dry areas and looks patchy. If skin is oily and under-moisturised, it produces more oil through the day and the base breaks apart around the nose first." },
+      { "type": "h2", "text": "The night before" },
+      { "type": "p", "text": "Remove everything properly, because the residue left after a lazy cleanse is what causes tiny bumps that show through foundation a week later. Then hydrate. Skin that has had a settled night takes makeup far better than skin rescued with primer in the morning." },
+      { "type": "products", "heading": "Take it all off", "slugs": ["aprilskin-carrotene-ipmp-hydromelt-cleansing-balm", "skin1004-centella-light-cleansing-oil"] },
+      { "type": "h2", "text": "The morning sequence" },
+      { "type": "list", "items": [
+        "Cleanse gently. Skin does not need an active wash before makeup.",
+        "Hydrate onto slightly damp skin and give it a minute.",
+        "Moisturise with a texture that matches the weather, gel when it is hot, cream when it is dry.",
+        "Sunscreen, then wait two full minutes. This is the step most often rushed, and the most common cause of pilling.",
+        "Then base makeup, applied in thin layers rather than one thick one."
+      ] },
+      { "type": "quote", "text": "Pilling is almost always a timing problem, not a product problem." },
+      { "type": "h2", "text": "For deeper skin tones" },
+      { "type": "p", "text": "Two things matter more than any primer. First, undertone: a shade that is technically correct in depth but wrong in undertone will read ashy no matter how well the skin is prepped. Second, luminosity: heavily mattifying products can flatten the natural light in deeper skin, so keep matte to the areas that need it and let the rest breathe." },
+      { "type": "h2", "text": "At the end of the day" },
+      { "type": "p", "text": "Long-wear base makeup is built to resist, so it needs an oil or balm to leave. Sleeping in it is the fastest route to congestion, and the congestion then makes the next application look worse, which is a loop that is easier to avoid than to exit." },
+      { "type": "takeaways", "items": [
+        "Prep decides how base makeup wears, more than the foundation does.",
+        "Give sunscreen two minutes to set before makeup.",
+        "Thin layers, built where needed, rather than one heavy pass.",
+        "Always remove base makeup with an oil or balm first."
+      ] }
+    ],
+    "faqs": [
+      { "q": "Do I need a primer?", "a": "Usually not, if skin is properly hydrated and your sunscreen has set. Primers help most with specific issues such as visible pores in the T-zone." },
+      { "q": "Why does my foundation oxidise?", "a": "Some formulas react with skin oils and darken slightly. Prepping with the right moisturiser and setting the T-zone reduces it, and choosing a shade in daylight helps." },
+      { "q": "Can I use makeup wipes instead of an oil cleanser?", "a": "Wipes move makeup around rather than removing it and can irritate skin. If you use one in a hurry, follow it with a proper cleanse." }
+    ],
+    "related": ["the-double-cleanse-explained", "skincare-for-kampala-heat-and-humidity"]
+  },
+  {
+    "slug": "the-body-glow-routine",
+    "title": "The body-glow routine",
+    "category": "Body",
+    "date": "2026-06-18",
+    "dateDisplay": "18 June 2026",
+    "readTime": "5 minute read",
+    "author": "The Beauty Crib Editors",
+    "image": "editorial/journal-body-glow",
+    "imageAlt": "Portrait with a natural, healthy glow across the skin",
+    "featured": false,
+    "seoTitle": "The Body-Glow Routine: Smooth, Even Skin | Beauty Crib",
+    "meta": "Body skin gets the least attention and shows it. A simple routine for smooth, even, glowing skin, from Beauty Crib in Kampala.",
+    "excerpt": "Five steps for the face and none for the body. Here is a routine that closes the gap.",
+    "standfirst": "The skin below your jaw has the same needs as the skin above it, and a fraction of the attention.",
+    "body": [
+      { "type": "p", "text": "Body skin is thicker, drier and more exposed to friction than facial skin, and it is usually washed with something far harsher. That combination produces the things people ask about most: rough upper arms, dark patches at the knees and elbows, breakouts across the back and shoulders, and legs that look dull no matter how much lotion goes on." },
+      { "type": "h2", "text": "Wash less aggressively" },
+      { "type": "p", "text": "Very hot water and strongly perfumed soap strip the body's barrier just as effectively as a harsh face wash strips the face. Lukewarm water and a gentler cleanser change how skin feels within a week. If you break out across the back and shoulders, a benzoyl peroxide wash used two or three times a week is worth trying, left on for a minute before rinsing." },
+      { "type": "products", "heading": "Works on the body too", "slugs": ["panoxyl-acne-creamy-wash"] },
+      { "type": "h2", "text": "Exfoliate on a schedule, not a whim" },
+      { "type": "p", "text": "Twice a week is enough. Chemical exfoliation with lactic or salicylic acid handles dullness and bumpy texture more evenly than a scrub, and it does not create the micro-scratches that make dark marks worse on deeper skin tones." },
+      { "type": "quote", "text": "Scrubbing dark patches harder is the fastest way to keep them." },
+      { "type": "h2", "text": "Moisturise while damp" },
+      { "type": "p", "text": "The single most effective change: apply lotion or oil within three minutes of leaving the shower, while skin still holds water. You are sealing moisture in rather than adding it from scratch. Knees, elbows, ankles and heels take a second pass." },
+      { "type": "h2", "text": "Protect what you have worked on" },
+      { "type": "p", "text": "Sun exposure on the arms, chest and legs drives the same uneven tone that people treat on the face. If those areas are uncovered during the day, they need the same protection." },
+      { "type": "takeaways", "items": [
+        "Lukewarm water, gentler wash, no aggressive scrubbing.",
+        "Exfoliate chemically, twice a week, rather than scrubbing daily.",
+        "Moisturise within three minutes of showering, while skin is still damp.",
+        "Protect exposed skin from the sun to keep tone even."
+      ] }
+    ],
+    "faqs": [
+      { "q": "How do I fade dark knees and elbows?", "a": "Gentle chemical exfoliation, consistent moisture and sun protection. It is slow, and scrubbing harder sets it back." },
+      { "q": "Why do I break out on my back?", "a": "Sweat, friction from clothing and occlusive products all contribute. Shower soon after sweating and try a benzoyl peroxide wash a few times a week." },
+      { "q": "Is body oil better than lotion?", "a": "They do different jobs. Lotion adds water-based hydration, oil seals it in. In a humid climate many people prefer a light lotion, with oil reserved for very dry areas." }
+    ],
+    "related": ["skincare-for-kampala-heat-and-humidity", "how-to-choose-a-face-cleanser-for-your-skin-type"]
+  }
+]

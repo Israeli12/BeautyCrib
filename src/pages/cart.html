@@ -1,0 +1,76 @@
+<!--meta
+{
+  "path": "/cart/",
+  "title": "Your Bag | Beauty Crib",
+  "description": "Review the products in your Beauty Crib bag before checkout.",
+  "bodyClass": "page-cart",
+  "noindex": true,
+  "scripts": ["cart-page"]
+}
+-->
+
+    <div class="container">
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="/">Home</a></li>
+          <li aria-current="page">Bag</li>
+        </ol>
+      </nav>
+
+      <header class="page-head">
+        <p class="eyebrow">Checkout</p>
+        <h1 class="display-l page-head__title">Your bag</h1>
+      </header>
+
+      <div class="cart-layout">
+        <div class="cart-main">
+          <div class="cart-table" data-cart-rows></div>
+
+          <div class="empty-state" data-cart-page-empty hidden>
+            <h2 class="empty-state__title">Your bag is empty</h2>
+            <p>Nothing here yet. The cleansing shelf is a sensible place to begin, or read the Journal if you are not sure what your skin needs.</p>
+            <div class="btn-row">
+              <a class="btn btn--solid" href="/product-category/skincare/cleansers/">Shop cleansers</a>
+              <a class="btn btn--outline" href="/journal/">Read the Journal</a>
+            </div>
+          </div>
+
+          <form class="coupon" data-coupon-form novalidate>
+            <div class="field">
+              <label for="coupon">Discount code</label>
+              <input type="text" id="coupon" name="coupon" placeholder="Enter a code">
+            </div>
+            <button class="btn btn--outline" type="submit">Apply</button>
+            <p class="form__status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+
+        <aside class="cart-aside" data-cart-summary hidden>
+          <div class="summary">
+            <h2 class="summary__title">Summary</h2>
+            <div class="summary__row">
+              <span>Subtotal</span>
+              <span data-cart-subtotal>UGX 0</span>
+            </div>
+            <div class="summary__row">
+              <span>Delivery</span>
+              <span>Calculated at checkout</span>
+            </div>
+            <div class="summary__row summary__row--total">
+              <span>Total</span>
+              <span data-cart-subtotal>UGX 0</span>
+            </div>
+            <p class="summary__note">Delivery is confirmed before dispatch. Prices are in Ugandan shillings and include any applicable taxes.</p>
+            <a class="btn btn--solid btn--block" href="/checkout/">Checkout</a>
+            <p style="margin-top: 12px"><a class="btn btn--text btn--block" href="/shop/">Continue shopping</a></p>
+          </div>
+
+          <ul class="payment-marks" style="margin-top: 20px">
+            <li>MTN MoMo</li>
+            <li>Airtel Money</li>
+            <li>Visa</li>
+            <li>Mastercard</li>
+          </ul>
+        </aside>
+      </div>
+    </div>

@@ -1,0 +1,108 @@
+<!--meta
+{
+  "path": "/shop/",
+  "title": "Shop Beauty Products Online in Uganda | Beauty Crib",
+  "description": "Browse authentic skincare, makeup, hair care and body care at Beauty Crib. Order online, pay with Mobile Money and get delivery across Uganda.",
+  "bodyClass": "page-shop",
+  "scripts": ["shop"],
+  "ogImage": "editorial/category-skincare"
+}
+-->
+
+    <div class="container">
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="/">Home</a></li>
+          <li aria-current="page">Shop</li>
+        </ol>
+      </nav>
+
+      <header class="page-head page-head--split">
+        <div>
+          <p class="eyebrow">The shop</p>
+          <h1 class="display-l">Everything, <em>in one place.</em></h1>
+        </div>
+        <div>
+          <p class="page-head__lead">
+            The full Beauty Crib catalogue. Filter by brand, skin type or concern, and if you are unsure where to
+            start, the Journal is written for exactly that.
+          </p>
+          <p class="note" style="margin-top: 14px"><span data-result-count>{{productCount}} products</span> from {{brandCount}} brands</p>
+        </div>
+      </header>
+
+      <ul class="pill-row" style="margin-bottom: 8px">
+        <li><a class="pill is-active" href="/shop/">All</a></li>
+        <li><a class="pill" href="/product-category/skincare/">Skincare</a></li>
+        <li><a class="pill" href="/product-category/makeup/">Makeup</a></li>
+        <li><a class="pill" href="/product-category/hair-care/">Hair Care</a></li>
+        <li><a class="pill" href="/product-category/body-care/">Body Care</a></li>
+        <li><a class="pill" href="/product-category/fragrance/">Fragrance</a></li>
+        <li><a class="pill" href="/product-category/beauty-tools/">Beauty Tools</a></li>
+      </ul>
+
+      <div class="shop-layout">
+        <div class="filter-bar">
+          <div class="filter-bar__left">
+            <button class="filter-trigger" type="button" data-filter-open aria-haspopup="dialog">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16"/><path d="M7 12h10"/><path d="M10 17h4"/></svg>
+              Filter
+            </button>
+            <span class="filter-bar__count" data-result-count>{{productCount}} products</span>
+          </div>
+          <div class="filter-bar__right">
+            <div class="sort-select">
+              <label for="sort">Sort</label>
+              <select id="sort" data-sort>
+                <option value="featured">Featured</option>
+                <option value="price-asc">Price, low to high</option>
+                <option value="price-desc">Price, high to low</option>
+                <option value="name-asc">Name, A to Z</option>
+                <option value="brand-asc">Brand, A to Z</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="active-filters" data-active-filters></div>
+
+        <h2 class="visually-hidden">All products</h2>
+        <div class="grid grid--4 shop-grid" data-product-grid>
+          {{shopGrid}}
+
+          <div class="shop-interrupt">
+            <div class="shop-interrupt__media">{{shopInterruptMedia}}</div>
+            <div class="shop-interrupt__body">
+              <p class="eyebrow">From the Journal</p>
+              <h2 class="shop-interrupt__title">Not sure which cleanser?</h2>
+              <p class="shop-interrupt__text">
+                Five minutes of reading saves a season of buying the wrong thing. Our guide matches cleanser types
+                to dry, oily, combination, sensitive and acne-prone skin.
+              </p>
+              <a class="btn btn--outline btn--sm" href="/journal/how-to-choose-a-face-cleanser-for-your-skin-type/">Read the guide</a>
+            </div>
+          </div>
+        </div>
+
+        <p class="note" data-no-results hidden style="margin-top: 32px">
+          No products match those filters yet. Clear a filter, or
+          <a href="/contact/">tell us what you are looking for</a> and we will source it.
+        </p>
+
+        <div class="load-more" data-load-more hidden>
+          <button class="btn btn--outline" type="button" data-load-more-button>Load more</button>
+          <p class="load-more__status" data-load-status></p>
+        </div>
+
+        <div class="seo-text">
+          <h2 class="eyebrow" style="margin-bottom: 12px">About shopping beauty products in Uganda</h2>
+          <p>
+            Beauty Crib sells authentic beauty and skincare products online in Uganda. Orders are packed in Kampala
+            and delivered across the country, with payment by MTN Mobile Money, Airtel Money, card, bank transfer or
+            cash on delivery. If a product you want is not listed yet, ask us and we will look for it.
+          </p>
+        </div>
+      </div>
+    </div>
+
+{{> filters-drawer}}

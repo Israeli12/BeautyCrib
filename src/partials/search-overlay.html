@@ -1,0 +1,25 @@
+  <div class="search-overlay" data-search-overlay hidden aria-hidden="true">
+    <div class="search-overlay__panel" role="dialog" aria-modal="true" aria-label="Search">
+      <form class="search-overlay__form" action="/search/" method="get" role="search">
+        <label class="visually-hidden" for="site-search">Search products and articles</label>
+        <input class="search-overlay__input" type="search" id="site-search" name="q" placeholder="Search for a product, brand or concern" autocomplete="off" data-search-input>
+        <button class="btn btn--solid" type="submit">Search</button>
+        <button class="icon-btn search-overlay__close" type="button" data-search-close aria-label="Close search">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12"/><path d="m18 6-12 12"/></svg>
+        </button>
+      </form>
+
+      <div class="search-overlay__results" data-search-results hidden></div>
+
+      <div class="search-overlay__suggestions" data-search-suggestions>
+        <p class="eyebrow">Popular searches</p>
+        <ul class="pill-row">
+          <li><a class="pill" href="/search/?q=cleansing%20oil">Cleansing oil</a></li>
+          <li><a class="pill" href="/search/?q=acne">Acne</a></li>
+          <li><a class="pill" href="/search/?q=anua">Anua</a></li>
+          <li><a class="pill" href="/search/?q=sensitive">Sensitive skin</a></li>
+          <li><a class="pill" href="/search/?q=blackheads">Blackheads</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>

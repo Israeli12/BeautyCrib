@@ -1,0 +1,52 @@
+    <div class="container">
+      {{breadcrumbs}}
+
+      <header class="article-head">
+        <p class="eyebrow">{{category}}</p>
+        <h1 class="display-l article-head__title">{{title}}</h1>
+        <p class="lead article-head__standfirst">{{standfirst}}</p>
+        <p class="article-head__meta">
+          <span>{{author}}</span>
+          <span>{{dateDisplay}}</span>
+          <span>{{readTime}}</span>
+        </p>
+      </header>
+    </div>
+
+    <figure class="article-hero reveal-media">{{hero}}</figure>
+
+    <div class="container">
+      <article class="article-body rich">
+        {{body}}
+      </article>
+
+      <div class="article-foot">
+        <div class="article-share">
+          <span class="article-share__label">Share</span>
+          <a href="{{shareWhatsapp}}" rel="noopener nofollow" target="_blank">WhatsApp</a>
+          <a href="{{shareFacebook}}" rel="noopener nofollow" target="_blank">Facebook</a>
+          <a href="{{shareX}}" rel="noopener nofollow" target="_blank">X</a>
+          <button type="button" data-copy-link="{{shareUrlPlain}}">Copy link</button>
+        </div>
+
+        <section style="margin-top: 48px">
+          <h2 class="heading-2" style="margin-bottom: 20px">Questions people ask</h2>
+          {{faqs}}
+        </section>
+      </div>
+    </div>
+
+    <section class="section section--alt">
+      <div class="container">
+        <div class="section__head">
+          <div>
+            <p class="eyebrow">Keep reading</p>
+            <h2 class="display-m">Related from the Journal</h2>
+          </div>
+          <a class="btn btn--text" href="/journal/">All articles</a>
+        </div>
+        <div class="grid grid--3">
+          {{related}}
+        </div>
+      </div>
+    </section>

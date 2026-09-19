@@ -1,0 +1,65 @@
+  <header class="header header--{{headerVariant}}" data-header>
+    <div class="header__inner">
+      <a class="header__logo" href="/" aria-label="Beauty Crib, home">
+        <img src="/assets/img/logo/wordmark.svg" alt="Beauty Crib" width="1022" height="352">
+      </a>
+
+      <nav class="header__nav" aria-label="Main">
+        <ul class="nav">
+          <li class="nav__item nav__item--menu">
+            <a class="nav__link" href="/shop/">Shop</a>
+            <div class="nav__panel">
+              <div class="nav__panel-inner">
+                <div class="nav__col">
+                  <p class="eyebrow">Categories</p>
+                  <ul class="nav__list">
+                    {{navCategories}}
+                  </ul>
+                </div>
+                <div class="nav__col">
+                  <p class="eyebrow">Skincare</p>
+                  <ul class="nav__list">
+                    <li><a href="/product-category/skincare/cleansers/">Cleansers</a></li>
+                    <li><a href="/product-category/skincare/serums-treatments/">Serums &amp; Treatments</a></li>
+                    <li><a href="/product-category/skincare/moisturisers/">Moisturisers</a></li>
+                    <li><a href="/product-category/skincare/sun-care/">Sun Care</a></li>
+                    <li><a href="/product-category/skincare/masks-exfoliants/">Masks &amp; Exfoliants</a></li>
+                  </ul>
+                </div>
+                <div class="nav__col nav__col--wide">
+                  <a class="nav__promo" href="/product-category/skincare/cleansers/">
+                    <span class="eyebrow">The edit</span>
+                    <span class="nav__promo-title">Cleansers, chosen properly</span>
+                    <span class="nav__promo-note">17 products from Anua, COSRX, SKIN1004 and more</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav__item"><a class="nav__link" href="/philosophy/">Philosophy</a></li>
+          <li class="nav__item"><a class="nav__link" href="/journal/">Journal</a></li>
+          <li class="nav__item"><a class="nav__link" href="/gallery/">Gallery</a></li>
+        </ul>
+      </nav>
+
+      <div class="header__actions">
+        <button class="icon-btn" type="button" data-search-open aria-label="Search">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></svg>
+        </button>
+        <a class="icon-btn header__account" href="/my-account/" aria-label="Your account">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8.5" r="3.8"/><path d="M4.8 20c.7-3.7 3.7-5.8 7.2-5.8s6.5 2.1 7.2 5.8"/></svg>
+        </a>
+        <a class="icon-btn header__wishlist" href="/wishlist/" aria-label="Your wishlist">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20.2 4.6 13a4.4 4.4 0 0 1 0-6.2 4.4 4.4 0 0 1 6.2 0l1.2 1.2 1.2-1.2a4.4 4.4 0 0 1 6.2 0 4.4 4.4 0 0 1 0 6.2z"/></svg>
+          <span class="icon-btn__count" data-wishlist-count hidden>0</span>
+        </a>
+        <button class="icon-btn" type="button" data-cart-open aria-label="Your bag">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5.5 7.5h13l1 12.5h-15z"/><path d="M9 10V6.8a3 3 0 0 1 6 0V10"/></svg>
+          <span class="icon-btn__count" data-cart-count hidden>0</span>
+        </button>
+        <button class="icon-btn header__menu" type="button" data-nav-open aria-label="Open menu" aria-expanded="false">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h16"/><path d="M4 16h16"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
