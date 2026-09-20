@@ -3,41 +3,68 @@
     "title": "Beauty Crib Header",
     "type": "section",
     "conditions": "",
-    "page_settings": "",
+    "page_settings": {
+        "hide_title": "yes"
+    },
     "content": [
         {
             "id": "6e45590",
             "elType": "container",
-            "isInner": false,
+            "settings": {
+                "boxed_width": {
+                    "unit": "px",
+                    "size": 1440
+                },
+                "flex_direction": "row",
+                "flex_justify_content": "space-between",
+                "flex_align_items": "center",
+                "flex_wrap": "nowrap",
+                "flex_gap": {
+                    "unit": "px",
+                    "size": 0,
+                    "column": "0",
+                    "row": "0"
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "18",
+                    "right": "40",
+                    "bottom": "18",
+                    "left": "40",
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": "14",
+                    "right": "16",
+                    "bottom": "14",
+                    "left": "16",
+                    "isLinked": false
+                },
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_border": "solid",
+                "border_width": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "1",
+                    "left": "0",
+                    "isLinked": false
+                },
+                "border_color": "#E8E8E5",
+                "_element_id": "bc-header",
+                "xpro_reveal_overlay_items": [
+                    {
+                        "_id": "0b6eee7"
+                    }
+                ],
+                "flex_align_items_mobile": "center"
+            },
             "elements": [
                 {
                     "id": "1699d83",
                     "elType": "container",
-                    "isInner": true,
-                    "elements": [
-                        {
-                            "id": "a179ac1",
-                            "elType": "widget",
-                            "widgetType": "theme-site-logo",
-                            "elements": [],
-                            "settings": {
-                                "image": {
-                                    "id": 68,
-                                    "url": "https://beautycrib.ug/wp-content/uploads/2026/09/wordmark.png"
-                                },
-                                "width": {
-                                    "unit": "px",
-                                    "size": 148
-                                },
-                                "width_mobile": {
-                                    "unit": "px",
-                                    "size": 112
-                                },
-                                "align": "left",
-                                "caption_source": "none"
-                            }
-                        }
-                    ],
                     "settings": {
                         "content_width": "full",
                         "flex_direction": "row",
@@ -54,7 +81,8 @@
                         },
                         "width_mobile": {
                             "unit": "%",
-                            "size": 50
+                            "size": 38,
+                            "sizes": []
                         },
                         "padding": {
                             "unit": "px",
@@ -63,29 +91,96 @@
                             "bottom": "0",
                             "left": "0",
                             "isLinked": true
+                        },
+                        "_flex_size": "none",
+                        "xpro_reveal_overlay_items": [
+                            {
+                                "_id": "eceea96"
+                            }
+                        ],
+                        "_element_width_mobile": "initial"
+                    },
+                    "elements": [
+                        {
+                            "id": "a179ac1",
+                            "elType": "widget",
+                            "settings": {
+                                "image": {
+                                    "id": 68,
+                                    "url": "https://beautycrib.ug/wp-content/uploads/2026/09/wordmark.png"
+                                },
+                                "width": {
+                                    "unit": "px",
+                                    "size": 148
+                                },
+                                "width_mobile": {
+                                    "unit": "px",
+                                    "size": 112
+                                },
+                                "align": "left",
+                                "__dynamic__": {
+                                    "image": "[elementor-tag id=\"\" name=\"site-logo\" settings=\"%7B%7D\"]"
+                                },
+                                "xpro_reveal_overlay_items": [
+                                    {
+                                        "_id": "65e2e46"
+                                    }
+                                ]
+                            },
+                            "elements": [],
+                            "widgetType": "theme-site-logo"
                         }
-                    }
+                    ],
+                    "isInner": true
                 },
                 {
                     "id": "40e5e94",
                     "elType": "container",
-                    "isInner": true,
+                    "settings": {
+                        "content_width": "full",
+                        "flex_direction": "row",
+                        "flex_justify_content": "center",
+                        "flex_align_items": "center",
+                        "flex_gap": {
+                            "unit": "px",
+                            "size": 0,
+                            "column": "0",
+                            "row": "0"
+                        },
+                        "width": {
+                            "unit": "%",
+                            "size": 50
+                        },
+                        "width_mobile": {
+                            "unit": "%",
+                            "size": 14,
+                            "sizes": []
+                        },
+                        "padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": true
+                        },
+                        "_flex_size": "none",
+                        "xpro_reveal_overlay_items": [
+                            {
+                                "_id": "dbcd48a"
+                            }
+                        ],
+                        "_element_width_mobile": "initial",
+                        "_flex_order_mobile": "end",
+                        "flex_justify_content_mobile": "flex-end"
+                    },
                     "elements": [
                         {
                             "id": "fb6b92a",
                             "elType": "widget",
-                            "widgetType": "nav-menu",
-                            "elements": [],
                             "settings": {
                                 "menu": "primary",
-                                "layout": "horizontal",
                                 "align_items": "center",
-                                "submenu_icon": {
-                                    "value": "fas fa-caret-down",
-                                    "library": "fa-solid"
-                                },
-                                "pointer": "underline",
-                                "animation_line": "fade",
                                 "color_menu_item": "#000000",
                                 "color_menu_item_hover": "#777777",
                                 "color_menu_item_active": "#000000",
@@ -105,22 +200,69 @@
                                     "unit": "px",
                                     "size": 16
                                 },
-                                "toggle": "burger",
                                 "toggle_size": {
                                     "unit": "px",
                                     "size": 22
                                 },
                                 "toggle_color": "#000000",
-                                "dropdown_background_color": "#111111",
-                                "color_dropdown_item": "#FFFFFF",
-                                "color_dropdown_item_hover": "#B4B4B0"
-                            }
+                                "menu_name": "Menu",
+                                "xpro_reveal_overlay_items": [
+                                    {
+                                        "_id": "750e8b4"
+                                    }
+                                ],
+                                "full_width": "yes",
+                                "dropdown": "tablet",
+                                "dropdown_top_distance": {
+                                    "unit": "px",
+                                    "size": 18,
+                                    "sizes": []
+                                },
+                                "padding_horizontal_dropdown_item": {
+                                    "unit": "px",
+                                    "size": 24,
+                                    "sizes": []
+                                },
+                                "padding_vertical_dropdown_item": {
+                                    "unit": "px",
+                                    "size": 18,
+                                    "sizes": []
+                                },
+                                "dropdown_divider_border": "solid",
+                                "dropdown_divider_width": {
+                                    "unit": "px",
+                                    "size": 1,
+                                    "sizes": []
+                                },
+                                "dropdown_divider_color": "rgba(255,255,255,0.14)",
+                                "dropdown_typography_typography": "custom",
+                                "dropdown_typography_text_transform": "none",
+                                "__globals__": {
+                                    "background_color_dropdown_item": "globals/colors?id=secondary",
+                                    "color_dropdown_item": "globals/colors?id=bcwhite",
+                                    "color_dropdown_item_hover": "globals/colors?id=bcline",
+                                    "background_color_dropdown_item_hover": "globals/colors?id=primary",
+                                    "color_dropdown_item_active": "globals/colors?id=bcwhite",
+                                    "background_color_dropdown_item_active": "globals/colors?id=primary",
+                                    "dropdown_typography_typography": "globals/typography?id=bcuit",
+                                    "toggle_color": "globals/colors?id=primary"
+                                },
+                                "custom_css": "/* Phone and tablet: the dropdown spans the whole header instead of the menu column */\n@media (max-width: 1024px) {\n  selector { position: static; }\n  selector .elementor-nav-menu__container.elementor-nav-menu--dropdown {\n    position: absolute;\n    top: 100%;\n    left: 0;\n    right: 0;\n    width: 100%;\n    max-width: none;\n    z-index: 999;\n  }\n}",
+                                "toggle_align_mobile": "right"
+                            },
+                            "elements": [],
+                            "widgetType": "nav-menu"
                         }
                     ],
+                    "isInner": true
+                },
+                {
+                    "id": "444fb94",
+                    "elType": "container",
                     "settings": {
                         "content_width": "full",
                         "flex_direction": "row",
-                        "flex_justify_content": "center",
+                        "flex_justify_content": "flex-end",
                         "flex_align_items": "center",
                         "flex_gap": {
                             "unit": "px",
@@ -130,11 +272,12 @@
                         },
                         "width": {
                             "unit": "%",
-                            "size": 50
+                            "size": 28
                         },
                         "width_mobile": {
                             "unit": "%",
-                            "size": 10
+                            "size": 48,
+                            "sizes": []
                         },
                         "padding": {
                             "unit": "px",
@@ -143,25 +286,24 @@
                             "bottom": "0",
                             "left": "0",
                             "isLinked": true
-                        }
-                    }
-                },
-                {
-                    "id": "444fb94",
-                    "elType": "container",
-                    "isInner": true,
+                        },
+                        "xpro_reveal_overlay_items": [
+                            {
+                                "_id": "cb9d33d"
+                            }
+                        ],
+                        "flex_justify_content_mobile": "flex-end",
+                        "flex_wrap_mobile": "nowrap"
+                    },
                     "elements": [
                         {
                             "id": "dba6815",
                             "elType": "widget",
-                            "widgetType": "icon",
-                            "elements": [],
                             "settings": {
                                 "selected_icon": {
                                     "value": "fas fa-search",
                                     "library": "fa-solid"
                                 },
-                                "view": "default",
                                 "size": {
                                     "unit": "px",
                                     "size": 19
@@ -181,20 +323,24 @@
                                     "bottom": "0",
                                     "left": "9",
                                     "isLinked": false
-                                }
-                            }
+                                },
+                                "xpro_reveal_overlay_items": [
+                                    {
+                                        "_id": "00cc0dc"
+                                    }
+                                ]
+                            },
+                            "elements": [],
+                            "widgetType": "icon"
                         },
                         {
                             "id": "b91b25d",
                             "elType": "widget",
-                            "widgetType": "icon",
-                            "elements": [],
                             "settings": {
                                 "selected_icon": {
                                     "value": "far fa-user",
                                     "library": "fa-solid"
                                 },
-                                "view": "default",
                                 "size": {
                                     "unit": "px",
                                     "size": 19
@@ -214,20 +360,24 @@
                                     "bottom": "0",
                                     "left": "9",
                                     "isLinked": false
-                                }
-                            }
+                                },
+                                "xpro_reveal_overlay_items": [
+                                    {
+                                        "_id": "d0f86a2"
+                                    }
+                                ]
+                            },
+                            "elements": [],
+                            "widgetType": "icon"
                         },
                         {
                             "id": "606d8ac",
                             "elType": "widget",
-                            "widgetType": "icon",
-                            "elements": [],
                             "settings": {
                                 "selected_icon": {
                                     "value": "far fa-heart",
                                     "library": "fa-solid"
                                 },
-                                "view": "default",
                                 "size": {
                                     "unit": "px",
                                     "size": 19
@@ -247,25 +397,26 @@
                                     "bottom": "0",
                                     "left": "9",
                                     "isLinked": false
-                                }
-                            }
+                                },
+                                "xpro_reveal_overlay_items": [
+                                    {
+                                        "_id": "eb33492"
+                                    }
+                                ]
+                            },
+                            "elements": [],
+                            "widgetType": "icon"
                         },
                         {
                             "id": "ddd05b1",
                             "elType": "widget",
-                            "widgetType": "woocommerce-menu-cart",
-                            "elements": [],
                             "settings": {
-                                "cart_type": "side-cart",
-                                "open_cart": "click",
-                                "icon": "cart-medium",
                                 "toggle_icon_color": "#000000",
                                 "toggle_icon_hover_color": "#777777",
                                 "toggle_icon_size": {
                                     "unit": "px",
                                     "size": 20
                                 },
-                                "items_indicator": "bubble",
                                 "items_indicator_background_color": "#000000",
                                 "items_indicator_text_color": "#FFFFFF",
                                 "cart_heading_typography_typography": "custom",
@@ -346,86 +497,21 @@
                                     "unit": "px",
                                     "size": 13
                                 },
-                                "custom_css": "selector .elementor-menu-cart__toggle_button, selector .elementor-menu-cart__toggle .elementor-button{color:#000!important;background:transparent!important;border:0!important;box-shadow:none!important;font-family:\"Instrument Sans\",sans-serif!important;padding:0 9px!important}selector .elementor-menu-cart__toggle_button:hover{color:#777!important;background:transparent!important}selector .elementor-button-text{display:none!important}selector .elementor-button-icon{color:#000!important}selector .elementor-button-icon svg,selector .elementor-button-icon i{width:20px;height:20px;font-size:20px}selector .elementor-menu-cart__toggle_button:hover .elementor-button-icon{color:#777!important}selector .elementor-menu-cart__product-name a{font-family:\"Instrument Sans\",sans-serif!important;color:#000!important}selector .elementor-menu-cart__container{font-family:\"Instrument Sans\",sans-serif!important}"
-                            }
+                                "custom_css": "selector .elementor-menu-cart__toggle_button, selector .elementor-menu-cart__toggle .elementor-button{color:#000!important;background:transparent!important;border:0!important;box-shadow:none!important;font-family:\"Instrument Sans\",sans-serif!important;padding:0 9px!important}selector .elementor-menu-cart__toggle_button:hover{color:#777!important;background:transparent!important}selector .elementor-button-text{display:none!important}selector .elementor-button-icon{color:#000!important}selector .elementor-button-icon svg,selector .elementor-button-icon i{width:20px;height:20px;font-size:20px}selector .elementor-menu-cart__toggle_button:hover .elementor-button-icon{color:#777!important}selector .elementor-menu-cart__product-name a{font-family:\"Instrument Sans\",sans-serif!important;color:#000!important}selector .elementor-menu-cart__container{font-family:\"Instrument Sans\",sans-serif!important}",
+                                "xpro_reveal_overlay_items": [
+                                    {
+                                        "_id": "23e6aa6"
+                                    }
+                                ]
+                            },
+                            "elements": [],
+                            "widgetType": "woocommerce-menu-cart"
                         }
                     ],
-                    "settings": {
-                        "content_width": "full",
-                        "flex_direction": "row",
-                        "flex_justify_content": "flex-end",
-                        "flex_align_items": "center",
-                        "flex_gap": {
-                            "unit": "px",
-                            "size": 0,
-                            "column": "0",
-                            "row": "0"
-                        },
-                        "width": {
-                            "unit": "%",
-                            "size": 28
-                        },
-                        "width_mobile": {
-                            "unit": "%",
-                            "size": 40
-                        },
-                        "padding": {
-                            "unit": "px",
-                            "top": "0",
-                            "right": "0",
-                            "bottom": "0",
-                            "left": "0",
-                            "isLinked": true
-                        }
-                    }
+                    "isInner": true
                 }
             ],
-            "settings": {
-                "content_width": "boxed",
-                "boxed_width": {
-                    "unit": "px",
-                    "size": 1440
-                },
-                "flex_direction": "row",
-                "flex_justify_content": "space-between",
-                "flex_align_items": "center",
-                "flex_wrap": "nowrap",
-                "flex_gap": {
-                    "unit": "px",
-                    "size": 0,
-                    "column": "0",
-                    "row": "0"
-                },
-                "padding": {
-                    "unit": "px",
-                    "top": "18",
-                    "right": "40",
-                    "bottom": "18",
-                    "left": "40",
-                    "isLinked": false
-                },
-                "padding_mobile": {
-                    "unit": "px",
-                    "top": "12",
-                    "right": "20",
-                    "bottom": "12",
-                    "left": "20",
-                    "isLinked": false
-                },
-                "background_background": "classic",
-                "background_color": "#FFFFFF",
-                "border_border": "solid",
-                "border_width": {
-                    "unit": "px",
-                    "top": "0",
-                    "right": "0",
-                    "bottom": "1",
-                    "left": "0",
-                    "isLinked": false
-                },
-                "border_color": "#E8E8E5",
-                "_element_id": "bc-header"
-            }
+            "isInner": false
         }
     ]
 }

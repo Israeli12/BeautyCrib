@@ -42,3 +42,9 @@ input:focus,select:focus,textarea:focus,.woocommerce form .form-row input.input-
 /* Contact form: the subject select was clipping its own text */
 .wpforms-container select,.wpforms-container input[type=text],.wpforms-container input[type=email],.wpforms-container input[type=tel]{height:auto!important;min-height:52px;line-height:1.5!important;padding:14px 16px!important}
 .wpforms-container textarea{line-height:1.6!important;padding:14px 16px!important}
+
+/* Stop any stray element widening the page sideways */
+html, body {
+  max-width: 100%;
+  overflow-x: clip;
+}
