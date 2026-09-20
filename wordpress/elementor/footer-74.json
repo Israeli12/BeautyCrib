@@ -1,0 +1,1237 @@
+{
+    "id": 74,
+    "title": "Beauty Crib Footer",
+    "type": "section",
+    "conditions": "",
+    "page_settings": "",
+    "content": [
+        {
+            "id": "74281e2",
+            "elType": "container",
+            "isInner": false,
+            "elements": [
+                {
+                    "id": "eb50fac",
+                    "elType": "container",
+                    "isInner": true,
+                    "elements": [
+                        {
+                            "id": "593466f",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "elements": [],
+                            "settings": {
+                                "title": "Newsletter",
+                                "header_size": "h3",
+                                "title_color": "#B4B4B0",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Instrument Sans",
+                                "typography_font_size": {
+                                    "unit": "px",
+                                    "size": 11
+                                },
+                                "typography_font_weight": "500",
+                                "typography_text_transform": "uppercase",
+                                "typography_letter_spacing": {
+                                    "unit": "px",
+                                    "size": 1.6
+                                },
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "14",
+                                    "left": "0",
+                                    "isLinked": false
+                                }
+                            }
+                        },
+                        {
+                            "id": "d733455",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "elements": [],
+                            "settings": {
+                                "title": "Stay close to beauty.",
+                                "header_size": "h2",
+                                "title_color": "#FFFFFF",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Instrument Serif",
+                                "typography_font_size": {
+                                    "unit": "px",
+                                    "size": 56
+                                },
+                                "typography_font_size_mobile": {
+                                    "unit": "px",
+                                    "size": 34
+                                },
+                                "typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.05
+                                },
+                                "typography_letter_spacing": {
+                                    "unit": "px",
+                                    "size": -1
+                                },
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "14",
+                                    "left": "0",
+                                    "isLinked": false
+                                }
+                            }
+                        },
+                        {
+                            "id": "4a6b61c",
+                            "elType": "widget",
+                            "widgetType": "text-editor",
+                            "elements": [],
+                            "settings": {
+                                "editor": "<p>New arrivals, restocks and the occasional guide worth reading. One email, never more than two a month.</p>",
+                                "text_color": "#B4B4B0",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Instrument Sans",
+                                "typography_font_size": {
+                                    "unit": "px",
+                                    "size": 15
+                                }
+                            }
+                        }
+                    ],
+                    "settings": {
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": 48
+                        },
+                        "width_mobile": {
+                            "unit": "%",
+                            "size": 100
+                        },
+                        "flex_gap": {
+                            "unit": "px",
+                            "size": 0,
+                            "column": "0",
+                            "row": "0"
+                        },
+                        "padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "40",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        }
+                    }
+                },
+                {
+                    "id": "00b05d5",
+                    "elType": "container",
+                    "isInner": true,
+                    "elements": [
+                        {
+                            "id": "6c9d7b7",
+                            "elType": "widget",
+                            "widgetType": "form",
+                            "elements": [],
+                            "settings": {
+                                "form_name": "Newsletter",
+                                "form_fields": [
+                                    {
+                                        "_id": "095c719",
+                                        "field_type": "email",
+                                        "field_label": "Email address",
+                                        "placeholder": "you@example.com",
+                                        "required": "true",
+                                        "width": "100"
+                                    }
+                                ],
+                                "button_text": "Subscribe",
+                                "button_size": "sm",
+                                "button_width": "100",
+                                "button_background_color": "#FFFFFF",
+                                "button_text_color": "#000000",
+                                "button_hover_color": "#FFFFFF",
+                                "button_background_hover_color": "rgba(255,255,255,0)",
+                                "button_border_border": "solid",
+                                "button_border_width": {
+                                    "unit": "px",
+                                    "top": "1",
+                                    "right": "1",
+                                    "bottom": "1",
+                                    "left": "1",
+                                    "isLinked": true
+                                },
+                                "button_border_color": "#FFFFFF",
+                                "button_typography_typography": "custom",
+                                "button_typography_font_family": "Instrument Sans",
+                                "button_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 13
+                                },
+                                "button_typography_text_transform": "uppercase",
+                                "label_color": "#B4B4B0",
+                                "field_typography_typography": "custom",
+                                "field_typography_font_family": "Instrument Sans",
+                                "field_background_color": "#111111",
+                                "field_text_color": "#FFFFFF",
+                                "field_border_border": "solid",
+                                "field_border_width": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "1",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "field_border_color": "#2A2A2A",
+                                "field_border_radius": {
+                                    "unit": "px",
+                                    "size": 0
+                                },
+                                "email_to": "admin@beautycrib.ug",
+                                "email_subject": "Newsletter signup"
+                            }
+                        }
+                    ],
+                    "settings": {
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": 42
+                        },
+                        "width_mobile": {
+                            "unit": "%",
+                            "size": 100
+                        },
+                        "flex_gap": {
+                            "unit": "px",
+                            "size": 0,
+                            "column": "0",
+                            "row": "0"
+                        },
+                        "flex_justify_content": "center",
+                        "padding": {
+                            "unit": "px",
+                            "top": "20",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        }
+                    }
+                }
+            ],
+            "settings": {
+                "content_width": "boxed",
+                "boxed_width": {
+                    "unit": "px",
+                    "size": 1440
+                },
+                "flex_direction": "row",
+                "flex_justify_content": "space-between",
+                "flex_align_items": "center",
+                "flex_wrap": "wrap",
+                "flex_gap": {
+                    "unit": "px",
+                    "size": 0,
+                    "column": "0",
+                    "row": "0"
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "88",
+                    "right": "40",
+                    "bottom": "72",
+                    "left": "40",
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": "56",
+                    "right": "20",
+                    "bottom": "40",
+                    "left": "20",
+                    "isLinked": false
+                },
+                "background_background": "classic",
+                "background_color": "#111111",
+                "_element_id": "bc-footer-newsletter"
+            }
+        },
+        {
+            "id": "76fc899",
+            "elType": "container",
+            "isInner": false,
+            "elements": [
+                {
+                    "id": "6af5921",
+                    "elType": "container",
+                    "isInner": true,
+                    "elements": [
+                        {
+                            "id": "3b68c57",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "elements": [],
+                            "settings": {
+                                "title": "Shop",
+                                "header_size": "h3",
+                                "title_color": "#FFFFFF",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Instrument Sans",
+                                "typography_font_size": {
+                                    "unit": "px",
+                                    "size": 11
+                                },
+                                "typography_font_weight": "500",
+                                "typography_text_transform": "uppercase",
+                                "typography_letter_spacing": {
+                                    "unit": "px",
+                                    "size": 1.6
+                                },
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "18",
+                                    "left": "0",
+                                    "isLinked": false
+                                }
+                            }
+                        },
+                        {
+                            "id": "194bd8c",
+                            "elType": "widget",
+                            "widgetType": "icon-list",
+                            "elements": [],
+                            "settings": {
+                                "icon_list": [
+                                    {
+                                        "_id": "baa864e",
+                                        "text": "Skincare",
+                                        "link": {
+                                            "url": "/product-category/skincare/",
+                                            "is_external": "",
+                                            "nofollow": ""
+                                        },
+                                        "selected_icon": {
+                                            "value": "",
+                                            "library": ""
+                                        }
+                                    },
+                                    {
+                                        "_id": "1bd4d7b",
+                                        "text": "Cleansers",
+                                        "link": {
+                                            "url": "/product-category/cleansers/",
+                                            "is_external": "",
+                                            "nofollow": ""
+                                        },
+                                        "selected_icon": {
+                                            "value": "",
+                                            "library": ""
+                                        }
+                                    },
+                                    {
+                                        "_id": "1d75e4c",
+                                        "text": "Toners & Essences",
+                                        "link": {
+                                            "url": "/product-category/skincare/toners/",
+                                            "is_external": "",
+                                            "nofollow": ""
+                                        },
+                                        "selected_icon": {
+                                            "value": "",
+                                            "library": ""
+                                        }
+                                    },
+                                    {
+                                        "_id": "c84d512",
+                                        "text": "Makeup",
+                                        "link": {
+                                            "url": "/product-category/makeup/",
+                                            "is_external": "",
+                                            "nofollow": ""
+                                        },
+                                        "selected_icon": {
+                                            "value": "",
+                                            "library": ""
+                                        }
+                                    },
+                                    {
+                                        "_id": "bc90bc2",
+                                        "text": "Hair Care",
+                                        "link": {
+                                            "url": "/product-category/hair-care/",
+                                            "is_external": "",
+                                            "nofollow": ""
+                                        },
+                                        "selected_icon": {
+                                            "value": "",
+                                            "library": ""
+                                        }
+                                    },
+                                    {
+                                        "_id": "6788cba",
+                                        "text": "Body Care",
+                                        "link": {
+                                            "url": "/product-category/body-care/",
+                                            "is_external": "",
+                                            "nofollow": ""
+                                        },
+                                        "selected_icon": {
+                                            "value": "",
+                                            "library": ""
+                                        }
+                                    },
+                                    {
+                                        "_id": "cb178c1",
+                                        "text": "Fragrance",
+                                        "link": {
+                                            "url": "/product-category/fragrance/",
+                                            "is_external": "",
+                                            "nofollow": ""
+                                        },
+                                        "selected_icon": {
+                                            "value": "",
+                                            "library": ""
+                                        }
+                                    }
+                                ],
+                                "space_between": {
+                                    "unit": "px",
+                                    "size": 10
+                                },
+                                "icon_color": "#FFFFFF",
+                                "text_color": "#B4B4B0",
+                                "text_color_hover": "#FFFFFF",
+                                "icon_typography_typography": "custom",
+                                "icon_typography_font_family": "Instrument Sans",
+                                "icon_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 14
+                                },
+                                "icon_self_align": "left",
+                                "icon_align": "left"
+                            }
+                        }
+                    ],
+                    "settings": {
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": 20
+                        },
+                        "width_tablet": {
+                            "unit": "%",
+                            "size": 33
+                        },
+                        "width_mobile": {
+                            "unit": "%",
+                            "size": 50
+                        },
+                        "flex_gap": {
+                            "unit": "px",
+                            "size": 0,
+                            "column": "0",
+                            "row": "0"
+                        },
+                        "padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "16",
+                            "bottom": "32",
+                            "left": "0",
+                            "isLinked": false
+                        }
+                    }
+                },
+                {
+                    "id": "03c1dde",
+                    "elType": "container",
+                    "isInner": true,
+                    "elements": [
+                        {
+                            "id": "18e1bf6",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "elements": [],
+                            "settings": {
+                                "title": "Explore",
+                                "header_size": "h3",
+                                "title_color": "#FFFFFF",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Instrument Sans",
+                                "typography_font_size": {
+                                    "unit": "px",
+                                    "size": 11
+                                },
+                                "typography_font_weight": "500",
+                                "typography_text_transform": "uppercase",
+                                "typography_letter_spacing": {
+                                    "unit": "px",
+                                    "size": 1.6
+                                },
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "18",
+                                    "left": "0",
+                                    "isLinked": false
+                                }
+                            }
+                        },
+                        {
+                            "id": "bbf893d",
+                            "elType": "widget",
+                            "widgetType": "icon-list",
+                            "elements": [],
+                            "settings": {
+                                "icon_list": [
+                                    {
+                                        "_id": "55e782a",
+                                        "text": "Philosophy",
+                                        "link": {
+                                            "url": "/philosophy/",
+                                            "is_external": "",
+                                            "nofollow": ""
+                                        },
+                                        "selected_icon": {
+                                            "value": "",
+                                            "library": ""
+                                        }
+                                    },
+                                    {
+                                        "_id": "9860c6d",
+                                        "text": "Journal",
+                                        "link": {
+                                            "url": "/journal/",
+                                            "is_external": "",
+                                            "nofollow": ""
+                                        },
+                                        "selected_icon": {
+                                            "value": "",
+                                            "library": ""
+                                        }
+                                    },
+                                    {
+                                        "_id": "2a239c6",
+                                        "text": "Gallery",
+                                        "link": {
+                                            "url": "/gallery/",
+                                            "is_external": "",
+                                            "nofollow": ""
+                                        },
+                                        "selected_icon": {
+                                            "value": "",
+                                            "library": ""
+                                        }
+                                    },
+                                    {
+                                        "_id": "a6463ab",
+                                        "text": "All products",
+                                        "link": {
+                                            "url": "/shop/",
+                                            "is_external": "",
+                                            "nofollow": ""
+                                        },
+                                        "selected_icon": {
+                                            "value": "",
+                                            "library": ""
+                                        }
+                                    }
+                                ],
+                                "space_between": {
+                                    "unit": "px",
+                                    "size": 10
+                                },
+                                "icon_color": "#FFFFFF",
+                                "text_color": "#B4B4B0",
+                                "text_color_hover": "#FFFFFF",
+                                "icon_typography_typography": "custom",
+                                "icon_typography_font_family": "Instrument Sans",
+                                "icon_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 14
+                                },
+                                "icon_self_align": "left",
+                                "icon_align": "left"
+                            }
+                        }
+                    ],
+                    "settings": {
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": 20
+                        },
+                        "width_tablet": {
+                            "unit": "%",
+                            "size": 33
+                        },
+                        "width_mobile": {
+                            "unit": "%",
+                            "size": 50
+                        },
+                        "flex_gap": {
+                            "unit": "px",
+                            "size": 0,
+                            "column": "0",
+                            "row": "0"
+                        },
+                        "padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "16",
+                            "bottom": "32",
+                            "left": "0",
+                            "isLinked": false
+                        }
+                    }
+                },
+                {
+                    "id": "8723d92",
+                    "elType": "container",
+                    "isInner": true,
+                    "elements": [
+                        {
+                            "id": "aea4fe1",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "elements": [],
+                            "settings": {
+                                "title": "Help",
+                                "header_size": "h3",
+                                "title_color": "#FFFFFF",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Instrument Sans",
+                                "typography_font_size": {
+                                    "unit": "px",
+                                    "size": 11
+                                },
+                                "typography_font_weight": "500",
+                                "typography_text_transform": "uppercase",
+                                "typography_letter_spacing": {
+                                    "unit": "px",
+                                    "size": 1.6
+                                },
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "18",
+                                    "left": "0",
+                                    "isLinked": false
+                                }
+                            }
+                        },
+                        {
+                            "id": "c834adf",
+                            "elType": "widget",
+                            "widgetType": "icon-list",
+                            "elements": [],
+                            "settings": {
+                                "icon_list": [
+                                    {
+                                        "_id": "2a225ab",
+                                        "text": "Contact",
+                                        "link": {
+                                            "url": "/contact/",
+                                            "is_external": "",
+                                            "nofollow": ""
+                                        },
+                                        "selected_icon": {
+                                            "value": "",
+                                            "library": ""
+                                        }
+                                    },
+                                    {
+                                        "_id": "7275a73",
+                                        "text": "FAQ",
+                                        "link": {
+                                            "url": "/faq/",
+                                            "is_external": "",
+                                            "nofollow": ""
+                                        },
+                                        "selected_icon": {
+                                            "value": "",
+                                            "library": ""
+                                        }
+                                    },
+                                    {
+                                        "_id": "c432fc8",
+                                        "text": "Shipping & Delivery",
+                                        "link": {
+                                            "url": "/shipping-delivery/",
+                                            "is_external": "",
+                                            "nofollow": ""
+                                        },
+                                        "selected_icon": {
+                                            "value": "",
+                                            "library": ""
+                                        }
+                                    },
+                                    {
+                                        "_id": "19634f5",
+                                        "text": "Returns & Refunds",
+                                        "link": {
+                                            "url": "/returns-refunds/",
+                                            "is_external": "",
+                                            "nofollow": ""
+                                        },
+                                        "selected_icon": {
+                                            "value": "",
+                                            "library": ""
+                                        }
+                                    }
+                                ],
+                                "space_between": {
+                                    "unit": "px",
+                                    "size": 10
+                                },
+                                "icon_color": "#FFFFFF",
+                                "text_color": "#B4B4B0",
+                                "text_color_hover": "#FFFFFF",
+                                "icon_typography_typography": "custom",
+                                "icon_typography_font_family": "Instrument Sans",
+                                "icon_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 14
+                                },
+                                "icon_self_align": "left",
+                                "icon_align": "left"
+                            }
+                        }
+                    ],
+                    "settings": {
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": 20
+                        },
+                        "width_tablet": {
+                            "unit": "%",
+                            "size": 33
+                        },
+                        "width_mobile": {
+                            "unit": "%",
+                            "size": 50
+                        },
+                        "flex_gap": {
+                            "unit": "px",
+                            "size": 0,
+                            "column": "0",
+                            "row": "0"
+                        },
+                        "padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "16",
+                            "bottom": "32",
+                            "left": "0",
+                            "isLinked": false
+                        }
+                    }
+                },
+                {
+                    "id": "fd07a6d",
+                    "elType": "container",
+                    "isInner": true,
+                    "elements": [
+                        {
+                            "id": "992c343",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "elements": [],
+                            "settings": {
+                                "title": "Account",
+                                "header_size": "h3",
+                                "title_color": "#FFFFFF",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Instrument Sans",
+                                "typography_font_size": {
+                                    "unit": "px",
+                                    "size": 11
+                                },
+                                "typography_font_weight": "500",
+                                "typography_text_transform": "uppercase",
+                                "typography_letter_spacing": {
+                                    "unit": "px",
+                                    "size": 1.6
+                                },
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "18",
+                                    "left": "0",
+                                    "isLinked": false
+                                }
+                            }
+                        },
+                        {
+                            "id": "ee59269",
+                            "elType": "widget",
+                            "widgetType": "icon-list",
+                            "elements": [],
+                            "settings": {
+                                "icon_list": [
+                                    {
+                                        "_id": "e26dcc9",
+                                        "text": "My account",
+                                        "link": {
+                                            "url": "/my-account/",
+                                            "is_external": "",
+                                            "nofollow": ""
+                                        },
+                                        "selected_icon": {
+                                            "value": "",
+                                            "library": ""
+                                        }
+                                    },
+                                    {
+                                        "_id": "8938db1",
+                                        "text": "Wishlist",
+                                        "link": {
+                                            "url": "/wishlist/",
+                                            "is_external": "",
+                                            "nofollow": ""
+                                        },
+                                        "selected_icon": {
+                                            "value": "",
+                                            "library": ""
+                                        }
+                                    },
+                                    {
+                                        "_id": "f04c3ff",
+                                        "text": "Cart",
+                                        "link": {
+                                            "url": "/cart/",
+                                            "is_external": "",
+                                            "nofollow": ""
+                                        },
+                                        "selected_icon": {
+                                            "value": "",
+                                            "library": ""
+                                        }
+                                    },
+                                    {
+                                        "_id": "fb111fe",
+                                        "text": "Checkout",
+                                        "link": {
+                                            "url": "/checkout/",
+                                            "is_external": "",
+                                            "nofollow": ""
+                                        },
+                                        "selected_icon": {
+                                            "value": "",
+                                            "library": ""
+                                        }
+                                    }
+                                ],
+                                "space_between": {
+                                    "unit": "px",
+                                    "size": 10
+                                },
+                                "icon_color": "#FFFFFF",
+                                "text_color": "#B4B4B0",
+                                "text_color_hover": "#FFFFFF",
+                                "icon_typography_typography": "custom",
+                                "icon_typography_font_family": "Instrument Sans",
+                                "icon_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 14
+                                },
+                                "icon_self_align": "left",
+                                "icon_align": "left"
+                            }
+                        }
+                    ],
+                    "settings": {
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": 20
+                        },
+                        "width_tablet": {
+                            "unit": "%",
+                            "size": 33
+                        },
+                        "width_mobile": {
+                            "unit": "%",
+                            "size": 50
+                        },
+                        "flex_gap": {
+                            "unit": "px",
+                            "size": 0,
+                            "column": "0",
+                            "row": "0"
+                        },
+                        "padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "16",
+                            "bottom": "32",
+                            "left": "0",
+                            "isLinked": false
+                        }
+                    }
+                },
+                {
+                    "id": "6f194e8",
+                    "elType": "container",
+                    "isInner": true,
+                    "elements": [
+                        {
+                            "id": "854cc36",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "elements": [],
+                            "settings": {
+                                "title": "Contact",
+                                "header_size": "h3",
+                                "title_color": "#FFFFFF",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Instrument Sans",
+                                "typography_font_size": {
+                                    "unit": "px",
+                                    "size": 11
+                                },
+                                "typography_font_weight": "500",
+                                "typography_text_transform": "uppercase",
+                                "typography_letter_spacing": {
+                                    "unit": "px",
+                                    "size": 1.6
+                                },
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "18",
+                                    "left": "0",
+                                    "isLinked": false
+                                }
+                            }
+                        },
+                        {
+                            "id": "a9559d3",
+                            "elType": "widget",
+                            "widgetType": "icon-list",
+                            "elements": [],
+                            "settings": {
+                                "icon_list": [
+                                    {
+                                        "_id": "a21a312",
+                                        "text": "beautycrib256@gmail.com",
+                                        "link": {
+                                            "url": "mailto:beautycrib256@gmail.com",
+                                            "is_external": "",
+                                            "nofollow": ""
+                                        },
+                                        "selected_icon": {
+                                            "value": "",
+                                            "library": ""
+                                        }
+                                    },
+                                    {
+                                        "_id": "168d4d5",
+                                        "text": "WhatsApp",
+                                        "link": {
+                                            "url": "https://wa.me/256784956653",
+                                            "is_external": "",
+                                            "nofollow": ""
+                                        },
+                                        "selected_icon": {
+                                            "value": "",
+                                            "library": ""
+                                        }
+                                    },
+                                    {
+                                        "_id": "d13f8ee",
+                                        "text": "Kampala, Uganda",
+                                        "link": {
+                                            "url": "/contact/",
+                                            "is_external": "",
+                                            "nofollow": ""
+                                        },
+                                        "selected_icon": {
+                                            "value": "",
+                                            "library": ""
+                                        }
+                                    },
+                                    {
+                                        "_id": "97b289a",
+                                        "text": "TikTok",
+                                        "link": {
+                                            "url": "https://www.tiktok.com/@beautycribuganda",
+                                            "is_external": "on",
+                                            "nofollow": ""
+                                        },
+                                        "selected_icon": {
+                                            "value": "",
+                                            "library": ""
+                                        }
+                                    }
+                                ],
+                                "space_between": {
+                                    "unit": "px",
+                                    "size": 10
+                                },
+                                "icon_color": "#FFFFFF",
+                                "text_color": "#B4B4B0",
+                                "text_color_hover": "#FFFFFF",
+                                "icon_typography_typography": "custom",
+                                "icon_typography_font_family": "Instrument Sans",
+                                "icon_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 14
+                                },
+                                "icon_self_align": "left",
+                                "icon_align": "left"
+                            }
+                        }
+                    ],
+                    "settings": {
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": 20
+                        },
+                        "width_tablet": {
+                            "unit": "%",
+                            "size": 33
+                        },
+                        "width_mobile": {
+                            "unit": "%",
+                            "size": 50
+                        },
+                        "flex_gap": {
+                            "unit": "px",
+                            "size": 0,
+                            "column": "0",
+                            "row": "0"
+                        },
+                        "padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "16",
+                            "bottom": "32",
+                            "left": "0",
+                            "isLinked": false
+                        }
+                    }
+                }
+            ],
+            "settings": {
+                "content_width": "boxed",
+                "boxed_width": {
+                    "unit": "px",
+                    "size": 1440
+                },
+                "flex_direction": "row",
+                "flex_wrap": "wrap",
+                "flex_align_items": "flex-start",
+                "flex_gap": {
+                    "unit": "px",
+                    "size": 0,
+                    "column": "0",
+                    "row": "0"
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "64",
+                    "right": "40",
+                    "bottom": "32",
+                    "left": "40",
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": "40",
+                    "right": "20",
+                    "bottom": "16",
+                    "left": "20",
+                    "isLinked": false
+                },
+                "background_background": "classic",
+                "background_color": "#111111",
+                "_element_id": "bc-footer-links"
+            }
+        },
+        {
+            "id": "25ad3c5",
+            "elType": "container",
+            "isInner": false,
+            "elements": [
+                {
+                    "id": "bef5c69",
+                    "elType": "widget",
+                    "widgetType": "image",
+                    "elements": [],
+                    "settings": {
+                        "image": {
+                            "id": 68,
+                            "url": "https://beautycrib.ug/wp-content/uploads/2026/09/wordmark.png"
+                        },
+                        "image_size": "full",
+                        "align": "center",
+                        "width": {
+                            "unit": "%",
+                            "size": 62
+                        },
+                        "width_mobile": {
+                            "unit": "%",
+                            "size": 90
+                        },
+                        "css_filters_css_filter": "custom",
+                        "css_filters_brightness": {
+                            "unit": "px",
+                            "size": 300
+                        },
+                        "css_filters_saturate": {
+                            "unit": "px",
+                            "size": 0
+                        },
+                        "_margin": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "28",
+                            "left": "0",
+                            "isLinked": false
+                        }
+                    }
+                },
+                {
+                    "id": "3289bc8",
+                    "elType": "widget",
+                    "widgetType": "social-icons",
+                    "elements": [],
+                    "settings": {
+                        "social_icon_list": [
+                            {
+                                "_id": "79aaf6d",
+                                "social_icon": {
+                                    "value": "fab fa-instagram",
+                                    "library": "fa-brands"
+                                },
+                                "link": {
+                                    "url": "https://www.instagram.com/beautycrib_256/",
+                                    "is_external": "on",
+                                    "nofollow": ""
+                                }
+                            },
+                            {
+                                "_id": "6943691",
+                                "social_icon": {
+                                    "value": "fab fa-tiktok",
+                                    "library": "fa-brands"
+                                },
+                                "link": {
+                                    "url": "https://www.tiktok.com/@beautycribuganda",
+                                    "is_external": "on",
+                                    "nofollow": ""
+                                }
+                            }
+                        ],
+                        "shape": "square",
+                        "columns": "2",
+                        "align": "center",
+                        "icon_color": "custom",
+                        "icon_primary_color": "rgba(0,0,0,0)",
+                        "icon_secondary_color": "#FFFFFF",
+                        "hover_primary_color": "#FFFFFF",
+                        "hover_secondary_color": "#111111",
+                        "icon_size": {
+                            "unit": "px",
+                            "size": 15
+                        },
+                        "border_radius": {
+                            "unit": "px",
+                            "size": 0
+                        },
+                        "image_border_border": "solid",
+                        "image_border_width": {
+                            "unit": "px",
+                            "top": "1",
+                            "right": "1",
+                            "bottom": "1",
+                            "left": "1",
+                            "isLinked": true
+                        },
+                        "image_border_color": "#2A2A2A",
+                        "_margin": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "28",
+                            "left": "0",
+                            "isLinked": false
+                        }
+                    }
+                },
+                {
+                    "id": "144ed6e",
+                    "elType": "widget",
+                    "widgetType": "text-editor",
+                    "elements": [],
+                    "settings": {
+                        "editor": "<p style=\"text-align:center\">MTN MoMo &nbsp;&middot;&nbsp; Airtel Money &nbsp;&middot;&nbsp; Visa &nbsp;&middot;&nbsp; Mastercard &nbsp;&middot;&nbsp; Bank transfer &nbsp;&middot;&nbsp; Cash on delivery</p><p style=\"text-align:center\">&copy; 2026 Beauty Crib. Kampala, Uganda. &nbsp;<a href=\"/privacy-policy/\">Privacy</a> &nbsp;&middot;&nbsp; <a href=\"/terms-conditions/\">Terms</a></p>",
+                        "text_color": "#777777",
+                        "align": "center",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Instrument Sans",
+                        "typography_font_size": {
+                            "unit": "px",
+                            "size": 12
+                        },
+                        "typography_letter_spacing": {
+                            "unit": "px",
+                            "size": 0.4
+                        }
+                    }
+                }
+            ],
+            "settings": {
+                "content_width": "boxed",
+                "boxed_width": {
+                    "unit": "px",
+                    "size": 1440
+                },
+                "flex_direction": "column",
+                "flex_align_items": "center",
+                "flex_gap": {
+                    "unit": "px",
+                    "size": 0,
+                    "column": "0",
+                    "row": "0"
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "24",
+                    "right": "40",
+                    "bottom": "48",
+                    "left": "40",
+                    "isLinked": false
+                },
+                "background_background": "classic",
+                "background_color": "#111111",
+                "border_border": "solid",
+                "border_width": {
+                    "unit": "px",
+                    "top": "1",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": false
+                },
+                "border_color": "#2A2A2A",
+                "_element_id": "bc-footer-base"
+            }
+        }
+    ]
+}

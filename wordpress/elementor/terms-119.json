@@ -1,0 +1,674 @@
+{
+    "id": 119,
+    "title": "Terms &#038; Conditions",
+    "type": "wp-page",
+    "conditions": "",
+    "page_settings": "",
+    "content": [
+        {
+            "id": "2e0b850",
+            "elType": "container",
+            "isInner": false,
+            "elements": [
+                {
+                    "id": "8b9d741",
+                    "elType": "container",
+                    "isInner": true,
+                    "elements": [
+                        {
+                            "id": "1661a12",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "elements": [],
+                            "settings": {
+                                "title": "Legal",
+                                "header_size": "h6",
+                                "title_color": "#666666",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Instrument Sans",
+                                "typography_font_size": {
+                                    "unit": "px",
+                                    "size": 11
+                                },
+                                "typography_font_weight": "500",
+                                "typography_text_transform": "uppercase",
+                                "typography_letter_spacing": {
+                                    "unit": "px",
+                                    "size": 1.6
+                                },
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "16",
+                                    "left": "0",
+                                    "isLinked": false
+                                }
+                            }
+                        },
+                        {
+                            "id": "2187b10",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "elements": [],
+                            "settings": {
+                                "title": "Terms & Conditions",
+                                "header_size": "h1",
+                                "title_color": "#000000",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Instrument Serif",
+                                "typography_font_size": {
+                                    "unit": "px",
+                                    "size": 72
+                                },
+                                "typography_font_size_mobile": {
+                                    "unit": "px",
+                                    "size": 38
+                                },
+                                "typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.06
+                                },
+                                "typography_letter_spacing": {
+                                    "unit": "px",
+                                    "size": -1
+                                },
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "16",
+                                    "left": "0",
+                                    "isLinked": false
+                                }
+                            }
+                        },
+                        {
+                            "id": "ee74eab",
+                            "elType": "widget",
+                            "widgetType": "text-editor",
+                            "elements": [],
+                            "settings": {
+                                "editor": "<p>These terms apply whenever you use this website or place an order with Beauty Crib.</p><p><em>Last updated 17 September 2026</em></p>",
+                                "text_color": "#666666",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Instrument Sans",
+                                "typography_font_size": {
+                                    "unit": "px",
+                                    "size": 18
+                                },
+                                "typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.7
+                                }
+                            }
+                        }
+                    ],
+                    "settings": {
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": 100
+                        },
+                        "width_mobile": {
+                            "unit": "%",
+                            "size": 100
+                        },
+                        "flex_gap": {
+                            "unit": "px",
+                            "size": 0,
+                            "column": "0",
+                            "row": "0"
+                        },
+                        "padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": true
+                        }
+                    }
+                }
+            ],
+            "settings": {
+                "content_width": "boxed",
+                "boxed_width": {
+                    "unit": "px",
+                    "size": 900
+                },
+                "flex_direction": "row",
+                "flex_wrap": "wrap",
+                "flex_gap": {
+                    "unit": "px",
+                    "size": 0,
+                    "column": "0",
+                    "row": "0"
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "140",
+                    "right": "40",
+                    "bottom": "20",
+                    "left": "40",
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": "24",
+                    "right": "20",
+                    "bottom": "60",
+                    "left": "20",
+                    "isLinked": false
+                }
+            }
+        },
+        {
+            "id": "5fc5839",
+            "elType": "container",
+            "isInner": false,
+            "elements": [
+                {
+                    "id": "b4e9377",
+                    "elType": "container",
+                    "isInner": false,
+                    "settings": {
+                        "flex_gap": {
+                            "unit": "px",
+                            "size": 0,
+                            "column": "0",
+                            "row": "0"
+                        },
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": 30,
+                            "sizes": []
+                        },
+                        "width_tablet": {
+                            "unit": "%",
+                            "size": 100,
+                            "sizes": []
+                        },
+                        "width_mobile": {
+                            "unit": "%",
+                            "size": 100,
+                            "sizes": []
+                        },
+                        "flex_direction": "column",
+                        "html_tag": "aside",
+                        "padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "56",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "padding_tablet": {
+                            "unit": "px",
+                            "top": "48",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "_flex_order_tablet": "end"
+                    },
+                    "elements": [
+                        {
+                            "id": "368ac9c",
+                            "elType": "container",
+                            "isInner": false,
+                            "settings": {
+                                "flex_gap": {
+                                    "unit": "px",
+                                    "size": 0,
+                                    "column": "0",
+                                    "row": "0"
+                                },
+                                "content_width": "full",
+                                "flex_direction": "column",
+                                "sticky": "top",
+                                "sticky_on": [
+                                    "desktop"
+                                ],
+                                "sticky_offset": 120,
+                                "sticky_parent": "yes"
+                            },
+                            "elements": [
+                                {
+                                    "id": "b3f0a35",
+                                    "elType": "container",
+                                    "isInner": false,
+                                    "settings": {
+                                        "flex_gap": {
+                                            "unit": "px",
+                                            "size": 0,
+                                            "column": "0",
+                                            "row": "0"
+                                        },
+                                        "content_width": "full",
+                                        "flex_direction": "column",
+                                        "padding": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "28",
+                                            "left": "0",
+                                            "isLinked": false
+                                        },
+                                        "margin": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "28",
+                                            "left": "0",
+                                            "isLinked": false
+                                        },
+                                        "border_border": "solid",
+                                        "border_width": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "1",
+                                            "left": "0",
+                                            "isLinked": false
+                                        },
+                                        "__globals__": {
+                                            "border_color": "globals/colors?id=bcline"
+                                        }
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "b82faa9",
+                                            "elType": "widget",
+                                            "widgetType": "heading",
+                                            "isInner": false,
+                                            "settings": {
+                                                "title": "Help",
+                                                "header_size": "p",
+                                                "_margin": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "16",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "__globals__": {
+                                                    "title_color": "globals/colors?id=bcmid",
+                                                    "typography_typography": "globals/typography?id=accent"
+                                                }
+                                            },
+                                            "elements": []
+                                        },
+                                        {
+                                            "id": "9c0b24e",
+                                            "elType": "widget",
+                                            "widgetType": "icon-list",
+                                            "isInner": false,
+                                            "settings": {
+                                                "view": "traditional",
+                                                "icon_list": [
+                                                    {
+                                                        "_id": "e8a7eea",
+                                                        "text": "Shipping & Delivery",
+                                                        "selected_icon": {
+                                                            "value": "",
+                                                            "library": ""
+                                                        },
+                                                        "link": {
+                                                            "url": "/shipping-delivery/",
+                                                            "is_external": "",
+                                                            "nofollow": ""
+                                                        }
+                                                    },
+                                                    {
+                                                        "_id": "2ce5add",
+                                                        "text": "Returns & Refunds",
+                                                        "selected_icon": {
+                                                            "value": "",
+                                                            "library": ""
+                                                        },
+                                                        "link": {
+                                                            "url": "/returns-refunds/",
+                                                            "is_external": "",
+                                                            "nofollow": ""
+                                                        }
+                                                    },
+                                                    {
+                                                        "_id": "266a476",
+                                                        "text": "Frequently asked questions",
+                                                        "selected_icon": {
+                                                            "value": "",
+                                                            "library": ""
+                                                        },
+                                                        "link": {
+                                                            "url": "/faq/",
+                                                            "is_external": "",
+                                                            "nofollow": ""
+                                                        }
+                                                    },
+                                                    {
+                                                        "_id": "b122e52",
+                                                        "text": "Contact us",
+                                                        "selected_icon": {
+                                                            "value": "",
+                                                            "library": ""
+                                                        },
+                                                        "link": {
+                                                            "url": "/contact/",
+                                                            "is_external": "",
+                                                            "nofollow": ""
+                                                        }
+                                                    },
+                                                    {
+                                                        "_id": "0bb1b2c",
+                                                        "text": "Privacy Policy",
+                                                        "selected_icon": {
+                                                            "value": "",
+                                                            "library": ""
+                                                        },
+                                                        "link": {
+                                                            "url": "/privacy-policy/",
+                                                            "is_external": "",
+                                                            "nofollow": ""
+                                                        }
+                                                    },
+                                                    {
+                                                        "_id": "6ad9aca",
+                                                        "text": "Terms & Conditions",
+                                                        "selected_icon": {
+                                                            "value": "",
+                                                            "library": ""
+                                                        },
+                                                        "link": {
+                                                            "url": "/terms-conditions/",
+                                                            "is_external": "",
+                                                            "nofollow": ""
+                                                        }
+                                                    }
+                                                ],
+                                                "space_between": {
+                                                    "unit": "px",
+                                                    "size": 18,
+                                                    "sizes": []
+                                                },
+                                                "divider": "yes",
+                                                "divider_style": "solid",
+                                                "divider_weight": {
+                                                    "unit": "px",
+                                                    "size": 1,
+                                                    "sizes": []
+                                                },
+                                                "__globals__": {
+                                                    "divider_color": "globals/colors?id=bcline",
+                                                    "text_color": "globals/colors?id=secondary",
+                                                    "text_color_hover": "globals/colors?id=bcmid",
+                                                    "icon_typography_typography": "globals/typography?id=bcuil"
+                                                }
+                                            },
+                                            "elements": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "36bac6d",
+                                    "elType": "container",
+                                    "isInner": false,
+                                    "settings": {
+                                        "flex_gap": {
+                                            "unit": "px",
+                                            "size": 0,
+                                            "column": "0",
+                                            "row": "0"
+                                        },
+                                        "content_width": "full",
+                                        "flex_direction": "column",
+                                        "flex_align_items": "flex-start",
+                                        "padding": {
+                                            "unit": "px",
+                                            "top": "28",
+                                            "right": "28",
+                                            "bottom": "28",
+                                            "left": "28",
+                                            "isLinked": false
+                                        },
+                                        "background_background": "classic",
+                                        "__globals__": {
+                                            "background_color": "globals/colors?id=accent"
+                                        }
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "a7488bc",
+                                            "elType": "widget",
+                                            "widgetType": "heading",
+                                            "isInner": false,
+                                            "settings": {
+                                                "title": "Still stuck",
+                                                "header_size": "p",
+                                                "_margin": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "12",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "__globals__": {
+                                                    "title_color": "globals/colors?id=bcmid",
+                                                    "typography_typography": "globals/typography?id=accent"
+                                                }
+                                            },
+                                            "elements": []
+                                        },
+                                        {
+                                            "id": "b3fc9e4",
+                                            "elType": "widget",
+                                            "widgetType": "heading",
+                                            "isInner": false,
+                                            "settings": {
+                                                "title": "Talk to a person",
+                                                "header_size": "h2",
+                                                "_margin": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "10",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "__globals__": {
+                                                    "title_color": "globals/colors?id=primary",
+                                                    "typography_typography": "globals/typography?id=bccard"
+                                                }
+                                            },
+                                            "elements": []
+                                        },
+                                        {
+                                            "id": "64d3d9f",
+                                            "elType": "widget",
+                                            "widgetType": "text-editor",
+                                            "isInner": false,
+                                            "settings": {
+                                                "editor": "<p>Message us with your order number and we will sort it out. We reply within one working day.</p>",
+                                                "_margin": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "18",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "__globals__": {
+                                                    "text_color": "globals/colors?id=text",
+                                                    "typography_typography": "globals/typography?id=bcsmall"
+                                                }
+                                            },
+                                            "elements": []
+                                        },
+                                        {
+                                            "id": "f22eca8",
+                                            "elType": "widget",
+                                            "widgetType": "button",
+                                            "isInner": false,
+                                            "settings": {
+                                                "text": "Ask on WhatsApp",
+                                                "link": {
+                                                    "url": "https://wa.me/256784956653?text=Hello%20Beauty%20Crib%2C%20I%20have%20a%20question%20about%20my%20order.",
+                                                    "is_external": "on",
+                                                    "nofollow": ""
+                                                },
+                                                "selected_icon": {
+                                                    "value": "fab fa-whatsapp",
+                                                    "library": "fa-brands"
+                                                },
+                                                "icon_indent": {
+                                                    "unit": "px",
+                                                    "size": 10,
+                                                    "sizes": []
+                                                },
+                                                "border_border": "solid",
+                                                "border_width": {
+                                                    "unit": "px",
+                                                    "top": "1",
+                                                    "right": "1",
+                                                    "bottom": "1",
+                                                    "left": "1",
+                                                    "isLinked": false
+                                                },
+                                                "border_radius": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "0",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "text_padding": {
+                                                    "unit": "px",
+                                                    "top": "15",
+                                                    "right": "24",
+                                                    "bottom": "15",
+                                                    "left": "24",
+                                                    "isLinked": false
+                                                },
+                                                "background_background": "classic",
+                                                "button_background_hover_background": "classic",
+                                                "__globals__": {
+                                                    "background_color": "globals/colors?id=primary",
+                                                    "button_text_color": "globals/colors?id=bcwhite",
+                                                    "border_color": "globals/colors?id=primary",
+                                                    "button_background_hover_color": "globals/colors?id=bcwhite",
+                                                    "hover_color": "globals/colors?id=primary",
+                                                    "button_hover_border_color": "globals/colors?id=primary",
+                                                    "typography_typography": "globals/typography?id=bcbtn"
+                                                }
+                                            },
+                                            "elements": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "06eb6a0",
+                    "elType": "container",
+                    "isInner": true,
+                    "elements": [
+                        {
+                            "id": "473b3e7",
+                            "elType": "widget",
+                            "widgetType": "text-editor",
+                            "elements": [],
+                            "settings": {
+                                "editor": "<h2>About these terms</h2><p>By using this website or placing an order you accept these terms. We may update them, and the version published here at the time of your order is the version that applies.</p><h2>Orders</h2><p>An order is an offer to buy. It is accepted when we confirm it and dispatch the goods. We may decline an order, for example where an item is out of stock, where the price was listed incorrectly, or where we cannot verify the delivery details. If we decline an order you have already paid for, we refund it in full.</p><h2>Pricing</h2><p>All prices are shown in Ugandan shillings (UGX) and include any applicable taxes. Delivery is charged separately and shown at checkout. We try to keep prices accurate, but if a listing is obviously wrong we will contact you before processing the order.</p><h2>Payment</h2><p>We accept cash on delivery and direct bank transfer, with Mobile Money and card payments added through our payment provider. Card payments are processed by that provider and card details are never stored by Beauty Crib. Orders paid by bank transfer are dispatched once payment has cleared.</p><h2>Delivery</h2><p>Delivery timings are estimates given in good faith. Risk in the goods passes to you on delivery. Please check your order on arrival and tell us within 48 hours if anything is damaged or incorrect.</p><h2>Returns</h2><p>Our returns and refunds policy forms part of these terms. In summary, unopened products may be returned within 7 days, and opened cosmetics cannot be returned for hygiene reasons unless they are faulty or incorrect.</p><h2>Product information and use</h2><p>We describe products as accurately as we can, including key ingredients and directions. Manufacturers do occasionally change formulations and packaging, so the carton you receive is the authority on ingredients and instructions.</p><p>Information on this website, including in the Journal, is general guidance and not medical advice. Patch test new products, follow the directions on the packaging, and stop using anything that irritates your skin. If you have a persistent or painful skin condition, see a qualified medical professional.</p><h2>Accounts</h2><p>You are responsible for keeping your account password confidential and for activity on your account. Tell us promptly if you think someone else has access. We may suspend an account that is being used fraudulently or abusively.</p><h2>Intellectual property</h2><p>The Beauty Crib name, logo, site design, photography and written content belong to Beauty Crib or are used with permission, and may not be copied or reused without our written consent. Brand names and product images belong to their respective owners.</p><h2>Liability</h2><p>Nothing in these terms limits liability where it cannot lawfully be limited. Otherwise, our liability in connection with an order is limited to the value of that order. We are not liable for indirect or consequential loss, or for delays caused by events outside our reasonable control.</p><h2>Governing law</h2><p>These terms are governed by the laws of Uganda, and the courts of Uganda have jurisdiction over any dispute. We would always rather resolve a problem directly, so please <a href=\"/contact/\">talk to us</a> first.</p><p><em>These terms are a working draft prepared for Beauty Crib and should be reviewed by a qualified adviser before launch.</em></p>",
+                                "text_color": "#666666",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Instrument Sans",
+                                "typography_font_size": {
+                                    "unit": "px",
+                                    "size": 17
+                                },
+                                "typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.7
+                                }
+                            }
+                        }
+                    ],
+                    "settings": {
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": 70,
+                            "sizes": []
+                        },
+                        "width_mobile": {
+                            "unit": "%",
+                            "size": 100,
+                            "sizes": []
+                        },
+                        "flex_gap": {
+                            "unit": "px",
+                            "size": 0,
+                            "column": "0",
+                            "row": "0"
+                        },
+                        "padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": true
+                        },
+                        "width_tablet": {
+                            "unit": "%",
+                            "size": 100,
+                            "sizes": []
+                        }
+                    }
+                }
+            ],
+            "settings": {
+                "content_width": "boxed",
+                "boxed_width": {
+                    "unit": "px",
+                    "size": 1440,
+                    "sizes": []
+                },
+                "flex_direction": "row",
+                "flex_wrap": "wrap",
+                "flex_gap": {
+                    "unit": "px",
+                    "size": 0,
+                    "column": "0",
+                    "row": "0"
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "20",
+                    "right": "40",
+                    "bottom": "100",
+                    "left": "40",
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": "8",
+                    "right": "20",
+                    "bottom": "64",
+                    "left": "20",
+                    "isLinked": false
+                },
+                "flex_align_items": "flex-start",
+                "_bc_help": "yes"
+            }
+        }
+    ]
+}

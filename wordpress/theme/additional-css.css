@@ -1,0 +1,44 @@
+/* ---- Beauty Crib brand overrides (generated) ---- */
+a{color:#000}a:hover{color:#777}
+/* Buttons: WooCommerce, Astra, blocks, comments */
+.woocommerce a.button,.woocommerce button.button,.woocommerce input.button,.woocommerce a.button.alt,.woocommerce button.button.alt,.woocommerce input.button.alt,.woocommerce #respond input#submit,.woocommerce .checkout-button,.wc-block-components-button,.wp-element-button,.ast-button,.ast-custom-button,body .button,input[type=submit]{background-color:#000!important;background-image:none!important;color:#fff!important;border:1px solid #000!important;border-radius:0!important;font-family:Instrument Sans,sans-serif!important;font-size:13px!important;font-weight:500!important;text-transform:uppercase!important;letter-spacing:1px!important;line-height:1.2!important;padding:16px 30px!important;box-shadow:none!important;transition:background-color .25s ease,color .25s ease!important}
+.woocommerce a.button:hover,.woocommerce button.button:hover,.woocommerce input.button:hover,.woocommerce a.button.alt:hover,.woocommerce button.button.alt:hover,.woocommerce input.button.alt:hover,.woocommerce #respond input#submit:hover,.woocommerce .checkout-button:hover,.wc-block-components-button:hover,.wp-element-button:hover,.ast-button:hover,body .button:hover,input[type=submit]:hover{background-color:#fff!important;color:#000!important;border-color:#000!important}
+.woocommerce a.button.loading:after,.woocommerce button.button.loading:after{border-radius:0}
+/* Added-to-cart link under archive buttons */
+.woocommerce a.added_to_cart{display:inline-block;margin-top:8px;font-family:Instrument Sans,sans-serif;font-size:12px;text-transform:uppercase;letter-spacing:1px;color:#000;text-decoration:underline}
+/* Prices and sale badge */
+.woocommerce ul.products li.product .price,.woocommerce div.product p.price,.woocommerce div.product span.price{color:#111;font-family:Instrument Sans,sans-serif}
+.woocommerce span.onsale{background:#000!important;color:#fff!important;border-radius:0!important;font-family:Instrument Sans,sans-serif;font-size:11px;letter-spacing:1px;text-transform:uppercase;min-height:0;min-width:0;line-height:1;padding:8px 12px;top:12px;left:12px;right:auto}
+/* Product cards */
+.woocommerce ul.products li.product{transition:transform .35s cubic-bezier(.22,1,.36,1)}
+.woocommerce ul.products li.product:hover{transform:translateY(-4px)}
+.woocommerce ul.products li.product img{aspect-ratio:4/5;object-fit:cover;background:#F7F7F5;border-radius:0}
+.woocommerce ul.products li.product .woocommerce-loop-product__title{font-family:Instrument Sans,sans-serif!important;font-size:16px!important;font-weight:400!important;color:#000}
+/* Form fields */
+.woocommerce form .form-row input.input-text,.woocommerce form .form-row textarea,.woocommerce form .form-row select,.woocommerce .select2-container .select2-selection--single,.wc-block-components-text-input input,input[type=text],input[type=email],input[type=tel],input[type=password],input[type=number],input[type=search],select,textarea{border:1px solid #E8E8E5!important;border-radius:0!important;background:#fff!important;color:#111!important;font-family:Instrument Sans,sans-serif!important;padding:14px 16px!important;box-shadow:none!important}
+input:focus,select:focus,textarea:focus,.woocommerce form .form-row input.input-text:focus{border-color:#000!important;outline:none!important}
+.woocommerce form .form-row label,.woocommerce-billing-fields label,.woocommerce-shipping-fields label{font-family:Instrument Sans,sans-serif;font-size:11px;letter-spacing:1.6px;text-transform:uppercase;color:#666}
+/* Quantity */
+.woocommerce .quantity .qty{border:1px solid #E8E8E5!important;border-radius:0!important;height:56px;font-family:Instrument Sans,sans-serif}
+/* Tables: cart, checkout review, account orders */
+.woocommerce table.shop_table,.woocommerce table.shop_table td,.woocommerce table.shop_table th{border-color:#E8E8E5!important;border-radius:0!important;font-family:Instrument Sans,sans-serif}
+.woocommerce table.shop_table th{font-size:11px;letter-spacing:1.6px;text-transform:uppercase;color:#666;font-weight:500}
+/* Notices: neutral, not theme blue */
+.woocommerce-message,.woocommerce-info,.woocommerce-error,.wc-block-components-notice-banner{border-top-color:#000!important;border-radius:0!important;background:#F7F7F5!important;color:#111!important;font-family:Instrument Sans,sans-serif!important}
+.woocommerce-message:before,.woocommerce-info:before{color:#000!important}
+/* Account navigation */
+.woocommerce-MyAccount-navigation ul{list-style:none;margin:0;padding:0}
+.woocommerce-MyAccount-navigation li{border-left:1px solid #E8E8E5}
+.woocommerce-MyAccount-navigation li.is-active{border-left-color:#000;background:#F7F7F5}
+.woocommerce-MyAccount-navigation li a{display:block;padding:12px 14px;font-family:Instrument Sans,sans-serif;font-size:14px;color:#111}
+/* Wishlist plugin */
+.tinv-wishlist .tinvwl_add_to_wishlist_button,.tinvwl-loop-button-wrapper a{border-radius:0!important;font-family:Instrument Sans,sans-serif!important;color:#000!important}
+/* Product tab lists from the imported copy */
+.bc-meta-list{margin:0 0 18px 18px}.bc-meta-list li{margin-bottom:8px;font-family:Instrument Sans,sans-serif;color:#666}
+.bc-note{font-size:14px;color:#777;font-family:Instrument Sans,sans-serif}
+.bc-caution{border-left:2px solid #000;padding-left:14px;color:#111}
+/* Kill rounded corners from theme defaults */
+.ast-container .entry-content .wp-block-button__link{border-radius:0}
+/* Contact form: the subject select was clipping its own text */
+.wpforms-container select,.wpforms-container input[type=text],.wpforms-container input[type=email],.wpforms-container input[type=tel]{height:auto!important;min-height:52px;line-height:1.5!important;padding:14px 16px!important}
+.wpforms-container textarea{line-height:1.6!important;padding:14px 16px!important}

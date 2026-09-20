@@ -1,0 +1,549 @@
+{
+    "id": 114,
+    "title": "Contact",
+    "type": "wp-page",
+    "conditions": "",
+    "page_settings": "",
+    "content": [
+        {
+            "id": "5e28518",
+            "elType": "container",
+            "isInner": false,
+            "elements": [
+                {
+                    "id": "bf367fc",
+                    "elType": "container",
+                    "isInner": true,
+                    "elements": [
+                        {
+                            "id": "5aa1dbd",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "elements": [],
+                            "settings": {
+                                "title": "Contact",
+                                "header_size": "h6",
+                                "title_color": "#666666",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Instrument Sans",
+                                "typography_font_size": {
+                                    "unit": "px",
+                                    "size": 11
+                                },
+                                "typography_font_weight": "500",
+                                "typography_text_transform": "uppercase",
+                                "typography_letter_spacing": {
+                                    "unit": "px",
+                                    "size": 1.6
+                                },
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "16",
+                                    "left": "0",
+                                    "isLinked": false
+                                }
+                            }
+                        },
+                        {
+                            "id": "d8e231d",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "elements": [],
+                            "settings": {
+                                "title": "Ask us anything.",
+                                "header_size": "h1",
+                                "title_color": "#000000",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Instrument Serif",
+                                "typography_font_size": {
+                                    "unit": "px",
+                                    "size": 96
+                                },
+                                "typography_font_size_mobile": {
+                                    "unit": "px",
+                                    "size": 42
+                                },
+                                "typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.06
+                                },
+                                "typography_letter_spacing": {
+                                    "unit": "px",
+                                    "size": -1
+                                },
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                }
+                            }
+                        }
+                    ],
+                    "settings": {
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": 52
+                        },
+                        "width_mobile": {
+                            "unit": "%",
+                            "size": 100
+                        },
+                        "flex_gap": {
+                            "unit": "px",
+                            "size": 0,
+                            "column": "0",
+                            "row": "0"
+                        },
+                        "padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "20",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "padding_mobile": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "32",
+                            "left": "0",
+                            "isLinked": false
+                        }
+                    }
+                },
+                {
+                    "id": "c92c2eb",
+                    "elType": "container",
+                    "isInner": true,
+                    "elements": [
+                        {
+                            "id": "6053825",
+                            "elType": "widget",
+                            "widgetType": "text-editor",
+                            "elements": [],
+                            "settings": {
+                                "editor": "<p>Not sure which cleanser suits your skin, or where your order has reached? Send a message and a person will answer. We reply to messages within one working day.</p>",
+                                "text_color": "#666666",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Instrument Sans",
+                                "typography_font_size": {
+                                    "unit": "px",
+                                    "size": 19
+                                },
+                                "typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.62
+                                }
+                            }
+                        }
+                    ],
+                    "settings": {
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": 44
+                        },
+                        "width_mobile": {
+                            "unit": "%",
+                            "size": 100
+                        },
+                        "flex_gap": {
+                            "unit": "px",
+                            "size": 0,
+                            "column": "0",
+                            "row": "0"
+                        },
+                        "padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "20",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "padding_mobile": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "32",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "flex_justify_content": "flex-end"
+                    }
+                }
+            ],
+            "settings": {
+                "content_width": "boxed",
+                "boxed_width": {
+                    "unit": "px",
+                    "size": 1440
+                },
+                "flex_direction": "row",
+                "flex_wrap": "wrap",
+                "flex_gap": {
+                    "unit": "px",
+                    "size": 0,
+                    "column": "0",
+                    "row": "0"
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "140",
+                    "right": "40",
+                    "bottom": "40",
+                    "left": "40",
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": "52",
+                    "right": "20",
+                    "bottom": "52",
+                    "left": "20",
+                    "isLinked": false
+                },
+                "flex_align_items": "flex-end"
+            }
+        },
+        {
+            "id": "c743cd4",
+            "elType": "container",
+            "isInner": false,
+            "elements": [
+                {
+                    "id": "eeed5b3",
+                    "elType": "container",
+                    "isInner": true,
+                    "elements": [
+                        {
+                            "id": "fa9baa6",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "elements": [],
+                            "settings": {
+                                "title": "Talk to us",
+                                "header_size": "h6",
+                                "title_color": "#666666",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Instrument Sans",
+                                "typography_font_size": {
+                                    "unit": "px",
+                                    "size": 11
+                                },
+                                "typography_font_weight": "500",
+                                "typography_text_transform": "uppercase",
+                                "typography_letter_spacing": {
+                                    "unit": "px",
+                                    "size": 1.6
+                                },
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "16",
+                                    "left": "0",
+                                    "isLinked": false
+                                }
+                            }
+                        },
+                        {
+                            "id": "326c2f2",
+                            "elType": "widget",
+                            "widgetType": "icon-list",
+                            "elements": [],
+                            "settings": {
+                                "icon_list": [
+                                    {
+                                        "_id": "fe9899f",
+                                        "text": "WhatsApp: +256 784 956 653",
+                                        "link": {
+                                            "url": "https://wa.me/256784956653"
+                                        },
+                                        "selected_icon": {
+                                            "value": "fab fa-whatsapp",
+                                            "library": "fa-brands"
+                                        }
+                                    },
+                                    {
+                                        "_id": "dac115a",
+                                        "text": "beautycrib256@gmail.com",
+                                        "link": {
+                                            "url": "mailto:beautycrib256@gmail.com"
+                                        },
+                                        "selected_icon": {
+                                            "value": "far fa-envelope",
+                                            "library": "fa-regular"
+                                        }
+                                    },
+                                    {
+                                        "_id": "910f559",
+                                        "text": "+256 784 956 653",
+                                        "link": {
+                                            "url": "tel:+256784956653"
+                                        },
+                                        "selected_icon": {
+                                            "value": "fas fa-phone",
+                                            "library": "fa-solid"
+                                        }
+                                    },
+                                    {
+                                        "_id": "8cf46f6",
+                                        "text": "Kampala, Uganda",
+                                        "link": {
+                                            "url": ""
+                                        },
+                                        "selected_icon": {
+                                            "value": "fas fa-map-marker-alt",
+                                            "library": "fa-solid"
+                                        }
+                                    }
+                                ],
+                                "space_between": {
+                                    "unit": "px",
+                                    "size": 14
+                                },
+                                "icon_color": "#000000",
+                                "icon_size": {
+                                    "unit": "px",
+                                    "size": 15
+                                },
+                                "text_color": "#111111",
+                                "text_color_hover": "#777777",
+                                "icon_typography_typography": "custom",
+                                "icon_typography_font_family": "Instrument Sans",
+                                "icon_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 15
+                                }
+                            }
+                        },
+                        {
+                            "id": "79bfac3",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "elements": [],
+                            "settings": {
+                                "title": "Hours",
+                                "header_size": "h6",
+                                "title_color": "#666666",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Instrument Sans",
+                                "typography_font_size": {
+                                    "unit": "px",
+                                    "size": 11
+                                },
+                                "typography_font_weight": "500",
+                                "typography_text_transform": "uppercase",
+                                "typography_letter_spacing": {
+                                    "unit": "px",
+                                    "size": 1.6
+                                },
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "36",
+                                    "right": "0",
+                                    "bottom": "16",
+                                    "left": "0",
+                                    "isLinked": false
+                                }
+                            }
+                        },
+                        {
+                            "id": "47c8987",
+                            "elType": "widget",
+                            "widgetType": "text-editor",
+                            "elements": [],
+                            "settings": {
+                                "editor": "<p>Monday to Friday, 9:00 to 18:00<br>Saturday, 10:00 to 16:00<br>Sunday, closed. Orders online any time.</p>",
+                                "text_color": "#666666",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Instrument Sans",
+                                "typography_font_size": {
+                                    "unit": "px",
+                                    "size": 15
+                                },
+                                "typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.62
+                                }
+                            }
+                        },
+                        {
+                            "id": "83316ab",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "elements": [],
+                            "settings": {
+                                "title": "Quick answers",
+                                "header_size": "h6",
+                                "title_color": "#666666",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Instrument Sans",
+                                "typography_font_size": {
+                                    "unit": "px",
+                                    "size": 11
+                                },
+                                "typography_font_weight": "500",
+                                "typography_text_transform": "uppercase",
+                                "typography_letter_spacing": {
+                                    "unit": "px",
+                                    "size": 1.6
+                                },
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "36",
+                                    "right": "0",
+                                    "bottom": "16",
+                                    "left": "0",
+                                    "isLinked": false
+                                }
+                            }
+                        },
+                        {
+                            "id": "2ab311b",
+                            "elType": "widget",
+                            "widgetType": "text-editor",
+                            "elements": [],
+                            "settings": {
+                                "editor": "<p><a href=\"/faq/\">Frequently asked questions</a><br><a href=\"/shipping-delivery/\">Shipping and delivery</a><br><a href=\"/returns-refunds/\">Returns and refunds</a></p>",
+                                "text_color": "#666666",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Instrument Sans",
+                                "typography_font_size": {
+                                    "unit": "px",
+                                    "size": 15
+                                },
+                                "typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.62
+                                }
+                            }
+                        }
+                    ],
+                    "settings": {
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": 34
+                        },
+                        "width_mobile": {
+                            "unit": "%",
+                            "size": 100
+                        },
+                        "flex_gap": {
+                            "unit": "px",
+                            "size": 0,
+                            "column": "0",
+                            "row": "0"
+                        },
+                        "padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "48",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "padding_mobile": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "32",
+                            "left": "0",
+                            "isLinked": false
+                        }
+                    }
+                },
+                {
+                    "id": "08497d7",
+                    "elType": "container",
+                    "isInner": true,
+                    "elements": [
+                        {
+                            "id": "3760a59",
+                            "elType": "widget",
+                            "widgetType": "shortcode",
+                            "elements": [],
+                            "settings": {
+                                "shortcode": "[wpforms id=\"112\"]",
+                                "custom_css": ".wpforms-container{max-width:100%!important;margin:0!important}selector .wpforms-field-label{font-family:\"Instrument Sans\",sans-serif!important;font-size:11px!important;font-weight:500!important;letter-spacing:1.6px!important;text-transform:uppercase!important;color:#666!important;margin-bottom:8px!important}selector .wpforms-field-sublabel{font-family:\"Instrument Sans\",sans-serif!important;font-size:12px!important;color:#777!important}selector input[type=text],selector input[type=email],selector input[type=tel],selector select,selector textarea{font-family:\"Instrument Sans\",sans-serif!important;font-size:16px!important;color:#111!important;background:#fff!important;border:1px solid #E8E8E5!important;border-radius:0!important;padding:14px 16px!important;box-shadow:none!important;transition:border-color .25s ease!important;max-width:100%!important}selector input:focus,selector select:focus,selector textarea:focus{border-color:#000!important;outline:none!important}selector textarea{min-height:150px!important}selector .wpforms-field{padding:0 0 20px 0!important}selector .wpforms-required-label{color:#000!important}selector button[type=submit]{font-family:\"Instrument Sans\",sans-serif!important;font-size:13px!important;font-weight:500!important;letter-spacing:1px!important;text-transform:uppercase!important;background:#000!important;color:#fff!important;border:1px solid #000!important;border-radius:0!important;padding:18px 32px!important;transition:background .25s ease,color .25s ease!important}selector button[type=submit]:hover{background:transparent!important;color:#000!important}selector .wpforms-confirmation-container-full{background:#F7F7F5!important;border:1px solid #E8E8E5!important;border-radius:0!important;font-family:\"Instrument Sans\",sans-serif!important;color:#111!important}"
+                            }
+                        }
+                    ],
+                    "settings": {
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": 62
+                        },
+                        "width_mobile": {
+                            "unit": "%",
+                            "size": 100
+                        },
+                        "flex_gap": {
+                            "unit": "px",
+                            "size": 0,
+                            "column": "0",
+                            "row": "0"
+                        },
+                        "padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "20",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "padding_mobile": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "32",
+                            "left": "0",
+                            "isLinked": false
+                        }
+                    }
+                }
+            ],
+            "settings": {
+                "content_width": "boxed",
+                "boxed_width": {
+                    "unit": "px",
+                    "size": 1440
+                },
+                "flex_direction": "row",
+                "flex_wrap": "wrap",
+                "flex_gap": {
+                    "unit": "px",
+                    "size": 0,
+                    "column": "0",
+                    "row": "0"
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "20",
+                    "right": "40",
+                    "bottom": "110",
+                    "left": "40",
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": "52",
+                    "right": "20",
+                    "bottom": "52",
+                    "left": "20",
+                    "isLinked": false
+                }
+            }
+        }
+    ]
+}

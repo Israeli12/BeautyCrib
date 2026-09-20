@@ -1,0 +1,52 @@
+$id = function () { return substr(md5(uniqid('', true) . mt_rand()), 0, 7); };
+$px = fn($n) => ['unit' => 'px', 'size' => $n, 'sizes' => []];
+$pc = fn($n) => ['unit' => '%', 'size' => $n, 'sizes' => []];
+$pad = fn($t, $r, $b, $l) => ['unit' => 'px', 'top' => (string) $t, 'right' => (string) $r, 'bottom' => (string) $b, 'left' => (string) $l, 'isLinked' => false];
+$gap0 = ['unit' => 'px', 'size' => 0, 'column' => '0', 'row' => '0'];
+$C = fn($i) => 'globals/colors?id=' . $i; $T = fn($i) => 'globals/typography?id=' . $i;
+$con = function (array $s, array $kids) use ($id, $gap0) { return ['id' => $id(), 'elType' => 'container', 'isInner' => false, 'settings' => array_merge(['flex_gap' => $gap0], $s), 'elements' => $kids]; };
+$w = function ($type, array $s) use ($id) { return ['id' => $id(), 'elType' => 'widget', 'widgetType' => $type, 'isInner' => false, 'settings' => $s, 'elements' => []]; };
+$tag = function ($name, $settings) { return '[elementor-tag id="' . substr(md5($name . mt_rand()), 0, 7) . '" name="' . $name . '" settings="' . rawurlencode(wp_json_encode($settings)) . '"]'; };
+$noicon = ['value' => '', 'library' => ''];
+$eyebrow = fn($text, $mb = 16, $tg = 'p') => $w('heading', ['title' => $text, 'header_size' => $tg, '_margin' => $pad(0, 0, $mb, 0), '__globals__' => ['title_color' => $C('bcmid'), 'typography_typography' => $T('accent')]]);
+
+$topics = $w('icon-list', ['view' => 'inline', 'icon_list' => array_map(fn($t) => ['_id' => $id(), 'text' => $t[0], 'selected_icon' => $noicon, 'link' => ['url' => $t[1], 'is_external' => '', 'nofollow' => '']], [['All articles', '/journal/'], ['Skincare', '/category/skincare/'], ['Guides', '/category/guides/'], ['Routines', '/category/routines/'], ['Makeup', '/category/makeup/'], ['Body', '/category/body/']]), 'space_between' => $px(28), '__globals__' => ['text_color' => $C('secondary'), 'text_color_hover' => $C('bcmid'), 'icon_typography_typography' => $T('bcuil')]]);
+
+$hero = $con(['content_width' => 'boxed', 'boxed_width' => $px(1440), 'flex_direction' => 'column', 'padding' => $pad(72, 40, 40, 40), 'padding_mobile' => $pad(32, 20, 28, 20), 'html_tag' => 'header'], [
+  $eyebrow('The Journal', 14),
+  $w('theme-archive-title', ['header_size' => 'h1', '_margin' => $pad(0, 0, 20, 0), '__dynamic__' => ['title' => $tag('archive-title', ['include_context' => ''])], '__globals__' => ['title_color' => $C('primary'), 'typography_typography' => $T('bcdl')]]),
+  $w('theme-post-excerpt', ['__dynamic__' => ['excerpt' => $tag('archive-description', [])], '_margin' => $pad(0, 0, 28, 0), '__globals__' => ['title_color' => $C('text'), 'typography_typography' => $T('bclead')]]),
+  $con(['content_width' => 'full', 'flex_direction' => 'column', 'padding' => $pad(24, 0, 0, 0), 'border_border' => 'solid', 'border_width' => $pad(1, 0, 0, 0), '__globals__' => ['border_color' => $C('bcline')]], [$topics]),
+]);
+
+$grid = $con(['content_width' => 'boxed', 'boxed_width' => $px(1440), 'flex_direction' => 'column', 'padding' => $pad(40, 40, 112, 40), 'padding_mobile' => $pad(28, 20, 64, 20)], [
+  $w('archive-posts', ['_skin' => 'archive_cards', 'archive_cards_columns' => '3', 'archive_cards_columns_tablet' => '2', 'archive_cards_columns_mobile' => '1', 'archive_cards_thumbnail' => 'top', 'archive_cards_item_ratio' => ['unit' => 'px', 'size' => 0.72], 'archive_cards_thumbnail_size_size' => 'medium_large', 'archive_cards_show_title' => 'yes', 'archive_cards_title_tag' => 'h2', 'archive_cards_show_excerpt' => 'yes', 'archive_cards_excerpt_length' => 20, 'archive_cards_meta_data' => ['date'], 'archive_cards_show_read_more' => 'yes', 'archive_cards_read_more_text' => 'Read the article', 'archive_cards_show_badge' => 'yes', 'archive_cards_badge_taxonomy' => 'category', 'archive_cards_show_avatar' => '', 'archive_cards_hover_effect' => 'none', 'archive_cards_column_gap' => $px(32), 'archive_cards_row_gap' => $px(48), 'archive_cards_card_padding' => $px(28), 'archive_cards_card_border_width' => $px(1), 'archive_cards_card_border_radius' => $px(0), 'archive_cards_badge_radius' => $px(0), 'archive_cards_title_spacing' => $px(12), 'archive_cards_excerpt_spacing' => $px(20), 'pagination_type' => 'numbers', 'pagination_align' => 'center', 'pagination_spacing_top' => $px(64), 'nothing_found_message' => 'Nothing here yet. Browse all articles in the Journal.', '__globals__' => ['archive_cards_card_bg_color' => $C('bcwhite'), 'archive_cards_card_border_color' => $C('bcline'), 'archive_cards_meta_border_color' => $C('bcline'), 'archive_cards_badge_bg_color' => $C('primary'), 'archive_cards_badge_color' => $C('bcwhite'), 'archive_cards_badge_typography_typography' => $T('accent'), 'archive_cards_title_color' => $C('primary'), 'archive_cards_title_typography_typography' => $T('bccard'), 'archive_cards_excerpt_color' => $C('text'), 'archive_cards_excerpt_typography_typography' => $T('bcsmall'), 'archive_cards_meta_color' => $C('bcmid'), 'archive_cards_meta_typography_typography' => $T('bcsmall'), 'archive_cards_read_more_color' => $C('primary'), 'archive_cards_read_more_typography_typography' => $T('accent'), 'pagination_typography_typography' => $T('bcuil'), 'pagination_color' => $C('bcmid'), 'pagination_hover_color' => $C('primary'), 'pagination_active_color' => $C('primary'), 'nothing_found_color' => $C('text'), 'nothing_found_typography_typography' => $T('bclead')]]),
+]);
+
+$data = [$hero, $grid];
+
+$em = \Elementor\Plugin::$instance; $unknown = [];
+$base = fn($k) => preg_replace('/_(tablet|mobile|widescreen|laptop|tablet_extra|mobile_extra)$/', '', $k);
+$check = function ($els) use (&$check, $em, &$unknown, $base) { foreach ($els as $e) { $ctl = $e['elType'] === 'widget' ? $em->widgets_manager->get_widget_types($e['widgetType'])->get_controls() : $em->elements_manager->get_element_types('container')->get_controls(); foreach ($e['settings'] as $k => $v) { if ($k === '__globals__' || $k === '__dynamic__') { foreach ((array) $v as $gk => $gv) { if (!isset($ctl[$base($gk)])) { $unknown[] = ($e['widgetType'] ?? 'container') . ' g:' . $gk; } } continue; } if (!isset($ctl[$base($k)])) { $unknown[] = ($e['widgetType'] ?? 'container') . ' ' . $k; } } if ($e['elements']) { $check($e['elements']); } } };
+$check($data);
+if ($unknown) { return ['unknown_keys' => array_values(array_unique($unknown))]; }
+
+$title = 'Beauty Crib Post Archive';
+$existing = get_posts(['post_type' => 'elementor_library', 'title' => $title, 'post_status' => 'any', 'numberposts' => 1, 'fields' => 'ids']);
+$tid = $existing ? $existing[0] : wp_insert_post(['post_type' => 'elementor_library', 'post_title' => $title, 'post_status' => 'publish']);
+wp_update_post(['ID' => $tid, 'post_status' => 'publish']);
+wp_set_object_terms($tid, 'archive', 'elementor_library_type');
+update_post_meta($tid, '_elementor_edit_mode', 'builder');
+update_post_meta($tid, '_elementor_template_type', 'archive');
+update_post_meta($tid, '_elementor_version', ELEMENTOR_VERSION);
+update_post_meta($tid, '_elementor_pro_version', ELEMENTOR_PRO_VERSION);
+update_post_meta($tid, '_wp_page_template', 'elementor_header_footer');
+update_post_meta($tid, '_elementor_page_settings', ['page_template' => 'elementor_header_footer', 'preview_type' => 'archive/category', 'preview_term' => 'category/guides']);
+update_post_meta($tid, '_elementor_data', wp_slash(wp_json_encode($data)));
+update_post_meta($tid, '_elementor_conditions', ['include/archive/category', 'include/archive/post_tag', 'include/archive/date', 'include/archive/author', 'include/archive/search']);
+delete_post_meta($tid, '_elementor_element_cache');
+$a = wp_get_post_autosave($tid); if ($a) { wp_delete_post_revision($a->ID); }
+\Elementor\Core\Files\CSS\Post::create($tid)->update();
+\Elementor\Plugin::$instance->files_manager->clear_cache();
+do_action('litespeed_purge_all');
+return ['template' => $tid];

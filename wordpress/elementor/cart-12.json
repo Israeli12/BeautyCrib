@@ -1,0 +1,193 @@
+{
+    "id": 12,
+    "title": "Cart",
+    "type": "wp-page",
+    "conditions": "",
+    "page_settings": "",
+    "content": [
+        {
+            "id": "fcfd078",
+            "elType": "container",
+            "isInner": false,
+            "elements": [
+                {
+                    "id": "38437af",
+                    "elType": "widget",
+                    "widgetType": "heading",
+                    "elements": [],
+                    "settings": {
+                        "title": "Your bag",
+                        "header_size": "h6",
+                        "title_color": "#666666",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Instrument Sans",
+                        "typography_font_size": {
+                            "unit": "px",
+                            "size": 11
+                        },
+                        "typography_font_weight": "500",
+                        "typography_text_transform": "uppercase",
+                        "typography_letter_spacing": {
+                            "unit": "px",
+                            "size": 1.6
+                        },
+                        "_margin": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "14",
+                            "left": "0",
+                            "isLinked": false
+                        }
+                    }
+                },
+                {
+                    "id": "cbbd2f1",
+                    "elType": "widget",
+                    "widgetType": "heading",
+                    "elements": [],
+                    "settings": {
+                        "title": "Your bag",
+                        "header_size": "h1",
+                        "title_color": "#000000",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Instrument Serif",
+                        "typography_font_size": {
+                            "unit": "px",
+                            "size": 72
+                        },
+                        "typography_font_size_mobile": {
+                            "unit": "px",
+                            "size": 36
+                        },
+                        "typography_line_height": {
+                            "unit": "em",
+                            "size": 1.06
+                        },
+                        "typography_letter_spacing": {
+                            "unit": "px",
+                            "size": -1
+                        }
+                    }
+                }
+            ],
+            "settings": {
+                "content_width": "boxed",
+                "boxed_width": {
+                    "unit": "px",
+                    "size": 1440
+                },
+                "flex_direction": "column",
+                "flex_gap": {
+                    "unit": "px",
+                    "size": 0,
+                    "column": "0",
+                    "row": "0"
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "140",
+                    "right": "40",
+                    "bottom": "40",
+                    "left": "40",
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": "110",
+                    "right": "20",
+                    "bottom": "24",
+                    "left": "20",
+                    "isLinked": false
+                }
+            }
+        },
+        {
+            "id": "faa64f0",
+            "elType": "container",
+            "isInner": false,
+            "elements": [
+                {
+                    "id": "e56275c",
+                    "elType": "widget",
+                    "widgetType": "woocommerce-cart",
+                    "elements": [],
+                    "settings": {
+                        "button_background_color": "#000000",
+                        "button_text_color": "#FFFFFF",
+                        "button_hover_background_color": "#FFFFFF",
+                        "button_hover_text_color": "#000000",
+                        "button_border_border": "solid",
+                        "button_border_width": {
+                            "unit": "px",
+                            "top": "1",
+                            "right": "1",
+                            "bottom": "1",
+                            "left": "1",
+                            "isLinked": true
+                        },
+                        "button_border_color": "#000000",
+                        "button_border_radius": {
+                            "unit": "px",
+                            "size": 0
+                        },
+                        "button_typography_typography": "custom",
+                        "button_typography_font_family": "Instrument Sans",
+                        "button_typography_font_size": {
+                            "unit": "px",
+                            "size": 13
+                        },
+                        "button_typography_text_transform": "uppercase",
+                        "section_heading_color": "#000000",
+                        "cart_table_head_color": "#666666",
+                        "cart_table_color": "#111111",
+                        "table_border_color": "#E8E8E5",
+                        "checkout_button_background_color": "#000000",
+                        "checkout_button_text_color": "#FFFFFF",
+                        "checkout_button_border_radius": {
+                            "unit": "px",
+                            "size": 0
+                        },
+                        "apply_coupon_button_background_color": "#FFFFFF",
+                        "apply_coupon_button_text_color": "#000000",
+                        "update_cart_button_background_color": "#FFFFFF",
+                        "update_cart_button_text_color": "#000000",
+                        "general_typography_typography": "custom",
+                        "general_typography_font_family": "Instrument Sans",
+                        "custom_css": "selector .cart_totals h2,selector .cross-sells h2{font-family:Instrument Serif,serif;font-size:30px;letter-spacing:-1px}selector table.shop_table{border-radius:0}"
+                    }
+                }
+            ],
+            "settings": {
+                "content_width": "boxed",
+                "boxed_width": {
+                    "unit": "px",
+                    "size": 1440
+                },
+                "flex_direction": "column",
+                "flex_gap": {
+                    "unit": "px",
+                    "size": 0,
+                    "column": "0",
+                    "row": "0"
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "40",
+                    "bottom": "110",
+                    "left": "40",
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "20",
+                    "bottom": "60",
+                    "left": "20",
+                    "isLinked": false
+                }
+            }
+        }
+    ]
+}

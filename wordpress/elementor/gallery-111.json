@@ -1,0 +1,317 @@
+{
+    "id": 111,
+    "title": "Gallery",
+    "type": "wp-page",
+    "conditions": "",
+    "page_settings": "",
+    "content": [
+        {
+            "id": "213a844",
+            "elType": "container",
+            "isInner": false,
+            "elements": [
+                {
+                    "id": "061af13",
+                    "elType": "container",
+                    "isInner": true,
+                    "elements": [
+                        {
+                            "id": "2454ad4",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "elements": [],
+                            "settings": {
+                                "title": "Gallery",
+                                "header_size": "h6",
+                                "title_color": "#666666",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Instrument Sans",
+                                "typography_font_size": {
+                                    "unit": "px",
+                                    "size": 11
+                                },
+                                "typography_font_weight": "500",
+                                "typography_text_transform": "uppercase",
+                                "typography_letter_spacing": {
+                                    "unit": "px",
+                                    "size": 1.6
+                                },
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "20",
+                                    "left": "0",
+                                    "isLinked": false
+                                }
+                            }
+                        },
+                        {
+                            "id": "eac0d4b",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "elements": [],
+                            "settings": {
+                                "title": "The Beauty Crib world.",
+                                "header_size": "h1",
+                                "title_color": "#000000",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Instrument Serif",
+                                "typography_font_size": {
+                                    "unit": "px",
+                                    "size": 96
+                                },
+                                "typography_font_size_mobile": {
+                                    "unit": "px",
+                                    "size": 42
+                                },
+                                "typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.06
+                                },
+                                "typography_letter_spacing": {
+                                    "unit": "px",
+                                    "size": -1
+                                },
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "22",
+                                    "left": "0",
+                                    "isLinked": false
+                                }
+                            }
+                        },
+                        {
+                            "id": "ab8cbe9",
+                            "elType": "widget",
+                            "widgetType": "text-editor",
+                            "elements": [],
+                            "settings": {
+                                "editor": "<p>Campaign photography, product still life and the skin all of it is for. Select any image to view it larger, then use the arrow keys to move through the set.</p>",
+                                "text_color": "#666666",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Instrument Sans",
+                                "typography_font_size": {
+                                    "unit": "px",
+                                    "size": 19
+                                },
+                                "typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.62
+                                }
+                            }
+                        }
+                    ],
+                    "settings": {
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": 68
+                        },
+                        "width_mobile": {
+                            "unit": "%",
+                            "size": 100
+                        },
+                        "flex_gap": {
+                            "unit": "px",
+                            "size": 0,
+                            "column": "0",
+                            "row": "0"
+                        },
+                        "padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "20",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "padding_mobile": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "28",
+                            "left": "0",
+                            "isLinked": false
+                        }
+                    }
+                }
+            ],
+            "settings": {
+                "content_width": "boxed",
+                "boxed_width": {
+                    "unit": "px",
+                    "size": 1440
+                },
+                "flex_direction": "row",
+                "flex_wrap": "wrap",
+                "flex_gap": {
+                    "unit": "px",
+                    "size": 0,
+                    "column": "0",
+                    "row": "0"
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "140",
+                    "right": "40",
+                    "bottom": "50",
+                    "left": "40",
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": "52",
+                    "right": "20",
+                    "bottom": "52",
+                    "left": "20",
+                    "isLinked": false
+                }
+            }
+        },
+        {
+            "id": "cc86a64",
+            "elType": "container",
+            "isInner": false,
+            "elements": [
+                {
+                    "id": "42f9444",
+                    "elType": "container",
+                    "isInner": true,
+                    "elements": [
+                        {
+                            "id": "536331d",
+                            "elType": "widget",
+                            "widgetType": "gallery",
+                            "elements": [],
+                            "settings": {
+                                "gallery_type": "single",
+                                "gallery": [
+                                    {
+                                        "id": 84,
+                                        "url": "https://beautycrib.ug/wp-content/uploads/2026/09/gallery-01.jpg"
+                                    },
+                                    {
+                                        "id": 85,
+                                        "url": "https://beautycrib.ug/wp-content/uploads/2026/09/gallery-02.jpg"
+                                    },
+                                    {
+                                        "id": 86,
+                                        "url": "https://beautycrib.ug/wp-content/uploads/2026/09/gallery-03.jpg"
+                                    },
+                                    {
+                                        "id": 87,
+                                        "url": "https://beautycrib.ug/wp-content/uploads/2026/09/gallery-04.jpg"
+                                    },
+                                    {
+                                        "id": 88,
+                                        "url": "https://beautycrib.ug/wp-content/uploads/2026/09/gallery-05.jpg"
+                                    },
+                                    {
+                                        "id": 89,
+                                        "url": "https://beautycrib.ug/wp-content/uploads/2026/09/gallery-06.jpg"
+                                    },
+                                    {
+                                        "id": 90,
+                                        "url": "https://beautycrib.ug/wp-content/uploads/2026/09/gallery-07.jpg"
+                                    },
+                                    {
+                                        "id": 91,
+                                        "url": "https://beautycrib.ug/wp-content/uploads/2026/09/gallery-08.jpg"
+                                    },
+                                    {
+                                        "id": 92,
+                                        "url": "https://beautycrib.ug/wp-content/uploads/2026/09/gallery-09.jpg"
+                                    },
+                                    {
+                                        "id": 93,
+                                        "url": "https://beautycrib.ug/wp-content/uploads/2026/09/gallery-10.jpg"
+                                    },
+                                    {
+                                        "id": 94,
+                                        "url": "https://beautycrib.ug/wp-content/uploads/2026/09/gallery-11.jpg"
+                                    },
+                                    {
+                                        "id": 95,
+                                        "url": "https://beautycrib.ug/wp-content/uploads/2026/09/gallery-12.jpg"
+                                    },
+                                    {
+                                        "id": 96,
+                                        "url": "https://beautycrib.ug/wp-content/uploads/2026/09/gallery-13.jpg"
+                                    },
+                                    {
+                                        "id": 97,
+                                        "url": "https://beautycrib.ug/wp-content/uploads/2026/09/gallery-14.jpg"
+                                    }
+                                ],
+                                "columns": 3,
+                                "columns_tablet": 2,
+                                "columns_mobile": 2,
+                                "gap": {
+                                    "unit": "px",
+                                    "size": 18
+                                },
+                                "gap_tablet": {
+                                    "unit": "px",
+                                    "size": 12
+                                },
+                                "aspect_ratio": "3:4",
+                                "image_size": "large",
+                                "overlay_background": "rgba(0,0,0,0.25)",
+                                "show_all_galleries_label": "All",
+                                "content_hover_animation": "fade-in",
+                                "lightbox": "yes"
+                            }
+                        }
+                    ],
+                    "settings": {
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": 100
+                        },
+                        "flex_gap": {
+                            "unit": "px",
+                            "size": 0,
+                            "column": "0",
+                            "row": "0"
+                        }
+                    }
+                }
+            ],
+            "settings": {
+                "content_width": "boxed",
+                "boxed_width": {
+                    "unit": "px",
+                    "size": 1440
+                },
+                "flex_direction": "row",
+                "flex_wrap": "wrap",
+                "flex_gap": {
+                    "unit": "px",
+                    "size": 0,
+                    "column": "0",
+                    "row": "0"
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "40",
+                    "bottom": "96",
+                    "left": "40",
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": "52",
+                    "right": "20",
+                    "bottom": "52",
+                    "left": "20",
+                    "isLinked": false
+                }
+            }
+        }
+    ]
+}

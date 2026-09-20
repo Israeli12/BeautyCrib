@@ -1,0 +1,2030 @@
+{
+    "id": 115,
+    "title": "FAQ",
+    "type": "wp-page",
+    "conditions": "",
+    "page_settings": "",
+    "content": [
+        {
+            "id": "b17e65a",
+            "elType": "container",
+            "isInner": false,
+            "elements": [
+                {
+                    "id": "0933a42",
+                    "elType": "container",
+                    "isInner": true,
+                    "elements": [
+                        {
+                            "id": "a8e3877",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "elements": [],
+                            "settings": {
+                                "title": "Help",
+                                "header_size": "h6",
+                                "title_color": "#666666",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Instrument Sans",
+                                "typography_font_size": {
+                                    "unit": "px",
+                                    "size": 11
+                                },
+                                "typography_font_weight": "500",
+                                "typography_text_transform": "uppercase",
+                                "typography_letter_spacing": {
+                                    "unit": "px",
+                                    "size": 1.6
+                                },
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "16",
+                                    "left": "0",
+                                    "isLinked": false
+                                }
+                            }
+                        },
+                        {
+                            "id": "9f756c8",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "elements": [],
+                            "settings": {
+                                "title": "Questions, answered.",
+                                "header_size": "h1",
+                                "title_color": "#000000",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Instrument Serif",
+                                "typography_font_size": {
+                                    "unit": "px",
+                                    "size": 88
+                                },
+                                "typography_font_size_mobile": {
+                                    "unit": "px",
+                                    "size": 40
+                                },
+                                "typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.06
+                                },
+                                "typography_letter_spacing": {
+                                    "unit": "px",
+                                    "size": -1
+                                },
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                }
+                            }
+                        }
+                    ],
+                    "settings": {
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": 54
+                        },
+                        "width_mobile": {
+                            "unit": "%",
+                            "size": 100
+                        },
+                        "flex_gap": {
+                            "unit": "px",
+                            "size": 0,
+                            "column": "0",
+                            "row": "0"
+                        },
+                        "padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "20",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "padding_mobile": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "28",
+                            "left": "0",
+                            "isLinked": false
+                        }
+                    }
+                },
+                {
+                    "id": "2001881",
+                    "elType": "container",
+                    "isInner": true,
+                    "elements": [
+                        {
+                            "id": "2850286",
+                            "elType": "widget",
+                            "widgetType": "text-editor",
+                            "elements": [],
+                            "settings": {
+                                "editor": "<p>Ordering, delivery, payment, authenticity and returns. If your question is not here, message us and we will answer it properly.</p>",
+                                "text_color": "#666666",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Instrument Sans",
+                                "typography_font_size": {
+                                    "unit": "px",
+                                    "size": 18
+                                },
+                                "typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.7
+                                }
+                            }
+                        }
+                    ],
+                    "settings": {
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": 42
+                        },
+                        "width_mobile": {
+                            "unit": "%",
+                            "size": 100
+                        },
+                        "flex_gap": {
+                            "unit": "px",
+                            "size": 0,
+                            "column": "0",
+                            "row": "0"
+                        },
+                        "padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "20",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "padding_mobile": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "28",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "flex_justify_content": "flex-end"
+                    }
+                }
+            ],
+            "settings": {
+                "content_width": "boxed",
+                "boxed_width": {
+                    "unit": "px",
+                    "size": 1440
+                },
+                "flex_direction": "row",
+                "flex_wrap": "wrap",
+                "flex_gap": {
+                    "unit": "px",
+                    "size": 0,
+                    "column": "0",
+                    "row": "0"
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "140",
+                    "right": "40",
+                    "bottom": "40",
+                    "left": "40",
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": "48",
+                    "right": "20",
+                    "bottom": "48",
+                    "left": "20",
+                    "isLinked": false
+                },
+                "flex_align_items": "flex-end"
+            }
+        },
+        {
+            "id": "d4f711e",
+            "elType": "container",
+            "isInner": false,
+            "settings": {
+                "flex_gap": {
+                    "unit": "px",
+                    "size": 0,
+                    "column": "0",
+                    "row": "0"
+                },
+                "content_width": "boxed",
+                "boxed_width": {
+                    "unit": "px",
+                    "size": 1440,
+                    "sizes": []
+                },
+                "flex_direction": "row",
+                "flex_wrap": "wrap",
+                "flex_align_items": "flex-start",
+                "padding": {
+                    "unit": "px",
+                    "top": "20",
+                    "right": "40",
+                    "bottom": "100",
+                    "left": "40",
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": "8",
+                    "right": "20",
+                    "bottom": "64",
+                    "left": "20",
+                    "isLinked": false
+                },
+                "_bc_help": "yes"
+            },
+            "elements": [
+                {
+                    "id": "2e66860",
+                    "elType": "container",
+                    "isInner": false,
+                    "settings": {
+                        "flex_gap": {
+                            "unit": "px",
+                            "size": 0,
+                            "column": "0",
+                            "row": "0"
+                        },
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": 30,
+                            "sizes": []
+                        },
+                        "width_tablet": {
+                            "unit": "%",
+                            "size": 100,
+                            "sizes": []
+                        },
+                        "width_mobile": {
+                            "unit": "%",
+                            "size": 100,
+                            "sizes": []
+                        },
+                        "flex_direction": "column",
+                        "html_tag": "aside",
+                        "padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "56",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "padding_tablet": {
+                            "unit": "px",
+                            "top": "48",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "_flex_order_tablet": "end"
+                    },
+                    "elements": [
+                        {
+                            "id": "0282fd1",
+                            "elType": "container",
+                            "isInner": false,
+                            "settings": {
+                                "flex_gap": {
+                                    "unit": "px",
+                                    "size": 0,
+                                    "column": "0",
+                                    "row": "0"
+                                },
+                                "content_width": "full",
+                                "flex_direction": "column",
+                                "sticky": "top",
+                                "sticky_on": [
+                                    "desktop"
+                                ],
+                                "sticky_offset": 120,
+                                "sticky_parent": "yes"
+                            },
+                            "elements": [
+                                {
+                                    "id": "cc17a40",
+                                    "elType": "container",
+                                    "isInner": false,
+                                    "settings": {
+                                        "flex_gap": {
+                                            "unit": "px",
+                                            "size": 0,
+                                            "column": "0",
+                                            "row": "0"
+                                        },
+                                        "content_width": "full",
+                                        "flex_direction": "column",
+                                        "padding": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "28",
+                                            "left": "0",
+                                            "isLinked": false
+                                        },
+                                        "margin": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "28",
+                                            "left": "0",
+                                            "isLinked": false
+                                        },
+                                        "border_border": "solid",
+                                        "border_width": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "1",
+                                            "left": "0",
+                                            "isLinked": false
+                                        },
+                                        "__globals__": {
+                                            "border_color": "globals/colors?id=bcline"
+                                        }
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "11628d0",
+                                            "elType": "widget",
+                                            "widgetType": "heading",
+                                            "isInner": false,
+                                            "settings": {
+                                                "title": "On this page",
+                                                "header_size": "p",
+                                                "_margin": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "16",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "__globals__": {
+                                                    "title_color": "globals/colors?id=bcmid",
+                                                    "typography_typography": "globals/typography?id=accent"
+                                                }
+                                            },
+                                            "elements": []
+                                        },
+                                        {
+                                            "id": "e04dc42",
+                                            "elType": "widget",
+                                            "widgetType": "icon-list",
+                                            "isInner": false,
+                                            "settings": {
+                                                "view": "traditional",
+                                                "icon_list": [
+                                                    {
+                                                        "_id": "bef5ef3",
+                                                        "text": "Ordering",
+                                                        "selected_icon": {
+                                                            "value": "",
+                                                            "library": ""
+                                                        },
+                                                        "link": {
+                                                            "url": "#ordering",
+                                                            "is_external": "",
+                                                            "nofollow": ""
+                                                        }
+                                                    },
+                                                    {
+                                                        "_id": "e54437b",
+                                                        "text": "Delivery",
+                                                        "selected_icon": {
+                                                            "value": "",
+                                                            "library": ""
+                                                        },
+                                                        "link": {
+                                                            "url": "#delivery",
+                                                            "is_external": "",
+                                                            "nofollow": ""
+                                                        }
+                                                    },
+                                                    {
+                                                        "_id": "e722056",
+                                                        "text": "Payment",
+                                                        "selected_icon": {
+                                                            "value": "",
+                                                            "library": ""
+                                                        },
+                                                        "link": {
+                                                            "url": "#payment",
+                                                            "is_external": "",
+                                                            "nofollow": ""
+                                                        }
+                                                    },
+                                                    {
+                                                        "_id": "89129fc",
+                                                        "text": "Authenticity",
+                                                        "selected_icon": {
+                                                            "value": "",
+                                                            "library": ""
+                                                        },
+                                                        "link": {
+                                                            "url": "#authenticity",
+                                                            "is_external": "",
+                                                            "nofollow": ""
+                                                        }
+                                                    },
+                                                    {
+                                                        "_id": "ccdf4be",
+                                                        "text": "Returns",
+                                                        "selected_icon": {
+                                                            "value": "",
+                                                            "library": ""
+                                                        },
+                                                        "link": {
+                                                            "url": "#returns",
+                                                            "is_external": "",
+                                                            "nofollow": ""
+                                                        }
+                                                    },
+                                                    {
+                                                        "_id": "ffba607",
+                                                        "text": "Products and skin advice",
+                                                        "selected_icon": {
+                                                            "value": "",
+                                                            "library": ""
+                                                        },
+                                                        "link": {
+                                                            "url": "#advice",
+                                                            "is_external": "",
+                                                            "nofollow": ""
+                                                        }
+                                                    }
+                                                ],
+                                                "space_between": {
+                                                    "unit": "px",
+                                                    "size": 18,
+                                                    "sizes": []
+                                                },
+                                                "divider": "yes",
+                                                "divider_style": "solid",
+                                                "divider_weight": {
+                                                    "unit": "px",
+                                                    "size": 1,
+                                                    "sizes": []
+                                                },
+                                                "__globals__": {
+                                                    "divider_color": "globals/colors?id=bcline",
+                                                    "text_color": "globals/colors?id=secondary",
+                                                    "text_color_hover": "globals/colors?id=bcmid",
+                                                    "icon_typography_typography": "globals/typography?id=bcuil"
+                                                }
+                                            },
+                                            "elements": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "719ea78",
+                                    "elType": "container",
+                                    "isInner": false,
+                                    "settings": {
+                                        "flex_gap": {
+                                            "unit": "px",
+                                            "size": 0,
+                                            "column": "0",
+                                            "row": "0"
+                                        },
+                                        "content_width": "full",
+                                        "flex_direction": "column",
+                                        "padding": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "28",
+                                            "left": "0",
+                                            "isLinked": false
+                                        },
+                                        "margin": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "28",
+                                            "left": "0",
+                                            "isLinked": false
+                                        },
+                                        "border_border": "solid",
+                                        "border_width": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "1",
+                                            "left": "0",
+                                            "isLinked": false
+                                        },
+                                        "__globals__": {
+                                            "border_color": "globals/colors?id=bcline"
+                                        }
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "cd011b3",
+                                            "elType": "widget",
+                                            "widgetType": "heading",
+                                            "isInner": false,
+                                            "settings": {
+                                                "title": "Help",
+                                                "header_size": "p",
+                                                "_margin": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "16",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "__globals__": {
+                                                    "title_color": "globals/colors?id=bcmid",
+                                                    "typography_typography": "globals/typography?id=accent"
+                                                }
+                                            },
+                                            "elements": []
+                                        },
+                                        {
+                                            "id": "e01b3ce",
+                                            "elType": "widget",
+                                            "widgetType": "icon-list",
+                                            "isInner": false,
+                                            "settings": {
+                                                "view": "traditional",
+                                                "icon_list": [
+                                                    {
+                                                        "_id": "e219b02",
+                                                        "text": "Shipping & Delivery",
+                                                        "selected_icon": {
+                                                            "value": "",
+                                                            "library": ""
+                                                        },
+                                                        "link": {
+                                                            "url": "/shipping-delivery/",
+                                                            "is_external": "",
+                                                            "nofollow": ""
+                                                        }
+                                                    },
+                                                    {
+                                                        "_id": "e65789d",
+                                                        "text": "Returns & Refunds",
+                                                        "selected_icon": {
+                                                            "value": "",
+                                                            "library": ""
+                                                        },
+                                                        "link": {
+                                                            "url": "/returns-refunds/",
+                                                            "is_external": "",
+                                                            "nofollow": ""
+                                                        }
+                                                    },
+                                                    {
+                                                        "_id": "33908fc",
+                                                        "text": "Frequently asked questions",
+                                                        "selected_icon": {
+                                                            "value": "",
+                                                            "library": ""
+                                                        },
+                                                        "link": {
+                                                            "url": "/faq/",
+                                                            "is_external": "",
+                                                            "nofollow": ""
+                                                        }
+                                                    },
+                                                    {
+                                                        "_id": "8fca4f3",
+                                                        "text": "Contact us",
+                                                        "selected_icon": {
+                                                            "value": "",
+                                                            "library": ""
+                                                        },
+                                                        "link": {
+                                                            "url": "/contact/",
+                                                            "is_external": "",
+                                                            "nofollow": ""
+                                                        }
+                                                    },
+                                                    {
+                                                        "_id": "a3d78aa",
+                                                        "text": "Privacy Policy",
+                                                        "selected_icon": {
+                                                            "value": "",
+                                                            "library": ""
+                                                        },
+                                                        "link": {
+                                                            "url": "/privacy-policy/",
+                                                            "is_external": "",
+                                                            "nofollow": ""
+                                                        }
+                                                    },
+                                                    {
+                                                        "_id": "4fbb773",
+                                                        "text": "Terms & Conditions",
+                                                        "selected_icon": {
+                                                            "value": "",
+                                                            "library": ""
+                                                        },
+                                                        "link": {
+                                                            "url": "/terms-conditions/",
+                                                            "is_external": "",
+                                                            "nofollow": ""
+                                                        }
+                                                    }
+                                                ],
+                                                "space_between": {
+                                                    "unit": "px",
+                                                    "size": 18,
+                                                    "sizes": []
+                                                },
+                                                "divider": "yes",
+                                                "divider_style": "solid",
+                                                "divider_weight": {
+                                                    "unit": "px",
+                                                    "size": 1,
+                                                    "sizes": []
+                                                },
+                                                "__globals__": {
+                                                    "divider_color": "globals/colors?id=bcline",
+                                                    "text_color": "globals/colors?id=secondary",
+                                                    "text_color_hover": "globals/colors?id=bcmid",
+                                                    "icon_typography_typography": "globals/typography?id=bcuil"
+                                                }
+                                            },
+                                            "elements": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "e4da205",
+                                    "elType": "container",
+                                    "isInner": false,
+                                    "settings": {
+                                        "flex_gap": {
+                                            "unit": "px",
+                                            "size": 0,
+                                            "column": "0",
+                                            "row": "0"
+                                        },
+                                        "content_width": "full",
+                                        "flex_direction": "column",
+                                        "flex_align_items": "flex-start",
+                                        "padding": {
+                                            "unit": "px",
+                                            "top": "28",
+                                            "right": "28",
+                                            "bottom": "28",
+                                            "left": "28",
+                                            "isLinked": false
+                                        },
+                                        "background_background": "classic",
+                                        "__globals__": {
+                                            "background_color": "globals/colors?id=accent"
+                                        }
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "2a27536",
+                                            "elType": "widget",
+                                            "widgetType": "heading",
+                                            "isInner": false,
+                                            "settings": {
+                                                "title": "Still stuck",
+                                                "header_size": "p",
+                                                "_margin": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "12",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "__globals__": {
+                                                    "title_color": "globals/colors?id=bcmid",
+                                                    "typography_typography": "globals/typography?id=accent"
+                                                }
+                                            },
+                                            "elements": []
+                                        },
+                                        {
+                                            "id": "7555ab4",
+                                            "elType": "widget",
+                                            "widgetType": "heading",
+                                            "isInner": false,
+                                            "settings": {
+                                                "title": "Talk to a person",
+                                                "header_size": "h2",
+                                                "_margin": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "10",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "__globals__": {
+                                                    "title_color": "globals/colors?id=primary",
+                                                    "typography_typography": "globals/typography?id=bccard"
+                                                }
+                                            },
+                                            "elements": []
+                                        },
+                                        {
+                                            "id": "b0bc626",
+                                            "elType": "widget",
+                                            "widgetType": "text-editor",
+                                            "isInner": false,
+                                            "settings": {
+                                                "editor": "<p>Message us with your order number and we will sort it out. We reply within one working day.</p>",
+                                                "_margin": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "18",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "__globals__": {
+                                                    "text_color": "globals/colors?id=text",
+                                                    "typography_typography": "globals/typography?id=bcsmall"
+                                                }
+                                            },
+                                            "elements": []
+                                        },
+                                        {
+                                            "id": "0649f5a",
+                                            "elType": "widget",
+                                            "widgetType": "button",
+                                            "isInner": false,
+                                            "settings": {
+                                                "text": "Ask on WhatsApp",
+                                                "link": {
+                                                    "url": "https://wa.me/256784956653?text=Hello%20Beauty%20Crib%2C%20I%20have%20a%20question%20about%20my%20order.",
+                                                    "is_external": "on",
+                                                    "nofollow": ""
+                                                },
+                                                "selected_icon": {
+                                                    "value": "fab fa-whatsapp",
+                                                    "library": "fa-brands"
+                                                },
+                                                "icon_indent": {
+                                                    "unit": "px",
+                                                    "size": 10,
+                                                    "sizes": []
+                                                },
+                                                "border_border": "solid",
+                                                "border_width": {
+                                                    "unit": "px",
+                                                    "top": "1",
+                                                    "right": "1",
+                                                    "bottom": "1",
+                                                    "left": "1",
+                                                    "isLinked": false
+                                                },
+                                                "border_radius": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "0",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "text_padding": {
+                                                    "unit": "px",
+                                                    "top": "15",
+                                                    "right": "24",
+                                                    "bottom": "15",
+                                                    "left": "24",
+                                                    "isLinked": false
+                                                },
+                                                "background_background": "classic",
+                                                "button_background_hover_background": "classic",
+                                                "__globals__": {
+                                                    "background_color": "globals/colors?id=primary",
+                                                    "button_text_color": "globals/colors?id=bcwhite",
+                                                    "border_color": "globals/colors?id=primary",
+                                                    "button_background_hover_color": "globals/colors?id=bcwhite",
+                                                    "hover_color": "globals/colors?id=primary",
+                                                    "button_hover_border_color": "globals/colors?id=primary",
+                                                    "typography_typography": "globals/typography?id=bcbtn"
+                                                }
+                                            },
+                                            "elements": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "e722ea1",
+                    "elType": "container",
+                    "isInner": false,
+                    "settings": {
+                        "flex_gap": {
+                            "unit": "px",
+                            "size": 0,
+                            "column": "0",
+                            "row": "0"
+                        },
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": 70,
+                            "sizes": []
+                        },
+                        "width_tablet": {
+                            "unit": "%",
+                            "size": 100,
+                            "sizes": []
+                        },
+                        "width_mobile": {
+                            "unit": "%",
+                            "size": 100,
+                            "sizes": []
+                        },
+                        "flex_direction": "column"
+                    },
+                    "elements": [
+                        {
+                            "id": "c8ead40",
+                            "elType": "container",
+                            "isInner": false,
+                            "elements": [
+                                {
+                                    "id": "f305626",
+                                    "elType": "container",
+                                    "isInner": true,
+                                    "elements": [
+                                        {
+                                            "id": "bb059e7",
+                                            "elType": "widget",
+                                            "widgetType": "heading",
+                                            "elements": [],
+                                            "settings": {
+                                                "title": "Ordering",
+                                                "header_size": "h2",
+                                                "title_color": "#000000",
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Instrument Serif",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 40
+                                                },
+                                                "typography_font_size_mobile": {
+                                                    "unit": "px",
+                                                    "size": 28
+                                                },
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.06
+                                                },
+                                                "typography_letter_spacing": {
+                                                    "unit": "px",
+                                                    "size": -1
+                                                },
+                                                "_margin": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "20",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": "55baf42",
+                                            "elType": "widget",
+                                            "widgetType": "accordion",
+                                            "elements": [],
+                                            "settings": {
+                                                "tabs": [
+                                                    {
+                                                        "_id": "3b7e5ed",
+                                                        "tab_title": "Do I need an account to order?",
+                                                        "tab_content": "<p>No. You can check out as a guest with just an email address and phone number. An account simply saves your address and lets you track orders.</p>"
+                                                    },
+                                                    {
+                                                        "_id": "c2ad6ee",
+                                                        "tab_title": "Can I change or cancel an order?",
+                                                        "tab_content": "<p>Yes, if it has not been dispatched. Contact us with your order number as soon as possible and we will amend or cancel it.</p>"
+                                                    },
+                                                    {
+                                                        "_id": "3202ea1",
+                                                        "tab_title": "Something I want is out of stock. Can you get it?",
+                                                        "tab_content": "<p>Often, yes. Send us the product name and we will tell you whether we can source it and how long it will take.</p>"
+                                                    }
+                                                ],
+                                                "title_html_tag": "h3",
+                                                "border_width": {
+                                                    "unit": "px",
+                                                    "size": 1,
+                                                    "sizes": []
+                                                },
+                                                "title_padding": {
+                                                    "unit": "px",
+                                                    "top": "20",
+                                                    "right": "0",
+                                                    "bottom": "20",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "content_padding": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "24",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "icon_space": {
+                                                    "unit": "px",
+                                                    "size": 14,
+                                                    "sizes": []
+                                                },
+                                                "selected_icon": {
+                                                    "value": "fas fa-plus",
+                                                    "library": "fa-solid"
+                                                },
+                                                "selected_active_icon": {
+                                                    "value": "fas fa-minus",
+                                                    "library": "fa-solid"
+                                                },
+                                                "__globals__": {
+                                                    "border_color": "globals/colors?id=bcline",
+                                                    "title_color": "globals/colors?id=primary",
+                                                    "tab_active_color": "globals/colors?id=primary",
+                                                    "title_typography_typography": "globals/typography?id=bcuit",
+                                                    "icon_color": "globals/colors?id=bcmid",
+                                                    "icon_active_color": "globals/colors?id=primary",
+                                                    "content_color": "globals/colors?id=text",
+                                                    "content_typography_typography": "globals/typography?id=text"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "settings": {
+                                        "content_width": "full",
+                                        "width": {
+                                            "unit": "%",
+                                            "size": 100
+                                        },
+                                        "width_mobile": {
+                                            "unit": "%",
+                                            "size": 100
+                                        },
+                                        "flex_gap": {
+                                            "unit": "px",
+                                            "size": 0,
+                                            "column": "0",
+                                            "row": "0"
+                                        },
+                                        "padding": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": false
+                                        },
+                                        "padding_mobile": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "28",
+                                            "left": "0",
+                                            "isLinked": false
+                                        }
+                                    }
+                                }
+                            ],
+                            "settings": {
+                                "content_width": "full",
+                                "boxed_width": {
+                                    "unit": "px",
+                                    "size": 1440,
+                                    "sizes": []
+                                },
+                                "flex_direction": "row",
+                                "flex_wrap": "wrap",
+                                "flex_gap": {
+                                    "unit": "px",
+                                    "size": 0,
+                                    "column": "0",
+                                    "row": "0"
+                                },
+                                "padding": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "44",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "padding_mobile": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "36",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "width": {
+                                    "unit": "%",
+                                    "size": 100,
+                                    "sizes": []
+                                },
+                                "_element_id": "ordering"
+                            }
+                        },
+                        {
+                            "id": "83a6833",
+                            "elType": "container",
+                            "isInner": false,
+                            "elements": [
+                                {
+                                    "id": "57e7561",
+                                    "elType": "container",
+                                    "isInner": true,
+                                    "elements": [
+                                        {
+                                            "id": "ec6f8d9",
+                                            "elType": "widget",
+                                            "widgetType": "heading",
+                                            "elements": [],
+                                            "settings": {
+                                                "title": "Delivery",
+                                                "header_size": "h2",
+                                                "title_color": "#000000",
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Instrument Serif",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 40
+                                                },
+                                                "typography_font_size_mobile": {
+                                                    "unit": "px",
+                                                    "size": 28
+                                                },
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.06
+                                                },
+                                                "typography_letter_spacing": {
+                                                    "unit": "px",
+                                                    "size": -1
+                                                },
+                                                "_margin": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "20",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": "990c848",
+                                            "elType": "widget",
+                                            "widgetType": "accordion",
+                                            "elements": [],
+                                            "settings": {
+                                                "tabs": [
+                                                    {
+                                                        "_id": "f0923b6",
+                                                        "tab_title": "Where do you deliver?",
+                                                        "tab_content": "<p>Across Uganda. Kampala, Wakiso and Entebbe are delivered by our riders, and upcountry orders go by courier.</p>"
+                                                    },
+                                                    {
+                                                        "_id": "77ac7c0",
+                                                        "tab_title": "How long does delivery take?",
+                                                        "tab_content": "<p>Same or next day in Kampala, one to two working days in Wakiso and Entebbe, and two to four working days upcountry.</p>"
+                                                    },
+                                                    {
+                                                        "_id": "fc37de2",
+                                                        "tab_title": "How much is delivery?",
+                                                        "tab_content": "<p>Delivery is charged by area and shown at checkout before you pay. Collection in Kampala is free.</p>"
+                                                    },
+                                                    {
+                                                        "_id": "522f0db",
+                                                        "tab_title": "Can I collect my order?",
+                                                        "tab_content": "<p>Yes. Choose pick up at checkout and we will message you when your order is ready, usually within 24 hours.</p>"
+                                                    }
+                                                ],
+                                                "title_html_tag": "h3",
+                                                "border_width": {
+                                                    "unit": "px",
+                                                    "size": 1,
+                                                    "sizes": []
+                                                },
+                                                "title_padding": {
+                                                    "unit": "px",
+                                                    "top": "20",
+                                                    "right": "0",
+                                                    "bottom": "20",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "content_padding": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "24",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "icon_space": {
+                                                    "unit": "px",
+                                                    "size": 14,
+                                                    "sizes": []
+                                                },
+                                                "selected_icon": {
+                                                    "value": "fas fa-plus",
+                                                    "library": "fa-solid"
+                                                },
+                                                "selected_active_icon": {
+                                                    "value": "fas fa-minus",
+                                                    "library": "fa-solid"
+                                                },
+                                                "__globals__": {
+                                                    "border_color": "globals/colors?id=bcline",
+                                                    "title_color": "globals/colors?id=primary",
+                                                    "tab_active_color": "globals/colors?id=primary",
+                                                    "title_typography_typography": "globals/typography?id=bcuit",
+                                                    "icon_color": "globals/colors?id=bcmid",
+                                                    "icon_active_color": "globals/colors?id=primary",
+                                                    "content_color": "globals/colors?id=text",
+                                                    "content_typography_typography": "globals/typography?id=text"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "settings": {
+                                        "content_width": "full",
+                                        "width": {
+                                            "unit": "%",
+                                            "size": 100
+                                        },
+                                        "width_mobile": {
+                                            "unit": "%",
+                                            "size": 100
+                                        },
+                                        "flex_gap": {
+                                            "unit": "px",
+                                            "size": 0,
+                                            "column": "0",
+                                            "row": "0"
+                                        },
+                                        "padding": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": false
+                                        },
+                                        "padding_mobile": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "28",
+                                            "left": "0",
+                                            "isLinked": false
+                                        }
+                                    }
+                                }
+                            ],
+                            "settings": {
+                                "content_width": "full",
+                                "boxed_width": {
+                                    "unit": "px",
+                                    "size": 1440,
+                                    "sizes": []
+                                },
+                                "flex_direction": "row",
+                                "flex_wrap": "wrap",
+                                "flex_gap": {
+                                    "unit": "px",
+                                    "size": 0,
+                                    "column": "0",
+                                    "row": "0"
+                                },
+                                "padding": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "44",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "padding_mobile": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "36",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "width": {
+                                    "unit": "%",
+                                    "size": 100,
+                                    "sizes": []
+                                },
+                                "_element_id": "delivery"
+                            }
+                        },
+                        {
+                            "id": "3a6678b",
+                            "elType": "container",
+                            "isInner": false,
+                            "elements": [
+                                {
+                                    "id": "4f8e907",
+                                    "elType": "container",
+                                    "isInner": true,
+                                    "elements": [
+                                        {
+                                            "id": "6fd332d",
+                                            "elType": "widget",
+                                            "widgetType": "heading",
+                                            "elements": [],
+                                            "settings": {
+                                                "title": "Payment",
+                                                "header_size": "h2",
+                                                "title_color": "#000000",
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Instrument Serif",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 40
+                                                },
+                                                "typography_font_size_mobile": {
+                                                    "unit": "px",
+                                                    "size": 28
+                                                },
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.06
+                                                },
+                                                "typography_letter_spacing": {
+                                                    "unit": "px",
+                                                    "size": -1
+                                                },
+                                                "_margin": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "20",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": "ce1676a",
+                                            "elType": "widget",
+                                            "widgetType": "accordion",
+                                            "elements": [],
+                                            "settings": {
+                                                "tabs": [
+                                                    {
+                                                        "_id": "60c5bd3",
+                                                        "tab_title": "How can I pay?",
+                                                        "tab_content": "<p>Cash on delivery and direct bank transfer are available now. MTN Mobile Money, Airtel Money and card payments are being added with our payment provider.</p>"
+                                                    },
+                                                    {
+                                                        "_id": "2b536e8",
+                                                        "tab_title": "Is paying by card safe?",
+                                                        "tab_content": "<p>Card payments are completed on our payment provider secure page. Beauty Crib never sees or stores your card details.</p>"
+                                                    },
+                                                    {
+                                                        "_id": "338307e",
+                                                        "tab_title": "What currency are prices in?",
+                                                        "tab_content": "<p>All prices are in Ugandan shillings (UGX) and include any applicable taxes.</p>"
+                                                    }
+                                                ],
+                                                "title_html_tag": "h3",
+                                                "border_width": {
+                                                    "unit": "px",
+                                                    "size": 1,
+                                                    "sizes": []
+                                                },
+                                                "title_padding": {
+                                                    "unit": "px",
+                                                    "top": "20",
+                                                    "right": "0",
+                                                    "bottom": "20",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "content_padding": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "24",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "icon_space": {
+                                                    "unit": "px",
+                                                    "size": 14,
+                                                    "sizes": []
+                                                },
+                                                "selected_icon": {
+                                                    "value": "fas fa-plus",
+                                                    "library": "fa-solid"
+                                                },
+                                                "selected_active_icon": {
+                                                    "value": "fas fa-minus",
+                                                    "library": "fa-solid"
+                                                },
+                                                "__globals__": {
+                                                    "border_color": "globals/colors?id=bcline",
+                                                    "title_color": "globals/colors?id=primary",
+                                                    "tab_active_color": "globals/colors?id=primary",
+                                                    "title_typography_typography": "globals/typography?id=bcuit",
+                                                    "icon_color": "globals/colors?id=bcmid",
+                                                    "icon_active_color": "globals/colors?id=primary",
+                                                    "content_color": "globals/colors?id=text",
+                                                    "content_typography_typography": "globals/typography?id=text"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "settings": {
+                                        "content_width": "full",
+                                        "width": {
+                                            "unit": "%",
+                                            "size": 100
+                                        },
+                                        "width_mobile": {
+                                            "unit": "%",
+                                            "size": 100
+                                        },
+                                        "flex_gap": {
+                                            "unit": "px",
+                                            "size": 0,
+                                            "column": "0",
+                                            "row": "0"
+                                        },
+                                        "padding": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": false
+                                        },
+                                        "padding_mobile": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "28",
+                                            "left": "0",
+                                            "isLinked": false
+                                        }
+                                    }
+                                }
+                            ],
+                            "settings": {
+                                "content_width": "full",
+                                "boxed_width": {
+                                    "unit": "px",
+                                    "size": 1440,
+                                    "sizes": []
+                                },
+                                "flex_direction": "row",
+                                "flex_wrap": "wrap",
+                                "flex_gap": {
+                                    "unit": "px",
+                                    "size": 0,
+                                    "column": "0",
+                                    "row": "0"
+                                },
+                                "padding": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "44",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "padding_mobile": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "36",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "width": {
+                                    "unit": "%",
+                                    "size": 100,
+                                    "sizes": []
+                                },
+                                "_element_id": "payment"
+                            }
+                        },
+                        {
+                            "id": "4058cd5",
+                            "elType": "container",
+                            "isInner": false,
+                            "elements": [
+                                {
+                                    "id": "b8adaf0",
+                                    "elType": "container",
+                                    "isInner": true,
+                                    "elements": [
+                                        {
+                                            "id": "948e0df",
+                                            "elType": "widget",
+                                            "widgetType": "heading",
+                                            "elements": [],
+                                            "settings": {
+                                                "title": "Authenticity",
+                                                "header_size": "h2",
+                                                "title_color": "#000000",
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Instrument Serif",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 40
+                                                },
+                                                "typography_font_size_mobile": {
+                                                    "unit": "px",
+                                                    "size": 28
+                                                },
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.06
+                                                },
+                                                "typography_letter_spacing": {
+                                                    "unit": "px",
+                                                    "size": -1
+                                                },
+                                                "_margin": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "20",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": "06c8c41",
+                                            "elType": "widget",
+                                            "widgetType": "accordion",
+                                            "elements": [],
+                                            "settings": {
+                                                "tabs": [
+                                                    {
+                                                        "_id": "d9e3f9d",
+                                                        "tab_title": "Are your products genuine?",
+                                                        "tab_content": "<p>Yes. We buy through suppliers we can account for and check batch codes on both carton and bottle. If anything you receive looks wrong, tell us and we will replace it.</p>"
+                                                    },
+                                                    {
+                                                        "_id": "adcf11b",
+                                                        "tab_title": "How can I check a product myself?",
+                                                        "tab_content": "<p>Match the batch code on the box to the one on the bottle, check the print quality of the small text, and inspect seals and texture.</p>"
+                                                    },
+                                                    {
+                                                        "_id": "3b65d93",
+                                                        "tab_title": "Why is the packaging in Korean?",
+                                                        "tab_content": "<p>Many Korean products are sold in their domestic packaging. That is normal and is not a sign of a counterfeit. Ask us and we will send a photograph of the ingredient list.</p>"
+                                                    }
+                                                ],
+                                                "title_html_tag": "h3",
+                                                "border_width": {
+                                                    "unit": "px",
+                                                    "size": 1,
+                                                    "sizes": []
+                                                },
+                                                "title_padding": {
+                                                    "unit": "px",
+                                                    "top": "20",
+                                                    "right": "0",
+                                                    "bottom": "20",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "content_padding": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "24",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "icon_space": {
+                                                    "unit": "px",
+                                                    "size": 14,
+                                                    "sizes": []
+                                                },
+                                                "selected_icon": {
+                                                    "value": "fas fa-plus",
+                                                    "library": "fa-solid"
+                                                },
+                                                "selected_active_icon": {
+                                                    "value": "fas fa-minus",
+                                                    "library": "fa-solid"
+                                                },
+                                                "__globals__": {
+                                                    "border_color": "globals/colors?id=bcline",
+                                                    "title_color": "globals/colors?id=primary",
+                                                    "tab_active_color": "globals/colors?id=primary",
+                                                    "title_typography_typography": "globals/typography?id=bcuit",
+                                                    "icon_color": "globals/colors?id=bcmid",
+                                                    "icon_active_color": "globals/colors?id=primary",
+                                                    "content_color": "globals/colors?id=text",
+                                                    "content_typography_typography": "globals/typography?id=text"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "settings": {
+                                        "content_width": "full",
+                                        "width": {
+                                            "unit": "%",
+                                            "size": 100
+                                        },
+                                        "width_mobile": {
+                                            "unit": "%",
+                                            "size": 100
+                                        },
+                                        "flex_gap": {
+                                            "unit": "px",
+                                            "size": 0,
+                                            "column": "0",
+                                            "row": "0"
+                                        },
+                                        "padding": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": false
+                                        },
+                                        "padding_mobile": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "28",
+                                            "left": "0",
+                                            "isLinked": false
+                                        }
+                                    }
+                                }
+                            ],
+                            "settings": {
+                                "content_width": "full",
+                                "boxed_width": {
+                                    "unit": "px",
+                                    "size": 1440,
+                                    "sizes": []
+                                },
+                                "flex_direction": "row",
+                                "flex_wrap": "wrap",
+                                "flex_gap": {
+                                    "unit": "px",
+                                    "size": 0,
+                                    "column": "0",
+                                    "row": "0"
+                                },
+                                "padding": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "44",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "padding_mobile": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "36",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "width": {
+                                    "unit": "%",
+                                    "size": 100,
+                                    "sizes": []
+                                },
+                                "_element_id": "authenticity"
+                            }
+                        },
+                        {
+                            "id": "5dbc0a9",
+                            "elType": "container",
+                            "isInner": false,
+                            "elements": [
+                                {
+                                    "id": "3c7034e",
+                                    "elType": "container",
+                                    "isInner": true,
+                                    "elements": [
+                                        {
+                                            "id": "557791b",
+                                            "elType": "widget",
+                                            "widgetType": "heading",
+                                            "elements": [],
+                                            "settings": {
+                                                "title": "Returns",
+                                                "header_size": "h2",
+                                                "title_color": "#000000",
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Instrument Serif",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 40
+                                                },
+                                                "typography_font_size_mobile": {
+                                                    "unit": "px",
+                                                    "size": 28
+                                                },
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.06
+                                                },
+                                                "typography_letter_spacing": {
+                                                    "unit": "px",
+                                                    "size": -1
+                                                },
+                                                "_margin": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "20",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": "1027dc7",
+                                            "elType": "widget",
+                                            "widgetType": "accordion",
+                                            "elements": [],
+                                            "settings": {
+                                                "tabs": [
+                                                    {
+                                                        "_id": "3563c2b",
+                                                        "tab_title": "Can I return a product?",
+                                                        "tab_content": "<p>Unopened products in their original packaging can be returned within 7 days. For hygiene reasons opened skincare and cosmetics cannot be returned unless they are faulty or incorrect.</p>"
+                                                    },
+                                                    {
+                                                        "_id": "b226605",
+                                                        "tab_title": "My order arrived damaged or incorrect",
+                                                        "tab_content": "<p>Contact us within 48 hours with your order number and photographs. We will arrange a replacement or refund at no cost to you.</p>"
+                                                    },
+                                                    {
+                                                        "_id": "ca3b0ab",
+                                                        "tab_title": "The product broke me out. Can I return it?",
+                                                        "tab_content": "<p>Opened products cannot be returned, but message us. We will help you work out what caused it and factor that into what we recommend next.</p>"
+                                                    }
+                                                ],
+                                                "title_html_tag": "h3",
+                                                "border_width": {
+                                                    "unit": "px",
+                                                    "size": 1,
+                                                    "sizes": []
+                                                },
+                                                "title_padding": {
+                                                    "unit": "px",
+                                                    "top": "20",
+                                                    "right": "0",
+                                                    "bottom": "20",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "content_padding": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "24",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "icon_space": {
+                                                    "unit": "px",
+                                                    "size": 14,
+                                                    "sizes": []
+                                                },
+                                                "selected_icon": {
+                                                    "value": "fas fa-plus",
+                                                    "library": "fa-solid"
+                                                },
+                                                "selected_active_icon": {
+                                                    "value": "fas fa-minus",
+                                                    "library": "fa-solid"
+                                                },
+                                                "__globals__": {
+                                                    "border_color": "globals/colors?id=bcline",
+                                                    "title_color": "globals/colors?id=primary",
+                                                    "tab_active_color": "globals/colors?id=primary",
+                                                    "title_typography_typography": "globals/typography?id=bcuit",
+                                                    "icon_color": "globals/colors?id=bcmid",
+                                                    "icon_active_color": "globals/colors?id=primary",
+                                                    "content_color": "globals/colors?id=text",
+                                                    "content_typography_typography": "globals/typography?id=text"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "settings": {
+                                        "content_width": "full",
+                                        "width": {
+                                            "unit": "%",
+                                            "size": 100
+                                        },
+                                        "width_mobile": {
+                                            "unit": "%",
+                                            "size": 100
+                                        },
+                                        "flex_gap": {
+                                            "unit": "px",
+                                            "size": 0,
+                                            "column": "0",
+                                            "row": "0"
+                                        },
+                                        "padding": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": false
+                                        },
+                                        "padding_mobile": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "28",
+                                            "left": "0",
+                                            "isLinked": false
+                                        }
+                                    }
+                                }
+                            ],
+                            "settings": {
+                                "content_width": "full",
+                                "boxed_width": {
+                                    "unit": "px",
+                                    "size": 1440,
+                                    "sizes": []
+                                },
+                                "flex_direction": "row",
+                                "flex_wrap": "wrap",
+                                "flex_gap": {
+                                    "unit": "px",
+                                    "size": 0,
+                                    "column": "0",
+                                    "row": "0"
+                                },
+                                "padding": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "44",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "padding_mobile": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "36",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "width": {
+                                    "unit": "%",
+                                    "size": 100,
+                                    "sizes": []
+                                },
+                                "_element_id": "returns"
+                            }
+                        },
+                        {
+                            "id": "9bbaba1",
+                            "elType": "container",
+                            "isInner": false,
+                            "elements": [
+                                {
+                                    "id": "ce4f712",
+                                    "elType": "container",
+                                    "isInner": true,
+                                    "elements": [
+                                        {
+                                            "id": "3eda7a1",
+                                            "elType": "widget",
+                                            "widgetType": "heading",
+                                            "elements": [],
+                                            "settings": {
+                                                "title": "Products and skin advice",
+                                                "header_size": "h2",
+                                                "title_color": "#000000",
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Instrument Serif",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 40
+                                                },
+                                                "typography_font_size_mobile": {
+                                                    "unit": "px",
+                                                    "size": 28
+                                                },
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.06
+                                                },
+                                                "typography_letter_spacing": {
+                                                    "unit": "px",
+                                                    "size": -1
+                                                },
+                                                "_margin": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "20",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": "12d8b56",
+                                            "elType": "widget",
+                                            "widgetType": "accordion",
+                                            "elements": [],
+                                            "settings": {
+                                                "tabs": [
+                                                    {
+                                                        "_id": "2a7c4d5",
+                                                        "tab_title": "Which cleanser should I start with?",
+                                                        "tab_content": "<p>It depends on how your skin behaves rather than how it looks. Message us and we will recommend one, or read our guide to choosing a cleanser.</p>"
+                                                    },
+                                                    {
+                                                        "_id": "fcf8b15",
+                                                        "tab_title": "Do you give personal skincare advice?",
+                                                        "tab_content": "<p>We are happy to suggest products and routines, and we will tell you when something is not worth buying. We are not medical professionals, so persistent or painful skin conditions are worth taking to a dermatologist.</p>"
+                                                    },
+                                                    {
+                                                        "_id": "33c9da6",
+                                                        "tab_title": "Should I patch test?",
+                                                        "tab_content": "<p>Yes, especially with acids and benzoyl peroxide. Apply a small amount to the inner forearm for two days before using it on your face.</p>"
+                                                    }
+                                                ],
+                                                "title_html_tag": "h3",
+                                                "border_width": {
+                                                    "unit": "px",
+                                                    "size": 1,
+                                                    "sizes": []
+                                                },
+                                                "title_padding": {
+                                                    "unit": "px",
+                                                    "top": "20",
+                                                    "right": "0",
+                                                    "bottom": "20",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "content_padding": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "24",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "icon_space": {
+                                                    "unit": "px",
+                                                    "size": 14,
+                                                    "sizes": []
+                                                },
+                                                "selected_icon": {
+                                                    "value": "fas fa-plus",
+                                                    "library": "fa-solid"
+                                                },
+                                                "selected_active_icon": {
+                                                    "value": "fas fa-minus",
+                                                    "library": "fa-solid"
+                                                },
+                                                "__globals__": {
+                                                    "border_color": "globals/colors?id=bcline",
+                                                    "title_color": "globals/colors?id=primary",
+                                                    "tab_active_color": "globals/colors?id=primary",
+                                                    "title_typography_typography": "globals/typography?id=bcuit",
+                                                    "icon_color": "globals/colors?id=bcmid",
+                                                    "icon_active_color": "globals/colors?id=primary",
+                                                    "content_color": "globals/colors?id=text",
+                                                    "content_typography_typography": "globals/typography?id=text"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "settings": {
+                                        "content_width": "full",
+                                        "width": {
+                                            "unit": "%",
+                                            "size": 100
+                                        },
+                                        "width_mobile": {
+                                            "unit": "%",
+                                            "size": 100
+                                        },
+                                        "flex_gap": {
+                                            "unit": "px",
+                                            "size": 0,
+                                            "column": "0",
+                                            "row": "0"
+                                        },
+                                        "padding": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": false
+                                        },
+                                        "padding_mobile": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "28",
+                                            "left": "0",
+                                            "isLinked": false
+                                        }
+                                    }
+                                }
+                            ],
+                            "settings": {
+                                "content_width": "full",
+                                "boxed_width": {
+                                    "unit": "px",
+                                    "size": 1440,
+                                    "sizes": []
+                                },
+                                "flex_direction": "row",
+                                "flex_wrap": "wrap",
+                                "flex_gap": {
+                                    "unit": "px",
+                                    "size": 0,
+                                    "column": "0",
+                                    "row": "0"
+                                },
+                                "padding": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "44",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "padding_mobile": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "36",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "width": {
+                                    "unit": "%",
+                                    "size": 100,
+                                    "sizes": []
+                                },
+                                "_element_id": "advice"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

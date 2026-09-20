@@ -1,0 +1,256 @@
+{
+    "id": 153,
+    "title": "Beauty Crib Product Archive",
+    "type": "product-archive",
+    "conditions": [
+        "include/product_archive"
+    ],
+    "page_settings": "",
+    "content": [
+        {
+            "id": "cc4b84a",
+            "elType": "container",
+            "isInner": false,
+            "elements": [
+                {
+                    "id": "d4b97a3",
+                    "elType": "widget",
+                    "widgetType": "woocommerce-breadcrumb",
+                    "elements": [],
+                    "settings": {
+                        "text_color": "#777777",
+                        "link_color": "#777777",
+                        "link_hover_color": "#000000",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Instrument Sans",
+                        "typography_font_size": {
+                            "unit": "px",
+                            "size": 13
+                        },
+                        "_margin": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "26",
+                            "left": "0",
+                            "isLinked": false
+                        }
+                    }
+                },
+                {
+                    "id": "6147c2d",
+                    "elType": "widget",
+                    "widgetType": "theme-archive-title",
+                    "elements": [],
+                    "settings": {
+                        "title_color": "#000000",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Instrument Serif",
+                        "typography_font_size": {
+                            "unit": "px",
+                            "size": 76
+                        },
+                        "typography_font_size_mobile": {
+                            "unit": "px",
+                            "size": 38
+                        },
+                        "typography_line_height": {
+                            "unit": "em",
+                            "size": 1.06
+                        },
+                        "typography_letter_spacing": {
+                            "unit": "px",
+                            "size": -1
+                        },
+                        "_margin": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "18",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "header_size": "h1",
+                        "__dynamic__": {
+                            "title": "[elementor-tag id=\"adbb8cc\" name=\"archive-title\" settings=\"%7B%22include_context%22%3A%22%22%7D\"]"
+                        },
+                        "include_context": ""
+                    }
+                },
+                {
+                    "id": "d59c5f9",
+                    "elType": "widget",
+                    "widgetType": "woocommerce-archive-description",
+                    "elements": [],
+                    "settings": {
+                        "text_color": "#666666",
+                        "alignment": "left",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Instrument Sans",
+                        "typography_font_size": {
+                            "unit": "px",
+                            "size": 17
+                        },
+                        "typography_line_height": {
+                            "unit": "em",
+                            "size": 1.62
+                        },
+                        "_element_custom_width": {
+                            "unit": "%",
+                            "size": 60
+                        }
+                    }
+                }
+            ],
+            "settings": {
+                "content_width": "boxed",
+                "boxed_width": {
+                    "unit": "px",
+                    "size": 1440
+                },
+                "flex_direction": "column",
+                "flex_gap": {
+                    "unit": "px",
+                    "size": 0,
+                    "column": "0",
+                    "row": "0"
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "150",
+                    "right": "40",
+                    "bottom": "36",
+                    "left": "40",
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": "110",
+                    "right": "20",
+                    "bottom": "24",
+                    "left": "20",
+                    "isLinked": false
+                },
+                "_element_id": "bc-archive-head"
+            }
+        },
+        {
+            "id": "334f373",
+            "elType": "container",
+            "isInner": false,
+            "elements": [
+                {
+                    "id": "4a2e807",
+                    "elType": "widget",
+                    "widgetType": "wc-archive-products",
+                    "elements": [],
+                    "settings": {
+                        "columns": "4",
+                        "columns_tablet": "3",
+                        "columns_mobile": "2",
+                        "allow_order": "yes",
+                        "show_result_count": "yes",
+                        "column_gap": {
+                            "unit": "px",
+                            "size": 28
+                        },
+                        "row_gap": {
+                            "unit": "px",
+                            "size": 46
+                        },
+                        "product_title_color": "#000000",
+                        "product_title_typography_typography": "custom",
+                        "product_title_typography_font_family": "Instrument Sans",
+                        "product_title_typography_font_size": {
+                            "unit": "px",
+                            "size": 16
+                        },
+                        "product_title_typography_font_weight": "400",
+                        "price_color": "#111111",
+                        "price_typography_typography": "custom",
+                        "price_typography_font_family": "Instrument Sans",
+                        "price_typography_font_size": {
+                            "unit": "px",
+                            "size": 15
+                        },
+                        "button_text_color": "#FFFFFF",
+                        "button_background_color": "#000000",
+                        "button_hover_text_color": "#000000",
+                        "button_hover_background_color": "#FFFFFF",
+                        "button_border_border": "solid",
+                        "button_border_width": {
+                            "unit": "px",
+                            "top": "1",
+                            "right": "1",
+                            "bottom": "1",
+                            "left": "1",
+                            "isLinked": true
+                        },
+                        "button_border_color": "#000000",
+                        "button_border_radius": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": true
+                        },
+                        "button_typography_typography": "custom",
+                        "button_typography_font_family": "Instrument Sans",
+                        "button_typography_font_size": {
+                            "unit": "px",
+                            "size": 12
+                        },
+                        "button_typography_text_transform": "uppercase",
+                        "button_typography_letter_spacing": {
+                            "unit": "px",
+                            "size": 1
+                        },
+                        "sale_flash_color": "#FFFFFF",
+                        "sale_flash_background_color": "#000000",
+                        "sale_flash_border_radius": {
+                            "unit": "px",
+                            "size": 0
+                        },
+                        "pagination_color": "#000000",
+                        "pagination_color_hover": "#777777",
+                        "pagination_color_active": "#000000",
+                        "pagination_typography_typography": "custom",
+                        "pagination_typography_font_family": "Instrument Sans",
+                        "custom_css": "selector .woocommerce-ordering select{border:1px solid #E8E8E5;border-radius:0;padding:10px 14px;font-family:\"Instrument Sans\",sans-serif;font-size:13px;color:#111}selector .woocommerce-result-count{font-family:\"Instrument Sans\",sans-serif;font-size:13px;color:#777}selector ul.products li.product .woocommerce-loop-product__link img{aspect-ratio:4/5;object-fit:cover;background:#F7F7F5}selector ul.products li.product{transition:transform .35s cubic-bezier(.22,1,.36,1)}selector ul.products li.product:hover{transform:translateY(-4px)}selector .added_to_cart{display:inline-block;margin-top:8px;font-family:\"Instrument Sans\",sans-serif;font-size:12px;text-transform:uppercase;letter-spacing:1px;color:#000;text-decoration:underline}"
+                    }
+                }
+            ],
+            "settings": {
+                "content_width": "boxed",
+                "boxed_width": {
+                    "unit": "px",
+                    "size": 1440
+                },
+                "flex_gap": {
+                    "unit": "px",
+                    "size": 0,
+                    "column": "0",
+                    "row": "0"
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "40",
+                    "bottom": "110",
+                    "left": "40",
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "20",
+                    "bottom": "60",
+                    "left": "20",
+                    "isLinked": false
+                },
+                "_element_id": "bc-archive-grid"
+            }
+        }
+    ]
+}

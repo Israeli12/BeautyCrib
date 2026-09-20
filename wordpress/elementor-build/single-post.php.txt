@@ -1,0 +1,117 @@
+$id = function () { return substr(md5(uniqid('', true) . mt_rand()), 0, 7); };
+$px = fn($n) => ['unit' => 'px', 'size' => $n, 'sizes' => []];
+$pc = fn($n) => ['unit' => '%', 'size' => $n, 'sizes' => []];
+$pad = fn($t, $r, $b, $l) => ['unit' => 'px', 'top' => (string) $t, 'right' => (string) $r, 'bottom' => (string) $b, 'left' => (string) $l, 'isLinked' => false];
+$gap0 = ['unit' => 'px', 'size' => 0, 'column' => '0', 'row' => '0'];
+$C = fn($id) => 'globals/colors?id=' . $id; $T = fn($id) => 'globals/typography?id=' . $id;
+$con = function (array $s, array $kids) use ($id, $gap0) { return ['id' => $id(), 'elType' => 'container', 'isInner' => false, 'settings' => array_merge(['flex_gap' => $gap0], $s), 'elements' => $kids]; };
+$w = function ($type, array $s) use ($id) { return ['id' => $id(), 'elType' => 'widget', 'widgetType' => $type, 'isInner' => false, 'settings' => $s, 'elements' => []]; };
+$eyebrow = function ($text, $mb = 16, $tag = 'p') use ($w, $pad, $C, $T) { return $w('heading', ['title' => $text, 'header_size' => $tag, '_margin' => $pad(0, 0, $mb, 0), '__globals__' => ['title_color' => $C('bcmid'), 'typography_typography' => $T('accent')]]); };
+$tag = function ($name, $settings) { return '[elementor-tag id="' . substr(md5($name . mt_rand()), 0, 7) . '" name="' . $name . '" settings="' . rawurlencode(wp_json_encode($settings)) . '"]'; };
+$wa = 'https://wa.me/256784956653?text=' . rawurlencode('Hello Beauty Crib, I was reading your Journal and have a skincare question.');
+$noicon = ['value' => '', 'library' => ''];
+
+/* ---------- hero: meta, title, excerpt | portrait featured image ---------- */
+$hero = $con(['content_width' => 'boxed', 'boxed_width' => $px(1440), 'flex_direction' => 'row', 'flex_wrap' => 'wrap', 'flex_align_items' => 'center', 'padding' => $pad(72, 40, 72, 40), 'padding_mobile' => $pad(32, 20, 40, 20), 'html_tag' => 'header'], [
+  $con(['content_width' => 'full', 'width' => $pc(54), 'width_tablet' => $pc(100), 'width_mobile' => $pc(100), 'flex_direction' => 'column', 'padding' => $pad(0, 72, 0, 0), 'padding_tablet' => $pad(0, 0, 40, 0), 'padding_mobile' => $pad(0, 0, 32, 0)], [
+    $w('post-info', ['view' => 'inline', 'icon_list' => [
+        ['_id' => $id(), 'type' => 'terms', 'taxonomy' => 'category', 'link' => 'yes', 'show_icon' => 'none', 'selected_icon' => $noicon],
+        ['_id' => $id(), 'type' => 'date', 'date_format' => 'default', 'link' => '', 'show_icon' => 'none', 'selected_icon' => $noicon],
+        ['_id' => $id(), 'type' => 'custom', 'custom_text' => 'Reading time', 'link' => '', 'show_icon' => 'none', 'selected_icon' => $noicon, '__dynamic__' => ['custom_text' => $tag('post-custom-field', ['key' => 'bc_reading_time'])]],
+      ], 'divider' => 'yes', 'divider_style' => 'solid', 'divider_weight' => $px(1), 'divider_height' => $pc(70), 'space_between' => $px(32), '_margin' => $pad(0, 0, 24, 0), '__globals__' => ['text_color' => $C('secondary'), 'divider_color' => $C('bcline'), 'icon_typography_typography' => $T('accent')]]),
+    $w('theme-post-title', ['header_size' => 'h1', '__dynamic__' => ['title' => $tag('post-title', ['before' => '', 'after' => '', 'fallback' => ''])], '_margin' => $pad(0, 0, 24, 0), '__globals__' => ['title_color' => $C('primary'), 'typography_typography' => $T('bcdl')]]),
+    $w('theme-post-excerpt', ['__dynamic__' => ['excerpt' => $tag('post-excerpt', ['max_length' => '', 'apply_to_post_content' => 'no', 'before' => '', 'after' => '', 'fallback' => ''])], '_margin' => $pad(0, 0, 0, 0), '__globals__' => ['title_color' => $C('text'), 'typography_typography' => $T('bclead')]]),
+  ]),
+  $con(['content_width' => 'full', 'width' => $pc(46), 'width_tablet' => $pc(100), 'width_mobile' => $pc(100), 'flex_direction' => 'column'], [
+    $w('theme-post-featured-image', ['__dynamic__' => ['image' => $tag('post-featured-image', ['fallback' => ['url' => '', 'id' => '', 'size' => '']])], 'image_size' => 'full', 'width' => $pc(100), 'height' => $px(680), 'height_tablet' => $px(560), 'height_mobile' => $px(420), 'object-fit' => 'cover', 'caption_source' => 'none', 'link_to' => 'none']),
+  ]),
+]);
+
+/* ---------- body: article | sticky sidebar ---------- */
+$articleCss = "selector{max-width:720px}\nselector p{margin:0 0 22px}\nselector p:first-child strong{display:block;font-family:var(--e-global-typography-bclead-font-family),sans-serif;font-size:var(--e-global-typography-bclead-font-size);line-height:var(--e-global-typography-bclead-line-height);font-weight:500;color:var(--e-global-color-primary)}\nselector h2{font-family:var(--e-global-typography-bcds-font-family),serif;font-size:var(--e-global-typography-bcds-font-size);line-height:var(--e-global-typography-bcds-line-height);letter-spacing:var(--e-global-typography-bcds-letter-spacing);font-weight:400;color:var(--e-global-color-primary);margin:56px 0 18px;scroll-margin-top:130px}\nselector h3{font-family:var(--e-global-typography-bccard-font-family),serif;font-size:var(--e-global-typography-bccard-font-size);line-height:var(--e-global-typography-bccard-line-height);letter-spacing:var(--e-global-typography-bccard-letter-spacing);font-weight:400;color:var(--e-global-color-primary);margin:36px 0 12px;scroll-margin-top:130px}\nselector a{color:var(--e-global-color-primary);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px;transition:color .2s ease}\nselector a:hover{color:var(--e-global-color-bcmid)}\nselector ul,selector ol{margin:0 0 24px;padding-left:22px}\nselector li{margin:0 0 8px;padding-left:4px}\nselector li::marker{color:var(--e-global-color-bcmid)}\nselector blockquote{margin:40px 0;padding:8px 0 8px 28px;border-left:2px solid var(--e-global-color-primary);font-family:var(--e-global-typography-bcds-font-family),serif;font-size:var(--e-global-typography-bccard-font-size);line-height:1.3;font-style:normal;color:var(--e-global-color-primary)}\nselector blockquote p{margin:0}\nselector img{max-width:100%;height:auto}\n@media (prefers-reduced-motion:reduce){selector a{transition:none}}";
+
+$share = $con(['content_width' => 'full', 'flex_direction' => 'row', 'flex_wrap' => 'wrap', 'flex_justify_content' => 'space-between', 'flex_align_items' => 'center', 'margin' => $pad(48, 0, 0, 0), 'padding' => $pad(28, 0, 28, 0), 'border_border' => 'solid', 'border_width' => $pad(1, 0, 1, 0), '__globals__' => ['border_color' => $C('bcline')]], [
+  $eyebrow('Share this article', 0),
+  $w('share-buttons', ['share_buttons' => [['_id' => $id(), 'button' => 'whatsapp'], ['_id' => $id(), 'button' => 'facebook'], ['_id' => $id(), 'button' => 'x-twitter'], ['_id' => $id(), 'button' => 'email']], 'view' => 'icon', 'skin' => 'framed', 'shape' => 'square', 'columns' => '0', 'alignment' => 'right', 'color_source' => 'custom', 'button_size' => ['unit' => 'px', 'size' => 0.9], 'icon_size' => ['unit' => 'em', 'size' => 1.4], 'border_size' => $px(1), 'column_gap' => $px(8), '__globals__' => ['primary_color' => $C('primary'), 'secondary_color' => $C('bcwhite'), 'primary_color_hover' => $C('bcmid'), 'secondary_color_hover' => $C('bcwhite')]]),
+]);
+
+$nav = $w('post-navigation', ['show_label' => 'yes', 'prev_label' => 'Previous article', 'next_label' => 'Next article', 'show_arrow' => 'yes', 'show_title' => 'yes', 'show_borders' => '', 'in_same_term' => '', '_margin' => $pad(32, 0, 0, 0), '__globals__' => ['label_color' => $C('bcmid'), 'label_typography_typography' => $T('accent'), 'text_color' => $C('primary'), 'hover_color' => $C('bcmid'), 'title_typography_typography' => $T('bccard'), 'arrow_color' => $C('primary')]]);
+
+$main = $con(['content_width' => 'full', 'width' => $pc(64), 'width_tablet' => $pc(100), 'width_mobile' => $pc(100), 'flex_direction' => 'column', 'html_tag' => 'article', 'padding' => $pad(0, 80, 0, 0), 'padding_tablet' => $pad(0, 0, 0, 0)], [
+  $w('theme-post-content', ['custom_css' => $articleCss, '__globals__' => ['text_color' => $C('secondary'), 'typography_typography' => $T('bcarticle')]]),
+  $share,
+  $nav,
+]);
+
+$block = function (array $kids, $last = false) use ($con, $pad, $C) { return $con(['content_width' => 'full', 'flex_direction' => 'column', 'padding' => $pad(0, 0, $last ? 0 : 32, 0), 'margin' => $pad(0, 0, $last ? 0 : 32, 0), 'border_border' => $last ? '' : 'solid', 'border_width' => $pad(0, 0, $last ? 0 : 1, 0), '__globals__' => ['border_color' => $C('bcline')]], $kids); };
+
+$toc = $w('table-of-contents', ['title' => 'In this article', 'html_tag' => 'h2', 'headings_by_tags' => ['h2'], 'container' => '.elementor-widget-theme-post-content', 'marker_view' => 'numbers', 'minimize_box' => '', 'hierarchical_view' => '', 'word_wrap' => 'yes', 'border_width' => $px(0), 'border_radius' => $px(0), 'padding' => $px(0), 'header_separator_width' => $px(0), 'heading_gap' => $px(10), 'min_height' => $px(0), 'background_color' => 'rgba(0,0,0,0)', '__globals__' => ['header_text_color' => $C('bcmid'), 'header_typography_typography' => $T('accent'), 'list_typography_typography' => $T('bcuil'), 'item_text_color_normal' => $C('secondary'), 'item_text_color_hover' => $C('bcmid'), 'item_text_color_active' => $C('primary'), 'marker_color' => $C('bcmid')], 'custom_css' => "selector .elementor-toc__header{padding:0 0 14px}\nselector .elementor-toc__body{padding:0}\nselector .elementor-toc__list-item{margin-bottom:10px}"]);
+
+$shop = $w('posts', ['_skin' => 'classic', 'posts_post_type' => 'product', 'posts_query_id' => 'bc_post_products', 'classic_columns' => '1', 'classic_columns_tablet' => '2', 'classic_columns_mobile' => '1', 'classic_posts_per_page' => 3, 'classic_thumbnail' => 'left', 'classic_image_width' => $pc(26), 'classic_image_width_tablet' => $pc(26), 'classic_image_width_mobile' => $pc(30), 'classic_item_ratio' => ['unit' => 'px', 'size' => 1.25], 'classic_thumbnail_size_size' => 'woocommerce_thumbnail', 'classic_show_title' => 'yes', 'classic_title_tag' => 'h3', 'classic_show_excerpt' => '', 'classic_meta_data' => [], 'classic_show_read_more' => 'yes', 'classic_read_more_text' => 'View product', 'classic_column_gap' => $px(24), 'classic_row_gap' => $px(20), 'classic_image_spacing' => $px(16), 'classic_title_spacing' => $px(8), 'pagination_type' => '', '__globals__' => ['classic_title_color' => $C('primary'), 'classic_title_typography_typography' => $T('bcuil'), 'classic_read_more_color' => $C('primary'), 'classic_read_more_typography_typography' => $T('accent')]]);
+
+$more = $w('posts', ['_skin' => 'classic', 'posts_post_type' => 'post', 'posts_exclude' => ['current_post'], 'posts_orderby' => 'post_date', 'posts_order' => 'desc', 'classic_columns' => '1', 'classic_columns_tablet' => '2', 'classic_columns_mobile' => '1', 'classic_posts_per_page' => 3, 'classic_thumbnail' => 'left', 'classic_image_width' => $pc(26), 'classic_image_width_tablet' => $pc(26), 'classic_image_width_mobile' => $pc(30), 'classic_item_ratio' => ['unit' => 'px', 'size' => 1.2], 'classic_thumbnail_size_size' => 'medium', 'classic_show_title' => 'yes', 'classic_title_tag' => 'h3', 'classic_show_excerpt' => '', 'classic_meta_data' => ['date'], 'classic_show_read_more' => '', 'classic_column_gap' => $px(24), 'classic_row_gap' => $px(20), 'classic_image_spacing' => $px(16), 'classic_title_spacing' => $px(6), 'pagination_type' => '', '__globals__' => ['classic_title_color' => $C('primary'), 'classic_title_typography_typography' => $T('bcuil'), 'classic_meta_color' => $C('bcmid'), 'classic_meta_typography_typography' => $T('bcsmall')]]);
+
+$topics = $w('icon-list', ['view' => 'traditional', 'icon_list' => array_map(fn($t) => ['_id' => $id(), 'text' => $t[0], 'selected_icon' => $noicon, 'link' => ['url' => $t[1], 'is_external' => '', 'nofollow' => '']], [['Skincare', '/category/skincare/'], ['Guides', '/category/guides/'], ['Routines', '/category/routines/'], ['Makeup', '/category/makeup/'], ['Body', '/category/body/'], ['All articles', '/journal/']]), 'space_between' => $px(20), 'divider' => 'yes', 'divider_style' => 'solid', 'divider_weight' => $px(1), '__globals__' => ['divider_color' => $C('bcline'), 'text_color' => $C('secondary'), 'text_color_hover' => $C('bcmid'), 'icon_typography_typography' => $T('bcuil')]]);
+
+$advice = $con(['content_width' => 'full', 'flex_direction' => 'column', 'flex_align_items' => 'flex-start', 'padding' => $pad(28, 28, 28, 28), 'margin' => $pad(0, 0, 32, 0), 'background_background' => 'classic', '__globals__' => ['background_color' => $C('accent')]], [
+  $eyebrow('Personal advice', 12),
+  $w('heading', ['title' => 'Not sure what suits your skin?', 'header_size' => 'h2', '_margin' => $pad(0, 0, 10, 0), '__globals__' => ['title_color' => $C('primary'), 'typography_typography' => $T('bccard')]]),
+  $w('text-editor', ['editor' => '<p>Tell us your skin type and what is bothering it. A person reads every message and replies within one working day.</p>', '_margin' => $pad(0, 0, 18, 0), '__globals__' => ['text_color' => $C('text'), 'typography_typography' => $T('bcsmall')]]),
+  $w('button', ['text' => 'Ask on WhatsApp', 'link' => ['url' => $wa, 'is_external' => 'on', 'nofollow' => ''], 'selected_icon' => ['value' => 'fab fa-whatsapp', 'library' => 'fa-brands'], 'icon_indent' => $px(10), 'border_border' => 'solid', 'border_width' => $pad(1, 1, 1, 1), 'border_radius' => $pad(0, 0, 0, 0), 'text_padding' => $pad(15, 24, 15, 24), 'background_background' => 'classic', 'button_background_hover_background' => 'classic', '__globals__' => ['background_color' => $C('primary'), 'button_text_color' => $C('bcwhite'), 'border_color' => $C('primary'), 'button_background_hover_color' => $C('bcwhite'), 'hover_color' => $C('primary'), 'button_hover_border_color' => $C('primary'), 'typography_typography' => $T('bcbtn')]]),
+]);
+
+$sticky = $con(['content_width' => 'full', 'flex_direction' => 'column', 'sticky' => 'top', 'sticky_on' => ['desktop'], 'sticky_offset' => 120, 'sticky_parent' => 'yes'], [
+  $block([$toc]),
+  $block([$eyebrow('Shop the story'), $shop]),
+  $advice,
+  $block([$eyebrow('More from the Journal'), $more]),
+  $block([$eyebrow('Browse topics'), $topics], true),
+]);
+
+$aside = $con(['content_width' => 'full', 'width' => $pc(36), 'width_tablet' => $pc(100), 'width_mobile' => $pc(100), 'flex_direction' => 'column', 'html_tag' => 'aside', 'padding' => $pad(0, 0, 0, 40), 'padding_tablet' => $pad(56, 0, 0, 0), 'border_border' => 'solid', 'border_width' => $pad(0, 0, 0, 1), 'border_width_tablet' => $pad(1, 0, 0, 0), '__globals__' => ['border_color' => $C('bcline')]], [$sticky]);
+
+$body = $con(['content_width' => 'boxed', 'boxed_width' => $px(1440), 'flex_direction' => 'row', 'flex_wrap' => 'wrap', 'flex_align_items' => 'stretch', 'padding' => $pad(24, 40, 112, 40), 'padding_mobile' => $pad(8, 20, 64, 20)], [$main, $aside]);
+
+/* ---------- related posts ---------- */
+$related = $con(['content_width' => 'boxed', 'boxed_width' => $px(1440), 'flex_direction' => 'column', 'padding' => $pad(96, 40, 104, 40), 'padding_mobile' => $pad(56, 20, 64, 20), 'background_background' => 'classic', '__globals__' => ['background_color' => $C('accent')]], [
+  $con(['content_width' => 'full', 'flex_direction' => 'row', 'flex_wrap' => 'wrap', 'flex_justify_content' => 'space-between', 'flex_align_items' => 'flex-end', 'padding' => $pad(0, 0, 40, 0)], [
+    $con(['content_width' => 'full', 'width' => $pc(62), 'width_mobile' => $pc(100), 'flex_direction' => 'column', 'padding_mobile' => $pad(0, 0, 24, 0)], [
+      $eyebrow('Keep reading', 12),
+      $w('heading', ['title' => 'More from the Journal', 'header_size' => 'h2', '__globals__' => ['title_color' => $C('primary'), 'typography_typography' => $T('bcdm')]]),
+    ]),
+    $w('button', ['text' => 'All articles', 'link' => ['url' => '/journal/', 'is_external' => '', 'nofollow' => ''], 'border_border' => 'solid', 'border_width' => $pad(1, 1, 1, 1), 'border_radius' => $pad(0, 0, 0, 0), 'text_padding' => $pad(15, 28, 15, 28), 'background_background' => 'classic', 'button_background_hover_background' => 'classic', '__globals__' => ['background_color' => $C('accent'), 'button_text_color' => $C('primary'), 'border_color' => $C('primary'), 'button_background_hover_color' => $C('primary'), 'hover_color' => $C('bcwhite'), 'button_hover_border_color' => $C('primary'), 'typography_typography' => $T('bcbtn')]]),
+  ]),
+  $w('posts', ['_skin' => 'cards', 'posts_post_type' => 'related', 'posts_related_taxonomies' => ['category'], 'posts_related_fallback' => 'fallback_recent', 'cards_columns' => '3', 'cards_columns_tablet' => '2', 'cards_columns_mobile' => '1', 'cards_posts_per_page' => 3, 'cards_thumbnail' => 'top', 'cards_item_ratio' => ['unit' => 'px', 'size' => 0.72], 'cards_thumbnail_size_size' => 'medium_large', 'cards_show_title' => 'yes', 'cards_title_tag' => 'h3', 'cards_show_excerpt' => 'yes', 'cards_excerpt_length' => 18, 'cards_meta_data' => ['date'], 'cards_show_read_more' => 'yes', 'cards_read_more_text' => 'Read the article', 'cards_show_badge' => 'yes', 'cards_badge_taxonomy' => 'category', 'cards_show_avatar' => '', 'cards_hover_effect' => 'none', 'cards_column_gap' => $px(32), 'cards_row_gap' => $px(40), 'cards_card_padding' => $px(28), 'cards_badge_radius' => $px(0), 'cards_title_spacing' => $px(12), 'cards_excerpt_spacing' => $px(20), 'pagination_type' => '', '__globals__' => ['cards_card_bg_color' => $C('bcwhite'), 'cards_badge_bg_color' => $C('primary'), 'cards_badge_color' => $C('bcwhite'), 'cards_badge_typography_typography' => $T('accent'), 'cards_title_color' => $C('primary'), 'cards_title_typography_typography' => $T('bccard'), 'cards_excerpt_color' => $C('text'), 'cards_excerpt_typography_typography' => $T('bcsmall'), 'cards_meta_color' => $C('bcmid'), 'cards_meta_typography_typography' => $T('bcsmall'), 'cards_read_more_color' => $C('primary'), 'cards_read_more_typography_typography' => $T('accent')]]),
+]);
+
+$data = [$hero, $body, $related];
+
+/* ---------- validate every setting key against real controls ---------- */
+$em = \Elementor\Plugin::$instance; $unknown = [];
+$base = fn($k) => preg_replace('/_(tablet|mobile|widescreen|laptop|tablet_extra|mobile_extra)$/', '', $k);
+$check = function ($els) use (&$check, $em, &$unknown, $base) { foreach ($els as $e) { $ctl = $e['elType'] === 'widget' ? $em->widgets_manager->get_widget_types($e['widgetType'])->get_controls() : $em->elements_manager->get_element_types('container')->get_controls(); foreach ($e['settings'] as $k => $v) { if ($k === '__globals__' || $k === '__dynamic__') { foreach ((array) $v as $gk => $gv) { if (!isset($ctl[$base($gk)])) { $unknown[] = ($e['widgetType'] ?? 'container') . ' g:' . $gk; } } continue; } if (!isset($ctl[$base($k)])) { $unknown[] = ($e['widgetType'] ?? 'container') . ' ' . $k; } } if ($e['elements']) { $check($e['elements']); } } };
+$check($data);
+if ($unknown) { return ['unknown_keys' => array_values(array_unique($unknown))]; }
+
+/* ---------- save as a published Theme Builder single-post template ---------- */
+$title = 'Beauty Crib Single Post';
+$existing = get_posts(['post_type' => 'elementor_library', 'title' => $title, 'post_status' => 'any', 'numberposts' => 1, 'fields' => 'ids']);
+$tid = $existing ? $existing[0] : wp_insert_post(['post_type' => 'elementor_library', 'post_title' => $title, 'post_status' => 'publish']);
+wp_update_post(['ID' => $tid, 'post_status' => 'publish']);
+wp_set_object_terms($tid, 'single-post', 'elementor_library_type');
+update_post_meta($tid, '_elementor_edit_mode', 'builder');
+update_post_meta($tid, '_elementor_template_type', 'single-post');
+update_post_meta($tid, '_elementor_version', ELEMENTOR_VERSION);
+update_post_meta($tid, '_elementor_pro_version', ELEMENTOR_PRO_VERSION);
+update_post_meta($tid, '_wp_page_template', 'elementor_header_footer');
+update_post_meta($tid, '_elementor_page_settings', ['page_template' => 'elementor_header_footer', 'preview_type' => 'single/post', 'preview_id' => 121]);
+update_post_meta($tid, '_elementor_data', wp_slash(wp_json_encode($data)));
+update_post_meta($tid, '_elementor_conditions', ['include/singular/post']);
+delete_post_meta($tid, '_elementor_element_cache');
+(new \ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Cache())->regenerate();
+\Elementor\Core\Files\CSS\Post::create($tid)->update();
+foreach (wp_get_post_revisions($tid, ['check_enabled' => false]) as $rev) { if (wp_is_post_autosave($rev)) { wp_delete_post_revision($rev->ID); } }
+$a = wp_get_post_autosave($tid); if ($a) { wp_delete_post_revision($a->ID); }
+\Elementor\Plugin::$instance->files_manager->clear_cache();
+do_action('litespeed_purge_all');
+return ['template' => $tid, 'conditions' => get_option('elementor_pro_theme_builder_conditions')];

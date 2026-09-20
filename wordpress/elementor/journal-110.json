@@ -1,0 +1,335 @@
+{
+    "id": 110,
+    "title": "Journal",
+    "type": "wp-page",
+    "conditions": "",
+    "page_settings": "",
+    "content": [
+        {
+            "id": "3235f5b",
+            "elType": "container",
+            "isInner": false,
+            "elements": [
+                {
+                    "id": "4d6a9a1",
+                    "elType": "container",
+                    "isInner": true,
+                    "elements": [
+                        {
+                            "id": "03eb199",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "elements": [],
+                            "settings": {
+                                "title": "The Journal",
+                                "header_size": "h6",
+                                "title_color": "#666666",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Instrument Sans",
+                                "typography_font_size": {
+                                    "unit": "px",
+                                    "size": 11
+                                },
+                                "typography_font_weight": "500",
+                                "typography_text_transform": "uppercase",
+                                "typography_letter_spacing": {
+                                    "unit": "px",
+                                    "size": 1.6
+                                },
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "20",
+                                    "left": "0",
+                                    "isLinked": false
+                                }
+                            }
+                        },
+                        {
+                            "id": "4372cda",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "elements": [],
+                            "settings": {
+                                "title": "Beauty, explained.",
+                                "header_size": "h1",
+                                "title_color": "#000000",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Instrument Serif",
+                                "typography_font_size": {
+                                    "unit": "px",
+                                    "size": 96
+                                },
+                                "typography_font_size_mobile": {
+                                    "unit": "px",
+                                    "size": 42
+                                },
+                                "typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.06
+                                },
+                                "typography_letter_spacing": {
+                                    "unit": "px",
+                                    "size": -1
+                                },
+                                "align": "center",
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "22",
+                                    "left": "0",
+                                    "isLinked": false
+                                }
+                            }
+                        },
+                        {
+                            "id": "7d2344a",
+                            "elType": "widget",
+                            "widgetType": "text-editor",
+                            "elements": [],
+                            "settings": {
+                                "editor": "<p style=\"text-align:center\">Guides, routines and honest product advice, written for skin living in Uganda&rsquo;s climate. No miracle claims, no ten-step routines you will abandon by Thursday.</p>",
+                                "text_color": "#666666",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Instrument Sans",
+                                "typography_font_size": {
+                                    "unit": "px",
+                                    "size": 19
+                                },
+                                "typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.62
+                                }
+                            }
+                        }
+                    ],
+                    "settings": {
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": 100
+                        },
+                        "width_mobile": {
+                            "unit": "%",
+                            "size": 100
+                        },
+                        "flex_gap": {
+                            "unit": "px",
+                            "size": 0,
+                            "column": "0",
+                            "row": "0"
+                        },
+                        "padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "20",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "padding_mobile": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "28",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "flex_align_items": "center"
+                    }
+                }
+            ],
+            "settings": {
+                "content_width": "boxed",
+                "boxed_width": {
+                    "unit": "px",
+                    "size": 1440
+                },
+                "flex_direction": "row",
+                "flex_wrap": "wrap",
+                "flex_gap": {
+                    "unit": "px",
+                    "size": 0,
+                    "column": "0",
+                    "row": "0"
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "140",
+                    "right": "40",
+                    "bottom": "50",
+                    "left": "40",
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": "52",
+                    "right": "20",
+                    "bottom": "52",
+                    "left": "20",
+                    "isLinked": false
+                }
+            }
+        },
+        {
+            "id": "7a521cf",
+            "elType": "container",
+            "isInner": false,
+            "elements": [
+                {
+                    "id": "505d415",
+                    "elType": "container",
+                    "isInner": true,
+                    "elements": [
+                        {
+                            "id": "09c4a75",
+                            "elType": "widget",
+                            "widgetType": "posts",
+                            "elements": [],
+                            "settings": {
+                                "_skin": "cards",
+                                "posts_post_type": "post",
+                                "cards_columns": "3",
+                                "cards_columns_tablet": "2",
+                                "cards_columns_mobile": "1",
+                                "cards_posts_per_page": 9,
+                                "cards_thumbnail": "top",
+                                "cards_item_ratio": {
+                                    "unit": "px",
+                                    "size": 0.72
+                                },
+                                "cards_thumbnail_size_size": "medium_large",
+                                "cards_show_title": "yes",
+                                "cards_title_tag": "h2",
+                                "cards_show_excerpt": "yes",
+                                "cards_excerpt_length": 20,
+                                "cards_meta_data": [
+                                    "date"
+                                ],
+                                "cards_show_read_more": "yes",
+                                "cards_read_more_text": "Read the article",
+                                "cards_show_badge": "yes",
+                                "cards_badge_taxonomy": "category",
+                                "cards_show_avatar": "",
+                                "cards_hover_effect": "none",
+                                "cards_column_gap": {
+                                    "unit": "px",
+                                    "size": 32,
+                                    "sizes": []
+                                },
+                                "cards_row_gap": {
+                                    "unit": "px",
+                                    "size": 48,
+                                    "sizes": []
+                                },
+                                "cards_card_padding": {
+                                    "unit": "px",
+                                    "size": 28,
+                                    "sizes": []
+                                },
+                                "cards_card_border_width": {
+                                    "unit": "px",
+                                    "size": 1,
+                                    "sizes": []
+                                },
+                                "cards_card_border_radius": {
+                                    "unit": "px",
+                                    "size": 0,
+                                    "sizes": []
+                                },
+                                "cards_badge_radius": {
+                                    "unit": "px",
+                                    "size": 0,
+                                    "sizes": []
+                                },
+                                "cards_title_spacing": {
+                                    "unit": "px",
+                                    "size": 12,
+                                    "sizes": []
+                                },
+                                "cards_excerpt_spacing": {
+                                    "unit": "px",
+                                    "size": 20,
+                                    "sizes": []
+                                },
+                                "pagination_type": "numbers",
+                                "pagination_align": "center",
+                                "pagination_spacing_top": {
+                                    "unit": "px",
+                                    "size": 64,
+                                    "sizes": []
+                                },
+                                "__globals__": {
+                                    "cards_card_bg_color": "globals/colors?id=bcwhite",
+                                    "cards_card_border_color": "globals/colors?id=bcline",
+                                    "cards_meta_border_color": "globals/colors?id=bcline",
+                                    "cards_badge_bg_color": "globals/colors?id=primary",
+                                    "cards_badge_color": "globals/colors?id=bcwhite",
+                                    "cards_badge_typography_typography": "globals/typography?id=accent",
+                                    "cards_title_color": "globals/colors?id=primary",
+                                    "cards_title_typography_typography": "globals/typography?id=bccard",
+                                    "cards_excerpt_color": "globals/colors?id=text",
+                                    "cards_excerpt_typography_typography": "globals/typography?id=bcsmall",
+                                    "cards_meta_color": "globals/colors?id=bcmid",
+                                    "cards_meta_typography_typography": "globals/typography?id=bcsmall",
+                                    "cards_read_more_color": "globals/colors?id=primary",
+                                    "cards_read_more_typography_typography": "globals/typography?id=accent",
+                                    "pagination_typography_typography": "globals/typography?id=bcuil",
+                                    "pagination_color": "globals/colors?id=bcmid",
+                                    "pagination_hover_color": "globals/colors?id=primary",
+                                    "pagination_active_color": "globals/colors?id=primary"
+                                }
+                            }
+                        }
+                    ],
+                    "settings": {
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": 100
+                        },
+                        "flex_gap": {
+                            "unit": "px",
+                            "size": 0,
+                            "column": "0",
+                            "row": "0"
+                        }
+                    }
+                }
+            ],
+            "settings": {
+                "content_width": "boxed",
+                "boxed_width": {
+                    "unit": "px",
+                    "size": 1440
+                },
+                "flex_direction": "row",
+                "flex_wrap": "wrap",
+                "flex_gap": {
+                    "unit": "px",
+                    "size": 0,
+                    "column": "0",
+                    "row": "0"
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "40",
+                    "bottom": "96",
+                    "left": "40",
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": "52",
+                    "right": "20",
+                    "bottom": "52",
+                    "left": "20",
+                    "isLinked": false
+                }
+            }
+        }
+    ]
+}

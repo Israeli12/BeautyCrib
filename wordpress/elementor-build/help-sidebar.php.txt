@@ -1,0 +1,88 @@
+$id = function () { return substr(md5(uniqid('', true) . mt_rand()), 0, 7); };
+$px = fn($n) => ['unit' => 'px', 'size' => $n, 'sizes' => []];
+$pc = fn($n) => ['unit' => '%', 'size' => $n, 'sizes' => []];
+$pad = fn($t, $r, $b, $l) => ['unit' => 'px', 'top' => (string) $t, 'right' => (string) $r, 'bottom' => (string) $b, 'left' => (string) $l, 'isLinked' => false];
+$gap0 = ['unit' => 'px', 'size' => 0, 'column' => '0', 'row' => '0'];
+$C = fn($i) => 'globals/colors?id=' . $i; $T = fn($i) => 'globals/typography?id=' . $i;
+$con = function (array $s, array $kids) use ($id, $gap0) { return ['id' => $id(), 'elType' => 'container', 'isInner' => false, 'settings' => array_merge(['flex_gap' => $gap0], $s), 'elements' => $kids]; };
+$w = function ($type, array $s) use ($id) { return ['id' => $id(), 'elType' => 'widget', 'widgetType' => $type, 'isInner' => false, 'settings' => $s, 'elements' => []]; };
+$noicon = ['value' => '', 'library' => ''];
+$eyebrow = fn($text, $mb = 16) => $w('heading', ['title' => $text, 'header_size' => 'p', '_margin' => $pad(0, 0, $mb, 0), '__globals__' => ['title_color' => $C('bcmid'), 'typography_typography' => $T('accent')]]);
+$links = fn($items) => $w('icon-list', ['view' => 'traditional', 'icon_list' => array_map(fn($t) => ['_id' => $id(), 'text' => $t[0], 'selected_icon' => $noicon, 'link' => ['url' => $t[1], 'is_external' => '', 'nofollow' => '']], $items), 'space_between' => $px(18), 'divider' => 'yes', 'divider_style' => 'solid', 'divider_weight' => $px(1), '__globals__' => ['divider_color' => $C('bcline'), 'text_color' => $C('secondary'), 'text_color_hover' => $C('bcmid'), 'icon_typography_typography' => $T('bcuil')]]);
+$wa = 'https://wa.me/256784956653?text=' . rawurlencode('Hello Beauty Crib, I have a question about my order.');
+
+$helpSidebar = function ($jump = []) use ($con, $w, $pad, $px, $pc, $C, $T, $eyebrow, $links, $wa) {
+  $blocks = [];
+  if ($jump) {
+    $blocks[] = $con(['content_width' => 'full', 'flex_direction' => 'column', 'padding' => $pad(0, 0, 28, 0), 'margin' => $pad(0, 0, 28, 0), 'border_border' => 'solid', 'border_width' => $pad(0, 0, 1, 0), '__globals__' => ['border_color' => $C('bcline')]], [$eyebrow('On this page'), $links($jump)]);
+  }
+  $blocks[] = $con(['content_width' => 'full', 'flex_direction' => 'column', 'padding' => $pad(0, 0, 28, 0), 'margin' => $pad(0, 0, 28, 0), 'border_border' => 'solid', 'border_width' => $pad(0, 0, 1, 0), '__globals__' => ['border_color' => $C('bcline')]], [$eyebrow('Help'), $links([['Shipping & Delivery', '/shipping-delivery/'], ['Returns & Refunds', '/returns-refunds/'], ['Frequently asked questions', '/faq/'], ['Contact us', '/contact/'], ['Privacy Policy', '/privacy-policy/'], ['Terms & Conditions', '/terms-conditions/']])]);
+  $blocks[] = $con(['content_width' => 'full', 'flex_direction' => 'column', 'flex_align_items' => 'flex-start', 'padding' => $pad(28, 28, 28, 28), 'background_background' => 'classic', '__globals__' => ['background_color' => $C('accent')]], [
+    $eyebrow('Still stuck', 12),
+    $w('heading', ['title' => 'Talk to a person', 'header_size' => 'h2', '_margin' => $pad(0, 0, 10, 0), '__globals__' => ['title_color' => $C('primary'), 'typography_typography' => $T('bccard')]]),
+    $w('text-editor', ['editor' => '<p>Message us with your order number and we will sort it out. We reply within one working day.</p>', '_margin' => $pad(0, 0, 18, 0), '__globals__' => ['text_color' => $C('text'), 'typography_typography' => $T('bcsmall')]]),
+    $w('button', ['text' => 'Ask on WhatsApp', 'link' => ['url' => $wa, 'is_external' => 'on', 'nofollow' => ''], 'selected_icon' => ['value' => 'fab fa-whatsapp', 'library' => 'fa-brands'], 'icon_indent' => $px(10), 'border_border' => 'solid', 'border_width' => $pad(1, 1, 1, 1), 'border_radius' => $pad(0, 0, 0, 0), 'text_padding' => $pad(15, 24, 15, 24), 'background_background' => 'classic', 'button_background_hover_background' => 'classic', '__globals__' => ['background_color' => $C('primary'), 'button_text_color' => $C('bcwhite'), 'border_color' => $C('primary'), 'button_background_hover_color' => $C('bcwhite'), 'hover_color' => $C('primary'), 'button_hover_border_color' => $C('primary'), 'typography_typography' => $T('bcbtn')]]),
+  ]);
+  $inner = $con(['content_width' => 'full', 'flex_direction' => 'column', 'sticky' => 'top', 'sticky_on' => ['desktop'], 'sticky_offset' => 120, 'sticky_parent' => 'yes'], $blocks);
+  return $con(['content_width' => 'full', 'width' => $pc(30), 'width_tablet' => $pc(100), 'width_mobile' => $pc(100), 'flex_direction' => 'column', 'html_tag' => 'aside', 'padding' => $pad(0, 56, 0, 0), 'padding_tablet' => $pad(48, 0, 0, 0), '_flex_order_tablet' => 'end'], [$inner]);
+};
+
+$report = [];
+
+/* ---- simple help pages: one content section gets a sidebar beside it ---- */
+foreach ([116 => '6f72481', 117 => '140b2f8', 3 => '9ab6e5e', 119 => '5fc5839'] as $pid => $rootId) {
+  $d = json_decode(get_post_meta($pid, '_elementor_data', true), true); $hit = false;
+  foreach ($d as &$root) {
+    if ($root['id'] !== $rootId) { continue; }
+    if (!empty($root['settings']['_bc_help'])) { $hit = 'already'; break; }
+    $root['settings']['boxed_width'] = $px(1440);
+    $root['settings']['flex_direction'] = 'row';
+    $root['settings']['flex_wrap'] = 'wrap';
+    $root['settings']['flex_align_items'] = 'flex-start';
+    $root['settings']['padding'] = $pad(20, 40, 100, 40);
+    $root['settings']['padding_mobile'] = $pad(8, 20, 64, 20);
+    $root['settings']['_bc_help'] = 'yes';
+    foreach ($root['elements'] as &$child) { $child['settings']['width'] = $pc(70); $child['settings']['width_tablet'] = $pc(100); $child['settings']['width_mobile'] = $pc(100); }
+    unset($child);
+    array_unshift($root['elements'], $helpSidebar());
+    $hit = true;
+  }
+  unset($root);
+  if ($hit === true) { update_post_meta($pid, '_elementor_data', wp_slash(wp_json_encode($d))); delete_post_meta($pid, '_elementor_element_cache'); \Elementor\Core\Files\CSS\Post::create($pid)->update(); }
+  $report[$pid] = $hit;
+}
+
+/* ---- FAQ: wrap the topic sections in one column beside the sidebar ---- */
+$d = json_decode(get_post_meta(115, '_elementor_data', true), true);
+if (count($d) > 2) {
+  $hero = array_shift($d);
+  $anchors = ['ordering', 'delivery', 'payment', 'authenticity', 'returns', 'advice'];
+  $jump = []; $topics = [];
+  foreach (array_values($d) as $i => $sec) {
+    $anchor = $anchors[$i] ?? 'topic-' . ($i + 1);
+    $label = 'Topic';
+    foreach ($sec['elements'][0]['elements'] ?? [] as $kid) { if (($kid['widgetType'] ?? '') === 'heading') { $label = $kid['settings']['title']; break; } }
+    $sec['settings']['content_width'] = 'full';
+    $sec['settings']['width'] = $pc(100);
+    $sec['settings']['boxed_width'] = $px(1440);
+    $sec['settings']['padding'] = $pad(0, 0, 44, 0);
+    $sec['settings']['padding_mobile'] = $pad(0, 0, 36, 0);
+    $sec['settings']['_element_id'] = $anchor;
+    foreach ($sec['elements'] as &$c2) { $c2['settings']['padding'] = $pad(0, 0, 0, 0); }
+    unset($c2);
+    $topics[] = $sec;
+    $jump[] = [$label, '#' . $anchor];
+  }
+  $content = $con(['content_width' => 'full', 'width' => $pc(70), 'width_tablet' => $pc(100), 'width_mobile' => $pc(100), 'flex_direction' => 'column'], $topics);
+  $wrap = $con(['content_width' => 'boxed', 'boxed_width' => $px(1440), 'flex_direction' => 'row', 'flex_wrap' => 'wrap', 'flex_align_items' => 'flex-start', 'padding' => $pad(20, 40, 100, 40), 'padding_mobile' => $pad(8, 20, 64, 20), '_bc_help' => 'yes'], [$helpSidebar($jump), $content]);
+  $new = [$hero, $wrap];
+  update_post_meta(115, '_elementor_data', wp_slash(wp_json_encode($new)));
+  delete_post_meta(115, '_elementor_element_cache');
+  \Elementor\Core\Files\CSS\Post::create(115)->update();
+  $report[115] = 'wrapped ' . count($topics) . ' topics';
+} else { $report[115] = 'already'; }
+
+foreach ([3, 115, 116, 117, 119] as $p) { $a = wp_get_post_autosave($p); if ($a) { wp_delete_post_revision($a->ID); } }
+\Elementor\Plugin::$instance->files_manager->clear_cache();
+do_action('litespeed_purge_all');
+return $report;

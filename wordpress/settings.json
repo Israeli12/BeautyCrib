@@ -1,0 +1,55 @@
+{
+    "woocommerce": {
+        "thumbnail_cropping": "uncropped",
+        "thumbnail_image_width": "600",
+        "single_image_width": "600",
+        "enabled_gateways": [
+            "bacs",
+            "cod"
+        ]
+    },
+    "astra_layout": {
+        "single-post-ast-content-layout": "full-width-container",
+        "single-post-content-style": "unboxed",
+        "single-post-sidebar-layout": "no-sidebar",
+        "archive-post-ast-content-layout": "full-width-container",
+        "archive-post-sidebar-layout": "no-sidebar",
+        "ast-site-content-layout": "full-width-container",
+        "site-content-style": "unboxed"
+    },
+    "elementor_conditions": {
+        "archive": {
+            "216": [
+                "include/archive/category",
+                "include/archive/post_tag",
+                "include/archive/date",
+                "include/archive/author",
+                "include/archive/search"
+            ],
+            "153": [
+                "include/product_archive"
+            ]
+        },
+        "single": {
+            "214": [
+                "include/singular/post"
+            ],
+            "155": [
+                "include/product"
+            ]
+        }
+    },
+    "whatsapp_alerts": {
+        "provider": "none",
+        "recipients": "256784956653",
+        "cloud_token": "",
+        "cloud_phone_id": "",
+        "cloud_template": "",
+        "cloud_lang": "en",
+        "twilio_sid": "",
+        "twilio_token": "",
+        "twilio_from": "",
+        "email_fallback": "yes",
+        "events": "all"
+    }
+}

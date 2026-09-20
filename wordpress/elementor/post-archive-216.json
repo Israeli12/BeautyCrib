@@ -1,0 +1,407 @@
+{
+    "id": 216,
+    "title": "Beauty Crib Post Archive",
+    "type": "archive",
+    "conditions": [
+        "include/archive/category",
+        "include/archive/post_tag",
+        "include/archive/date",
+        "include/archive/author",
+        "include/archive/search"
+    ],
+    "page_settings": {
+        "page_template": "elementor_header_footer",
+        "preview_type": "archive/category",
+        "preview_term": "category/guides"
+    },
+    "content": [
+        {
+            "id": "0899e20",
+            "elType": "container",
+            "isInner": false,
+            "settings": {
+                "flex_gap": {
+                    "unit": "px",
+                    "size": 0,
+                    "column": "0",
+                    "row": "0"
+                },
+                "content_width": "boxed",
+                "boxed_width": {
+                    "unit": "px",
+                    "size": 1440,
+                    "sizes": []
+                },
+                "flex_direction": "column",
+                "padding": {
+                    "unit": "px",
+                    "top": "72",
+                    "right": "40",
+                    "bottom": "40",
+                    "left": "40",
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": "32",
+                    "right": "20",
+                    "bottom": "28",
+                    "left": "20",
+                    "isLinked": false
+                },
+                "html_tag": "header"
+            },
+            "elements": [
+                {
+                    "id": "df3772e",
+                    "elType": "widget",
+                    "widgetType": "heading",
+                    "isInner": false,
+                    "settings": {
+                        "title": "The Journal",
+                        "header_size": "p",
+                        "_margin": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "14",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "__globals__": {
+                            "title_color": "globals/colors?id=bcmid",
+                            "typography_typography": "globals/typography?id=accent"
+                        }
+                    },
+                    "elements": []
+                },
+                {
+                    "id": "4472b34",
+                    "elType": "widget",
+                    "widgetType": "theme-archive-title",
+                    "isInner": false,
+                    "settings": {
+                        "header_size": "h1",
+                        "_margin": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "20",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "__dynamic__": {
+                            "title": "[elementor-tag id=\"2275345\" name=\"archive-title\" settings=\"%7B%22include_context%22%3A%22%22%7D\"]"
+                        },
+                        "__globals__": {
+                            "title_color": "globals/colors?id=primary",
+                            "typography_typography": "globals/typography?id=bcdl"
+                        }
+                    },
+                    "elements": []
+                },
+                {
+                    "id": "15d1f41",
+                    "elType": "widget",
+                    "widgetType": "theme-post-excerpt",
+                    "isInner": false,
+                    "settings": {
+                        "__dynamic__": {
+                            "excerpt": "[elementor-tag id=\"2b3cb1b\" name=\"archive-description\" settings=\"%5B%5D\"]"
+                        },
+                        "_margin": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "28",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "__globals__": {
+                            "title_color": "globals/colors?id=text",
+                            "typography_typography": "globals/typography?id=bclead"
+                        }
+                    },
+                    "elements": []
+                },
+                {
+                    "id": "a8b36b2",
+                    "elType": "container",
+                    "isInner": false,
+                    "settings": {
+                        "flex_gap": {
+                            "unit": "px",
+                            "size": 0,
+                            "column": "0",
+                            "row": "0"
+                        },
+                        "content_width": "full",
+                        "flex_direction": "column",
+                        "padding": {
+                            "unit": "px",
+                            "top": "24",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "border_border": "solid",
+                        "border_width": {
+                            "unit": "px",
+                            "top": "1",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "__globals__": {
+                            "border_color": "globals/colors?id=bcline"
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "146dd12",
+                            "elType": "widget",
+                            "widgetType": "icon-list",
+                            "isInner": false,
+                            "settings": {
+                                "view": "inline",
+                                "icon_list": [
+                                    {
+                                        "_id": "9b281a7",
+                                        "text": "All articles",
+                                        "selected_icon": {
+                                            "value": "",
+                                            "library": ""
+                                        },
+                                        "link": {
+                                            "url": "/journal/",
+                                            "is_external": "",
+                                            "nofollow": ""
+                                        }
+                                    },
+                                    {
+                                        "_id": "3b47e9f",
+                                        "text": "Skincare",
+                                        "selected_icon": {
+                                            "value": "",
+                                            "library": ""
+                                        },
+                                        "link": {
+                                            "url": "/category/skincare/",
+                                            "is_external": "",
+                                            "nofollow": ""
+                                        }
+                                    },
+                                    {
+                                        "_id": "cff2950",
+                                        "text": "Guides",
+                                        "selected_icon": {
+                                            "value": "",
+                                            "library": ""
+                                        },
+                                        "link": {
+                                            "url": "/category/guides/",
+                                            "is_external": "",
+                                            "nofollow": ""
+                                        }
+                                    },
+                                    {
+                                        "_id": "ce954ca",
+                                        "text": "Routines",
+                                        "selected_icon": {
+                                            "value": "",
+                                            "library": ""
+                                        },
+                                        "link": {
+                                            "url": "/category/routines/",
+                                            "is_external": "",
+                                            "nofollow": ""
+                                        }
+                                    },
+                                    {
+                                        "_id": "6c66f13",
+                                        "text": "Makeup",
+                                        "selected_icon": {
+                                            "value": "",
+                                            "library": ""
+                                        },
+                                        "link": {
+                                            "url": "/category/makeup/",
+                                            "is_external": "",
+                                            "nofollow": ""
+                                        }
+                                    },
+                                    {
+                                        "_id": "03e6caf",
+                                        "text": "Body",
+                                        "selected_icon": {
+                                            "value": "",
+                                            "library": ""
+                                        },
+                                        "link": {
+                                            "url": "/category/body/",
+                                            "is_external": "",
+                                            "nofollow": ""
+                                        }
+                                    }
+                                ],
+                                "space_between": {
+                                    "unit": "px",
+                                    "size": 28,
+                                    "sizes": []
+                                },
+                                "__globals__": {
+                                    "text_color": "globals/colors?id=secondary",
+                                    "text_color_hover": "globals/colors?id=bcmid",
+                                    "icon_typography_typography": "globals/typography?id=bcuil"
+                                }
+                            },
+                            "elements": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "d382cfb",
+            "elType": "container",
+            "isInner": false,
+            "settings": {
+                "flex_gap": {
+                    "unit": "px",
+                    "size": 0,
+                    "column": "0",
+                    "row": "0"
+                },
+                "content_width": "boxed",
+                "boxed_width": {
+                    "unit": "px",
+                    "size": 1440,
+                    "sizes": []
+                },
+                "flex_direction": "column",
+                "padding": {
+                    "unit": "px",
+                    "top": "40",
+                    "right": "40",
+                    "bottom": "112",
+                    "left": "40",
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": "28",
+                    "right": "20",
+                    "bottom": "64",
+                    "left": "20",
+                    "isLinked": false
+                }
+            },
+            "elements": [
+                {
+                    "id": "ee4563f",
+                    "elType": "widget",
+                    "widgetType": "archive-posts",
+                    "isInner": false,
+                    "settings": {
+                        "_skin": "archive_cards",
+                        "archive_cards_columns": "3",
+                        "archive_cards_columns_tablet": "2",
+                        "archive_cards_columns_mobile": "1",
+                        "archive_cards_thumbnail": "top",
+                        "archive_cards_item_ratio": {
+                            "unit": "px",
+                            "size": 0.72
+                        },
+                        "archive_cards_thumbnail_size_size": "medium_large",
+                        "archive_cards_show_title": "yes",
+                        "archive_cards_title_tag": "h2",
+                        "archive_cards_show_excerpt": "yes",
+                        "archive_cards_excerpt_length": 20,
+                        "archive_cards_meta_data": [
+                            "date"
+                        ],
+                        "archive_cards_show_read_more": "yes",
+                        "archive_cards_read_more_text": "Read the article",
+                        "archive_cards_show_badge": "yes",
+                        "archive_cards_badge_taxonomy": "category",
+                        "archive_cards_show_avatar": "",
+                        "archive_cards_hover_effect": "none",
+                        "archive_cards_column_gap": {
+                            "unit": "px",
+                            "size": 32,
+                            "sizes": []
+                        },
+                        "archive_cards_row_gap": {
+                            "unit": "px",
+                            "size": 48,
+                            "sizes": []
+                        },
+                        "archive_cards_card_padding": {
+                            "unit": "px",
+                            "size": 28,
+                            "sizes": []
+                        },
+                        "archive_cards_card_border_width": {
+                            "unit": "px",
+                            "size": 1,
+                            "sizes": []
+                        },
+                        "archive_cards_card_border_radius": {
+                            "unit": "px",
+                            "size": 0,
+                            "sizes": []
+                        },
+                        "archive_cards_badge_radius": {
+                            "unit": "px",
+                            "size": 0,
+                            "sizes": []
+                        },
+                        "archive_cards_title_spacing": {
+                            "unit": "px",
+                            "size": 12,
+                            "sizes": []
+                        },
+                        "archive_cards_excerpt_spacing": {
+                            "unit": "px",
+                            "size": 20,
+                            "sizes": []
+                        },
+                        "pagination_type": "numbers",
+                        "pagination_align": "center",
+                        "pagination_spacing_top": {
+                            "unit": "px",
+                            "size": 64,
+                            "sizes": []
+                        },
+                        "nothing_found_message": "Nothing here yet. Browse all articles in the Journal.",
+                        "__globals__": {
+                            "archive_cards_card_bg_color": "globals/colors?id=bcwhite",
+                            "archive_cards_card_border_color": "globals/colors?id=bcline",
+                            "archive_cards_meta_border_color": "globals/colors?id=bcline",
+                            "archive_cards_badge_bg_color": "globals/colors?id=primary",
+                            "archive_cards_badge_color": "globals/colors?id=bcwhite",
+                            "archive_cards_badge_typography_typography": "globals/typography?id=accent",
+                            "archive_cards_title_color": "globals/colors?id=primary",
+                            "archive_cards_title_typography_typography": "globals/typography?id=bccard",
+                            "archive_cards_excerpt_color": "globals/colors?id=text",
+                            "archive_cards_excerpt_typography_typography": "globals/typography?id=bcsmall",
+                            "archive_cards_meta_color": "globals/colors?id=bcmid",
+                            "archive_cards_meta_typography_typography": "globals/typography?id=bcsmall",
+                            "archive_cards_read_more_color": "globals/colors?id=primary",
+                            "archive_cards_read_more_typography_typography": "globals/typography?id=accent",
+                            "pagination_typography_typography": "globals/typography?id=bcuil",
+                            "pagination_color": "globals/colors?id=bcmid",
+                            "pagination_hover_color": "globals/colors?id=primary",
+                            "pagination_active_color": "globals/colors?id=primary",
+                            "nothing_found_color": "globals/colors?id=text",
+                            "nothing_found_typography_typography": "globals/typography?id=bclead"
+                        }
+                    },
+                    "elements": []
+                }
+            ]
+        }
+    ]
+}
