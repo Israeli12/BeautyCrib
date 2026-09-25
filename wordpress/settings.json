@@ -6,6 +6,189 @@
         "enabled_gateways": [
             "bacs",
             "cod"
+        ],
+        "published_products": 46,
+        "categories": [
+            {
+                "slug": "beauty-tools",
+                "name": "Beauty Tools",
+                "parent": 0,
+                "count": 0
+            },
+            {
+                "slug": "body-care",
+                "name": "Body Care",
+                "parent": 0,
+                "count": 0
+            },
+            {
+                "slug": "body-mist",
+                "name": "Body Mist",
+                "parent": 34,
+                "count": 0
+            },
+            {
+                "slug": "brushes",
+                "name": "Brushes",
+                "parent": 37,
+                "count": 0
+            },
+            {
+                "slug": "cleansers",
+                "name": "Cleansers",
+                "parent": 16,
+                "count": 17
+            },
+            {
+                "slug": "devices",
+                "name": "Devices",
+                "parent": 37,
+                "count": 0
+            },
+            {
+                "slug": "eyes",
+                "name": "Eyes",
+                "parent": 22,
+                "count": 0
+            },
+            {
+                "slug": "face",
+                "name": "Face",
+                "parent": 22,
+                "count": 0
+            },
+            {
+                "slug": "fragrance",
+                "name": "Fragrance",
+                "parent": 0,
+                "count": 0
+            },
+            {
+                "slug": "hair-care",
+                "name": "Hair Care",
+                "parent": 0,
+                "count": 0
+            },
+            {
+                "slug": "lips",
+                "name": "Lips",
+                "parent": 22,
+                "count": 0
+            },
+            {
+                "slug": "lotions-oils",
+                "name": "Lotions &amp; Oils",
+                "parent": 30,
+                "count": 0
+            },
+            {
+                "slug": "makeup",
+                "name": "Makeup",
+                "parent": 0,
+                "count": 0
+            },
+            {
+                "slug": "masks-exfoliants",
+                "name": "Masks &amp; Exfoliants",
+                "parent": 16,
+                "count": 0
+            },
+            {
+                "slug": "moisturisers",
+                "name": "Moisturisers",
+                "parent": 16,
+                "count": 0
+            },
+            {
+                "slug": "perfume",
+                "name": "Perfume",
+                "parent": 34,
+                "count": 0
+            },
+            {
+                "slug": "scrubs",
+                "name": "Scrubs",
+                "parent": 30,
+                "count": 0
+            },
+            {
+                "slug": "serums-treatments",
+                "name": "Serums &amp; Treatments",
+                "parent": 16,
+                "count": 18
+            },
+            {
+                "slug": "shampoo-conditioner",
+                "name": "Shampoo &amp; Conditioner",
+                "parent": 26,
+                "count": 0
+            },
+            {
+                "slug": "skincare",
+                "name": "Skincare",
+                "parent": 0,
+                "count": 46
+            },
+            {
+                "slug": "sponges",
+                "name": "Sponges",
+                "parent": 37,
+                "count": 0
+            },
+            {
+                "slug": "styling",
+                "name": "Styling",
+                "parent": 26,
+                "count": 0
+            },
+            {
+                "slug": "sun-care",
+                "name": "Sun Care",
+                "parent": 16,
+                "count": 0
+            },
+            {
+                "slug": "toners",
+                "name": "Toners &amp; Essences",
+                "parent": 16,
+                "count": 11
+            },
+            {
+                "slug": "treatments",
+                "name": "Treatments",
+                "parent": 26,
+                "count": 0
+            },
+            {
+                "slug": "uncategorized",
+                "name": "Uncategorized",
+                "parent": 0,
+                "count": 0
+            },
+            {
+                "slug": "wash",
+                "name": "Wash",
+                "parent": 30,
+                "count": 0
+            }
+        ],
+        "brands": [
+            "Anua",
+            "APRILSKIN",
+            "AXIS-Y",
+            "Celimax",
+            "COSRX",
+            "Dr. Althea",
+            "Eqqualberry",
+            "Isntree",
+            "JUMISO",
+            "K-SECRET",
+            "Medicube",
+            "Nineless",
+            "numbuzin",
+            "PanOxyl",
+            "SKIN1004",
+            "SOME BY MI"
         ]
     },
     "astra_layout": {

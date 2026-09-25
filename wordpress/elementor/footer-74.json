@@ -349,6 +349,19 @@
                                         }
                                     },
                                     {
+                                        "_id": "3df884b",
+                                        "text": "Serums & Treatments",
+                                        "link": {
+                                            "url": "/product-category/skincare/serums-treatments/",
+                                            "is_external": "",
+                                            "nofollow": ""
+                                        },
+                                        "selected_icon": {
+                                            "value": "",
+                                            "library": ""
+                                        }
+                                    },
+                                    {
                                         "_id": "c84d512",
                                         "text": "Makeup",
                                         "link": {

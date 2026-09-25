@@ -153,7 +153,7 @@ function productCard(p, o = {}) {
       <div class="product-card__media">
         <a class="product-card__link" href="${productUrl(p)}" aria-label="${attr(`${p.brand} ${p.name}`)}">
           ${picture(`products/${p.slug}-1`, { alt: `${p.brand} ${p.name}`, sizes, className: 'product-card__image' })}
-          ${picture(`products/${p.slug}-2`, { alt: `${p.brand} ${p.name} with its carton`, sizes, className: 'product-card__image product-card__image--alt' })}
+          ${images[`products/${p.slug}-2`] ? picture(`products/${p.slug}-2`, { alt: `${p.brand} ${p.name} with its carton`, sizes, className: 'product-card__image product-card__image--alt' }) : ''}
         </a>
         <button class="wishlist-toggle" type="button" data-wishlist ${productData(p)}
                 aria-label="${attr(`Save ${p.brand} ${p.name} to your wishlist`)}" aria-pressed="false">${heartSvg}</button>
@@ -369,6 +369,10 @@ const filtersHtml = `
 const navCategories = categories
   .map((c) => `<li><a href="${categoryUrl(c)}">${esc(c.name)}${c.comingSoon ? ' <span class="nav__soon">soon</span>' : ''}</a></li>`)
   .join('\n');
+
+/** The shots a product actually has, in order. Not every product has a carton shot. */
+const productShots = (p) => [1, 2, 3, 4].filter((n) => images[`products/${p.slug}-${n}`]);
+const shotAlt = (p, n) => (n === 1 ? `${p.brand} ${p.name}` : n === 2 ? `${p.brand} ${p.name} with its carton` : `${p.brand} ${p.name} shown from another angle`);
 
 const galleryImages = Object.keys(images)
   .filter((k) => k.startsWith('gallery/'))
@@ -608,11 +612,11 @@ for (const p of products) {
     excerpt: esc(p.excerpt),
     price: priceBlock(p, 'price price--large'),
     rating: rating(p),
-    gallery: [1, 2]
-      .map((n) => `<figure class="product-gallery__item" data-index="${n - 1}">${picture(`products/${p.slug}-${n}`, { alt: n === 1 ? `${p.brand} ${p.name}` : `${p.brand} ${p.name} with its carton`, sizes: '(min-width: 1025px) 55vw, 100vw', className: 'product-gallery__image', priority: n === 1 })}</figure>`)
+    gallery: productShots(p)
+      .map((n, i) => `<figure class="product-gallery__item" data-index="${i}">${picture(`products/${p.slug}-${n}`, { alt: shotAlt(p, n), sizes: '(min-width: 1025px) 55vw, 100vw', className: 'product-gallery__image', priority: i === 0 })}</figure>`)
       .join('\n'),
-    thumbs: [1, 2]
-      .map((n) => `<button class="product-gallery__thumb ${n === 1 ? 'is-active' : ''}" type="button" data-thumb="${n - 1}" aria-label="Show image ${n}">${picture(`products/${p.slug}-${n}`, { alt: '', sizes: '90px', className: 'product-gallery__thumb-image' })}</button>`)
+    thumbs: productShots(p)
+      .map((n, i) => `<button class="product-gallery__thumb ${i === 0 ? 'is-active' : ''}" type="button" data-thumb="${i}" aria-label="Show image ${i + 1}">${picture(`products/${p.slug}-${n}`, { alt: '', sizes: '90px', className: 'product-gallery__thumb-image' })}</button>`)
       .join('\n'),
     productData: productData(p),
     skinTypes: (p.skinTypes || []).map((s) => `<li class="chip">${esc(s)}</li>`).join(''),

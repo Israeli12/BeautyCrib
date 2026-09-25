@@ -1,0 +1,99 @@
+require_once ABSPATH . 'wp-admin/includes/file.php';
+require_once ABSPATH . 'wp-admin/includes/media.php';
+require_once ABSPATH . 'wp-admin/includes/image.php';
+
+$dir  = WP_CONTENT_DIR . '/uploads/bc-import';
+$data = json_decode(file_get_contents($dir . '/serums.json'), true);
+$report = ['category' => null, 'brands' => [], 'formats' => [], 'products' => [], 'problems' => []];
+
+/* 1. Category: Skincare > Serums & Treatments already exists, give it its copy */
+$cat = get_term_by('slug', 'serums-treatments', 'product_cat');
+if (!$cat) { $r = wp_insert_term('Serums & Treatments', 'product_cat', ['slug' => 'serums-treatments', 'parent' => 16]); if (is_wp_error($r)) { return ['fatal' => $r->get_error_message()]; } $cat_id = $r['term_id']; $report['category'] = 'created ' . $cat_id; }
+else { $cat_id = $cat->term_id; if (trim((string) $cat->description) === '') { wp_update_term($cat_id, 'product_cat', ['description' => 'A serum is where a routine stops maintaining and starts changing something. This shelf is organised around what skin here actually asks for: dark spots and post-breakout marks, melasma that has outlasted every cream, congestion that keeps coming back, and barriers worn down by sun and strong actives.']); $report['category'] = 'updated ' . $cat_id; } else { $report['category'] = 'exists ' . $cat_id; } }
+
+/* 2. Brands */
+$brand_names = ['axis-y' => 'AXIS-Y', 'celimax' => 'Celimax', 'jumiso' => 'JUMISO'];
+foreach ($data as $p) { if (!get_term_by('slug', $p['brandSlug'], 'product_brand')) { $r = wp_insert_term($brand_names[$p['brandSlug']] ?? $p['brand'], 'product_brand', ['slug' => $p['brandSlug']]); $report['brands'][] = is_wp_error($r) ? 'ERR ' . $p['brandSlug'] . ' ' . $r->get_error_message() : 'created ' . $p['brandSlug']; } }
+
+$term_ids = function ($tax, $names) use (&$report) { $ids = []; foreach ($names as $n) { $t = get_term_by('name', $n, $tax) ?: get_term_by('name', esc_html($n), $tax); if (!$t) { $r = wp_insert_term($n, $tax); if (is_wp_error($r)) { $report['problems'][] = "$tax $n: " . $r->get_error_message(); continue; } $ids[] = (int) $r['term_id']; if ($tax === 'pa_format') { $report['formats'][] = $n; } else { $report['problems'][] = "new $tax term: $n"; } } else { $ids[] = (int) $t->term_id; } } return $ids; };
+
+/* 3. Images */
+$imgdir = $dir . '/serums';
+if (!is_dir($imgdir)) { $z = new ZipArchive(); if ($z->open($dir . '/serums.zip') !== true) { return ['fatal' => 'zip open failed']; } $z->extractTo($imgdir); $z->close(); }
+
+$attach = function ($file, $parent, $alt) use ($imgdir, &$report) {
+    $found = get_posts(['post_type' => 'attachment', 'post_status' => 'inherit', 'meta_key' => '_bc_src', 'meta_value' => $file, 'fields' => 'ids', 'numberposts' => 1]);
+    if ($found) { return (int) $found[0]; }
+    $src = $imgdir . '/' . $file;
+    if (!file_exists($src)) { return 0; }
+    $tmp = wp_tempnam($file); copy($src, $tmp);
+    $id = media_handle_sideload(['name' => $file, 'tmp_name' => $tmp], $parent, $alt);
+    if (is_wp_error($id)) { @unlink($tmp); $report['problems'][] = $file . ': ' . $id->get_error_message(); return 0; }
+    update_post_meta($id, '_wp_attachment_image_alt', $alt);
+    update_post_meta($id, '_bc_src', $file);
+    return (int) $id;
+};
+
+/* 4. Products, a few per run so the request never times out */
+$done  = (array) get_option('bc_serum_done', []);
+$start = microtime(true);
+foreach ($data as $p) {
+    if (in_array($p['sku'], $done, true)) { continue; }
+    if (microtime(true) - $start > 18) { break; }
+    $id   = wc_get_product_id_by_sku($p['sku']);
+    $prod = $id ? wc_get_product($id) : new WC_Product_Simple();
+    $was  = $id ? 'updated' : 'created';
+    $prod->set_name($p['name']);
+    $prod->set_slug($p['slug']);
+    $prod->set_status('publish');
+    $prod->set_catalog_visibility('visible');
+    $prod->set_featured(!empty($p['featured']));
+    if (!$id) { $prod->set_sku($p['sku']); }
+    $prod->set_regular_price((string) $p['price']);
+    $prod->set_sale_price('');
+    $prod->set_manage_stock(false);
+    $prod->set_stock_status('instock');
+    $prod->set_tax_status('taxable');
+    $prod->set_short_description($p['excerpt']);
+    $prod->set_description(implode('', array_map(fn($x) => '<p>' . esc_html($x) . '</p>', $p['description'])));
+    $prod->set_category_ids([16, $cat_id]);
+    $attrs = []; $pos = 0;
+    foreach (['pa_skin-type' => $p['skinTypes'], 'pa_concern' => $p['concerns'], 'pa_format' => [$p['format']]] as $tax => $names) {
+        $a = new WC_Product_Attribute();
+        $a->set_id(wc_attribute_taxonomy_id_by_name($tax));
+        $a->set_name($tax);
+        $a->set_options($term_ids($tax, $names));
+        $a->set_position($pos++);
+        $a->set_visible(true);
+        $a->set_variation(false);
+        $attrs[$tax] = $a;
+    }
+    $prod->set_attributes($attrs);
+    $pid = $prod->save();
+    wp_set_object_terms($pid, [$p['brandSlug']], 'product_brand');
+
+    $label = $p['brand'] . ' ' . $p['name'];
+    $shots = [];
+    for ($n = 1; $n <= 4; $n++) {
+        $file = $p['slug'] . '-' . $n . '.jpg';
+        if (!file_exists($imgdir . '/' . $file)) { continue; }
+        $alt = $n === 1 ? $label : ($n === 2 ? $label . ' shown with its carton' : $label . ' shown from another angle');
+        $aid = $attach($file, $pid, $alt);
+        if ($aid) { $shots[] = $aid; }
+    }
+    if (!$shots) { $report['problems'][] = 'no images for ' . $p['slug']; }
+    $prod = wc_get_product($pid);
+    if ($shots) { $prod->set_image_id($shots[0]); $prod->set_gallery_image_ids(array_slice($shots, 1)); }
+    $prod->update_meta_data('bc_benefits', implode("\n", $p['benefits']));
+    $prod->update_meta_data('bc_key_ingredients', implode("\n", $p['keyIngredients']));
+    $prod->update_meta_data('bc_how_to_use', implode("\n", $p['howToUse']));
+    if (!empty($p['caution'])) { $prod->update_meta_data('bc_caution', $p['caution']); } else { $prod->delete_meta_data('bc_caution'); }
+    $prod->save();
+    $report['products'][] = $was . ' ' . $pid . ' ' . $p['sku'] . ' ' . $p['slug'] . ' images=' . count($shots);
+    $done[] = $p['sku'];
+    update_option('bc_serum_done', $done, false);
+}
+$report['progress'] = count($done) . ' of ' . count($data);
+if (count($done) >= count($data)) { wc_delete_product_transients(); delete_transient('wc_term_counts'); \Elementor\Plugin::$instance->files_manager->clear_cache(); do_action('litespeed_purge_all'); $report['finished'] = true; }
+if (!$report['problems']) { $report['problems'] = 'none'; }
+return $report;

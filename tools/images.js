@@ -219,16 +219,23 @@ async function buildProducts() {
         height: Math.round(bottom - top)
       };
       let pipeline = sharp(src).extract(region);
-      // A tall product can need more width than the photo has. Extend the backdrop
-      // sideways instead of letting the image come out taller than 4:5.
-      const short = Math.round(region.height / target) - region.width;
+      // The photo does not always leave room for a 4:5 crop: a tall bottle runs out
+      // of width, a flat-lay runs out of height. Extend the backdrop on whichever
+      // side is short so every product image comes out exactly 4:5.
       let outWidth = region.width;
-      if (short > 0) {
-        const padLeft = Math.floor(short / 2);
-        pipeline = sharp(await pipeline.extend({ left: padLeft, right: short - padLeft, extendWith: 'copy' }).toBuffer());
-        outWidth += short;
+      let outHeight = region.height;
+      const needWidth = Math.round(region.height / target) - region.width;
+      const needHeight = Math.round(region.width * target) - region.height;
+      if (needWidth > 0) {
+        const padLeft = Math.floor(needWidth / 2);
+        pipeline = sharp(await pipeline.extend({ left: padLeft, right: needWidth - padLeft, extendWith: 'copy' }).toBuffer());
+        outWidth += needWidth;
+      } else if (needHeight > 0) {
+        const padTop = Math.floor(needHeight / 2);
+        pipeline = sharp(await pipeline.extend({ top: padTop, bottom: needHeight - padTop, extendWith: 'copy' }).toBuffer());
+        outHeight += needHeight;
       }
-      const widths = await emit(pipeline, `products/${slug}-${i + 1}`, PRODUCT_WIDTHS, outWidth, region.height);
+      const widths = await emit(pipeline, `products/${slug}-${i + 1}`, PRODUCT_WIDTHS, outWidth, outHeight);
       console.log(`  ${slug}-${i + 1}  spread ${box.spread.toFixed(2)}  ${region.width}x${region.height}  [${widths}]`);
     }
   }

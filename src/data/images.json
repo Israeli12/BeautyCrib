@@ -1,4 +1,319 @@
 {
+  "products/axis-y-dark-spot-correcting-glow-serum-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/axis-y-dark-spot-correcting-glow-serum-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/axis-y-dark-spot-correcting-glow-serum-3": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/anua-azelaic-acid-10-hyaluron-redness-soothing-serum-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/anua-azelaic-acid-10-hyaluron-redness-soothing-serum-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/anua-niacinamide-10-txa-4-serum-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/anua-niacinamide-10-txa-4-serum-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2498
+  },
+  "products/celimax-pore-dark-spot-brightening-serum-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/celimax-pore-dark-spot-brightening-serum-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/cosrx-alpha-arbutin-2-discoloration-care-serum-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2498
+  },
+  "products/cosrx-alpha-arbutin-2-discoloration-care-serum-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/jumiso-niacinamide-20-serum-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2498
+  },
+  "products/medicube-azelaic-acid-16-bb-calming-serum-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2502
+  },
+  "products/medicube-glutathione-glow-serum-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2498
+  },
+  "products/medicube-glutathione-glow-serum-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/medicube-kojic-acid-turmeric-niacinamide-serum-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2497
+  },
+  "products/medicube-kojic-acid-turmeric-niacinamide-serum-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2497
+  },
+  "products/medicube-pdrn-pink-peptide-serum-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2498
+  },
+  "products/medicube-pdrn-pink-peptide-serum-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/medicube-txa-niacinamide-15-serum-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2498
+  },
+  "products/medicube-txa-niacinamide-15-serum-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/medicube-zero-pore-serum-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2498
+  },
+  "products/medicube-zero-pore-serum-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/nineless-a-control-azelaic-acid-serum-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2498
+  },
+  "products/nineless-a-control-azelaic-acid-serum-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2497
+  },
+  "products/nineless-b-boost-kojic-acid-serum-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/nineless-b-boost-kojic-acid-serum-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2498
+  },
+  "products/skin1004-centella-tone-brightening-capsule-ampoule-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2498
+  },
+  "products/skin1004-centella-tone-brightening-capsule-ampoule-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2498
+  },
+  "products/skin1004-madagascar-centella-ampoule-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/skin1004-madagascar-centella-ampoule-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/skin1004-madagascar-centella-poremizing-fresh-ampoule-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/skin1004-madagascar-centella-poremizing-fresh-ampoule-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/skin1004-madagascar-centella-tea-trica-relief-ampoule-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/skin1004-madagascar-centella-tea-trica-relief-ampoule-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
   "products/anua-8-hyaluronic-acid-hydrating-gentle-foaming-cleanser-1": {
     "widths": [
       400,

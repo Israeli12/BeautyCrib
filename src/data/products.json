@@ -552,7 +552,7 @@
       "Plant oil blend",
       "Pore-clarifying complex"
     ],
-    "match": "Medicube Zero Pore",
+    "match": "Medicube Zero Pore Black head",
     "featured": false,
     "featuredLarge": false,
     "bestSeller": false,
@@ -600,7 +600,7 @@
       "Heartleaf extract",
       "BHA"
     ],
-    "match": "Nineless A-Control",
+    "match": "Nineless A-Control Heartleaf",
     "featured": false,
     "featuredLarge": false,
     "bestSeller": false,
@@ -1339,6 +1339,873 @@
       "Press in one or two layers.",
       "Follow with serum and moisturiser.",
       "Give it six to eight weeks before judging results."
+    ]
+  },
+  {
+    "slug": "axis-y-dark-spot-correcting-glow-serum",
+    "sku": "BC-AXY-001",
+    "name": "Dark Spot Correcting Glow Serum",
+    "brand": "AXIS-Y",
+    "brandSlug": "axis-y",
+    "price": 75000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "serums-treatments",
+    "format": "Serum",
+    "skinTypes": [
+      "Sensitive",
+      "All",
+      "Combination"
+    ],
+    "concerns": [
+      "Dullness & uneven tone",
+      "Sensitivity"
+    ],
+    "keyIngredients": [
+      "Squalane",
+      "Niacinamide",
+      "Papaya extract"
+    ],
+    "match": "AXIS-Y Dark spot",
+    "featured": true,
+    "featuredLarge": false,
+    "bestSeller": true,
+    "stock": "in-stock",
+    "excerpt": "The gentle way into brightening: fades dark spots and evens tone without stinging.",
+    "description": [
+      "Most brightening serums ask you to trade comfort for results. This one does not. It works on dark spots and uneven tone slowly and steadily, which is exactly what sensitive skin needs.",
+      "A sensible first serum if strong vitamin C has burned you before, and a reliable everyday option for skin that marks easily after a breakout."
+    ],
+    "benefits": [
+      "Fades dark spots and post-breakout marks",
+      "Evens out patchy, uneven tone",
+      "Gentle enough for sensitive skin",
+      "Leaves a soft glow rather than a shine"
+    ],
+    "howToUse": [
+      "Apply to clean skin after toner, morning and evening.",
+      "Use three to four drops and press in.",
+      "Follow with moisturiser.",
+      "Wear sunscreen daily, or the spots come back."
+    ]
+  },
+  {
+    "slug": "anua-azelaic-acid-10-hyaluron-redness-soothing-serum",
+    "sku": "BC-ANU-005",
+    "name": "Azelaic Acid 10 Hyaluron Redness Soothing Serum",
+    "brand": "Anua",
+    "brandSlug": "anua",
+    "price": 85000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "serums-treatments",
+    "format": "Serum",
+    "skinTypes": [
+      "Oily",
+      "Acne-prone",
+      "Combination"
+    ],
+    "concerns": [
+      "Acne & breakouts",
+      "Sensitivity",
+      "Pores & blackheads"
+    ],
+    "keyIngredients": [
+      "10% azelaic acid",
+      "Hyaluronic acid",
+      "Panthenol"
+    ],
+    "match": "Anua Azelaic Acid",
+    "featured": true,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Azelaic acid for congested, angry skin: clears breakouts while calming the redness around them.",
+    "description": [
+      "Azelaic acid is unusual among actives: it treats breakouts and the redness they leave behind at the same time, without the peeling that comes with stronger acids.",
+      "At 10 per cent it is strong enough to make a visible difference to congestion, and gentle enough to use daily once skin has adjusted."
+    ],
+    "benefits": [
+      "Clears and prevents breakouts",
+      "Calms the look of redness and irritation",
+      "Helps unclog congested pores",
+      "Fades the marks left behind by spots"
+    ],
+    "howToUse": [
+      "Apply to clean skin, focusing on congested areas.",
+      "Start once a day in the evening and build up.",
+      "Follow with moisturiser.",
+      "Wear sunscreen daily while using it."
+    ],
+    "caution": "Introduce slowly if your skin is reactive, and do not layer it with other strong acids on the same night."
+  },
+  {
+    "slug": "anua-niacinamide-10-txa-4-serum",
+    "sku": "BC-ANU-006",
+    "name": "Niacinamide 10 + TXA 4 Serum",
+    "brand": "Anua",
+    "brandSlug": "anua",
+    "price": 95000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "serums-treatments",
+    "format": "Serum",
+    "skinTypes": [
+      "All",
+      "Combination",
+      "Oily"
+    ],
+    "concerns": [
+      "Dullness & uneven tone",
+      "Pores & blackheads"
+    ],
+    "keyIngredients": [
+      "10% niacinamide",
+      "4% tranexamic acid"
+    ],
+    "match": "Anua Niacinamide 10+ TXA",
+    "featured": true,
+    "featuredLarge": false,
+    "bestSeller": true,
+    "stock": "in-stock",
+    "excerpt": "The serum for melasma and stubborn dark patches, at strengths that actually do something.",
+    "description": [
+      "Niacinamide at 10 per cent and tranexamic acid at 4 per cent is the pairing dermatologists reach for with melasma and long-standing pigmentation. Both work on how pigment forms rather than bleaching what is already there.",
+      "Give it eight weeks of daily use. This is the one to commit to if dark patches are the thing that bothers you most."
+    ],
+    "benefits": [
+      "Targets melasma and stubborn dark patches",
+      "Fades post-breakout marks",
+      "Brightens overall dullness",
+      "Minimises the look of enlarged pores"
+    ],
+    "howToUse": [
+      "Apply to clean skin morning and evening.",
+      "Press in three to four drops over the whole face.",
+      "Follow with moisturiser.",
+      "Daily sunscreen is essential with any pigmentation treatment."
+    ]
+  },
+  {
+    "slug": "cosrx-alpha-arbutin-2-discoloration-care-serum",
+    "sku": "BC-CSX-005",
+    "name": "The Alpha Arbutin 2% Discoloration Care Serum",
+    "brand": "COSRX",
+    "brandSlug": "cosrx",
+    "price": 90000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "serums-treatments",
+    "format": "Serum",
+    "skinTypes": [
+      "All",
+      "Combination",
+      "Sensitive"
+    ],
+    "concerns": [
+      "Dullness & uneven tone",
+      "Acne & breakouts"
+    ],
+    "keyIngredients": [
+      "2% alpha arbutin",
+      "Niacinamide",
+      "Hyaluronic acid"
+    ],
+    "match": "COSRX The Alpha-Arbutin",
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Alpha arbutin at 2%, aimed squarely at acne marks and discolouration.",
+    "description": [
+      "Alpha arbutin interrupts melanin production, which makes it one of the more precise tools for discolouration: it works on the spot rather than lightening everything around it.",
+      "Paired with COSRX's usual restraint in a formula list, it suits skin that wants results without a long ingredient deck to react to."
+    ],
+    "benefits": [
+      "Reduces melanin production at the source",
+      "Targets acne marks and discolouration",
+      "Brightens overall complexion",
+      "Light texture that layers under anything"
+    ],
+    "howToUse": [
+      "Apply to clean skin morning and evening.",
+      "Use on the whole face, or press extra onto dark areas.",
+      "Follow with moisturiser.",
+      "Wear sunscreen daily to hold the results."
+    ]
+  },
+  {
+    "slug": "celimax-pore-dark-spot-brightening-serum",
+    "sku": "BC-CEL-001",
+    "name": "Pore + Dark Spot Brightening Serum",
+    "brand": "Celimax",
+    "brandSlug": "celimax",
+    "price": 90000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "serums-treatments",
+    "format": "Serum",
+    "skinTypes": [
+      "Sensitive",
+      "Combination",
+      "Oily"
+    ],
+    "concerns": [
+      "Pores & blackheads",
+      "Dullness & uneven tone"
+    ],
+    "keyIngredients": [
+      "Niacinamide",
+      "Galactomyces ferment",
+      "Centella asiatica"
+    ],
+    "match": "Celimax pore",
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Two problems at once: enlarged pores and hyperpigmentation, on skin that reacts easily.",
+    "description": [
+      "Pores and pigmentation usually get treated separately, which means two actives and twice the chance of irritation. This serum handles both in one gentle step.",
+      "A good choice for combination skin that is oily through the T-zone, marks easily, and cannot tolerate a strong exfoliating acid."
+    ],
+    "benefits": [
+      "Minimises the appearance of enlarged pores",
+      "Fades hyperpigmentation and dark spots",
+      "Very gentle on sensitive skin",
+      "Refines texture without stripping"
+    ],
+    "howToUse": [
+      "Apply to clean skin morning and evening.",
+      "Concentrate on the T-zone and any marked areas.",
+      "Follow with moisturiser.",
+      "Pair with daily sunscreen."
+    ]
+  },
+  {
+    "slug": "jumiso-niacinamide-20-serum",
+    "sku": "BC-JUM-001",
+    "name": "Niacinamide 20 Serum",
+    "brand": "JUMISO",
+    "brandSlug": "jumiso",
+    "price": 90000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "serums-treatments",
+    "format": "Serum",
+    "skinTypes": [
+      "Oily",
+      "Combination",
+      "Normal"
+    ],
+    "concerns": [
+      "Dullness & uneven tone",
+      "Pores & blackheads",
+      "Oil control"
+    ],
+    "keyIngredients": [
+      "20% niacinamide",
+      "Zinc PCA"
+    ],
+    "match": "JUMISO Niacinamide",
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Niacinamide at 20%, for dark spots and open pores that have not budged.",
+    "description": [
+      "Twenty per cent is about as high as niacinamide goes. It is a serum for people who have used a 5 or 10 per cent product patiently and want more from it.",
+      "Expect visible work on dark spots and pore size, and expect to introduce it slowly. High-strength niacinamide can flush skin that is not used to it."
+    ],
+    "benefits": [
+      "Fades dark spots at high strength",
+      "Reduces the look of open pores",
+      "Controls oil through the day",
+      "Evens out overall tone"
+    ],
+    "howToUse": [
+      "Start every other evening on clean skin.",
+      "Build to daily use once your skin is comfortable.",
+      "Follow with moisturiser.",
+      "Wear sunscreen daily."
+    ],
+    "caution": "High-strength niacinamide can cause flushing at first. Patch test, and drop back to every other day if skin feels hot."
+  },
+  {
+    "slug": "medicube-azelaic-acid-16-bb-calming-serum",
+    "sku": "BC-MDC-006",
+    "name": "Azelaic Acid 16 BB Calming Serum",
+    "brand": "Medicube",
+    "brandSlug": "medicube",
+    "price": 100000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "serums-treatments",
+    "format": "Serum",
+    "skinTypes": [
+      "Acne-prone",
+      "Oily",
+      "Combination"
+    ],
+    "concerns": [
+      "Acne & breakouts",
+      "Sensitivity",
+      "Dullness & uneven tone"
+    ],
+    "keyIngredients": [
+      "16% azelaic acid",
+      "Centella asiatica",
+      "Panthenol"
+    ],
+    "match": "Medicube Azelaic acid",
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": true,
+    "stock": "in-stock",
+    "excerpt": "Azelaic acid at 16%: the strong option for breakouts, redness and the marks they leave.",
+    "description": [
+      "Sixteen per cent azelaic acid is close to prescription strength, and it earns its price. It treats active breakouts, settles the redness around them and fades the marks afterwards.",
+      "This is the serum for skin that breaks out and stays flushed for weeks afterwards, where a simple spot treatment never addresses the whole picture."
+    ],
+    "benefits": [
+      "Treats active breakouts at high strength",
+      "Soothes redness and visible inflammation",
+      "Fades post-breakout dark marks",
+      "Brightens dull, tired skin"
+    ],
+    "howToUse": [
+      "Apply a thin layer to clean skin in the evening.",
+      "Begin three nights a week and build up.",
+      "Follow with a simple moisturiser.",
+      "Wear sunscreen every morning."
+    ],
+    "caution": "A strong active. Introduce gradually, avoid using it on the same night as other acids or retinol, and stop if skin becomes sore."
+  },
+  {
+    "slug": "medicube-pdrn-pink-peptide-serum",
+    "sku": "BC-MDC-007",
+    "name": "PDRN Pink Peptide Serum",
+    "brand": "Medicube",
+    "brandSlug": "medicube",
+    "price": 85000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "serums-treatments",
+    "format": "Serum",
+    "skinTypes": [
+      "All",
+      "Dry",
+      "Normal"
+    ],
+    "concerns": [
+      "Texture",
+      "Dryness",
+      "Dullness & uneven tone"
+    ],
+    "keyIngredients": [
+      "PDRN",
+      "Peptides",
+      "Niacinamide"
+    ],
+    "match": "Medicube PDRN Pink Peptide",
+    "featured": true,
+    "featuredLarge": false,
+    "bestSeller": true,
+    "stock": "in-stock",
+    "excerpt": "PDRN and peptides for fine lines, bounce and a barrier that has stopped coping.",
+    "description": [
+      "Peptides support the skin's own repair work and PDRN is the recovery ingredient Korean clinics use after treatments. Together they suit skin that looks tired and slack rather than congested.",
+      "The texture is light for what it does, so it works under makeup in the morning as easily as it does at night."
+    ],
+    "benefits": [
+      "Strengthens a weakened moisture barrier",
+      "Softens the look of fine lines and wrinkles",
+      "Restores bounce to flat, tired skin",
+      "Brightens without any acid"
+    ],
+    "howToUse": [
+      "Apply to clean skin morning and evening.",
+      "Press in gently with your palms.",
+      "Follow with moisturiser.",
+      "Safe to use alongside gentler actives."
+    ]
+  },
+  {
+    "slug": "medicube-txa-niacinamide-15-serum",
+    "sku": "BC-MDC-008",
+    "name": "TXA Niacinamide 15 Serum",
+    "brand": "Medicube",
+    "brandSlug": "medicube",
+    "price": 95000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "serums-treatments",
+    "format": "Serum",
+    "skinTypes": [
+      "All",
+      "Combination",
+      "Normal"
+    ],
+    "concerns": [
+      "Dullness & uneven tone"
+    ],
+    "keyIngredients": [
+      "Tranexamic acid",
+      "15% niacinamide"
+    ],
+    "match": "Medicube TXA niacinamide",
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Tranexamic acid and 15% niacinamide, for hyperpigmentation that needs a firm hand.",
+    "description": [
+      "Tranexamic acid works on the signal that tells skin to make pigment, which is why it holds up against hyperpigmentation that brightening creams never touch.",
+      "At 15 per cent, the niacinamide alongside it is doing real work too. Together they even out tone rather than simply adding glow."
+    ],
+    "benefits": [
+      "Brightens dark spots and hyperpigmentation",
+      "Evens out blotchy, uneven tone",
+      "Works on melasma with consistent use",
+      "Absorbs quickly with no residue"
+    ],
+    "howToUse": [
+      "Apply to clean skin morning and evening.",
+      "Use over the whole face, not only on spots.",
+      "Follow with moisturiser.",
+      "Wear sunscreen daily."
+    ]
+  },
+  {
+    "slug": "medicube-glutathione-glow-serum",
+    "sku": "BC-MDC-009",
+    "name": "Glutathione Glow Serum",
+    "brand": "Medicube",
+    "brandSlug": "medicube",
+    "price": 85000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "serums-treatments",
+    "format": "Serum",
+    "skinTypes": [
+      "All",
+      "Normal",
+      "Combination"
+    ],
+    "concerns": [
+      "Dullness & uneven tone",
+      "Texture"
+    ],
+    "keyIngredients": [
+      "Glutathione",
+      "Niacinamide",
+      "Hyaluronic acid"
+    ],
+    "match": "Medicube glutathione glow serum",
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "The serum half of the glutathione routine: brightens dark spots and builds to glass skin.",
+    "description": [
+      "Glutathione is the brightening ingredient behind most of the glass-skin conversation, and it rewards consistency over strength.",
+      "This is the stronger companion to the AGE-R toner. Use them together and the effect arrives faster, or use the serum alone over any toner you already like."
+    ],
+    "benefits": [
+      "Brightens dark spots and overall dullness",
+      "Improves skin elasticity over time",
+      "Builds towards a smooth, reflective finish",
+      "Hydrates without heaviness"
+    ],
+    "howToUse": [
+      "Apply to clean skin after toner, morning and evening.",
+      "Press in three to four drops.",
+      "Follow with moisturiser.",
+      "Wear sunscreen daily to protect the results."
+    ]
+  },
+  {
+    "slug": "medicube-kojic-acid-turmeric-niacinamide-serum",
+    "sku": "BC-MDC-010",
+    "name": "Kojic Acid Turmeric Niacinamide Serum",
+    "brand": "Medicube",
+    "brandSlug": "medicube",
+    "price": 85000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "serums-treatments",
+    "format": "Serum",
+    "skinTypes": [
+      "All",
+      "Combination",
+      "Oily"
+    ],
+    "concerns": [
+      "Dullness & uneven tone",
+      "Acne & breakouts"
+    ],
+    "keyIngredients": [
+      "Kojic acid",
+      "Turmeric extract",
+      "Niacinamide"
+    ],
+    "match": "Medicube kojic acid",
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Kojic acid and turmeric for the marks breakouts leave behind on deeper skin tones.",
+    "description": [
+      "Post-blemish marks are the part of acne that outlasts the acne, and on deeper skin tones they can sit for months. Kojic acid is one of the more effective answers to them.",
+      "Turmeric adds its own brightening and calming work, which keeps this from being a one-note pigment serum."
+    ],
+    "benefits": [
+      "Targets post-blemish marks",
+      "Brightens dull, tired skin",
+      "Evens out patchy tone",
+      "Calms as it brightens"
+    ],
+    "howToUse": [
+      "Apply to clean skin in the evening to start.",
+      "Build up to twice daily as skin allows.",
+      "Follow with moisturiser.",
+      "Wear sunscreen daily."
+    ]
+  },
+  {
+    "slug": "medicube-zero-pore-serum",
+    "sku": "BC-MDC-011",
+    "name": "Zero Pore Serum",
+    "brand": "Medicube",
+    "brandSlug": "medicube",
+    "price": 90000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "serums-treatments",
+    "format": "Serum",
+    "skinTypes": [
+      "Oily",
+      "Combination",
+      "Acne-prone"
+    ],
+    "concerns": [
+      "Pores & blackheads",
+      "Oil control",
+      "Texture"
+    ],
+    "keyIngredients": [
+      "PHA",
+      "Niacinamide",
+      "Centella asiatica"
+    ],
+    "match": "Medicube zero pore serum",
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Exfoliates, controls oil and clears open pores without leaving skin raw.",
+    "description": [
+      "The trouble with most pore treatments is that they strip skin and trigger more oil. This one exfoliates dead cells and clears the pore while calming the inflammation that usually follows.",
+      "The serum companion to the Zero Pore cleansing oil, and the better of the two if congestion is your main complaint."
+    ],
+    "benefits": [
+      "Clears and refines open pores",
+      "Exfoliates dead skin without scrubbing",
+      "Controls excess oil through the day",
+      "Calms inflammation rather than causing it"
+    ],
+    "howToUse": [
+      "Apply to clean skin in the evening.",
+      "Focus on the nose, chin and forehead.",
+      "Follow with a light moisturiser.",
+      "Begin every other night, then build up."
+    ],
+    "caution": "Contains a chemical exfoliant. Wear broad spectrum sunscreen every day while using it."
+  },
+  {
+    "slug": "nineless-a-control-azelaic-acid-serum",
+    "sku": "BC-NIN-003",
+    "name": "A-Control Azelaic Acid Serum",
+    "brand": "Nineless",
+    "brandSlug": "nineless",
+    "price": 75000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "serums-treatments",
+    "format": "Serum",
+    "skinTypes": [
+      "Acne-prone",
+      "Oily",
+      "Combination"
+    ],
+    "concerns": [
+      "Acne & breakouts",
+      "Dullness & uneven tone"
+    ],
+    "keyIngredients": [
+      "Azelaic acid",
+      "Heartleaf extract",
+      "Niacinamide"
+    ],
+    "match": "Nineless A-Control azelaic",
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "The serum that pairs with the A-Control cleanser: treats breakouts and fades their marks.",
+    "description": [
+      "Azelaic acid treats the breakout and the mark it leaves in a single step, and heartleaf keeps the surrounding skin from flaring while it works.",
+      "Use it after the A-Control cleanser for a routine that handles acne-prone skin end to end without a shelf of products."
+    ],
+    "benefits": [
+      "Treats active breakouts",
+      "Fades post-breakout dark spots",
+      "Brightens overall tone",
+      "Calms skin rather than stripping it"
+    ],
+    "howToUse": [
+      "Apply to clean skin in the evening.",
+      "Use on breakout-prone areas or the whole face.",
+      "Follow with moisturiser.",
+      "Wear sunscreen daily."
+    ]
+  },
+  {
+    "slug": "nineless-b-boost-kojic-acid-serum",
+    "sku": "BC-NIN-004",
+    "name": "B-Boost 1% Kojic Acid Serum",
+    "brand": "Nineless",
+    "brandSlug": "nineless",
+    "price": 75000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "serums-treatments",
+    "format": "Serum",
+    "skinTypes": [
+      "All",
+      "Combination",
+      "Normal"
+    ],
+    "concerns": [
+      "Dullness & uneven tone"
+    ],
+    "keyIngredients": [
+      "1% kojic acid",
+      "Niacinamide",
+      "Vitamin B complex"
+    ],
+    "match": "Nineless b boost",
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "One per cent kojic acid, aimed at hyperpigmentation and dark spots that linger.",
+    "description": [
+      "Kojic acid blocks the enzyme that produces pigment, which makes it a direct answer to hyperpigmentation rather than a general brightener.",
+      "At one per cent it is a sensible daily strength: enough to shift stubborn marks over a few months, mild enough not to upset the skin around them."
+    ],
+    "benefits": [
+      "Targets hyperpigmentation and dark spots",
+      "Evens out uneven tone",
+      "Brightens dull skin gradually",
+      "Light enough for daily use"
+    ],
+    "howToUse": [
+      "Apply to clean skin morning and evening.",
+      "Press over the whole face, focusing on darker areas.",
+      "Follow with moisturiser.",
+      "Daily sunscreen is essential."
+    ]
+  },
+  {
+    "slug": "skin1004-madagascar-centella-ampoule",
+    "sku": "BC-SK1-005",
+    "name": "Madagascar Centella Ampoule",
+    "brand": "SKIN1004",
+    "brandSlug": "skin1004",
+    "price": 90000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "serums-treatments",
+    "format": "Ampoule",
+    "skinTypes": [
+      "Sensitive",
+      "All",
+      "Dry"
+    ],
+    "concerns": [
+      "Sensitivity",
+      "Dryness"
+    ],
+    "keyIngredients": [
+      "100% Centella asiatica extract"
+    ],
+    "match": "Madagarscar Centella ampoule",
+    "featured": true,
+    "featuredLarge": false,
+    "bestSeller": true,
+    "stock": "in-stock",
+    "excerpt": "One ingredient, done properly: centella for a barrier that has had enough.",
+    "description": [
+      "Centella asiatica from Madagascar and very little else. It is the product to reach for when skin is stinging, flushed or over-exfoliated and you want to take everything else away.",
+      "Watery, absorbs instantly, and layers under anything. The safest serum on this shelf and the one worth keeping permanently in a routine."
+    ],
+    "benefits": [
+      "Strengthens the skin's moisture barrier",
+      "Calms inflammation on contact",
+      "Suits skin that reacts to almost everything",
+      "Layers under any other product"
+    ],
+    "howToUse": [
+      "Apply to clean, slightly damp skin.",
+      "Press in with your palms, morning and evening.",
+      "Follow with moisturiser.",
+      "Use as often as skin needs it."
+    ]
+  },
+  {
+    "slug": "skin1004-madagascar-centella-poremizing-fresh-ampoule",
+    "sku": "BC-SK1-006",
+    "name": "Madagascar Centella Poremizing Fresh Ampoule",
+    "brand": "SKIN1004",
+    "brandSlug": "skin1004",
+    "price": 90000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "serums-treatments",
+    "format": "Ampoule",
+    "skinTypes": [
+      "Oily",
+      "Combination",
+      "Sensitive"
+    ],
+    "concerns": [
+      "Pores & blackheads",
+      "Oil control",
+      "Sensitivity"
+    ],
+    "keyIngredients": [
+      "Centella asiatica extract",
+      "PHA",
+      "Zinc"
+    ],
+    "match": "poremising fresh ampoule",
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Centella for oily skin: controls shine and refines pores without the sting.",
+    "description": [
+      "Oily skin gets treated roughly, as though the oil were the whole problem. This ampoule takes the opposite approach: calm the skin first, and the oil and pores settle with it.",
+      "A good daily serum for combination skin in Kampala's humidity, where stronger pore treatments quickly tip into irritation."
+    ],
+    "benefits": [
+      "Minimises the appearance of open pores",
+      "Controls excess oil through the day",
+      "Soothes sensitive, easily irritated skin",
+      "Light, fresh finish under sunscreen"
+    ],
+    "howToUse": [
+      "Apply to clean skin morning and evening.",
+      "Focus on the T-zone and any congested areas.",
+      "Follow with a light moisturiser.",
+      "Safe for daily use."
+    ]
+  },
+  {
+    "slug": "skin1004-madagascar-centella-tea-trica-relief-ampoule",
+    "sku": "BC-SK1-007",
+    "name": "Madagascar Centella Tea-Trica Relief Ampoule",
+    "brand": "SKIN1004",
+    "brandSlug": "skin1004",
+    "price": 90000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "serums-treatments",
+    "format": "Ampoule",
+    "skinTypes": [
+      "Acne-prone",
+      "Oily",
+      "Sensitive"
+    ],
+    "concerns": [
+      "Acne & breakouts",
+      "Sensitivity",
+      "Oil control"
+    ],
+    "keyIngredients": [
+      "Centella asiatica extract",
+      "Tea tree",
+      "Madecassoside"
+    ],
+    "match": "tea-trica Relief ampoule",
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Tea tree and centella for skin that is breaking out and inflamed with it.",
+    "description": [
+      "Tea tree handles the breakout, centella handles the inflammation around it. That combination is why this ampoule suits acne-prone skin that also flushes and stings.",
+      "Gentler than an acid treatment, which makes it usable every day through a bad patch rather than only occasionally."
+    ],
+    "benefits": [
+      "Treats inflammation and reduces breakouts",
+      "Clears the look of redness",
+      "Controls oil without stripping",
+      "Comfortable on sensitive, acne-prone skin"
+    ],
+    "howToUse": [
+      "Apply to clean skin morning and evening.",
+      "Press over breakout-prone areas.",
+      "Follow with a light moisturiser.",
+      "Use daily through a flare-up."
+    ]
+  },
+  {
+    "slug": "skin1004-centella-tone-brightening-capsule-ampoule",
+    "sku": "BC-SK1-008",
+    "name": "Centella Tone Brightening Capsule Ampoule",
+    "brand": "SKIN1004",
+    "brandSlug": "skin1004",
+    "price": 80000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "serums-treatments",
+    "format": "Ampoule",
+    "skinTypes": [
+      "All",
+      "Sensitive",
+      "Combination"
+    ],
+    "concerns": [
+      "Dullness & uneven tone"
+    ],
+    "keyIngredients": [
+      "Centella asiatica extract",
+      "Vitamin C capsules",
+      "Niacinamide"
+    ],
+    "match": "tone brigtening capsule",
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Vitamin C capsules suspended in centella: brightening with the sting taken out.",
+    "description": [
+      "Vitamin C is the most reliable brightener and the most likely to irritate. Holding it in capsules keeps it stable until the moment you apply it, and the centella base takes the edge off.",
+      "A sensible way into vitamin C if straight ascorbic acid has left your skin red in the past."
+    ],
+    "benefits": [
+      "Fades dark spots over consistent use",
+      "Brightens dull, flat skin",
+      "Gentler than a traditional vitamin C serum",
+      "Calms while it brightens"
+    ],
+    "howToUse": [
+      "Shake to disperse the capsules before use.",
+      "Apply to clean skin, morning for best effect.",
+      "Follow with moisturiser and sunscreen.",
+      "Start every other day if your skin is sensitive."
     ]
   }
 ]
