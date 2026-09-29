@@ -18,6 +18,8 @@ file is loaded on each request.
 | `bc-whatsapp-notifications.php` | Sends every WooCommerce event (new order, status change, refund, low stock) and every contact form entry to WhatsApp, via the Meta Cloud API or Twilio. With no provider connected it logs the alert and emails it instead, so nothing is lost. New-order alerts carry the product photos. Settings live under WooCommerce → WhatsApp Alerts. |
 | `bc-whatsapp-checkout.php` | The customer side. When "Place order" succeeds, WhatsApp opens with the order written out and addressed to Beauty Crib; the thank-you page keeps a button for browsers that block the automatic window. |
 | `bc-journal.php` | Journal helpers: reading time per post, the products an article recommends, and the `bc_post_products` query that fills "Shop the story". |
+| `bc-fonts.php` | Serves Instrument Serif and Instrument Sans from this server and preloads them, instead of fetching every weight from Google on each visit. |
+| `bc-front-stability.php` | Stops the page reflowing after it has painted: loads the header's widget styles in `<head>`, and leaves out the product filter's assets on pages that do not use it. |
 
 ## elementor/
 
@@ -36,6 +38,11 @@ edit than raw JSON. Each one builds a layout, checks every setting key
 against the widget's real controls, then saves and registers the template.
 They are PHP fragments, run on the server with `eval()`, and every value
 they set points at a global colour or type style rather than a hex code.
+
+## fonts/
+
+The self-hosted webfont files, the same ones Google serves (SIL Open Font
+License). They live in `wp-content/uploads/bc-fonts/` on the server.
 
 ## theme/
 

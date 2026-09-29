@@ -988,6 +988,32 @@
                                             "value": "",
                                             "library": ""
                                         }
+                                    },
+                                    {
+                                        "_id": "669c0d8",
+                                        "text": "Instagram",
+                                        "link": {
+                                            "url": "https://www.instagram.com/beautycrib_256/",
+                                            "is_external": "on",
+                                            "nofollow": ""
+                                        },
+                                        "selected_icon": {
+                                            "value": "",
+                                            "library": ""
+                                        }
+                                    },
+                                    {
+                                        "_id": "b1bc36d",
+                                        "text": "Threads",
+                                        "link": {
+                                            "url": "https://www.threads.com/@beautycrib_256",
+                                            "is_external": "on",
+                                            "nofollow": ""
+                                        },
+                                        "selected_icon": {
+                                            "value": "",
+                                            "library": ""
+                                        }
                                     }
                                 ],
                                 "space_between": {
@@ -1149,10 +1175,22 @@
                                     "is_external": "on",
                                     "nofollow": ""
                                 }
+                            },
+                            {
+                                "_id": "0919fe4",
+                                "social_icon": {
+                                    "value": "fab fa-threads",
+                                    "library": "fa-brands"
+                                },
+                                "link": {
+                                    "url": "https://www.threads.com/@beautycrib_256",
+                                    "is_external": "on",
+                                    "nofollow": ""
+                                }
                             }
                         ],
                         "shape": "square",
-                        "columns": "2",
+                        "columns": "3",
                         "align": "center",
                         "icon_color": "custom",
                         "icon_primary_color": "rgba(0,0,0,0)",

@@ -47,7 +47,7 @@
                     "left": "20",
                     "isLinked": false
                 },
-                "background_background": "video",
+                "background_background": "classic",
                 "background_image": {
                     "id": 99,
                     "url": "https://beautycrib.ug/wp-content/uploads/2026/09/hero-home.jpg"
@@ -610,7 +610,7 @@
                             "id": "06d73d2",
                             "elType": "widget",
                             "settings": {
-                                "editor": "<p>We buy what we would use ourselves, we check where it came from, and we tell you honestly what it does. Nothing arrives here because it trended.</p>",
+                                "editor": "<p>We stock what we would use ourselves, we check where it came from, and we tell you honestly what it does. Nothing arrives here because it trended.</p>",
                                 "text_color": "#111111",
                                 "typography_typography": "custom",
                                 "typography_font_family": "Instrument Sans",

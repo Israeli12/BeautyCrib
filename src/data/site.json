@@ -46,6 +46,12 @@
       "handle": "@beautycribuganda",
       "url": "https://www.tiktok.com/@beautycribuganda",
       "placeholder": false
+    },
+    {
+      "label": "Threads",
+      "handle": "@beautycrib_256",
+      "url": "https://www.threads.com/@beautycrib_256",
+      "placeholder": false
     }
   ],
   "delivery": {

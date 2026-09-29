@@ -48,3 +48,25 @@ html, body {
   max-width: 100%;
   overflow-x: clip;
 }
+
+
+/* Product gallery: WooCommerce keeps it at opacity 0 until its slider starts,
+   and while starting it briefly renders every slide at full size, which shoves
+   the title and price down and back. Hold the final height until it is ready. */
+.woocommerce div.product div.images.woocommerce-product-gallery[style*="opacity: 0"]{overflow:hidden;aspect-ratio:1/1.55}
+.woocommerce div.product div.images.woocommerce-product-gallery[style*="opacity: 0"]:not(:has(.woocommerce-product-gallery__image:nth-child(2))){aspect-ratio:4/5}
+.woocommerce div.product div.images .woocommerce-product-gallery__wrapper img{max-width:100%;height:auto}
+
+/* Two things that used to settle after the page had already painted. */
+/* WooCommerce's own stylesheet carries the breadcrumb's bottom margin. On a slow
+   first load it lands after the paint and drops everything below it by 15px, so
+   it is stated here, inline in the head. */
+.woocommerce .woocommerce-breadcrumb{margin:0 0 1em}
+/* The wishlist plugin re-renders its buttons once the cards are drawn. Hold the
+   height so the product cards do not resize underneath the cursor. */
+.woocommerce ul.products li.product .tinv-wraper{display:block;min-height:45px}
+
+/* Elementor renders every accordion closed and then opens the first one with
+   JavaScript, which pushes the page down after it has painted. Show it from the
+   start instead; closing it still works, because that sets an inline style. */
+.elementor-accordion .elementor-accordion-item:first-child .elementor-tab-content{display:block}
