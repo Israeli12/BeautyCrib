@@ -1,0 +1,8 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "node src/build.js",
+  "installCommand": "echo \"no dependencies: src/build.js uses only fs and path\"",
+  "outputDirectory": "website",
+  "trailingSlash": true,
+  "framework": null
+}
