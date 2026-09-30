@@ -35,3 +35,6 @@ add_filter('woocommerce_product_tabs', function ($tabs) {
     ];
     return $tabs;
 }, 30);
+
+// Skin type, concern and format are shown in the product summary now.
+add_filter('woocommerce_product_tabs', function ($tabs) { unset($tabs['additional_information']); return $tabs; }, 40);

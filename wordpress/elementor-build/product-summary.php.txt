@@ -1,0 +1,49 @@
+$newid = function () { return substr(md5(uniqid('', true) . mt_rand()), 0, 7); };
+$px = fn($n) => ['unit' => 'px', 'size' => $n, 'sizes' => []];
+$pad = fn($t, $r, $b, $l) => ['unit' => 'px', 'top' => (string) $t, 'right' => (string) $r, 'bottom' => (string) $b, 'left' => (string) $l, 'isLinked' => false];
+$C = fn($i) => 'globals/colors?id=' . $i; $T = fn($i) => 'globals/typography?id=' . $i;
+$tag = function ($name, $settings) { return '[elementor-tag id="' . substr(md5($name . mt_rand()), 0, 7) . '" name="' . $name . '" settings="' . rawurlencode(wp_json_encode($settings)) . '"]'; };
+
+// the brand, above the product name, as the design has it
+$brand = ['id' => $newid(), 'elType' => 'widget', 'widgetType' => 'heading', 'isInner' => false, 'elements' => [], 'settings' => [
+  'title' => 'Brand',
+  'header_size' => 'p',
+  '_margin' => $pad(0, 0, 10, 0),
+  '__dynamic__' => ['title' => $tag('post-terms', ['taxonomy' => 'product_brand', 'separator' => ', ', 'link' => '', 'before' => '', 'after' => '', 'fallback' => ''])],
+  '__globals__' => ['title_color' => $C('bcmid'), 'typography_typography' => $T('accent')],
+]];
+
+// skin type, concern and format, in the summary rather than buried in a tab
+$attrs = ['id' => $newid(), 'elType' => 'widget', 'widgetType' => 'woocommerce-product-additional-information', 'isInner' => false, 'elements' => [], 'settings' => [
+  'show_heading' => '',
+  '_margin' => $pad(4, 0, 24, 0),
+  '__globals__' => ['heading_color' => $C('bcmid'), 'heading_typography_typography' => $T('accent'), 'content_color' => $C('secondary'), 'content_typography_typography' => $T('bcuil')],
+  'custom_css' => "selector table.shop_attributes{border:0;margin:0;width:100%}\nselector table.shop_attributes tr{border-bottom:1px solid var(--e-global-color-bcline)}\nselector table.shop_attributes tr:first-child{border-top:1px solid var(--e-global-color-bcline)}\nselector table.shop_attributes th{width:38%;padding:13px 0;text-align:left;font-weight:500;border:0;background:none}\nselector table.shop_attributes td{padding:13px 0;border:0;background:none;font-style:normal}\nselector table.shop_attributes td p{margin:0}",
+]];
+
+$data = json_decode(get_post_meta(155, '_elementor_data', true), true);
+$log = [];
+$walk = function (&$els) use (&$walk, $brand, $attrs, &$log) {
+  foreach ($els as &$e) {
+    if (!empty($e['elements'])) {
+      $ids = array_column($e['elements'], 'id');
+      if (in_array('8ea64c1', $ids, true) && !in_array('bc-brand', array_column($e['elements'], 'widgetType'), true)) {
+        $hasBrand = false;
+        foreach ($e['elements'] as $kid) { if (!empty($kid['settings']['__dynamic__']['title']) && strpos($kid['settings']['__dynamic__']['title'], 'product_brand') !== false) { $hasBrand = true; } }
+        if (!$hasBrand) { array_splice($e['elements'], array_search('8ea64c1', $ids, true), 0, [$brand]); $log[] = 'brand added above the title'; }
+      }
+      $ids = array_column($e['elements'], 'id');
+      $hasAttrs = in_array('woocommerce-product-additional-information', array_column($e['elements'], 'widgetType'), true);
+      if (in_array('75bd70a', $ids, true) && !$hasAttrs) { array_splice($e['elements'], array_search('75bd70a', $ids, true) + 1, 0, [$attrs]); $log[] = 'skin type, concern and format added to the summary'; }
+      $walk($e['elements']);
+    }
+  }
+};
+$walk($data);
+update_post_meta(155, '_elementor_data', wp_slash(wp_json_encode($data)));
+delete_post_meta(155, '_elementor_element_cache');
+$a = wp_get_post_autosave(155); if ($a) { wp_delete_post_revision($a->ID); }
+\Elementor\Core\Files\CSS\Post::create(155)->update();
+\Elementor\Plugin::$instance->files_manager->clear_cache();
+do_action('litespeed_purge_all');
+return $log ?: 'already in place';

@@ -130,6 +130,32 @@
                     "isInner": true,
                     "elements": [
                         {
+                            "id": "56730b1",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "isInner": false,
+                            "elements": [],
+                            "settings": {
+                                "title": "Brand",
+                                "header_size": "p",
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "10",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "__dynamic__": {
+                                    "title": "[elementor-tag id=\"d226b1e\" name=\"post-terms\" settings=\"%7B%22taxonomy%22%3A%22product_brand%22%2C%22separator%22%3A%22%2C%20%22%2C%22link%22%3A%22%22%2C%22before%22%3A%22%22%2C%22after%22%3A%22%22%2C%22fallback%22%3A%22%22%7D\"]"
+                                },
+                                "__globals__": {
+                                    "title_color": "globals/colors?id=bcmid",
+                                    "typography_typography": "globals/typography?id=accent"
+                                }
+                            }
+                        },
+                        {
                             "id": "8ea64c1",
                             "elType": "widget",
                             "widgetType": "theme-post-title",
@@ -244,6 +270,31 @@
                                     "left": "0",
                                     "isLinked": false
                                 }
+                            }
+                        },
+                        {
+                            "id": "772798c",
+                            "elType": "widget",
+                            "widgetType": "woocommerce-product-additional-information",
+                            "isInner": false,
+                            "elements": [],
+                            "settings": {
+                                "show_heading": "",
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "4",
+                                    "right": "0",
+                                    "bottom": "24",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "__globals__": {
+                                    "heading_color": "globals/colors?id=bcmid",
+                                    "heading_typography_typography": "globals/typography?id=accent",
+                                    "content_color": "globals/colors?id=secondary",
+                                    "content_typography_typography": "globals/typography?id=bcuil"
+                                },
+                                "custom_css": "selector table.shop_attributes{border:0;margin:0;width:100%}\nselector table.shop_attributes tr{border-bottom:1px solid var(--e-global-color-bcline)}\nselector table.shop_attributes tr:first-child{border-top:1px solid var(--e-global-color-bcline)}\nselector table.shop_attributes th{width:38%;padding:13px 0;text-align:left;font-weight:500;border:0;background:none}\nselector table.shop_attributes td{padding:13px 0;border:0;background:none;font-style:normal}\nselector table.shop_attributes td p{margin:0}"
                             }
                         },
                         {

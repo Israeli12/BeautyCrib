@@ -1,0 +1,789 @@
+{
+    "id": 298,
+    "title": "Beauty Crib Shop",
+    "type": "product-archive",
+    "conditions": [
+        "include/shop_page"
+    ],
+    "page_settings": {
+        "page_template": "elementor_header_footer"
+    },
+    "content": [
+        {
+            "id": "141c303",
+            "elType": "container",
+            "isInner": false,
+            "settings": {
+                "flex_gap": {
+                    "unit": "px",
+                    "size": 0,
+                    "column": "0",
+                    "row": "0"
+                },
+                "content_width": "boxed",
+                "boxed_width": {
+                    "unit": "px",
+                    "size": 1440,
+                    "sizes": []
+                },
+                "flex_direction": "row",
+                "flex_wrap": "wrap",
+                "flex_align_items": "flex-end",
+                "padding": {
+                    "unit": "px",
+                    "top": "72",
+                    "right": "40",
+                    "bottom": "32",
+                    "left": "40",
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": "32",
+                    "right": "20",
+                    "bottom": "24",
+                    "left": "20",
+                    "isLinked": false
+                },
+                "html_tag": "header"
+            },
+            "elements": [
+                {
+                    "id": "02eaa1b",
+                    "elType": "container",
+                    "isInner": false,
+                    "settings": {
+                        "flex_gap": {
+                            "unit": "px",
+                            "size": 0,
+                            "column": "0",
+                            "row": "0"
+                        },
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": 54,
+                            "sizes": []
+                        },
+                        "width_mobile": {
+                            "unit": "%",
+                            "size": 100,
+                            "sizes": []
+                        },
+                        "flex_direction": "column",
+                        "padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "40",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "padding_mobile": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "20",
+                            "left": "0",
+                            "isLinked": false
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "fd9d3d5",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "isInner": false,
+                            "settings": {
+                                "title": "The shop",
+                                "header_size": "p",
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "14",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "__globals__": {
+                                    "title_color": "globals/colors?id=bcmid",
+                                    "typography_typography": "globals/typography?id=accent"
+                                }
+                            },
+                            "elements": []
+                        },
+                        {
+                            "id": "f0e85ab",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "isInner": false,
+                            "settings": {
+                                "title": "Everything, in one place.",
+                                "header_size": "h1",
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "__globals__": {
+                                    "title_color": "globals/colors?id=primary",
+                                    "typography_typography": "globals/typography?id=bcdl"
+                                }
+                            },
+                            "elements": []
+                        }
+                    ]
+                },
+                {
+                    "id": "653219f",
+                    "elType": "container",
+                    "isInner": false,
+                    "settings": {
+                        "flex_gap": {
+                            "unit": "px",
+                            "size": 0,
+                            "column": "0",
+                            "row": "0"
+                        },
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": 46,
+                            "sizes": []
+                        },
+                        "width_mobile": {
+                            "unit": "%",
+                            "size": 100,
+                            "sizes": []
+                        },
+                        "flex_direction": "column",
+                        "flex_justify_content": "flex-end"
+                    },
+                    "elements": [
+                        {
+                            "id": "123cfd5",
+                            "elType": "widget",
+                            "widgetType": "text-editor",
+                            "isInner": false,
+                            "settings": {
+                                "editor": "<p>The full Beauty Crib catalogue. Browse by shelf, and if you are unsure where to start, the Journal is written for exactly that.</p>",
+                                "__globals__": {
+                                    "text_color": "globals/colors?id=text",
+                                    "typography_typography": "globals/typography?id=bclead"
+                                }
+                            },
+                            "elements": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "53335a2",
+            "elType": "container",
+            "isInner": false,
+            "settings": {
+                "flex_gap": {
+                    "unit": "px",
+                    "size": 0,
+                    "column": "0",
+                    "row": "0"
+                },
+                "content_width": "boxed",
+                "boxed_width": {
+                    "unit": "px",
+                    "size": 1440,
+                    "sizes": []
+                },
+                "flex_direction": "column",
+                "padding": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "40",
+                    "bottom": "28",
+                    "left": "40",
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "20",
+                    "bottom": "20",
+                    "left": "20",
+                    "isLinked": false
+                }
+            },
+            "elements": [
+                {
+                    "id": "1a3f8f5",
+                    "elType": "container",
+                    "isInner": false,
+                    "settings": {
+                        "flex_gap": {
+                            "unit": "px",
+                            "size": 0,
+                            "column": "0",
+                            "row": "0"
+                        },
+                        "content_width": "full",
+                        "flex_direction": "column",
+                        "padding": {
+                            "unit": "px",
+                            "top": "24",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "border_border": "solid",
+                        "border_width": {
+                            "unit": "px",
+                            "top": "1",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "__globals__": {
+                            "border_color": "globals/colors?id=bcline"
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "a53d901",
+                            "elType": "widget",
+                            "widgetType": "icon-list",
+                            "isInner": false,
+                            "settings": {
+                                "view": "inline",
+                                "icon_list": [
+                                    {
+                                        "_id": "5afbce9",
+                                        "text": "All",
+                                        "selected_icon": {
+                                            "value": "",
+                                            "library": ""
+                                        },
+                                        "link": {
+                                            "url": "/shop/",
+                                            "is_external": "",
+                                            "nofollow": ""
+                                        }
+                                    },
+                                    {
+                                        "_id": "5823214",
+                                        "text": "Skincare",
+                                        "selected_icon": {
+                                            "value": "",
+                                            "library": ""
+                                        },
+                                        "link": {
+                                            "url": "/product-category/skincare/",
+                                            "is_external": "",
+                                            "nofollow": ""
+                                        }
+                                    },
+                                    {
+                                        "_id": "feab6c5",
+                                        "text": "Cleansers",
+                                        "selected_icon": {
+                                            "value": "",
+                                            "library": ""
+                                        },
+                                        "link": {
+                                            "url": "/product-category/skincare/cleansers/",
+                                            "is_external": "",
+                                            "nofollow": ""
+                                        }
+                                    },
+                                    {
+                                        "_id": "218768c",
+                                        "text": "Toners & Essences",
+                                        "selected_icon": {
+                                            "value": "",
+                                            "library": ""
+                                        },
+                                        "link": {
+                                            "url": "/product-category/skincare/toners/",
+                                            "is_external": "",
+                                            "nofollow": ""
+                                        }
+                                    },
+                                    {
+                                        "_id": "d9ea4e8",
+                                        "text": "Serums & Treatments",
+                                        "selected_icon": {
+                                            "value": "",
+                                            "library": ""
+                                        },
+                                        "link": {
+                                            "url": "/product-category/skincare/serums-treatments/",
+                                            "is_external": "",
+                                            "nofollow": ""
+                                        }
+                                    },
+                                    {
+                                        "_id": "80895d9",
+                                        "text": "Makeup",
+                                        "selected_icon": {
+                                            "value": "",
+                                            "library": ""
+                                        },
+                                        "link": {
+                                            "url": "/product-category/makeup/",
+                                            "is_external": "",
+                                            "nofollow": ""
+                                        }
+                                    },
+                                    {
+                                        "_id": "1342893",
+                                        "text": "Hair Care",
+                                        "selected_icon": {
+                                            "value": "",
+                                            "library": ""
+                                        },
+                                        "link": {
+                                            "url": "/product-category/hair-care/",
+                                            "is_external": "",
+                                            "nofollow": ""
+                                        }
+                                    },
+                                    {
+                                        "_id": "bd61752",
+                                        "text": "Body Care",
+                                        "selected_icon": {
+                                            "value": "",
+                                            "library": ""
+                                        },
+                                        "link": {
+                                            "url": "/product-category/body-care/",
+                                            "is_external": "",
+                                            "nofollow": ""
+                                        }
+                                    },
+                                    {
+                                        "_id": "9970d9d",
+                                        "text": "Fragrance",
+                                        "selected_icon": {
+                                            "value": "",
+                                            "library": ""
+                                        },
+                                        "link": {
+                                            "url": "/product-category/fragrance/",
+                                            "is_external": "",
+                                            "nofollow": ""
+                                        }
+                                    }
+                                ],
+                                "space_between": {
+                                    "unit": "px",
+                                    "size": 26,
+                                    "sizes": []
+                                },
+                                "__globals__": {
+                                    "text_color": "globals/colors?id=secondary",
+                                    "text_color_hover": "globals/colors?id=bcmid",
+                                    "icon_typography_typography": "globals/typography?id=bcuil"
+                                }
+                            },
+                            "elements": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7b08ec9",
+            "elType": "container",
+            "isInner": false,
+            "settings": {
+                "flex_gap": {
+                    "unit": "px",
+                    "size": 0,
+                    "column": "0",
+                    "row": "0"
+                },
+                "content_width": "boxed",
+                "boxed_width": {
+                    "unit": "px",
+                    "size": 1440,
+                    "sizes": []
+                },
+                "flex_direction": "column",
+                "padding": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "40",
+                    "bottom": "96",
+                    "left": "40",
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "20",
+                    "bottom": "56",
+                    "left": "20",
+                    "isLinked": false
+                },
+                "_element_id": "bc-shop-grid"
+            },
+            "elements": [
+                {
+                    "id": "7e6f948",
+                    "elType": "widget",
+                    "widgetType": "wc-archive-products",
+                    "isInner": false,
+                    "settings": {
+                        "allow_order": "yes",
+                        "show_result_count": "yes",
+                        "paginate": "yes"
+                    },
+                    "elements": []
+                }
+            ]
+        },
+        {
+            "id": "0dfc380",
+            "elType": "container",
+            "isInner": false,
+            "settings": {
+                "flex_gap": {
+                    "unit": "px",
+                    "size": 0,
+                    "column": "0",
+                    "row": "0"
+                },
+                "content_width": "boxed",
+                "boxed_width": {
+                    "unit": "px",
+                    "size": 1440,
+                    "sizes": []
+                },
+                "flex_direction": "row",
+                "flex_wrap": "wrap",
+                "flex_align_items": "center",
+                "padding": {
+                    "unit": "px",
+                    "top": "72",
+                    "right": "40",
+                    "bottom": "72",
+                    "left": "40",
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": "48",
+                    "right": "20",
+                    "bottom": "48",
+                    "left": "20",
+                    "isLinked": false
+                },
+                "background_background": "classic",
+                "__globals__": {
+                    "background_color": "globals/colors?id=accent"
+                }
+            },
+            "elements": [
+                {
+                    "id": "bc0f7f1",
+                    "elType": "container",
+                    "isInner": false,
+                    "settings": {
+                        "flex_gap": {
+                            "unit": "px",
+                            "size": 0,
+                            "column": "0",
+                            "row": "0"
+                        },
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": 46,
+                            "sizes": []
+                        },
+                        "width_mobile": {
+                            "unit": "%",
+                            "size": 100,
+                            "sizes": []
+                        },
+                        "flex_direction": "column",
+                        "padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "48",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "padding_mobile": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "24",
+                            "left": "0",
+                            "isLinked": false
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "a2e6fa7",
+                            "elType": "widget",
+                            "widgetType": "image",
+                            "isInner": false,
+                            "settings": {
+                                "image": {
+                                    "id": 101,
+                                    "url": "https://beautycrib.ug/wp-content/uploads/2026/09/journal-choose-cleanser.jpg"
+                                },
+                                "height": {
+                                    "unit": "px",
+                                    "size": 420,
+                                    "sizes": []
+                                },
+                                "height_mobile": {
+                                    "unit": "px",
+                                    "size": 260,
+                                    "sizes": []
+                                },
+                                "object-fit": "cover",
+                                "width": {
+                                    "unit": "%",
+                                    "size": 100,
+                                    "sizes": []
+                                }
+                            },
+                            "elements": []
+                        }
+                    ]
+                },
+                {
+                    "id": "fb45e40",
+                    "elType": "container",
+                    "isInner": false,
+                    "settings": {
+                        "flex_gap": {
+                            "unit": "px",
+                            "size": 0,
+                            "column": "0",
+                            "row": "0"
+                        },
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": 46,
+                            "sizes": []
+                        },
+                        "width_mobile": {
+                            "unit": "%",
+                            "size": 100,
+                            "sizes": []
+                        },
+                        "flex_direction": "column",
+                        "flex_justify_content": "center"
+                    },
+                    "elements": [
+                        {
+                            "id": "f8edde2",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "isInner": false,
+                            "settings": {
+                                "title": "From the Journal",
+                                "header_size": "p",
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "14",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "__globals__": {
+                                    "title_color": "globals/colors?id=bcmid",
+                                    "typography_typography": "globals/typography?id=accent"
+                                }
+                            },
+                            "elements": []
+                        },
+                        {
+                            "id": "9536fa9",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "isInner": false,
+                            "settings": {
+                                "title": "Not sure which cleanser?",
+                                "header_size": "h2",
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "16",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "__globals__": {
+                                    "title_color": "globals/colors?id=primary",
+                                    "typography_typography": "globals/typography?id=bcdm"
+                                }
+                            },
+                            "elements": []
+                        },
+                        {
+                            "id": "15296b1",
+                            "elType": "widget",
+                            "widgetType": "text-editor",
+                            "isInner": false,
+                            "settings": {
+                                "editor": "<p>Five minutes of reading saves a season of buying the wrong thing. Our guide matches cleanser types to dry, oily, combination, sensitive and acne-prone skin.</p>",
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "24",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "__globals__": {
+                                    "text_color": "globals/colors?id=text",
+                                    "typography_typography": "globals/typography?id=text"
+                                }
+                            },
+                            "elements": []
+                        },
+                        {
+                            "id": "a14056d",
+                            "elType": "widget",
+                            "widgetType": "button",
+                            "isInner": false,
+                            "settings": {
+                                "text": "Read the guide",
+                                "link": {
+                                    "url": "/how-to-choose-a-face-cleanser-for-your-skin-type/",
+                                    "is_external": "",
+                                    "nofollow": ""
+                                },
+                                "align": "left",
+                                "border_border": "solid",
+                                "border_width": {
+                                    "unit": "px",
+                                    "top": "1",
+                                    "right": "1",
+                                    "bottom": "1",
+                                    "left": "1",
+                                    "isLinked": false
+                                },
+                                "border_radius": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "text_padding": {
+                                    "unit": "px",
+                                    "top": "17",
+                                    "right": "30",
+                                    "bottom": "17",
+                                    "left": "30",
+                                    "isLinked": false
+                                },
+                                "background_background": "classic",
+                                "button_background_hover_background": "classic",
+                                "__globals__": {
+                                    "background_color": "globals/colors?id=primary",
+                                    "button_text_color": "globals/colors?id=bcwhite",
+                                    "border_color": "globals/colors?id=primary",
+                                    "button_background_hover_color": "globals/colors?id=accent",
+                                    "hover_color": "globals/colors?id=primary",
+                                    "button_hover_border_color": "globals/colors?id=primary",
+                                    "typography_typography": "globals/typography?id=bcbtn"
+                                }
+                            },
+                            "elements": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "71b6d29",
+            "elType": "container",
+            "isInner": false,
+            "settings": {
+                "flex_gap": {
+                    "unit": "px",
+                    "size": 0,
+                    "column": "0",
+                    "row": "0"
+                },
+                "content_width": "boxed",
+                "boxed_width": {
+                    "unit": "px",
+                    "size": 900,
+                    "sizes": []
+                },
+                "flex_direction": "column",
+                "padding": {
+                    "unit": "px",
+                    "top": "72",
+                    "right": "40",
+                    "bottom": "96",
+                    "left": "40",
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": "48",
+                    "right": "20",
+                    "bottom": "56",
+                    "left": "20",
+                    "isLinked": false
+                }
+            },
+            "elements": [
+                {
+                    "id": "36e1e19",
+                    "elType": "widget",
+                    "widgetType": "heading",
+                    "isInner": false,
+                    "settings": {
+                        "title": "About shopping beauty products in Uganda",
+                        "header_size": "h2",
+                        "_margin": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "16",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "__globals__": {
+                            "title_color": "globals/colors?id=primary",
+                            "typography_typography": "globals/typography?id=bcds"
+                        }
+                    },
+                    "elements": []
+                },
+                {
+                    "id": "0fd6efd",
+                    "elType": "widget",
+                    "widgetType": "text-editor",
+                    "isInner": false,
+                    "settings": {
+                        "editor": "<p>Beauty Crib sells authentic beauty and skincare products online in Uganda. Orders are packed in Kampala and delivered across the country, with payment by MTN Mobile Money, Airtel Money, card, bank transfer or cash on delivery. If a product you want is not listed yet, ask us and we will look for it.</p>",
+                        "__globals__": {
+                            "text_color": "globals/colors?id=text",
+                            "typography_typography": "globals/typography?id=text"
+                        }
+                    },
+                    "elements": []
+                }
+            ]
+        }
+    ]
+}

@@ -77,3 +77,7 @@ html, body {
    phone). Deliberately a little under, so it is never left with a gap. */
 .elementor-page-111 .elementor-widget-gallery{min-height:calc(100vw * 2)}
 @media (max-width:768px){.elementor-page-111 .elementor-widget-gallery{min-height:calc(100vw * 3.95)}}
+
+/* The catalogue sort dropdown had padding taller than its fixed height, so it
+   cut its own text in half. */
+.woocommerce .woocommerce-ordering select.orderby,.woocommerce-page .woocommerce-ordering select.orderby{height:auto!important;min-height:48px;line-height:1.4!important;padding:12px 38px 12px 16px!important;background-position:right 14px center}

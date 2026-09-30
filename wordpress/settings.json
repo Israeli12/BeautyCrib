@@ -1,28 +1,18 @@
 {
     "woocommerce": {
         "published_products": 46,
+        "products_per_page": 24,
         "enabled_gateways": [
             "bacs",
             "cod"
-        ],
-        "thumbnail_cropping": "uncropped",
-        "thumbnail_image_width": "600"
-    },
-    "site_public": "1",
-    "fonts": {
-        "self_hosted": [
-            "instrument-sans-italic-latin-ext.woff2",
-            "instrument-sans-italic-latin.woff2",
-            "instrument-sans-latin-ext.woff2",
-            "instrument-sans-latin.woff2",
-            "instrument-serif-italic-latin-ext.woff2",
-            "instrument-serif-italic-latin.woff2",
-            "instrument-serif-latin-ext.woff2",
-            "instrument-serif-latin.woff2"
         ]
     },
+    "site_public": "1",
     "elementor_conditions": {
         "archive": {
+            "298": [
+                "include/shop_page"
+            ],
             "216": [
                 "include/archive/category",
                 "include/archive/post_tag",

@@ -90,3 +90,5 @@ add_filter('script_loader_tag', function ($tag, $handle) {
     if (!is_admin() && preg_match('/^(woof|ion\.range-slider|tooltipster)/i', $handle) && !bc_page_uses_product_filter()) { return ''; }
     return $tag;
 }, 10, 2);
+// The design shows the whole shelf rather than a short page of it.
+add_filter('loop_shop_per_page', function () { return 24; }, 20);

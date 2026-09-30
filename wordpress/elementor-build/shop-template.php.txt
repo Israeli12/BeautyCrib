@@ -1,0 +1,78 @@
+$id = function () { return substr(md5(uniqid('', true) . mt_rand()), 0, 7); };
+$px = fn($n) => ['unit' => 'px', 'size' => $n, 'sizes' => []];
+$pc = fn($n) => ['unit' => '%', 'size' => $n, 'sizes' => []];
+$pad = fn($t, $r, $b, $l) => ['unit' => 'px', 'top' => (string) $t, 'right' => (string) $r, 'bottom' => (string) $b, 'left' => (string) $l, 'isLinked' => false];
+$gap0 = ['unit' => 'px', 'size' => 0, 'column' => '0', 'row' => '0'];
+$C = fn($i) => 'globals/colors?id=' . $i; $T = fn($i) => 'globals/typography?id=' . $i;
+$con = function (array $s, array $kids) use ($id, $gap0) { return ['id' => $id(), 'elType' => 'container', 'isInner' => false, 'settings' => array_merge(['flex_gap' => $gap0], $s), 'elements' => $kids]; };
+$w = function ($type, array $s) use ($id) { return ['id' => $id(), 'elType' => 'widget', 'widgetType' => $type, 'isInner' => false, 'settings' => $s, 'elements' => []]; };
+$noicon = ['value' => '', 'library' => ''];
+$eyebrow = fn($t, $mb = 14) => $w('heading', ['title' => $t, 'header_size' => 'p', '_margin' => $pad(0, 0, $mb, 0), '__globals__' => ['title_color' => $C('bcmid'), 'typography_typography' => $T('accent')]]);
+
+/* hero: eyebrow, the editorial line, the intro, and the category pills */
+$pills = $w('icon-list', ['view' => 'inline', 'icon_list' => array_map(fn($p) => ['_id' => $id(), 'text' => $p[0], 'selected_icon' => $noicon, 'link' => ['url' => $p[1], 'is_external' => '', 'nofollow' => '']], [['All', '/shop/'], ['Skincare', '/product-category/skincare/'], ['Cleansers', '/product-category/skincare/cleansers/'], ['Toners & Essences', '/product-category/skincare/toners/'], ['Serums & Treatments', '/product-category/skincare/serums-treatments/'], ['Makeup', '/product-category/makeup/'], ['Hair Care', '/product-category/hair-care/'], ['Body Care', '/product-category/body-care/'], ['Fragrance', '/product-category/fragrance/']]), 'space_between' => $px(26), '__globals__' => ['text_color' => $C('secondary'), 'text_color_hover' => $C('bcmid'), 'icon_typography_typography' => $T('bcuil')]]);
+
+$hero = $con(['content_width' => 'boxed', 'boxed_width' => $px(1440), 'flex_direction' => 'row', 'flex_wrap' => 'wrap', 'flex_align_items' => 'flex-end', 'padding' => $pad(72, 40, 32, 40), 'padding_mobile' => $pad(32, 20, 24, 20), 'html_tag' => 'header'], [
+  $con(['content_width' => 'full', 'width' => $pc(54), 'width_mobile' => $pc(100), 'flex_direction' => 'column', 'padding' => $pad(0, 40, 0, 0), 'padding_mobile' => $pad(0, 0, 20, 0)], [
+    $eyebrow('The shop'),
+    $w('heading', ['title' => 'Everything, in one place.', 'header_size' => 'h1', '_margin' => $pad(0, 0, 0, 0), '__globals__' => ['title_color' => $C('primary'), 'typography_typography' => $T('bcdl')]]),
+  ]),
+  $con(['content_width' => 'full', 'width' => $pc(46), 'width_mobile' => $pc(100), 'flex_direction' => 'column', 'flex_justify_content' => 'flex-end'], [
+    $w('text-editor', ['editor' => '<p>The full Beauty Crib catalogue. Browse by shelf, and if you are unsure where to start, the Journal is written for exactly that.</p>', '__globals__' => ['text_color' => $C('text'), 'typography_typography' => $T('bclead')]]),
+  ]),
+]);
+
+$nav = $con(['content_width' => 'boxed', 'boxed_width' => $px(1440), 'flex_direction' => 'column', 'padding' => $pad(0, 40, 28, 40), 'padding_mobile' => $pad(0, 20, 20, 20)], [
+  $con(['content_width' => 'full', 'flex_direction' => 'column', 'padding' => $pad(24, 0, 0, 0), 'border_border' => 'solid', 'border_width' => $pad(1, 0, 0, 0), '__globals__' => ['border_color' => $C('bcline')]], [$pills]),
+]);
+
+$grid = $con(['content_width' => 'boxed', 'boxed_width' => $px(1440), 'flex_direction' => 'column', 'padding' => $pad(0, 40, 96, 40), 'padding_mobile' => $pad(0, 20, 56, 20), '_element_id' => 'bc-shop-grid'], [
+  $w('wc-archive-products', ['allow_order' => 'yes', 'show_result_count' => 'yes', 'paginate' => 'yes']),
+]);
+
+/* the Journal help block, as on the prototype */
+$help = $con(['content_width' => 'boxed', 'boxed_width' => $px(1440), 'flex_direction' => 'row', 'flex_wrap' => 'wrap', 'flex_align_items' => 'center', 'padding' => $pad(72, 40, 72, 40), 'padding_mobile' => $pad(48, 20, 48, 20), 'background_background' => 'classic', '__globals__' => ['background_color' => $C('accent')]], [
+  $con(['content_width' => 'full', 'width' => $pc(46), 'width_mobile' => $pc(100), 'flex_direction' => 'column', 'padding' => $pad(0, 48, 0, 0), 'padding_mobile' => $pad(0, 0, 24, 0)], [
+    $w('image', ['image' => ['id' => 101, 'url' => wp_get_attachment_url(101)], 'height' => $px(420), 'height_mobile' => $px(260), 'object-fit' => 'cover', 'width' => $pc(100)]),
+  ]),
+  $con(['content_width' => 'full', 'width' => $pc(46), 'width_mobile' => $pc(100), 'flex_direction' => 'column', 'flex_justify_content' => 'center'], [
+    $eyebrow('From the Journal'),
+    $w('heading', ['title' => 'Not sure which cleanser?', 'header_size' => 'h2', '_margin' => $pad(0, 0, 16, 0), '__globals__' => ['title_color' => $C('primary'), 'typography_typography' => $T('bcdm')]]),
+    $w('text-editor', ['editor' => '<p>Five minutes of reading saves a season of buying the wrong thing. Our guide matches cleanser types to dry, oily, combination, sensitive and acne-prone skin.</p>', '_margin' => $pad(0, 0, 24, 0), '__globals__' => ['text_color' => $C('text'), 'typography_typography' => $T('text')]]),
+    $w('button', ['text' => 'Read the guide', 'link' => ['url' => '/how-to-choose-a-face-cleanser-for-your-skin-type/', 'is_external' => '', 'nofollow' => ''], 'align' => 'left', 'border_border' => 'solid', 'border_width' => $pad(1, 1, 1, 1), 'border_radius' => $pad(0, 0, 0, 0), 'text_padding' => $pad(17, 30, 17, 30), 'background_background' => 'classic', 'button_background_hover_background' => 'classic', '__globals__' => ['background_color' => $C('primary'), 'button_text_color' => $C('bcwhite'), 'border_color' => $C('primary'), 'button_background_hover_color' => $C('accent'), 'hover_color' => $C('primary'), 'button_hover_border_color' => $C('primary'), 'typography_typography' => $T('bcbtn')]]),
+  ]),
+]);
+
+$seo = $con(['content_width' => 'boxed', 'boxed_width' => $px(900), 'flex_direction' => 'column', 'padding' => $pad(72, 40, 96, 40), 'padding_mobile' => $pad(48, 20, 56, 20)], [
+  $w('heading', ['title' => 'About shopping beauty products in Uganda', 'header_size' => 'h2', '_margin' => $pad(0, 0, 16, 0), '__globals__' => ['title_color' => $C('primary'), 'typography_typography' => $T('bcds')]]),
+  $w('text-editor', ['editor' => '<p>Beauty Crib sells authentic beauty and skincare products online in Uganda. Orders are packed in Kampala and delivered across the country, with payment by MTN Mobile Money, Airtel Money, card, bank transfer or cash on delivery. If a product you want is not listed yet, ask us and we will look for it.</p>', '__globals__' => ['text_color' => $C('text'), 'typography_typography' => $T('text')]]),
+]);
+
+$data = [$hero, $nav, $grid, $help, $seo];
+
+/* every setting key is checked against the widget's real controls */
+$em = \Elementor\Plugin::$instance; $unknown = [];
+$base = fn($k) => preg_replace('/_(tablet|mobile|widescreen|laptop)$/', '', $k);
+$check = function ($els) use (&$check, $em, &$unknown, $base) { foreach ($els as $e) { $ctl = $e['elType'] === 'widget' ? $em->widgets_manager->get_widget_types($e['widgetType'])->get_controls() : $em->elements_manager->get_element_types('container')->get_controls(); foreach ($e['settings'] as $k => $v) { if ($k === '__globals__' || $k === '__dynamic__') { foreach ((array) $v as $gk => $gv) { if (!isset($ctl[$base($gk)])) { $unknown[] = ($e['widgetType'] ?? 'container') . ' g:' . $gk; } } continue; } if (!isset($ctl[$base($k)])) { $unknown[] = ($e['widgetType'] ?? 'container') . ' ' . $k; } } if ($e['elements']) { $check($e['elements']); } } };
+$check($data);
+if ($unknown) { return ['unknown_keys' => array_values(array_unique($unknown))]; }
+
+$title = 'Beauty Crib Shop';
+$existing = get_posts(['post_type' => 'elementor_library', 'title' => $title, 'post_status' => 'any', 'numberposts' => 1, 'fields' => 'ids']);
+$tid = $existing ? $existing[0] : wp_insert_post(['post_type' => 'elementor_library', 'post_title' => $title, 'post_status' => 'publish']);
+wp_update_post(['ID' => $tid, 'post_status' => 'publish']);
+wp_set_object_terms($tid, 'product-archive', 'elementor_library_type');
+update_post_meta($tid, '_elementor_edit_mode', 'builder');
+update_post_meta($tid, '_elementor_template_type', 'product-archive');
+update_post_meta($tid, '_elementor_version', ELEMENTOR_VERSION);
+update_post_meta($tid, '_elementor_pro_version', ELEMENTOR_PRO_VERSION);
+update_post_meta($tid, '_wp_page_template', 'elementor_header_footer');
+update_post_meta($tid, '_elementor_page_settings', ['page_template' => 'elementor_header_footer']);
+update_post_meta($tid, '_elementor_data', wp_slash(wp_json_encode($data)));
+update_post_meta($tid, '_elementor_conditions', ['include/shop_page']);
+delete_post_meta($tid, '_elementor_element_cache');
+$a = wp_get_post_autosave($tid); if ($a) { wp_delete_post_revision($a->ID); }
+\Elementor\Core\Files\CSS\Post::create($tid)->update();
+\Elementor\Plugin::$instance->files_manager->clear_cache();
+do_action('litespeed_purge_all');
+return ['template' => $tid];
