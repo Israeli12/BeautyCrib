@@ -1,0 +1,114 @@
+$newid = function () { return substr(md5(uniqid('', true) . mt_rand()), 0, 7); };
+$reid = function ($el) use (&$reid, $newid) { $el['id'] = $newid(); if (!empty($el['elements'])) { foreach ($el['elements'] as $i => $kid) { $el['elements'][$i] = $reid($kid); } } return $el; };
+$find = function ($els, $id) use (&$find) { foreach ($els as $e) { if (($e['id'] ?? '') === $id) { return $e; } if (!empty($e['elements'])) { $hit = $find($e['elements'], $id); if ($hit) { return $hit; } } } return null; };
+$set = function (&$els, $id, callable $fn) use (&$set) { foreach ($els as &$e) { if (($e['id'] ?? '') === $id) { $fn($e); return true; } if (!empty($e['elements'])) { if ($set($e['elements'], $id, $fn)) { return true; } } } return false; };
+$save = function ($pid, $data) { update_post_meta($pid, '_elementor_data', wp_slash(wp_json_encode($data))); delete_post_meta($pid, '_elementor_element_cache'); $a = wp_get_post_autosave($pid); if ($a) { wp_delete_post_revision($a->ID); } \Elementor\Core\Files\CSS\Post::create($pid)->update(); };
+$report = [];
+
+/* ---------------- home: product rails + the missing campaign band ---------------- */
+$home = json_decode(get_post_meta(108, '_elementor_data', true), true);
+
+// "Chosen this month" was ordering by date, so it showed whatever was added last.
+$set($home, 'e86368d', function (&$w) { $w['settings']['query_post_type'] = 'featured'; unset($w['settings']['query_include'], $w['settings']['query_include_term_ids']); $w['settings']['orderby'] = 'date'; $w['settings']['order'] = 'desc'; });
+$report[] = 'home: Chosen this month -> featured products';
+
+// "Best sellers" ordered by popularity, which with almost no sales returned the
+// same newest products again. The prototype names four; use those.
+$set($home, '7b0eb87', function (&$w) { $w['settings']['query_post_type'] = 'by_id'; $w['settings']['query_posts_ids'] = [28, 30, 32, 34]; unset($w['settings']['orderby'], $w['settings']['order']); });
+$report[] = 'home: Best sellers -> the four from the prototype';
+
+// The second campaign band, "Glow, below the neck", was never built.
+$hasGlow = false;
+foreach ($home as $root) { if (($root['settings']['_element_id'] ?? '') === 'bc-campaign-body') { $hasGlow = true; } }
+if (!$hasGlow) {
+  $campaign = $find($home, '1b62476');
+  $glow = $reid($campaign);
+  $glow['settings']['_element_id'] = 'bc-campaign-body';
+  // text first, image second, so the two campaign bands alternate
+  $media = $glow['elements'][0];
+  $body  = $glow['elements'][1];
+  $media['settings']['padding'] = ['unit' => 'px', 'top' => '0', 'right' => '0', 'bottom' => '0', 'left' => '48', 'isLinked' => false];
+  $body['settings']['padding']  = ['unit' => 'px', 'top' => '0', 'right' => '20', 'bottom' => '0', 'left' => '0', 'isLinked' => false];
+  $media['elements'][0]['settings']['image'] = ['id' => 76, 'url' => wp_get_attachment_url(76)];
+  foreach ($body['elements'] as $i => $kid) {
+    $type = $kid['widgetType'] ?? '';
+    if ($type === 'heading' && ($kid['settings']['title'] ?? '') === 'The double cleanse') { $body['elements'][$i]['settings']['title'] = 'Glow, below the neck'; }
+    if ($type === 'text-editor') { $body['elements'][$i]['settings']['editor'] = '<p>Most people give their face five steps and their body none. The body edit is on its way: washes that do not strip, exfoliation that is not sandpaper, and moisture that lasts a full day.</p>'; }
+    if (($kid['elType'] ?? '') === 'container') {
+      foreach ($kid['elements'] as $j => $btn) {
+        if (($btn['settings']['text'] ?? '') === 'Shop cleansers') { $body['elements'][$i]['elements'][$j]['settings']['text'] = 'Body care'; $body['elements'][$i]['elements'][$j]['settings']['link'] = ['url' => '/product-category/body-care/']; }
+        if (($btn['settings']['text'] ?? '') === 'Read the guide') { $body['elements'][$i]['elements'][$j]['settings']['text'] = 'Read the routine'; $body['elements'][$i]['elements'][$j]['settings']['link'] = ['url' => '/the-body-glow-routine/']; }
+      }
+    }
+  }
+  $glow['elements'] = [$body, $media];
+  $at = null;
+  foreach ($home as $i => $root) { if (($root['settings']['_element_id'] ?? '') === 'bc-bestsellers') { $at = $i; } }
+  array_splice($home, $at === null ? count($home) : $at + 1, 0, [$glow]);
+  $report[] = 'home: added "Glow, below the neck"';
+}
+$save(108, $home);
+
+/* ---------------- a reusable "shop these" rail, styled like the home rails ---------------- */
+$railProducts = $find($home, '7b0eb87');
+$makeRail = function ($eyebrow, $title, $ids, $anchor) use ($find, $reid, $newid, $railProducts, $home) {
+  $head = $find($home, '515977e');           // the Best sellers section, for its heading block
+  $section = $reid($head);
+  $section['settings']['_element_id'] = $anchor;
+  $products = $reid($railProducts);
+  $products['settings']['query_post_type'] = 'by_id';
+  $products['settings']['query_posts_ids'] = $ids;
+  unset($products['settings']['orderby'], $products['settings']['order']);
+  $walk = function (&$els) use (&$walk, $eyebrow, $title, $products, &$done) {
+    foreach ($els as $i => &$e) {
+      $t = $e['widgetType'] ?? '';
+      if ($t === 'heading') {
+        $current = $e['settings']['title'] ?? '';
+        if (strpos($current, 'Moving fast') !== false) { $e['settings']['title'] = $eyebrow; }
+        elseif ($current === 'Best sellers') { $e['settings']['title'] = $title; }
+      }
+      if ($t === 'woocommerce-products') { $e = $products; }
+      if (!empty($e['elements'])) { $walk($e['elements']); }
+    }
+  };
+  $walk($section['elements']);
+  return $section;
+};
+
+/* ---------------- journal: "What we reach for" ---------------- */
+$journal = json_decode(get_post_meta(110, '_elementor_data', true), true);
+$has = false; foreach ($journal as $r) { if (($r['settings']['_element_id'] ?? '') === 'bc-journal-shop') { $has = true; } }
+if (!$has) { $journal[] = $makeRail('Shop the stories', 'What we reach for', [28, 30, 32, 34], 'bc-journal-shop'); $save(110, $journal); $report[] = 'journal: added "What we reach for"'; }
+
+/* ---------------- gallery: "What is in the pictures" ---------------- */
+$gallery = json_decode(get_post_meta(111, '_elementor_data', true), true);
+$has = false; foreach ($gallery as $r) { if (($r['settings']['_element_id'] ?? '') === 'bc-gallery-shop') { $has = true; } }
+if (!$has) { $gallery[] = $makeRail('Shop the look', 'What is in the pictures', [19, 22, 24, 26], 'bc-gallery-shop'); $save(111, $gallery); $report[] = 'gallery: added "What is in the pictures"'; }
+
+/* ---------------- philosophy: the opening section ---------------- */
+$phil = json_decode(get_post_meta(109, '_elementor_data', true), true);
+$has = false; foreach ($phil as $r) { if (($r['settings']['_element_id'] ?? '') === 'bc-philosophy-opening') { $has = true; } }
+if (!$has) {
+  $opening = $reid($find($home, '1b62476'));
+  $opening['settings']['_element_id'] = 'bc-philosophy-opening';
+  $media = $opening['elements'][0];
+  $body  = $opening['elements'][1];
+  $media['elements'][0]['settings']['image'] = ['id' => 106, 'url' => wp_get_attachment_url(106)];
+  $keep = [];
+  foreach ($body['elements'] as $kid) {
+    $t = $kid['widgetType'] ?? '';
+    if ($t === 'heading' && ($kid['settings']['title'] ?? '') === 'Campaign') { $kid['settings']['title'] = 'The beginning'; $keep[] = $kid; continue; }
+    if ($t === 'heading' && ($kid['settings']['title'] ?? '') === 'The double cleanse') { $kid['settings']['title'] = 'Kampala, and a short shelf'; $keep[] = $kid; continue; }
+    if ($t === 'text-editor') { $kid['settings']['editor'] = '<p>We started with cleansers because cleansing is where most routines go wrong, and because it is the one product every single person needs. Seventeen of them, each chosen for a specific kind of skin. The rest of the house opens the same way: slowly, and only when we are sure.</p>'; $keep[] = $kid; continue; }
+    // the campaign buttons do not belong here
+  }
+  $body['elements'] = $keep;
+  $opening['elements'] = [$media, $body];
+  array_splice($phil, 1, 0, [$opening]);
+  $save(109, $phil);
+  $report[] = 'philosophy: added "Kampala, and a short shelf"';
+}
+
+\Elementor\Plugin::$instance->files_manager->clear_cache();
+do_action('litespeed_purge_all');
+return $report;

@@ -70,3 +70,10 @@ html, body {
    JavaScript, which pushes the page down after it has painted. Show it from the
    start instead; closing it still works, because that sets an inline style. */
 .elementor-accordion .elementor-accordion-item:first-child .elementor-tab-content{display:block}
+
+/* The gallery grid is built by JavaScript, so the widget is 1px tall until then
+   and everything below it drops ~2,600px into place. Hold roughly the space it
+   needs: its height tracks the viewport width (about 2x on desktop, 4x on a
+   phone). Deliberately a little under, so it is never left with a gap. */
+.elementor-page-111 .elementor-widget-gallery{min-height:calc(100vw * 2)}
+@media (max-width:768px){.elementor-page-111 .elementor-widget-gallery{min-height:calc(100vw * 3.95)}}

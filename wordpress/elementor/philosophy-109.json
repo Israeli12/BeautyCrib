@@ -176,6 +176,270 @@
             }
         },
         {
+            "id": "92f53ca",
+            "elType": "container",
+            "settings": {
+                "boxed_width": {
+                    "unit": "px",
+                    "size": 1440
+                },
+                "flex_direction": "row",
+                "flex_wrap": "wrap",
+                "flex_gap": {
+                    "unit": "px",
+                    "size": 0,
+                    "column": "0",
+                    "row": "0"
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "110",
+                    "right": "40",
+                    "bottom": "110",
+                    "left": "40",
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": "56",
+                    "right": "20",
+                    "bottom": "56",
+                    "left": "20",
+                    "isLinked": false
+                },
+                "_element_id": "bc-philosophy-opening",
+                "flex_align_items": "center",
+                "xpro_reveal_overlay_items": [
+                    {
+                        "_id": "94113a6"
+                    }
+                ]
+            },
+            "elements": [
+                {
+                    "id": "dc3db38",
+                    "elType": "container",
+                    "settings": {
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": 46
+                        },
+                        "width_mobile": {
+                            "unit": "%",
+                            "size": 100
+                        },
+                        "flex_gap": {
+                            "unit": "px",
+                            "size": 0,
+                            "column": "0",
+                            "row": "0"
+                        },
+                        "padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "48",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "padding_mobile": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "28",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "xpro_reveal_overlay_items": [
+                            {
+                                "_id": "1a4576f"
+                            }
+                        ]
+                    },
+                    "elements": [
+                        {
+                            "id": "0681394",
+                            "elType": "widget",
+                            "settings": {
+                                "image": {
+                                    "id": 106,
+                                    "url": "https://beautycrib.ug/wp-content/uploads/2026/09/philosophy-hero.jpg"
+                                },
+                                "height": {
+                                    "unit": "px",
+                                    "size": 620
+                                },
+                                "object-fit": "cover",
+                                "width": {
+                                    "unit": "%",
+                                    "size": 100
+                                },
+                                "hover_animation": "grow",
+                                "xpro_reveal_overlay_items": [
+                                    {
+                                        "_id": "1c61f83"
+                                    }
+                                ]
+                            },
+                            "elements": [],
+                            "widgetType": "image"
+                        }
+                    ],
+                    "isInner": true
+                },
+                {
+                    "id": "0a072f0",
+                    "elType": "container",
+                    "settings": {
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": 46
+                        },
+                        "width_mobile": {
+                            "unit": "%",
+                            "size": 100
+                        },
+                        "flex_gap": {
+                            "unit": "px",
+                            "size": 0,
+                            "column": "0",
+                            "row": "0"
+                        },
+                        "padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "20",
+                            "isLinked": false
+                        },
+                        "padding_mobile": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "28",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "flex_justify_content": "center",
+                        "xpro_reveal_overlay_items": [
+                            {
+                                "_id": "7d0abbf"
+                            }
+                        ]
+                    },
+                    "elements": [
+                        {
+                            "id": "5460899",
+                            "elType": "widget",
+                            "settings": {
+                                "title": "The beginning",
+                                "header_size": "h6",
+                                "title_color": "#666666",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Instrument Sans",
+                                "typography_font_size": {
+                                    "unit": "px",
+                                    "size": 11
+                                },
+                                "typography_font_weight": "500",
+                                "typography_text_transform": "uppercase",
+                                "typography_letter_spacing": {
+                                    "unit": "px",
+                                    "size": 1.6
+                                },
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "20",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "xpro_reveal_overlay_items": [
+                                    {
+                                        "_id": "d27252d"
+                                    }
+                                ]
+                            },
+                            "elements": [],
+                            "widgetType": "heading"
+                        },
+                        {
+                            "id": "def433f",
+                            "elType": "widget",
+                            "settings": {
+                                "title": "Kampala, and a short shelf",
+                                "title_color": "#000000",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Instrument Serif",
+                                "typography_font_size": {
+                                    "unit": "px",
+                                    "size": 56
+                                },
+                                "typography_font_size_mobile": {
+                                    "unit": "px",
+                                    "size": 34
+                                },
+                                "typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.06
+                                },
+                                "typography_letter_spacing": {
+                                    "unit": "px",
+                                    "size": -1
+                                },
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "20",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "xpro_reveal_overlay_items": [
+                                    {
+                                        "_id": "3e42f51"
+                                    }
+                                ]
+                            },
+                            "elements": [],
+                            "widgetType": "heading"
+                        },
+                        {
+                            "id": "6ead5c5",
+                            "elType": "widget",
+                            "settings": {
+                                "editor": "<p>We started with cleansers because cleansing is where most routines go wrong, and because it is the one product every single person needs. Seventeen of them, each chosen for a specific kind of skin. The rest of the house opens the same way: slowly, and only when we are sure.</p>",
+                                "text_color": "#666666",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Instrument Sans",
+                                "typography_font_size": {
+                                    "unit": "px",
+                                    "size": 17
+                                },
+                                "typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.62
+                                },
+                                "xpro_reveal_overlay_items": [
+                                    {
+                                        "_id": "07eea9f"
+                                    }
+                                ]
+                            },
+                            "elements": [],
+                            "widgetType": "text-editor"
+                        }
+                    ],
+                    "isInner": true
+                }
+            ],
+            "isInner": false
+        },
+        {
             "id": "26ff680",
             "elType": "container",
             "isInner": false,

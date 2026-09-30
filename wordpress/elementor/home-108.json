@@ -1015,9 +1015,6 @@
                             "settings": {
                                 "columns": "4",
                                 "rows": 1,
-                                "query_include": [
-                                    "terms"
-                                ],
                                 "orderby": "date",
                                 "order": "desc",
                                 "featured": "yes",
@@ -1094,7 +1091,8 @@
                                 ],
                                 "__globals__": {
                                     "button_hover_color": "globals/colors?id=secondary"
-                                }
+                                },
+                                "query_post_type": "featured"
                             },
                             "elements": [],
                             "widgetType": "woocommerce-products"
@@ -4385,8 +4383,6 @@
                             "settings": {
                                 "columns": "4",
                                 "rows": 1,
-                                "orderby": "popularity",
-                                "order": "desc",
                                 "product_title_color": "#000000",
                                 "product_title_typography_typography": "custom",
                                 "product_title_typography_font_family": "Instrument Sans",
@@ -4460,10 +4456,458 @@
                                 },
                                 "__globals__": {
                                     "button_hover_color": "globals/colors?id=secondary"
-                                }
+                                },
+                                "query_post_type": "by_id",
+                                "query_posts_ids": [
+                                    28,
+                                    30,
+                                    32,
+                                    34
+                                ]
                             },
                             "elements": [],
                             "widgetType": "woocommerce-products"
+                        }
+                    ],
+                    "isInner": true
+                }
+            ],
+            "isInner": false
+        },
+        {
+            "id": "9971131",
+            "elType": "container",
+            "settings": {
+                "boxed_width": {
+                    "unit": "px",
+                    "size": 1440
+                },
+                "flex_direction": "row",
+                "flex_wrap": "wrap",
+                "flex_gap": {
+                    "unit": "px",
+                    "size": 0,
+                    "column": "0",
+                    "row": "0"
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "110",
+                    "right": "40",
+                    "bottom": "110",
+                    "left": "40",
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": "56",
+                    "right": "20",
+                    "bottom": "56",
+                    "left": "20",
+                    "isLinked": false
+                },
+                "_element_id": "bc-campaign-body",
+                "flex_align_items": "center",
+                "xpro_reveal_overlay_items": [
+                    {
+                        "_id": "94113a6"
+                    }
+                ]
+            },
+            "elements": [
+                {
+                    "id": "2954507",
+                    "elType": "container",
+                    "settings": {
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": 46
+                        },
+                        "width_mobile": {
+                            "unit": "%",
+                            "size": 100
+                        },
+                        "flex_gap": {
+                            "unit": "px",
+                            "size": 0,
+                            "column": "0",
+                            "row": "0"
+                        },
+                        "padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "20",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "padding_mobile": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "28",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "flex_justify_content": "center",
+                        "xpro_reveal_overlay_items": [
+                            {
+                                "_id": "7d0abbf"
+                            }
+                        ]
+                    },
+                    "elements": [
+                        {
+                            "id": "4558ece",
+                            "elType": "widget",
+                            "settings": {
+                                "title": "Campaign",
+                                "header_size": "h6",
+                                "title_color": "#666666",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Instrument Sans",
+                                "typography_font_size": {
+                                    "unit": "px",
+                                    "size": 11
+                                },
+                                "typography_font_weight": "500",
+                                "typography_text_transform": "uppercase",
+                                "typography_letter_spacing": {
+                                    "unit": "px",
+                                    "size": 1.6
+                                },
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "20",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "xpro_reveal_overlay_items": [
+                                    {
+                                        "_id": "d27252d"
+                                    }
+                                ]
+                            },
+                            "elements": [],
+                            "widgetType": "heading"
+                        },
+                        {
+                            "id": "db7957f",
+                            "elType": "widget",
+                            "settings": {
+                                "title": "Glow, below the neck",
+                                "title_color": "#000000",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Instrument Serif",
+                                "typography_font_size": {
+                                    "unit": "px",
+                                    "size": 56
+                                },
+                                "typography_font_size_mobile": {
+                                    "unit": "px",
+                                    "size": 34
+                                },
+                                "typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.06
+                                },
+                                "typography_letter_spacing": {
+                                    "unit": "px",
+                                    "size": -1
+                                },
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "20",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "xpro_reveal_overlay_items": [
+                                    {
+                                        "_id": "3e42f51"
+                                    }
+                                ]
+                            },
+                            "elements": [],
+                            "widgetType": "heading"
+                        },
+                        {
+                            "id": "9ca0d2d",
+                            "elType": "widget",
+                            "settings": {
+                                "editor": "<p>Most people give their face five steps and their body none. The body edit is on its way: washes that do not strip, exfoliation that is not sandpaper, and moisture that lasts a full day.</p>",
+                                "text_color": "#666666",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Instrument Sans",
+                                "typography_font_size": {
+                                    "unit": "px",
+                                    "size": 17
+                                },
+                                "typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.62
+                                },
+                                "xpro_reveal_overlay_items": [
+                                    {
+                                        "_id": "07eea9f"
+                                    }
+                                ]
+                            },
+                            "elements": [],
+                            "widgetType": "text-editor"
+                        },
+                        {
+                            "id": "bfc5643",
+                            "elType": "container",
+                            "settings": {
+                                "content_width": "full",
+                                "flex_direction": "row",
+                                "flex_wrap": "wrap",
+                                "flex_gap": {
+                                    "unit": "px",
+                                    "size": 0,
+                                    "column": "0",
+                                    "row": "0"
+                                },
+                                "padding": {
+                                    "unit": "px",
+                                    "top": "30",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "xpro_reveal_overlay_items": [
+                                    {
+                                        "_id": "58f9ed2"
+                                    }
+                                ]
+                            },
+                            "elements": [
+                                {
+                                    "id": "ddf44c2",
+                                    "elType": "widget",
+                                    "settings": {
+                                        "text": "Body care",
+                                        "link": {
+                                            "url": "/product-category/body-care/"
+                                        },
+                                        "align": "left",
+                                        "typography_typography": "custom",
+                                        "typography_font_family": "Instrument Sans",
+                                        "typography_font_size": {
+                                            "unit": "px",
+                                            "size": 13
+                                        },
+                                        "typography_font_weight": "500",
+                                        "typography_text_transform": "uppercase",
+                                        "typography_letter_spacing": {
+                                            "unit": "px",
+                                            "size": 1
+                                        },
+                                        "border_border": "solid",
+                                        "border_width": {
+                                            "unit": "px",
+                                            "top": "1",
+                                            "right": "1",
+                                            "bottom": "1",
+                                            "left": "1",
+                                            "isLinked": true
+                                        },
+                                        "border_radius": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": true
+                                        },
+                                        "text_padding": {
+                                            "unit": "px",
+                                            "top": "18",
+                                            "right": "32",
+                                            "bottom": "18",
+                                            "left": "32",
+                                            "isLinked": false
+                                        },
+                                        "button_hover_transition": {
+                                            "unit": "px",
+                                            "size": 0.3
+                                        },
+                                        "_margin": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "14",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": false
+                                        },
+                                        "button_text_color": "#FFFFFF",
+                                        "background_color": "#000000",
+                                        "border_color": "#000000",
+                                        "hover_color": "#000000",
+                                        "button_background_hover_color": "rgba(255,255,255,0)",
+                                        "button_hover_border_color": "#000000",
+                                        "xpro_reveal_overlay_items": [
+                                            {
+                                                "_id": "30c1a38"
+                                            }
+                                        ]
+                                    },
+                                    "elements": [],
+                                    "widgetType": "button"
+                                },
+                                {
+                                    "id": "2a9ff27",
+                                    "elType": "widget",
+                                    "settings": {
+                                        "text": "Read the routine",
+                                        "link": {
+                                            "url": "/the-body-glow-routine/"
+                                        },
+                                        "align": "left",
+                                        "typography_typography": "custom",
+                                        "typography_font_family": "Instrument Sans",
+                                        "typography_font_size": {
+                                            "unit": "px",
+                                            "size": 13
+                                        },
+                                        "typography_font_weight": "500",
+                                        "typography_text_transform": "uppercase",
+                                        "typography_letter_spacing": {
+                                            "unit": "px",
+                                            "size": 1
+                                        },
+                                        "border_border": "solid",
+                                        "border_width": {
+                                            "unit": "px",
+                                            "top": "1",
+                                            "right": "1",
+                                            "bottom": "1",
+                                            "left": "1",
+                                            "isLinked": true
+                                        },
+                                        "border_radius": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": true
+                                        },
+                                        "text_padding": {
+                                            "unit": "px",
+                                            "top": "18",
+                                            "right": "32",
+                                            "bottom": "18",
+                                            "left": "32",
+                                            "isLinked": false
+                                        },
+                                        "button_hover_transition": {
+                                            "unit": "px",
+                                            "size": 0.3
+                                        },
+                                        "_margin": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "14",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": false
+                                        },
+                                        "button_text_color": "#FFFFFF",
+                                        "background_color": "#000000",
+                                        "border_color": "#000000",
+                                        "hover_color": "#000000",
+                                        "button_background_hover_color": "rgba(255,255,255,0)",
+                                        "button_hover_border_color": "#000000",
+                                        "xpro_reveal_overlay_items": [
+                                            {
+                                                "_id": "30cc242"
+                                            }
+                                        ]
+                                    },
+                                    "elements": [],
+                                    "widgetType": "button"
+                                }
+                            ],
+                            "isInner": true
+                        }
+                    ],
+                    "isInner": true
+                },
+                {
+                    "id": "cb590da",
+                    "elType": "container",
+                    "settings": {
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": 46
+                        },
+                        "width_mobile": {
+                            "unit": "%",
+                            "size": 100
+                        },
+                        "flex_gap": {
+                            "unit": "px",
+                            "size": 0,
+                            "column": "0",
+                            "row": "0"
+                        },
+                        "padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "48",
+                            "isLinked": false
+                        },
+                        "padding_mobile": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "28",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "xpro_reveal_overlay_items": [
+                            {
+                                "_id": "1a4576f"
+                            }
+                        ]
+                    },
+                    "elements": [
+                        {
+                            "id": "ce05d1d",
+                            "elType": "widget",
+                            "settings": {
+                                "image": {
+                                    "id": 76,
+                                    "url": "https://beautycrib.ug/wp-content/uploads/2026/09/campaign-body.jpg"
+                                },
+                                "height": {
+                                    "unit": "px",
+                                    "size": 620
+                                },
+                                "object-fit": "cover",
+                                "width": {
+                                    "unit": "%",
+                                    "size": 100
+                                },
+                                "hover_animation": "grow",
+                                "xpro_reveal_overlay_items": [
+                                    {
+                                        "_id": "1c61f83"
+                                    }
+                                ]
+                            },
+                            "elements": [],
+                            "widgetType": "image"
                         }
                     ],
                     "isInner": true

@@ -1,60 +1,14 @@
 {
     "woocommerce": {
-        "thumbnail_cropping": "uncropped",
-        "thumbnail_image_width": "600",
+        "published_products": 46,
         "enabled_gateways": [
             "bacs",
             "cod"
         ],
-        "published_products": 46,
-        "categories": [
-            "beauty-tools (0)",
-            "body-care (0)",
-            "body-mist (0)",
-            "brushes (0)",
-            "cleansers (17)",
-            "devices (0)",
-            "eyes (0)",
-            "face (0)",
-            "fragrance (0)",
-            "hair-care (0)",
-            "lips (0)",
-            "lotions-oils (0)",
-            "makeup (0)",
-            "masks-exfoliants (0)",
-            "moisturisers (0)",
-            "perfume (0)",
-            "scrubs (0)",
-            "serums-treatments (18)",
-            "shampoo-conditioner (0)",
-            "skincare (46)",
-            "sponges (0)",
-            "styling (0)",
-            "sun-care (0)",
-            "toners (11)",
-            "treatments (0)",
-            "uncategorized (0)",
-            "wash (0)"
-        ],
-        "brands": [
-            "Anua",
-            "APRILSKIN",
-            "AXIS-Y",
-            "Celimax",
-            "COSRX",
-            "Dr. Althea",
-            "Eqqualberry",
-            "Isntree",
-            "JUMISO",
-            "K-SECRET",
-            "Medicube",
-            "Nineless",
-            "numbuzin",
-            "PanOxyl",
-            "SKIN1004",
-            "SOME BY MI"
-        ]
+        "thumbnail_cropping": "uncropped",
+        "thumbnail_image_width": "600"
     },
+    "site_public": "1",
     "fonts": {
         "self_hosted": [
             "instrument-sans-italic-latin-ext.woff2",
@@ -65,15 +19,7 @@
             "instrument-serif-italic-latin.woff2",
             "instrument-serif-latin-ext.woff2",
             "instrument-serif-latin.woff2"
-        ],
-        "google_fonts_disabled": true
-    },
-    "astra_layout": {
-        "single-post-ast-content-layout": "full-width-container",
-        "single-post-content-style": "unboxed",
-        "single-post-sidebar-layout": "no-sidebar",
-        "archive-post-ast-content-layout": "full-width-container",
-        "ast-site-content-layout": "full-width-container"
+        ]
     },
     "elementor_conditions": {
         "archive": {
