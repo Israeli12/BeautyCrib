@@ -217,7 +217,7 @@
       "Carrot (carotene) extract",
       "IPMP"
     ],
-    "match": "APRILSKIN Carrotene",
+    "match": "Carrotene IPME Hydromelt",
     "featured": true,
     "featuredLarge": false,
     "bestSeller": false,
@@ -1031,7 +1031,7 @@
       "Hyaluronic acid",
       "Panthenol"
     ],
-    "match": "Bakuchiol Plumping",
+    "match": "Bakuchiol Plumping Toner",
     "featured": false,
     "featuredLarge": false,
     "bestSeller": false,
@@ -1078,7 +1078,7 @@
       "Niacinamide",
       "Berry extracts"
     ],
-    "match": "Vitamin illuminating",
+    "match": "Vitamin illuminating Toner",
     "featured": false,
     "featuredLarge": false,
     "bestSeller": false,
@@ -1753,7 +1753,7 @@
       "Tranexamic acid",
       "15% niacinamide"
     ],
-    "match": "Medicube TXA niacinamide",
+    "match": "TXA niacinamide 15",
     "featured": false,
     "featuredLarge": false,
     "bestSeller": false,
@@ -1849,7 +1849,7 @@
       "Turmeric extract",
       "Niacinamide"
     ],
-    "match": "Medicube kojic acid",
+    "match": "kojic acid turmeric niacinamide",
     "featured": false,
     "featuredLarge": false,
     "bestSeller": false,
@@ -1870,6 +1870,9 @@
       "Build up to twice daily as skin allows.",
       "Follow with moisturiser.",
       "Wear sunscreen daily."
+    ],
+    "matchFiles": [
+      "Medicube kojic acid.jpg"
     ]
   },
   {
@@ -2206,6 +2209,832 @@
       "Apply to clean skin, morning for best effect.",
       "Follow with moisturiser and sunscreen.",
       "Start every other day if your skin is sensitive."
+    ]
+  },
+  {
+    "slug": "aplb-glutathione-niacinamide-face-cream",
+    "sku": "BC-APB-001",
+    "name": "Glutathione Niacinamide Face Cream",
+    "brand": "APLB",
+    "brandSlug": "aplb",
+    "price": 75000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "moisturisers",
+    "format": "Cream",
+    "skinTypes": [
+      "All",
+      "Normal",
+      "Combination"
+    ],
+    "concerns": [
+      "Dullness & uneven tone"
+    ],
+    "keyIngredients": [
+      "Glutathione",
+      "Niacinamide"
+    ],
+    "match": "APLB Glutathione",
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "A brightening moisturiser that fades dark spots while it hydrates.",
+    "description": [
+      "Most brightening happens at the serum step and then stops. Putting glutathione and niacinamide in the moisturiser keeps the work going through the hours your skin spends recovering.",
+      "Light enough for daily use under sunscreen, and a sensible way to add brightening without adding another step to a routine."
+    ],
+    "benefits": [
+      "Fades dark spots over consistent use",
+      "Evens out patchy, uneven tone",
+      "Improves overall clarity and glow",
+      "Hydrates without heaviness"
+    ],
+    "howToUse": [
+      "Apply as the last step of your routine, morning and evening.",
+      "Warm a small amount between your fingers and press in.",
+      "Follow with sunscreen in the morning.",
+      "Use daily for best results."
+    ]
+  },
+  {
+    "slug": "anua-3-ceramide-panthenol-moisture-barrier-cream",
+    "sku": "BC-ANU-007",
+    "name": "3 Ceramide Panthenol Moisture Barrier Cream",
+    "brand": "Anua",
+    "brandSlug": "anua",
+    "price": 100000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "moisturisers",
+    "format": "Cream",
+    "skinTypes": [
+      "Dry",
+      "Sensitive",
+      "All"
+    ],
+    "concerns": [
+      "Dryness",
+      "Sensitivity"
+    ],
+    "keyIngredients": [
+      "3 types of ceramide",
+      "Panthenol",
+      "Hyaluronic acid"
+    ],
+    "match": "Anua 3 Ceramide",
+    "featured": true,
+    "featuredLarge": false,
+    "bestSeller": true,
+    "stock": "in-stock",
+    "excerpt": "Three ceramides and panthenol for a barrier that has stopped holding water.",
+    "description": [
+      "Ceramides are what the skin's own barrier is built from, so replacing them is the most direct way to fix skin that stings, flakes or drinks moisturiser and stays dry an hour later.",
+      "Non-comedogenic, so it suits skin that needs the richness without the breakouts that usually follow a heavy cream."
+    ],
+    "benefits": [
+      "Repairs a worn-down moisture barrier",
+      "Holds hydration through the day",
+      "Calms tightness and the look of redness",
+      "Non-comedogenic, so pores stay clear"
+    ],
+    "howToUse": [
+      "Apply to clean, slightly damp skin as the last step.",
+      "Use morning and evening.",
+      "Press a second layer onto dry patches.",
+      "Follow with sunscreen in the morning."
+    ]
+  },
+  {
+    "slug": "aprilskin-carrotene-ipmp-clearing-solution",
+    "sku": "BC-APR-002",
+    "name": "Carrotene IPMP Clearing Solution",
+    "brand": "APRILSKIN",
+    "brandSlug": "aprilskin",
+    "price": 70000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "moisturisers",
+    "format": "Spot treatment",
+    "skinTypes": [
+      "Acne-prone",
+      "Oily",
+      "Combination"
+    ],
+    "concerns": [
+      "Acne & breakouts"
+    ],
+    "keyIngredients": [
+      "IPMP",
+      "Carrot seed extract",
+      "Niacinamide"
+    ],
+    "match": "carrotene IPMP Clearing",
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "A targeted treatment that dries out an active spot overnight.",
+    "description": [
+      "IPMP is an antibacterial used in Korean acne treatments because it works on the bacteria inside a spot without stripping the skin around it.",
+      "This is the one to keep for the breakout that arrives the week it is least welcome. Dab it on at night and the spot is flatter by morning."
+    ],
+    "benefits": [
+      "Dries out active blemishes quickly",
+      "Clears congestion before it becomes a spot",
+      "Targets only where you apply it",
+      "Does not strip the surrounding skin"
+    ],
+    "howToUse": [
+      "Apply to clean skin, directly on the blemish.",
+      "Use in the evening, after serum and before moisturiser.",
+      "Leave on overnight.",
+      "Do not use over a large area."
+    ],
+    "caution": "A targeted treatment, not an all-over product. Apply only to the blemish itself."
+  },
+  {
+    "slug": "cosrx-advanced-92-all-in-one-cream",
+    "sku": "BC-CSX-006",
+    "name": "Advanced Snail 92 All In One Cream",
+    "brand": "COSRX",
+    "brandSlug": "cosrx",
+    "price": 75000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "moisturisers",
+    "format": "Cream",
+    "skinTypes": [
+      "All",
+      "Dry",
+      "Sensitive"
+    ],
+    "concerns": [
+      "Dryness",
+      "Sensitivity",
+      "Dullness & uneven tone"
+    ],
+    "keyIngredients": [
+      "92% snail secretion filtrate",
+      "Hyaluronic acid"
+    ],
+    "match": "COSRX Advanced 92",
+    "featured": true,
+    "featuredLarge": false,
+    "bestSeller": true,
+    "stock": "in-stock",
+    "excerpt": "The cream half of the snail routine: hydrates, soothes and repairs in one step.",
+    "description": [
+      "Ninety-two per cent snail secretion filtrate in a cream base. It does the same repair work as the essence, with the occlusion a moisturiser gives, so the hydration stays put overnight.",
+      "The simplest possible routine is the Snail 96 essence followed by this. Between them they cover hydration, barrier repair and the marks left by old breakouts."
+    ],
+    "benefits": [
+      "Deeply hydrates without a greasy finish",
+      "Soothes irritated, reactive skin",
+      "Repairs the moisture barrier",
+      "Softens the look of post-breakout marks"
+    ],
+    "howToUse": [
+      "Apply to clean skin after serum, morning and evening.",
+      "Press in rather than rubbing.",
+      "Use a thicker layer at night if skin is dry.",
+      "Follow with sunscreen in the morning."
+    ]
+  },
+  {
+    "slug": "cosrx-hyaluronic-acid-intensive-cream",
+    "sku": "BC-CSX-007",
+    "name": "Hyaluronic Acid Intensive Cream",
+    "brand": "COSRX",
+    "brandSlug": "cosrx",
+    "price": 75000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "moisturisers",
+    "format": "Cream",
+    "skinTypes": [
+      "Dry",
+      "Normal",
+      "All"
+    ],
+    "concerns": [
+      "Dryness",
+      "Texture"
+    ],
+    "keyIngredients": [
+      "Hyaluronic acid",
+      "Sodium hyaluronate",
+      "Panthenol"
+    ],
+    "match": "COSRX Hyaluronic acid intensive",
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "For skin that is genuinely dry, not just dehydrated: plumps and seals moisture in.",
+    "description": [
+      "Hyaluronic acid draws water into the skin, and a cream base keeps it from evaporating straight back out. That combination is what dry skin actually needs, and what a watery serum alone cannot do.",
+      "Fine lines look softer within days, because much of what reads as a fine line is simply skin that is short of water."
+    ],
+    "benefits": [
+      "Relieves dry, dehydrated skin",
+      "Plumps the look of fine lines",
+      "Locks moisture in overnight",
+      "Comfortable under makeup"
+    ],
+    "howToUse": [
+      "Apply to clean, slightly damp skin.",
+      "Use morning and evening as the last step.",
+      "Add a second layer on dry areas at night.",
+      "Follow with sunscreen in the morning."
+    ]
+  },
+  {
+    "slug": "skin1004-centella-poremizing-light-gel-cream",
+    "sku": "BC-SK1-009",
+    "name": "Madagascar Centella Poremizing Light Gel Cream",
+    "brand": "SKIN1004",
+    "brandSlug": "skin1004",
+    "price": 80000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "moisturisers",
+    "format": "Gel cream",
+    "skinTypes": [
+      "Oily",
+      "Combination",
+      "Acne-prone"
+    ],
+    "concerns": [
+      "Pores & blackheads",
+      "Oil control",
+      "Sensitivity"
+    ],
+    "keyIngredients": [
+      "Centella asiatica extract",
+      "Niacinamide",
+      "Zinc"
+    ],
+    "match": "poremisinglight",
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "A gel cream for oily skin in humidity: hydrates without adding shine.",
+    "description": [
+      "Oily skin still needs moisture; what it does not need is a heavy cream sitting on top of it in Kampala's humidity. A gel texture solves that, absorbing in seconds and leaving nothing behind.",
+      "Centella calms while niacinamide and zinc work on oil and the look of enlarged pores."
+    ],
+    "benefits": [
+      "Controls excess oil through the day",
+      "Refines the appearance of enlarged pores",
+      "Soothes the look of redness",
+      "Hydrates with a weightless finish"
+    ],
+    "howToUse": [
+      "Apply to clean skin morning and evening.",
+      "Use over serum, under sunscreen.",
+      "A thin layer is enough.",
+      "Suits daily use in hot weather."
+    ]
+  },
+  {
+    "slug": "skin1004-centella-tone-brightening-capsule-cream",
+    "sku": "BC-SK1-010",
+    "name": "Madagascar Centella Tone Brightening Capsule Cream",
+    "brand": "SKIN1004",
+    "brandSlug": "skin1004",
+    "price": 80000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "moisturisers",
+    "format": "Cream",
+    "skinTypes": [
+      "Sensitive",
+      "All",
+      "Combination"
+    ],
+    "concerns": [
+      "Dullness & uneven tone",
+      "Sensitivity"
+    ],
+    "keyIngredients": [
+      "Centella asiatica extract",
+      "Vitamin C capsules",
+      "Niacinamide"
+    ],
+    "match": "Centella tpne brightening",
+    "matchFiles": [
+      "n.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Vitamin C capsules in a centella base: brightening that does not sting.",
+    "description": [
+      "The capsules hold vitamin C stable until the moment you press the cream into your skin, which is how a brightening cream avoids the irritation plain ascorbic acid usually brings.",
+      "The cream version of the capsule ampoule, and the easier of the two to live with if your skin is reactive."
+    ],
+    "benefits": [
+      "Brightens uneven, patchy tone",
+      "Soothes irritation while it works",
+      "Gentler than a traditional vitamin C",
+      "Hydrates as the last step of a routine"
+    ],
+    "howToUse": [
+      "Apply to clean skin as the last step.",
+      "Press in so the capsules break and spread.",
+      "Use morning and evening.",
+      "Wear sunscreen daily."
+    ]
+  },
+  {
+    "slug": "dr-althea-147-barrier-cream",
+    "sku": "BC-DRA-002",
+    "name": "147 Barrier Cream",
+    "brand": "Dr. Althea",
+    "brandSlug": "dr-althea",
+    "price": 90000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "moisturisers",
+    "format": "Cream",
+    "skinTypes": [
+      "Dry",
+      "Sensitive",
+      "All"
+    ],
+    "concerns": [
+      "Dryness",
+      "Sensitivity"
+    ],
+    "keyIngredients": [
+      "Ceramides",
+      "Panthenol",
+      "Madecassoside"
+    ],
+    "match": "Dr althea 147",
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Repair for skin that has been pushed too far by actives, sun or weather.",
+    "description": [
+      "A barrier cream is what you reach for when skin has stopped behaving: stinging at the toner step, flaking in patches, red across the cheeks. It rebuilds rather than treats.",
+      "Rich without being heavy, which matters when the skin that needs it most is often also reacting to everything else."
+    ],
+    "benefits": [
+      "Repairs visibly damaged, over-treated skin",
+      "Soothes irritation and stinging",
+      "Deeply hydrates through the night",
+      "Safe to use while skin recovers"
+    ],
+    "howToUse": [
+      "Apply to clean skin morning and evening.",
+      "Use a generous layer at night while skin recovers.",
+      "Pause strong actives until the stinging stops.",
+      "Follow with sunscreen in the morning."
+    ]
+  },
+  {
+    "slug": "dr-althea-345-relief-cream",
+    "sku": "BC-DRA-003",
+    "name": "345 Relief Cream",
+    "brand": "Dr. Althea",
+    "brandSlug": "dr-althea",
+    "price": 90000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "moisturisers",
+    "format": "Cream",
+    "skinTypes": [
+      "Sensitive",
+      "Acne-prone",
+      "All"
+    ],
+    "concerns": [
+      "Sensitivity",
+      "Acne & breakouts",
+      "Dullness & uneven tone"
+    ],
+    "keyIngredients": [
+      "Panthenol",
+      "Centella asiatica",
+      "Ceramides"
+    ],
+    "match": "345 relief cream 90,000",
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Calms sensitive, breakout-prone skin and fades the marks spots leave behind.",
+    "description": [
+      "Acne-prone skin is usually treated as oily and nothing else, which is how it ends up stripped and inflamed. This cream takes the opposite approach: calm the skin, repair the barrier, and the breakouts settle with it.",
+      "The cream companion to the 345 Relief mist, and the one to use at night when skin needs more than a spray."
+    ],
+    "benefits": [
+      "Soothes sensitive, reactive skin",
+      "Suits skin that is actively breaking out",
+      "Repairs the moisture barrier",
+      "Fades post-acne marks over time"
+    ],
+    "howToUse": [
+      "Apply to clean skin morning and evening.",
+      "Use after serum, as the last step.",
+      "Press in gently over breakout-prone areas.",
+      "Follow with sunscreen in the morning."
+    ]
+  },
+  {
+    "slug": "eqqualberry-bakuchiol-plumping-capsule-cream",
+    "sku": "BC-EQB-003",
+    "name": "Bakuchiol Plumping Capsule Cream",
+    "brand": "Eqqualberry",
+    "brandSlug": "eqqualberry",
+    "price": 100000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "moisturisers",
+    "format": "Cream",
+    "skinTypes": [
+      "Sensitive",
+      "Normal",
+      "Dry"
+    ],
+    "concerns": [
+      "Texture",
+      "Dryness",
+      "Pores & blackheads"
+    ],
+    "keyIngredients": [
+      "Bakuchiol",
+      "Peptides",
+      "Hyaluronic acid"
+    ],
+    "match": "Bakuchiol plumping capsule",
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Bakuchiol in a cream: firmer, smoother skin without retinol's peeling.",
+    "description": [
+      "Bakuchiol does retinol's work on firmness and fine lines without the fortnight of flaking, which is why it suits sensitive skin and anyone who has given up on retinol once already.",
+      "Pairs with the Bakuchiol toner for a routine that works on texture from the first step to the last."
+    ],
+    "benefits": [
+      "Smooths the look of fine lines",
+      "Improves firmness over consistent use",
+      "Tightens the appearance of open pores",
+      "Deeply hydrates without heaviness"
+    ],
+    "howToUse": [
+      "Apply to clean skin as the last step, morning and evening.",
+      "Press in so the capsules break.",
+      "Introduce gradually if your skin is reactive.",
+      "Wear sunscreen daily."
+    ]
+  },
+  {
+    "slug": "eqqualberry-vitamin-illuminating-cream",
+    "sku": "BC-EQB-004",
+    "name": "Vitamin Illuminating Cream",
+    "brand": "Eqqualberry",
+    "brandSlug": "eqqualberry",
+    "price": 100000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "moisturisers",
+    "format": "Cream",
+    "skinTypes": [
+      "All",
+      "Normal",
+      "Combination"
+    ],
+    "concerns": [
+      "Dullness & uneven tone",
+      "Dryness"
+    ],
+    "keyIngredients": [
+      "Vitamin C derivative",
+      "Niacinamide",
+      "Ceramides"
+    ],
+    "match": "Vitamin illuminating cream",
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Brightening and barrier repair in the same step, for dark spots and dull skin.",
+    "description": [
+      "Vitamin brightening usually comes at the cost of a stressed barrier. Putting the actives in a ceramide-rich cream means tone improves while the skin gets stronger rather than thinner.",
+      "The cream to follow the Vitamin Illuminating toner, or to use on its own if you want brightening in one step."
+    ],
+    "benefits": [
+      "Brightens dark spots and uneven tone",
+      "Strengthens the moisture barrier",
+      "Hydrates through the day",
+      "Leaves a healthy, lit-from-within finish"
+    ],
+    "howToUse": [
+      "Apply to clean skin morning and evening.",
+      "Use as the last step before sunscreen.",
+      "Press in gently over marked areas.",
+      "Daily sunscreen protects the results."
+    ]
+  },
+  {
+    "slug": "haruharu-wonder-black-rice-ceramide-barrier-cream",
+    "sku": "BC-HHW-001",
+    "name": "Black Rice 5 Ceramide Barrier Moisturising Cream",
+    "brand": "Haruharu Wonder",
+    "brandSlug": "haruharu-wonder",
+    "price": 90000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "moisturisers",
+    "format": "Cream",
+    "skinTypes": [
+      "Dry",
+      "Sensitive",
+      "All"
+    ],
+    "concerns": [
+      "Dryness",
+      "Sensitivity"
+    ],
+    "keyIngredients": [
+      "Black rice extract",
+      "5 types of ceramide",
+      "Panthenol"
+    ],
+    "match": "Haruharu wonder Black rice",
+    "featured": true,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Five ceramides and fermented black rice, for skin that loses water overnight.",
+    "description": [
+      "Haruharu Wonder builds around fermented black rice rather than water, so even the base of the formula is doing something. Five ceramides sit on top of that to rebuild the barrier.",
+      "A straightforward, well-made moisturiser for anyone whose skin feels tight by morning no matter what they applied the night before."
+    ],
+    "benefits": [
+      "Locks hydration in overnight",
+      "Strengthens the skin barrier with ceramides",
+      "Calms dryness-related sensitivity",
+      "Absorbs without a heavy film"
+    ],
+    "howToUse": [
+      "Apply to clean, slightly damp skin.",
+      "Use morning and evening as the last step.",
+      "Press in a thicker layer at night.",
+      "Follow with sunscreen in the morning."
+    ]
+  },
+  {
+    "slug": "medicube-kojic-acid-turmeric-vita-capsule-cream",
+    "sku": "BC-MDC-012",
+    "name": "Kojic Acid Turmeric Vita Capsule Cream",
+    "brand": "Medicube",
+    "brandSlug": "medicube",
+    "price": 100000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "moisturisers",
+    "format": "Cream",
+    "skinTypes": [
+      "All",
+      "Combination",
+      "Normal"
+    ],
+    "concerns": [
+      "Dullness & uneven tone",
+      "Acne & breakouts"
+    ],
+    "keyIngredients": [
+      "Kojic acid",
+      "Turmeric extract",
+      "Vitamin C"
+    ],
+    "match": "Kojic Acid turmeric vita",
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Kojic acid and turmeric for stubborn dark spots and acne marks that outstay the acne.",
+    "description": [
+      "Post-blemish marks can sit for months on deeper skin tones, long after the breakout has gone. Kojic acid works directly on the pigment that makes them, and turmeric brightens alongside it.",
+      "The cream to use after the kojic acid serum, or on its own if you would rather keep a routine to three steps."
+    ],
+    "benefits": [
+      "Reduces stubborn dark spots",
+      "Fades acne marks over time",
+      "Lifts overall dullness",
+      "Hydrates as the last step"
+    ],
+    "howToUse": [
+      "Apply to clean skin in the evening to begin.",
+      "Build to twice daily as your skin allows.",
+      "Press in so the capsules break.",
+      "Wear sunscreen daily."
+    ]
+  },
+  {
+    "slug": "medicube-txa-niacinamide-capsule-cream",
+    "sku": "BC-MDC-013",
+    "name": "TXA Niacinamide Capsule Cream",
+    "brand": "Medicube",
+    "brandSlug": "medicube",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "moisturisers",
+    "format": "Cream",
+    "skinTypes": [
+      "All",
+      "Combination",
+      "Normal"
+    ],
+    "concerns": [
+      "Dullness & uneven tone",
+      "Dryness"
+    ],
+    "keyIngredients": [
+      "Tranexamic acid",
+      "Niacinamide",
+      "Hyaluronic acid"
+    ],
+    "match": "Niacinamide capsule cream",
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Tranexamic acid and niacinamide in a cream, for hyperpigmentation and deep hydration.",
+    "description": [
+      "Tranexamic acid is the ingredient that holds up against melasma and long-standing pigmentation, because it works on how pigment is signalled rather than bleaching what is already there.",
+      "In a cream base it keeps working through the night, while niacinamide evens tone and the base handles hydration."
+    ],
+    "benefits": [
+      "Fades dark spots and hyperpigmentation",
+      "Improves uneven skin tone",
+      "Delivers deep, lasting hydration",
+      "Works well alongside the TXA serum"
+    ],
+    "howToUse": [
+      "Apply to clean skin morning and evening.",
+      "Use as the last step, after serum.",
+      "Press in so the capsules break.",
+      "Daily sunscreen is essential with any pigmentation treatment."
+    ]
+  },
+  {
+    "slug": "nineless-a-control-azelaic-acid-cream",
+    "sku": "BC-NIN-005",
+    "name": "A-Control Azelaic Acid Cream",
+    "brand": "Nineless",
+    "brandSlug": "nineless",
+    "price": 75000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "moisturisers",
+    "format": "Cream",
+    "skinTypes": [
+      "Acne-prone",
+      "Sensitive",
+      "Combination"
+    ],
+    "concerns": [
+      "Acne & breakouts",
+      "Sensitivity",
+      "Texture"
+    ],
+    "keyIngredients": [
+      "Azelaic acid",
+      "Heartleaf extract",
+      "Panthenol"
+    ],
+    "match": "A control azelaic acid cream",
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Azelaic acid in a moisturiser: calms redness and breakouts in the step you already use.",
+    "description": [
+      "Azelaic acid treats the breakout and the redness around it at once, which is unusual among acne ingredients and the reason it suits skin that flushes as easily as it congests.",
+      "Putting it in the moisturiser means it stays on the skin all night, without adding another layer to a routine."
+    ],
+    "benefits": [
+      "Calms active breakouts",
+      "Reduces the look of redness",
+      "Refines rough, uneven texture",
+      "Hydrates while it treats"
+    ],
+    "howToUse": [
+      "Apply to clean skin in the evening to begin.",
+      "Build up to morning and evening.",
+      "Use as the last step before sunscreen.",
+      "Wear sunscreen daily."
+    ],
+    "caution": "Introduce slowly if your skin is reactive, and avoid layering with other strong acids on the same night."
+  },
+  {
+    "slug": "isntree-hyaluronic-acid-cream",
+    "sku": "BC-IST-002",
+    "name": "Hyaluronic Acid Cream",
+    "brand": "Isntree",
+    "brandSlug": "isntree",
+    "price": 85000,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "moisturisers",
+    "format": "Cream",
+    "skinTypes": [
+      "Dry",
+      "Sensitive",
+      "All"
+    ],
+    "concerns": [
+      "Dryness",
+      "Sensitivity"
+    ],
+    "keyIngredients": [
+      "Hyaluronic acid",
+      "Panthenol",
+      "Beta-glucan"
+    ],
+    "match": "isntree hyaluronic",
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Straightforward deep hydration, with enough soothing for skin that reacts.",
+    "description": [
+      "Isntree keeps its formulas short and its hyaluronic acid in several molecular weights, so water is held at more than one depth rather than sitting on the surface.",
+      "A safe, unfussy moisturiser: no fragrance drama, no actives to introduce slowly, nothing that needs a patch test."
+    ],
+    "benefits": [
+      "Deep, long-lasting hydration",
+      "Soothes irritation and tightness",
+      "Supports the skin barrier",
+      "Simple enough for reactive skin"
+    ],
+    "howToUse": [
+      "Apply to clean, slightly damp skin.",
+      "Use morning and evening as the last step.",
+      "Layer more generously at night.",
+      "Follow with sunscreen in the morning."
+    ]
+  },
+  {
+    "slug": "anua-heartleaf-70-daily-lotion",
+    "sku": "BC-ANU-008",
+    "name": "Heartleaf 70% Daily Lotion",
+    "brand": "Anua",
+    "brandSlug": "anua",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "moisturisers",
+    "format": "Lotion",
+    "skinTypes": [
+      "Sensitive",
+      "Combination",
+      "Oily"
+    ],
+    "concerns": [
+      "Sensitivity",
+      "Dryness",
+      "Oil control"
+    ],
+    "keyIngredients": [
+      "70% heartleaf extract",
+      "Hyaluronic acid",
+      "Panthenol"
+    ],
+    "match": "zzz-no-filename-match",
+    "matchFiles": [
+      "ine.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "A light daily lotion with 70% heartleaf, for skin that flushes easily.",
+    "description": [
+      "Heartleaf is the ingredient Anua built its name on, and at seventy per cent this lotion is mostly that: calming, light, and suited to skin that reddens at the slightest provocation.",
+      "A lotion rather than a cream, which makes it the right weight for combination skin and for hot afternoons when a cream feels like too much."
+    ],
+    "benefits": [
+      "Calms the look of redness and irritation",
+      "Hydrates without heaviness or shine",
+      "Suits sensitive and combination skin",
+      "Light enough for daily use in the heat"
+    ],
+    "howToUse": [
+      "Apply to clean skin morning and evening.",
+      "Use after toner and serum.",
+      "A thin layer is enough.",
+      "Follow with sunscreen in the morning."
     ]
   }
 ]

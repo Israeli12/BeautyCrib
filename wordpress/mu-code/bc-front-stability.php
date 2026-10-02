@@ -46,7 +46,19 @@ add_action('wp_enqueue_scripts', function () {
  * [woof] shortcode on a page and its assets come back automatically.
  */
 function bc_page_uses_product_filter() {
+    // Decided once, on the first call, while the main query is still intact.
+    // Elementor's product widgets run their own queries, so by the time scripts
+    // are printed in the footer is_shop() no longer answers truthfully.
+    static $cached = null;
+    if ($cached !== null) { return $cached; }
+    $cached = bc_detect_product_filter();
+    return $cached;
+}
+
+function bc_detect_product_filter() {
     if (is_admin()) { return true; }
+    // the shop and category archives carry the filter in their Elementor template
+    if (function_exists('is_shop') && (is_shop() || is_product_taxonomy())) { return true; }
     $post = get_post();
     if ($post && (has_shortcode((string) $post->post_content, 'woof') || has_shortcode((string) $post->post_content, 'woof_products'))) { return true; }
     foreach ((array) get_option('sidebars_widgets', []) as $area => $widgets) {

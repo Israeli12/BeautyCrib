@@ -27,9 +27,15 @@ const MANIFEST = {};
 
 /* Source filename fragment -> product slug, taken from src/data/products.json
    so a new product only has to be added in one place. */
-const PRODUCT_MATCHES = require('../src/data/products.json')
-  .filter((p) => p.match)
-  .map((p) => [p.match.toLowerCase(), p.slug]);
+const PRODUCT_DATA = require('../src/data/products.json');
+const PRODUCT_MATCHES = PRODUCT_DATA.filter((p) => p.match).map((p) => [p.match.toLowerCase(), p.slug]);
+/* Some source files arrived with truncated names ("n.jpg"). Those are listed per
+   product in "matchFiles" and matched on the whole filename, because a fragment
+   that short also appears inside other names. */
+const PRODUCT_FILES = {};
+for (const p of PRODUCT_DATA) {
+  for (const file of p.matchFiles || []) PRODUCT_FILES[file.toLowerCase()] = p.slug;
+}
 
 /**
  * Editorial usage map.
@@ -169,7 +175,8 @@ async function buildProducts() {
 
   for (const file of files) {
     const lower = path.basename(file).toLowerCase();
-    const hit = PRODUCT_MATCHES.find(([fragment]) => lower.includes(fragment));
+    const exact = PRODUCT_FILES[lower];
+    const hit = exact ? [null, exact] : PRODUCT_MATCHES.find(([fragment]) => lower.includes(fragment));
     if (!hit) {
       console.warn('  ! no slug match:', file);
       continue;

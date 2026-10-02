@@ -1,4 +1,166 @@
 {
+  "products/anua-3-ceramide-panthenol-moisture-barrier-cream-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/aplb-glutathione-niacinamide-face-cream-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/aprilskin-carrotene-ipmp-clearing-solution-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/skin1004-centella-poremizing-light-gel-cream-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/skin1004-centella-tone-brightening-capsule-cream-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/skin1004-centella-tone-brightening-capsule-cream-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/cosrx-advanced-92-all-in-one-cream-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/cosrx-hyaluronic-acid-intensive-cream-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/dr-althea-147-barrier-cream-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/dr-althea-345-relief-cream-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/eqqualberry-bakuchiol-plumping-capsule-cream-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/eqqualberry-vitamin-illuminating-cream-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/haruharu-wonder-black-rice-ceramide-barrier-cream-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/anua-heartleaf-70-daily-lotion-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/isntree-hyaluronic-acid-cream-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/medicube-kojic-acid-turmeric-vita-capsule-cream-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2498
+  },
+  "products/medicube-txa-niacinamide-capsule-cream-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/nineless-a-control-azelaic-acid-cream-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
   "products/axis-y-dark-spot-correcting-glow-serum-1": {
     "widths": [
       400,

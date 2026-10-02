@@ -81,3 +81,33 @@ html, body {
 /* The catalogue sort dropdown had padding taller than its fixed height, so it
    cut its own text in half. */
 .woocommerce .woocommerce-ordering select.orderby,.woocommerce-page .woocommerce-ordering select.orderby{height:auto!important;min-height:48px;line-height:1.4!important;padding:12px 38px 12px 16px!important;background-position:right 14px center}
+
+/* Shop filter panel (HUSKY), dressed to match the rest of the site. */
+.woof{font-family:var(--e-global-typography-text-font-family),sans-serif}
+.woof .woof_container{margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid var(--e-global-color-bcline)}
+.woof .woof_container:last-child{border-bottom:0}
+.woof h4{margin:0 0 14px!important;font-family:var(--e-global-typography-accent-font-family),sans-serif;font-size:11px;font-weight:500;letter-spacing:1.6px;text-transform:uppercase;color:var(--e-global-color-bcmid)}
+.woof .woof_list li,.woof .woof_list_checkbox li{margin:0 0 9px;padding:0;list-style:none}
+.woof .woof_list label{font-family:var(--e-global-typography-bcuil-font-family),sans-serif;font-size:15px;line-height:1.4;color:var(--e-global-color-secondary);cursor:pointer}
+.woof .woof_list input[type=checkbox]{appearance:none;-webkit-appearance:none;width:16px;height:16px;margin:0 10px 0 0;border:1px solid var(--e-global-color-bcline);border-radius:0;vertical-align:-3px;cursor:pointer;background:#fff;transition:background-color .15s ease,border-color .15s ease}
+.woof .woof_list input[type=checkbox]:checked{background:var(--e-global-color-primary);border-color:var(--e-global-color-primary)}
+.woof .woof_list input[type=checkbox]:focus-visible{outline:2px solid var(--e-global-color-primary);outline-offset:2px}
+.woof .woof_checkbox_label_selected,.woof .woof_list label:hover{color:var(--e-global-color-primary)}
+.woof .woof_price_search_container .price_slider_amount button.button,.woof .woof_reset_search_form,.woof button{background:var(--e-global-color-primary)!important;color:#fff!important;border:1px solid var(--e-global-color-primary)!important;border-radius:0!important;font-family:var(--e-global-typography-bcbtn-font-family),sans-serif;font-size:12px;letter-spacing:1px;text-transform:uppercase;padding:12px 20px!important}
+.woof .ui-slider .ui-slider-range,.woof .ui-slider-horizontal{background:var(--e-global-color-primary)}
+.woof .ui-slider .ui-slider-handle{background:var(--e-global-color-primary);border:0;border-radius:0}
+.woof .woof_price_search_container input[type=text]{border:1px solid var(--e-global-color-bcline);border-radius:0;padding:10px 12px;font-size:14px}
+/* long option lists stay usable, especially on a phone */
+.woof .woof_list{max-height:260px;overflow-y:auto;padding-right:4px;margin:0}
+@media (max-width:1024px){.woof .woof_list{max-height:190px}}
+
+/* The shop filter opens as a panel on desktop and folds behind a tap on a phone. */
+.bc-filter{border:0}
+.bc-filter__summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;padding:15px 18px;margin:0 0 20px;border:1px solid var(--e-global-color-primary);background:#fff;font-family:var(--e-global-typography-bcbtn-font-family),sans-serif;font-size:12px;font-weight:500;letter-spacing:1px;text-transform:uppercase;color:var(--e-global-color-primary)}
+.bc-filter__summary::-webkit-details-marker{display:none}
+.bc-filter__summary::after{content:'+';font-size:16px;line-height:1}
+.bc-filter[open] .bc-filter__summary::after{content:'\2212'}
+@media (min-width:1025px){
+  .bc-filter > .bc-filter__summary{display:none}
+  .bc-filter:not([open]) > .bc-filter__body{display:block}
+}

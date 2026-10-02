@@ -20,6 +20,8 @@ file is loaded on each request.
 | `bc-journal.php` | Journal helpers: reading time per post, the products an article recommends, and the `bc_post_products` query that fills "Shop the story". |
 | `bc-fonts.php` | Serves Instrument Serif and Instrument Sans from this server and preloads them, instead of fetching every weight from Google on each visit. |
 | `bc-front-stability.php` | Stops the page reflowing after it has painted: loads the header's widget styles in `<head>`, and leaves out the product filter's assets on pages that do not use it. |
+| `bc-product-shipping-tab.php` | Adds the Shipping and returns tab to a product page, and drops the duplicate Additional information tab now that skin type, concern and format sit in the summary. |
+| `bc-shop-filter.php` | The shop filter: shorter group headings than WooCommerce's taxonomy labels, the assets HUSKY declines to load because the filter lives in a template, and the `[bc_shop_filter]` wrapper that folds the panel behind a tap on a phone. |
 
 ## elementor/
 

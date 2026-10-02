@@ -396,7 +396,7 @@
             ]
         },
         {
-            "id": "7b08ec9",
+            "id": "617fde3",
             "elType": "container",
             "isInner": false,
             "settings": {
@@ -412,7 +412,9 @@
                     "size": 1440,
                     "sizes": []
                 },
-                "flex_direction": "column",
+                "flex_direction": "row",
+                "flex_wrap": "wrap",
+                "flex_align_items": "flex-start",
                 "padding": {
                     "unit": "px",
                     "top": "0",
@@ -429,20 +431,137 @@
                     "left": "20",
                     "isLinked": false
                 },
-                "_element_id": "bc-shop-grid"
+                "_element_id": "bc-shop-filters"
             },
             "elements": [
                 {
-                    "id": "7e6f948",
-                    "elType": "widget",
-                    "widgetType": "wc-archive-products",
+                    "id": "9e35722",
+                    "elType": "container",
                     "isInner": false,
                     "settings": {
-                        "allow_order": "yes",
-                        "show_result_count": "yes",
-                        "paginate": "yes"
+                        "flex_gap": {
+                            "unit": "px",
+                            "size": 0,
+                            "column": "0",
+                            "row": "0"
+                        },
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": 25,
+                            "sizes": []
+                        },
+                        "width_tablet": {
+                            "unit": "%",
+                            "size": 100,
+                            "sizes": []
+                        },
+                        "width_mobile": {
+                            "unit": "%",
+                            "size": 100,
+                            "sizes": []
+                        },
+                        "flex_direction": "column",
+                        "html_tag": "aside",
+                        "padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "40",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "padding_tablet": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "36",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "_element_id": "bc-shop-filter"
                     },
-                    "elements": []
+                    "elements": [
+                        {
+                            "id": "2465013",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "isInner": false,
+                            "settings": {
+                                "title": "Filter",
+                                "header_size": "p",
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "18",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "__globals__": {
+                                    "title_color": "globals/colors?id=bcmid",
+                                    "typography_typography": "globals/typography?id=accent"
+                                },
+                                "hide_mobile": "hidden-mobile",
+                                "hide_tablet": "hidden-tablet"
+                            },
+                            "elements": []
+                        },
+                        {
+                            "id": "6363e7c",
+                            "elType": "widget",
+                            "widgetType": "shortcode",
+                            "isInner": false,
+                            "settings": {
+                                "shortcode": "[bc_shop_filter]"
+                            },
+                            "elements": []
+                        }
+                    ]
+                },
+                {
+                    "id": "141fcda",
+                    "elType": "container",
+                    "isInner": false,
+                    "settings": {
+                        "flex_gap": {
+                            "unit": "px",
+                            "size": 0,
+                            "column": "0",
+                            "row": "0"
+                        },
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": 75,
+                            "sizes": []
+                        },
+                        "width_tablet": {
+                            "unit": "%",
+                            "size": 100,
+                            "sizes": []
+                        },
+                        "width_mobile": {
+                            "unit": "%",
+                            "size": 100,
+                            "sizes": []
+                        },
+                        "flex_direction": "column"
+                    },
+                    "elements": [
+                        {
+                            "id": "7e6f948",
+                            "elType": "widget",
+                            "widgetType": "wc-archive-products",
+                            "isInner": false,
+                            "settings": {
+                                "allow_order": "yes",
+                                "show_result_count": "yes",
+                                "paginate": "yes"
+                            },
+                            "elements": []
+                        }
+                    ]
                 }
             ]
         },

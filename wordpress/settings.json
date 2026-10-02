@@ -1,13 +1,54 @@
 {
     "woocommerce": {
-        "published_products": 46,
-        "products_per_page": 24,
-        "enabled_gateways": [
-            "bacs",
-            "cod"
-        ]
+        "published_products": 61,
+        "drafts": 2,
+        "categories_in_use": [
+            "cleansers (17)",
+            "moisturisers (15)",
+            "serums-treatments (18)",
+            "skincare (61)",
+            "toners (11)"
+        ],
+        "brands": [
+            "Anua",
+            "APLB",
+            "APRILSKIN",
+            "AXIS-Y",
+            "Celimax",
+            "COSRX",
+            "Dr. Althea",
+            "Eqqualberry",
+            "Haruharu Wonder",
+            "Isntree",
+            "JUMISO",
+            "K-SECRET",
+            "Medicube",
+            "Nineless",
+            "numbuzin",
+            "PanOxyl",
+            "SKIN1004",
+            "SOME BY MI"
+        ],
+        "products_per_page": 24
     },
-    "site_public": "1",
+    "shop_filter": {
+        "taxonomies": [
+            "product_brand",
+            "pa_skin-type",
+            "pa_concern",
+            "pa_format"
+        ],
+        "type": {
+            "product_brand": "checkbox",
+            "pa_skin-type": "checkbox",
+            "pa_concern": "checkbox",
+            "pa_format": "checkbox"
+        },
+        "price_slider": {
+            "show": 1
+        },
+        "icheck_skin": "none"
+    },
     "elementor_conditions": {
         "archive": {
             "298": [
