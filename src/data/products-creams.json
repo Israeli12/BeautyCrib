@@ -10,9 +10,18 @@
     "category": "skincare",
     "subcategory": "moisturisers",
     "format": "Cream",
-    "skinTypes": ["All", "Normal", "Combination"],
-    "concerns": ["Dullness & uneven tone"],
-    "keyIngredients": ["Glutathione", "Niacinamide"],
+    "skinTypes": [
+      "All",
+      "Normal",
+      "Combination"
+    ],
+    "concerns": [
+      "Dullness & uneven tone"
+    ],
+    "keyIngredients": [
+      "Glutathione",
+      "Niacinamide"
+    ],
     "match": "APLB Glutathione",
     "featured": false,
     "featuredLarge": false,
@@ -47,9 +56,20 @@
     "category": "skincare",
     "subcategory": "moisturisers",
     "format": "Cream",
-    "skinTypes": ["Dry", "Sensitive", "All"],
-    "concerns": ["Dryness", "Sensitivity"],
-    "keyIngredients": ["3 types of ceramide", "Panthenol", "Hyaluronic acid"],
+    "skinTypes": [
+      "Dry",
+      "Sensitive",
+      "All"
+    ],
+    "concerns": [
+      "Dryness",
+      "Sensitivity"
+    ],
+    "keyIngredients": [
+      "3 types of ceramide",
+      "Panthenol",
+      "Hyaluronic acid"
+    ],
     "match": "Anua 3 Ceramide",
     "featured": true,
     "featuredLarge": false,
@@ -84,9 +104,19 @@
     "category": "skincare",
     "subcategory": "moisturisers",
     "format": "Spot treatment",
-    "skinTypes": ["Acne-prone", "Oily", "Combination"],
-    "concerns": ["Acne & breakouts"],
-    "keyIngredients": ["IPMP", "Carrot seed extract", "Niacinamide"],
+    "skinTypes": [
+      "Acne-prone",
+      "Oily",
+      "Combination"
+    ],
+    "concerns": [
+      "Acne & breakouts"
+    ],
+    "keyIngredients": [
+      "IPMP",
+      "Carrot seed extract",
+      "Niacinamide"
+    ],
     "match": "carrotene IPMP Clearing",
     "featured": false,
     "featuredLarge": false,
@@ -122,9 +152,20 @@
     "category": "skincare",
     "subcategory": "moisturisers",
     "format": "Cream",
-    "skinTypes": ["All", "Dry", "Sensitive"],
-    "concerns": ["Dryness", "Sensitivity", "Dullness & uneven tone"],
-    "keyIngredients": ["92% snail secretion filtrate", "Hyaluronic acid"],
+    "skinTypes": [
+      "All",
+      "Dry",
+      "Sensitive"
+    ],
+    "concerns": [
+      "Dryness",
+      "Sensitivity",
+      "Dullness & uneven tone"
+    ],
+    "keyIngredients": [
+      "92% snail secretion filtrate",
+      "Hyaluronic acid"
+    ],
     "match": "COSRX Advanced 92",
     "featured": true,
     "featuredLarge": false,
@@ -159,9 +200,20 @@
     "category": "skincare",
     "subcategory": "moisturisers",
     "format": "Cream",
-    "skinTypes": ["Dry", "Normal", "All"],
-    "concerns": ["Dryness", "Texture"],
-    "keyIngredients": ["Hyaluronic acid", "Sodium hyaluronate", "Panthenol"],
+    "skinTypes": [
+      "Dry",
+      "Normal",
+      "All"
+    ],
+    "concerns": [
+      "Dryness",
+      "Texture"
+    ],
+    "keyIngredients": [
+      "Hyaluronic acid",
+      "Sodium hyaluronate",
+      "Panthenol"
+    ],
     "match": "COSRX Hyaluronic acid intensive",
     "featured": false,
     "featuredLarge": false,
@@ -196,9 +248,21 @@
     "category": "skincare",
     "subcategory": "moisturisers",
     "format": "Gel cream",
-    "skinTypes": ["Oily", "Combination", "Acne-prone"],
-    "concerns": ["Pores & blackheads", "Oil control", "Sensitivity"],
-    "keyIngredients": ["Centella asiatica extract", "Niacinamide", "Zinc"],
+    "skinTypes": [
+      "Oily",
+      "Combination",
+      "Acne-prone"
+    ],
+    "concerns": [
+      "Pores & blackheads",
+      "Oil control",
+      "Sensitivity"
+    ],
+    "keyIngredients": [
+      "Centella asiatica extract",
+      "Niacinamide",
+      "Zinc"
+    ],
     "match": "poremisinglight",
     "featured": false,
     "featuredLarge": false,
@@ -233,11 +297,24 @@
     "category": "skincare",
     "subcategory": "moisturisers",
     "format": "Cream",
-    "skinTypes": ["Sensitive", "All", "Combination"],
-    "concerns": ["Dullness & uneven tone", "Sensitivity"],
-    "keyIngredients": ["Centella asiatica extract", "Vitamin C capsules", "Niacinamide"],
+    "skinTypes": [
+      "Sensitive",
+      "All",
+      "Combination"
+    ],
+    "concerns": [
+      "Dullness & uneven tone",
+      "Sensitivity"
+    ],
+    "keyIngredients": [
+      "Centella asiatica extract",
+      "Vitamin C capsules",
+      "Niacinamide"
+    ],
     "match": "Centella tpne brightening",
-    "matchFiles": ["n.jpg"],
+    "matchFiles": [
+      "n.jpg"
+    ],
     "featured": false,
     "featuredLarge": false,
     "bestSeller": false,
@@ -271,9 +348,20 @@
     "category": "skincare",
     "subcategory": "moisturisers",
     "format": "Cream",
-    "skinTypes": ["Dry", "Sensitive", "All"],
-    "concerns": ["Dryness", "Sensitivity"],
-    "keyIngredients": ["Ceramides", "Panthenol", "Madecassoside"],
+    "skinTypes": [
+      "Dry",
+      "Sensitive",
+      "All"
+    ],
+    "concerns": [
+      "Dryness",
+      "Sensitivity"
+    ],
+    "keyIngredients": [
+      "Ceramides",
+      "Panthenol",
+      "Madecassoside"
+    ],
     "match": "Dr althea 147",
     "featured": false,
     "featuredLarge": false,
@@ -308,9 +396,21 @@
     "category": "skincare",
     "subcategory": "moisturisers",
     "format": "Cream",
-    "skinTypes": ["Sensitive", "Acne-prone", "All"],
-    "concerns": ["Sensitivity", "Acne & breakouts", "Dullness & uneven tone"],
-    "keyIngredients": ["Panthenol", "Centella asiatica", "Ceramides"],
+    "skinTypes": [
+      "Sensitive",
+      "Acne-prone",
+      "All"
+    ],
+    "concerns": [
+      "Sensitivity",
+      "Acne & breakouts",
+      "Dullness & uneven tone"
+    ],
+    "keyIngredients": [
+      "Panthenol",
+      "Centella asiatica",
+      "Ceramides"
+    ],
     "match": "345 relief cream 90,000",
     "featured": false,
     "featuredLarge": false,
@@ -345,9 +445,21 @@
     "category": "skincare",
     "subcategory": "moisturisers",
     "format": "Cream",
-    "skinTypes": ["Sensitive", "Normal", "Dry"],
-    "concerns": ["Texture", "Dryness", "Pores & blackheads"],
-    "keyIngredients": ["Bakuchiol", "Peptides", "Hyaluronic acid"],
+    "skinTypes": [
+      "Sensitive",
+      "Normal",
+      "Dry"
+    ],
+    "concerns": [
+      "Texture",
+      "Dryness",
+      "Pores & blackheads"
+    ],
+    "keyIngredients": [
+      "Bakuchiol",
+      "Peptides",
+      "Hyaluronic acid"
+    ],
     "match": "Bakuchiol plumping capsule",
     "featured": false,
     "featuredLarge": false,
@@ -382,9 +494,20 @@
     "category": "skincare",
     "subcategory": "moisturisers",
     "format": "Cream",
-    "skinTypes": ["All", "Normal", "Combination"],
-    "concerns": ["Dullness & uneven tone", "Dryness"],
-    "keyIngredients": ["Vitamin C derivative", "Niacinamide", "Ceramides"],
+    "skinTypes": [
+      "All",
+      "Normal",
+      "Combination"
+    ],
+    "concerns": [
+      "Dullness & uneven tone",
+      "Dryness"
+    ],
+    "keyIngredients": [
+      "Vitamin C derivative",
+      "Niacinamide",
+      "Ceramides"
+    ],
     "match": "Vitamin illuminating cream",
     "featured": false,
     "featuredLarge": false,
@@ -419,9 +542,20 @@
     "category": "skincare",
     "subcategory": "moisturisers",
     "format": "Cream",
-    "skinTypes": ["Dry", "Sensitive", "All"],
-    "concerns": ["Dryness", "Sensitivity"],
-    "keyIngredients": ["Black rice extract", "5 types of ceramide", "Panthenol"],
+    "skinTypes": [
+      "Dry",
+      "Sensitive",
+      "All"
+    ],
+    "concerns": [
+      "Dryness",
+      "Sensitivity"
+    ],
+    "keyIngredients": [
+      "Black rice extract",
+      "5 types of ceramide",
+      "Panthenol"
+    ],
     "match": "Haruharu wonder Black rice",
     "featured": true,
     "featuredLarge": false,
@@ -456,9 +590,20 @@
     "category": "skincare",
     "subcategory": "moisturisers",
     "format": "Cream",
-    "skinTypes": ["All", "Combination", "Normal"],
-    "concerns": ["Dullness & uneven tone", "Acne & breakouts"],
-    "keyIngredients": ["Kojic acid", "Turmeric extract", "Vitamin C"],
+    "skinTypes": [
+      "All",
+      "Combination",
+      "Normal"
+    ],
+    "concerns": [
+      "Dullness & uneven tone",
+      "Acne & breakouts"
+    ],
+    "keyIngredients": [
+      "Kojic acid",
+      "Turmeric extract",
+      "Vitamin C"
+    ],
     "match": "Kojic Acid turmeric vita",
     "featured": false,
     "featuredLarge": false,
@@ -488,14 +633,25 @@
     "name": "TXA Niacinamide Capsule Cream",
     "brand": "Medicube",
     "brandSlug": "medicube",
-    "price": null,
+    "price": 100000,
     "salePrice": null,
     "category": "skincare",
     "subcategory": "moisturisers",
     "format": "Cream",
-    "skinTypes": ["All", "Combination", "Normal"],
-    "concerns": ["Dullness & uneven tone", "Dryness"],
-    "keyIngredients": ["Tranexamic acid", "Niacinamide", "Hyaluronic acid"],
+    "skinTypes": [
+      "All",
+      "Combination",
+      "Normal"
+    ],
+    "concerns": [
+      "Dullness & uneven tone",
+      "Dryness"
+    ],
+    "keyIngredients": [
+      "Tranexamic acid",
+      "Niacinamide",
+      "Hyaluronic acid"
+    ],
     "match": "Niacinamide capsule cream",
     "featured": false,
     "featuredLarge": false,
@@ -530,9 +686,21 @@
     "category": "skincare",
     "subcategory": "moisturisers",
     "format": "Cream",
-    "skinTypes": ["Acne-prone", "Sensitive", "Combination"],
-    "concerns": ["Acne & breakouts", "Sensitivity", "Texture"],
-    "keyIngredients": ["Azelaic acid", "Heartleaf extract", "Panthenol"],
+    "skinTypes": [
+      "Acne-prone",
+      "Sensitive",
+      "Combination"
+    ],
+    "concerns": [
+      "Acne & breakouts",
+      "Sensitivity",
+      "Texture"
+    ],
+    "keyIngredients": [
+      "Azelaic acid",
+      "Heartleaf extract",
+      "Panthenol"
+    ],
     "match": "A control azelaic acid cream",
     "featured": false,
     "featuredLarge": false,
@@ -568,9 +736,20 @@
     "category": "skincare",
     "subcategory": "moisturisers",
     "format": "Cream",
-    "skinTypes": ["Dry", "Sensitive", "All"],
-    "concerns": ["Dryness", "Sensitivity"],
-    "keyIngredients": ["Hyaluronic acid", "Panthenol", "Beta-glucan"],
+    "skinTypes": [
+      "Dry",
+      "Sensitive",
+      "All"
+    ],
+    "concerns": [
+      "Dryness",
+      "Sensitivity"
+    ],
+    "keyIngredients": [
+      "Hyaluronic acid",
+      "Panthenol",
+      "Beta-glucan"
+    ],
     "match": "isntree hyaluronic",
     "featured": false,
     "featuredLarge": false,
@@ -600,16 +779,30 @@
     "name": "Heartleaf 70% Daily Lotion",
     "brand": "Anua",
     "brandSlug": "anua",
-    "price": null,
+    "price": 100000,
     "salePrice": null,
     "category": "skincare",
     "subcategory": "moisturisers",
     "format": "Lotion",
-    "skinTypes": ["Sensitive", "Combination", "Oily"],
-    "concerns": ["Sensitivity", "Dryness", "Oil control"],
-    "keyIngredients": ["70% heartleaf extract", "Hyaluronic acid", "Panthenol"],
+    "skinTypes": [
+      "Sensitive",
+      "Combination",
+      "Oily"
+    ],
+    "concerns": [
+      "Sensitivity",
+      "Dryness",
+      "Oil control"
+    ],
+    "keyIngredients": [
+      "70% heartleaf extract",
+      "Hyaluronic acid",
+      "Panthenol"
+    ],
     "match": "zzz-no-filename-match",
-    "matchFiles": ["ine.jpg"],
+    "matchFiles": [
+      "ine.jpg"
+    ],
     "featured": false,
     "featuredLarge": false,
     "bestSeller": false,
