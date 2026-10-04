@@ -219,12 +219,16 @@ async function buildProducts() {
         right = Math.min(meta.width, left + need);
         left = Math.max(0, right - need);
       }
+      // Rounding can push the box a pixel past the edge, which sharp rejects
+      // outright ("bad extract area"), so clamp it back inside the frame.
       const region = {
-        left: Math.round(left),
-        top: Math.round(top),
+        left: Math.max(0, Math.round(left)),
+        top: Math.max(0, Math.round(top)),
         width: Math.round(right - left),
         height: Math.round(bottom - top)
       };
+      region.width = Math.min(region.width, meta.width - region.left);
+      region.height = Math.min(region.height, meta.height - region.top);
       let pipeline = sharp(src).extract(region);
       // The photo does not always leave room for a 4:5 crop: a tall bottle runs out
       // of width, a flat-lay runs out of height. Extend the backdrop on whichever

@@ -2255,6 +2255,11 @@
       "Warm a small amount between your fingers and press in.",
       "Follow with sunscreen in the morning.",
       "Use daily for best results."
+    ],
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_29.jpg",
+      "Beauty Crib+256 78495665305_15_2026_30.jpg",
+      "Beauty Crib+256 78495665305_15_2026_31.jpg"
     ]
   },
   {
@@ -2303,6 +2308,10 @@
       "Use morning and evening.",
       "Press a second layer onto dry patches.",
       "Follow with sunscreen in the morning."
+    ],
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_35.jpg",
+      "Beauty Crib+256 78495665305_15_2026_36.jpg"
     ]
   },
   {
@@ -3013,7 +3022,8 @@
     ],
     "match": "zzz-no-filename-match",
     "matchFiles": [
-      "ine.jpg"
+      "ine.jpg",
+      "ine1.jpg"
     ],
     "featured": false,
     "featuredLarge": false,
@@ -3035,6 +3045,5084 @@
       "Use after toner and serum.",
       "A thin layer is enough.",
       "Follow with sunscreen in the morning."
+    ]
+  },
+  {
+    "slug": "skin-by-zaron-sun-protection-day-cream-spf50-plus-pa-plus-plus-plus",
+    "sku": "BC-SKI-001",
+    "name": "Sun Protection Day Cream SPF50+ PA+++",
+    "brand": "Skin by Zaron",
+    "brandSlug": "skin-by-zaron",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "sun-care",
+    "format": "Sunscreen",
+    "skinTypes": [
+      "All",
+      "Normal",
+      "Combination"
+    ],
+    "concerns": [
+      "Sun protection",
+      "Dryness"
+    ],
+    "keyIngredients": [
+      "Vitamin E",
+      "Hyaluronic acid",
+      "Collagen"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_10.jpg",
+      "Beauty Crib+256 78495665305_15_2026_11.jpg",
+      "Beauty Crib+256 78495665305_15_2026_12.jpg",
+      "Beauty Crib+256 78495665305_15_2026_13.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "A day cream and a broad-spectrum SPF50+ in one pump.",
+    "description": [
+      "Moisturiser and sunscreen in a single step, which is the only version of sun care most people actually keep up with in Kampala heat.",
+      "Vitamin E, hyaluronic acid and collagen sit underneath the filters, so skin is fed as well as shielded."
+    ],
+    "benefits": [
+      "SPF50+ PA+++ broad-spectrum protection",
+      "Hydrates so you can skip a separate day cream",
+      "Sits well under makeup",
+      "Suits all skin types"
+    ],
+    "howToUse": [
+      "Apply to clean, slightly damp skin as the last step.",
+      "Use morning and evening.",
+      "Press a second layer onto dry patches.",
+      "Follow with sunscreen in the morning."
+    ]
+  },
+  {
+    "slug": "medicube-collagen-jelly-cream-110ml",
+    "sku": "BC-MED-001",
+    "name": "Collagen Jelly Cream 110ml",
+    "brand": "Medicube",
+    "brandSlug": "medicube",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "moisturisers",
+    "format": "Gel cream",
+    "skinTypes": [
+      "All",
+      "Combination",
+      "Normal"
+    ],
+    "concerns": [
+      "Fine lines & firmness",
+      "Dryness"
+    ],
+    "keyIngredients": [
+      "Collagen",
+      "Peptides",
+      "Hyaluronic acid"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_16.jpg",
+      "Beauty Crib+256 78495665305_15_2026_17.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "A bouncy collagen jelly that firms without any weight.",
+    "description": [
+      "The jelly texture melts on contact and leaves skin plumped rather than coated, which is why it works in humidity where a richer cream would not.",
+      "A generous 110ml tub, so it is as usable on the neck and chest as on the face."
+    ],
+    "benefits": [
+      "Plumps and firms with collagen and peptides",
+      "Light enough for humid weather",
+      "Leaves a smooth, bouncy finish",
+      "Large tub for face, neck and chest"
+    ],
+    "howToUse": [
+      "Smooth over clean skin as the final step of your routine.",
+      "Use morning and evening.",
+      "A small amount is enough - it spreads further than a cream.",
+      "Follow with sunscreen in the morning."
+    ]
+  },
+  {
+    "slug": "medicube-kojic-acid-turmeric-vita-capsule-cream-cream",
+    "sku": "BC-MED-002",
+    "name": "Kojic Acid Turmeric Vita Capsule Cream",
+    "brand": "Medicube",
+    "brandSlug": "medicube",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "moisturisers",
+    "format": "Cream",
+    "skinTypes": [
+      "All",
+      "Combination",
+      "Normal"
+    ],
+    "concerns": [
+      "Dark spots",
+      "Dullness & uneven tone"
+    ],
+    "keyIngredients": [
+      "Kojic acid",
+      "Turmeric extract",
+      "Vitamin C"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_173.jpg",
+      "Beauty Crib+256 78495665305_15_2026_174.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Kojic acid and turmeric capsules aimed straight at dark marks.",
+    "description": [
+      "Vitamin capsules burst as you massage, releasing kojic acid and turmeric onto skin that is holding onto old spots and post-acne marks.",
+      "A cream rather than a serum, so it does the brightening and the moisturising in one step."
+    ],
+    "benefits": [
+      "Targets dark spots and post-acne marks",
+      "Evens out overall tone",
+      "Capsules keep the actives fresh until use",
+      "Moisturises while it brightens"
+    ],
+    "howToUse": [
+      "Apply to clean, slightly damp skin as the last step.",
+      "Use morning and evening.",
+      "Press a second layer onto dry patches.",
+      "Follow with sunscreen in the morning."
+    ]
+  },
+  {
+    "slug": "medicube-pdrn-pink-hyaluronic-moisturizing-cream",
+    "sku": "BC-MED-003",
+    "name": "PDRN Pink Hyaluronic Moisturizing Cream",
+    "brand": "Medicube",
+    "brandSlug": "medicube",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "moisturisers",
+    "format": "Cream",
+    "skinTypes": [
+      "Dry",
+      "Sensitive",
+      "All"
+    ],
+    "concerns": [
+      "Dryness",
+      "Fine lines & firmness"
+    ],
+    "keyIngredients": [
+      "PDRN",
+      "Hyaluronic acid",
+      "Panthenol"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_18.jpg",
+      "Beauty Crib+256 78495665305_15_2026_19.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "PDRN and hyaluronic acid for skin that needs repair, not just water.",
+    "description": [
+      "PDRN is the ingredient Korean clinics use after procedures, and at this strength it suits skin that is dry, thin or recovering from over-exfoliation.",
+      "Hyaluronic acid holds the water in place; panthenol takes the sting out."
+    ],
+    "benefits": [
+      "Repairs a worn-out moisture barrier",
+      "Deep, lasting hydration",
+      "Calms tightness and irritation",
+      "Suits post-procedure or over-exfoliated skin"
+    ],
+    "howToUse": [
+      "Apply to clean, slightly damp skin as the last step.",
+      "Use morning and evening.",
+      "Press a second layer onto dry patches.",
+      "Follow with sunscreen in the morning."
+    ]
+  },
+  {
+    "slug": "purito-seoul-mighty-bamboo-panthenol-cream",
+    "sku": "BC-PUR-001",
+    "name": "Mighty Bamboo Panthenol Cream",
+    "brand": "Purito Seoul",
+    "brandSlug": "purito-seoul",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "moisturisers",
+    "format": "Cream",
+    "skinTypes": [
+      "Sensitive",
+      "Dry",
+      "All"
+    ],
+    "concerns": [
+      "Sensitivity",
+      "Dryness"
+    ],
+    "keyIngredients": [
+      "Bamboo extract",
+      "Panthenol",
+      "Ceramides"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_2.jpg",
+      "Beauty Crib+256 78495665305_15_2026_3.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Bamboo water and panthenol for skin that reacts to everything.",
+    "description": [
+      "Purito build for sensitive skin, and this is the plainest of their creams: bamboo sap water instead of plain water, panthenol to settle redness, nothing to argue with.",
+      "Light enough to layer, rich enough to end a routine on."
+    ],
+    "benefits": [
+      "Settles redness and reactivity",
+      "Hydrates without heaviness",
+      "Short, low-irritation formula",
+      "Good for barrier recovery"
+    ],
+    "howToUse": [
+      "Apply to clean, slightly damp skin as the last step.",
+      "Use morning and evening.",
+      "Press a second layer onto dry patches.",
+      "Follow with sunscreen in the morning."
+    ]
+  },
+  {
+    "slug": "eqqualberry-lush-blush-nad-plus-peptide-boosting-cream",
+    "sku": "BC-EQQ-001",
+    "name": "Lush Blush NAD+ Peptide Boosting Cream",
+    "brand": "Eqqualberry",
+    "brandSlug": "eqqualberry",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "moisturisers",
+    "format": "Cream",
+    "skinTypes": [
+      "All",
+      "Normal",
+      "Combination"
+    ],
+    "concerns": [
+      "Fine lines & firmness",
+      "Dullness & uneven tone"
+    ],
+    "keyIngredients": [
+      "NAD+",
+      "Peptides",
+      "Niacinamide"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_20.jpg",
+      "Beauty Crib+256 78495665305_15_2026_21.jpg",
+      "Beauty Crib+256 78495665305_15_2026_22.jpg",
+      "Beauty Crib+256 78495665305_15_2026_23.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "NAD+ and peptides for skin that looks tired rather than dry.",
+    "description": [
+      "NAD+ is the cell-energy ingredient the longevity crowd moved into skincare, paired here with peptides that work on firmness.",
+      "The finish is the point of the name: a flushed, lit-from-within look rather than a shine."
+    ],
+    "benefits": [
+      "Firms and smooths fine lines",
+      "Brings back a healthy flush",
+      "Peptides support bounce",
+      "Lightweight under makeup"
+    ],
+    "howToUse": [
+      "Apply to clean, slightly damp skin as the last step.",
+      "Use morning and evening.",
+      "Press a second layer onto dry patches.",
+      "Follow with sunscreen in the morning."
+    ]
+  },
+  {
+    "slug": "some-by-mi-aha-bha-pha-14-days-super-miracle-spot-all-kill-cream",
+    "sku": "BC-SOM-001",
+    "name": "AHA BHA PHA 14 Days Super Miracle Spot All Kill Cream",
+    "brand": "SOME BY MI",
+    "brandSlug": "some-by-mi",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "moisturisers",
+    "format": "Spot treatment",
+    "skinTypes": [
+      "Acne-prone",
+      "Oily",
+      "Combination"
+    ],
+    "concerns": [
+      "Acne & breakouts",
+      "Texture"
+    ],
+    "keyIngredients": [
+      "Truecica 75%",
+      "Niacinamide 2%",
+      "AHA, BHA and PHA"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_266.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "A dab-on cream for the spot you want gone by the weekend.",
+    "description": [
+      "Three acids loosen the plug while 75% Truecica keeps the surrounding skin from turning red and angry.",
+      "A precision tube, so it goes on the spot rather than over the whole face."
+    ],
+    "benefits": [
+      "Brings a spot down quickly",
+      "Calms the redness around it",
+      "Helps stop a mark forming after",
+      "Precision nozzle for exact placement"
+    ],
+    "howToUse": [
+      "Dab onto the spot after your serum, before moisturiser.",
+      "Use at night to begin with.",
+      "Keep it on the spot rather than spreading it.",
+      "Wear sunscreen the following day."
+    ],
+    "caution": "For use on individual spots, not as an all-over cream. Wear sunscreen daily while using acids."
+  },
+  {
+    "slug": "anua-heartleaf-70-plus-ceramide-intense-calming-cream",
+    "sku": "BC-ANU-009",
+    "name": "Heartleaf 70% + Ceramide Intense Calming Cream",
+    "brand": "Anua",
+    "brandSlug": "anua",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "moisturisers",
+    "format": "Cream",
+    "skinTypes": [
+      "Sensitive",
+      "Dry",
+      "All"
+    ],
+    "concerns": [
+      "Sensitivity",
+      "Dryness"
+    ],
+    "keyIngredients": [
+      "Heartleaf extract 70%",
+      "Ceramides",
+      "Panthenol"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_27.jpg",
+      "Beauty Crib+256 78495665305_15_2026_28.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "The heartleaf line's richest cream, for skin that is both reactive and dry.",
+    "description": [
+      "70% heartleaf does the calming; the ceramides do the rebuilding, which is the combination skin needs after a bad reaction or a harsh few weeks.",
+      "Thicker than the daily lotion, so most people use it at night or only in the dry season."
+    ],
+    "benefits": [
+      "Calms visible redness",
+      "Rebuilds the barrier with ceramides",
+      "Rich enough for very dry patches",
+      "Fragrance-free and gentle"
+    ],
+    "howToUse": [
+      "Apply to clean, slightly damp skin as the last step.",
+      "Use morning and evening.",
+      "Press a second layer onto dry patches.",
+      "Follow with sunscreen in the morning."
+    ]
+  },
+  {
+    "slug": "tocobo-multi-ceramide-cream",
+    "sku": "BC-TOC-001",
+    "name": "Multi Ceramide Cream",
+    "brand": "TOCOBO",
+    "brandSlug": "tocobo",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "moisturisers",
+    "format": "Cream",
+    "skinTypes": [
+      "Dry",
+      "Sensitive",
+      "Normal"
+    ],
+    "concerns": [
+      "Dryness",
+      "Sensitivity"
+    ],
+    "keyIngredients": [
+      "Multi-ceramide complex",
+      "Triple hyaluronic acid 10%",
+      "Squalane"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_32.jpg",
+      "Beauty Crib+256 78495665305_15_2026_33.jpg",
+      "Beauty Crib+256 78495665305_15_2026_34.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "A ceramide cream with 10% triple hyaluronic acid behind it.",
+    "description": [
+      "Ceramides patch the barrier and the three weights of hyaluronic acid pull water into different depths of skin, so the hydration does not sit only on top.",
+      "Unscented and simple, which is what makes it easy to keep using."
+    ],
+    "benefits": [
+      "Rebuilds a damaged barrier",
+      "Hydration at three depths of skin",
+      "Comfortable under makeup",
+      "No added fragrance"
+    ],
+    "howToUse": [
+      "Apply to clean, slightly damp skin as the last step.",
+      "Use morning and evening.",
+      "Press a second layer onto dry patches.",
+      "Follow with sunscreen in the morning."
+    ]
+  },
+  {
+    "slug": "medicube-deep-vita-c-capsule-cream",
+    "sku": "BC-MED-004",
+    "name": "Deep Vita C Capsule Cream",
+    "brand": "Medicube",
+    "brandSlug": "medicube",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "moisturisers",
+    "format": "Cream",
+    "skinTypes": [
+      "All",
+      "Normal",
+      "Combination"
+    ],
+    "concerns": [
+      "Dullness & uneven tone",
+      "Dark spots"
+    ],
+    "keyIngredients": [
+      "Vitamin C",
+      "Niacinamide",
+      "Vitamin E"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_37.jpg",
+      "Beauty Crib+256 78495665305_15_2026_38.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Vitamin C held in capsules so it is still active when you use it.",
+    "description": [
+      "Pure vitamin C goes off fast in a jar, so it is sealed into capsules that break under your fingers.",
+      "The result is a brightening cream that still has something to give at the bottom of the tub."
+    ],
+    "benefits": [
+      "Brightens dull, uneven skin",
+      "Fresh vitamin C at every use",
+      "Fades dark marks over time",
+      "Moisturises in the same step"
+    ],
+    "howToUse": [
+      "Apply to clean, slightly damp skin as the last step.",
+      "Use morning and evening.",
+      "Press a second layer onto dry patches.",
+      "Follow with sunscreen in the morning."
+    ]
+  },
+  {
+    "slug": "aplb-retinol-vitamin-c-vitamin-e-cream",
+    "sku": "BC-APL-001",
+    "name": "Retinol Vitamin C Vitamin E Cream",
+    "brand": "APLB",
+    "brandSlug": "aplb",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "moisturisers",
+    "format": "Cream",
+    "skinTypes": [
+      "Normal",
+      "Combination",
+      "All"
+    ],
+    "concerns": [
+      "Fine lines & firmness",
+      "Dullness & uneven tone"
+    ],
+    "keyIngredients": [
+      "Retinol",
+      "Vitamin C",
+      "Vitamin E"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_39.jpg",
+      "Beauty Crib+256 78495665305_15_2026_40.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Retinol, vitamin C and vitamin E in one night cream.",
+    "description": [
+      "Retinol for texture and lines, vitamin C for tone, vitamin E to keep the other two stable and the skin comfortable.",
+      "A sensible way into retinol for anyone who does not want a third bottle on the shelf."
+    ],
+    "benefits": [
+      "Smooths texture and fine lines",
+      "Brightens uneven tone",
+      "Vitamin E cushions the retinol",
+      "One step instead of three"
+    ],
+    "howToUse": [
+      "Apply to clean, slightly damp skin as the last step.",
+      "Use morning and evening.",
+      "Press a second layer onto dry patches.",
+      "Follow with sunscreen in the morning."
+    ],
+    "caution": "Start two nights a week and build up. Wear sunscreen daily while using retinol."
+  },
+  {
+    "slug": "medicube-hyaluronic-moisturizing-capsule-cream",
+    "sku": "BC-MED-005",
+    "name": "Hyaluronic Moisturizing Capsule Cream",
+    "brand": "Medicube",
+    "brandSlug": "medicube",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "moisturisers",
+    "format": "Cream",
+    "skinTypes": [
+      "Dry",
+      "All",
+      "Normal"
+    ],
+    "concerns": [
+      "Dryness"
+    ],
+    "keyIngredients": [
+      "Sodium hyaluronate",
+      "Panthenol",
+      "Capsule complex"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_41.jpg",
+      "Beauty Crib+256 78495665305_15_2026_42.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Straightforward hyaluronic hydration in a capsule cream.",
+    "description": [
+      "No actives to manage and no fragrance to react to: this is the cream for the weeks when skin only needs water and quiet.",
+      "The capsules keep the texture light until you press them out."
+    ],
+    "benefits": [
+      "Deep, simple hydration",
+      "Nothing in it to irritate",
+      "Layers under any other product",
+      "Good for every skin type"
+    ],
+    "howToUse": [
+      "Apply to clean, slightly damp skin as the last step.",
+      "Use morning and evening.",
+      "Press a second layer onto dry patches.",
+      "Follow with sunscreen in the morning."
+    ]
+  },
+  {
+    "slug": "skin1004-madagascar-centella-tender-cica-rescue-cream",
+    "sku": "BC-SKI-002",
+    "name": "Madagascar Centella Tender Cica Rescue Cream",
+    "brand": "SKIN1004",
+    "brandSlug": "skin1004",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "moisturisers",
+    "format": "Cream",
+    "skinTypes": [
+      "Sensitive",
+      "Dry",
+      "All"
+    ],
+    "concerns": [
+      "Sensitivity",
+      "Dryness"
+    ],
+    "keyIngredients": [
+      "Centella asiatica extract",
+      "Panthenol",
+      "Ceramides"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_43.jpg",
+      "Beauty Crib+256 78495665305_15_2026_44.jpg",
+      "Beauty Crib+256 78495665305_15_2026_45.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "The rescue cream for skin that has had a bad week.",
+    "description": [
+      "Centella grown in Madagascar is what the whole SKIN1004 range is built on, and this is the heaviest concentration of it they make.",
+      "Reach for it after sun, after a reaction, or any time skin feels raw."
+    ],
+    "benefits": [
+      "Calms angry, reactive skin fast",
+      "Rebuilds the barrier",
+      "Rich without feeling greasy",
+      "Comes with a spatula to keep it clean"
+    ],
+    "howToUse": [
+      "Apply to clean, slightly damp skin as the last step.",
+      "Use morning and evening.",
+      "Press a second layer onto dry patches.",
+      "Follow with sunscreen in the morning."
+    ]
+  },
+  {
+    "slug": "k-secret-seoul-1988-fiber-capsule-cream-niacinamide-5-plus-yuja",
+    "sku": "BC-KSE-001",
+    "name": "Seoul 1988 Fiber Capsule Cream - Niacinamide 5% + Yuja",
+    "brand": "K-SECRET",
+    "brandSlug": "k-secret",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "moisturisers",
+    "format": "Cream",
+    "skinTypes": [
+      "All",
+      "Combination",
+      "Normal"
+    ],
+    "concerns": [
+      "Dullness & uneven tone",
+      "Dark spots"
+    ],
+    "keyIngredients": [
+      "Niacinamide 5%",
+      "Yuja (citron) extract",
+      "Fiber capsules"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_46.jpg",
+      "Beauty Crib+256 78495665305_15_2026_47.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "5% niacinamide and Korean citron for dull, uneven skin.",
+    "description": [
+      "Yuja is the citrus Koreans brew in winter tea, and it brings vitamin C alongside a proper 5% dose of niacinamide.",
+      "The fiber capsules give it a springy texture that sinks in rather than sitting."
+    ],
+    "benefits": [
+      "Evens out tone at 5% niacinamide",
+      "Brightens with yuja vitamin C",
+      "Springy, fast-absorbing texture",
+      "Helps with visible pores"
+    ],
+    "howToUse": [
+      "Apply to clean, slightly damp skin as the last step.",
+      "Use morning and evening.",
+      "Press a second layer onto dry patches.",
+      "Follow with sunscreen in the morning."
+    ]
+  },
+  {
+    "slug": "axis-y-dark-spot-correcting-glow-cream",
+    "sku": "BC-AXI-001",
+    "name": "Dark Spot Correcting Glow Cream",
+    "brand": "AXIS-Y",
+    "brandSlug": "axis-y",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "moisturisers",
+    "format": "Cream",
+    "skinTypes": [
+      "All",
+      "Combination",
+      "Oily"
+    ],
+    "concerns": [
+      "Dark spots",
+      "Dullness & uneven tone"
+    ],
+    "keyIngredients": [
+      "Squalane",
+      "Niacinamide",
+      "Papaya extract"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_48.jpg",
+      "Beauty Crib+256 78495665305_15_2026_49.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "The cream half of the dark spot pair, for marks that keep coming back.",
+    "description": [
+      "Built for post-acne marks and sun spots, with a texture light enough that oily skin will still use it.",
+      "Pairs with the serum from the same line if you want the full course."
+    ],
+    "benefits": [
+      "Fades post-acne marks",
+      "Evens out patchy tone",
+      "Light finish, no shine",
+      "Works beside the matching serum"
+    ],
+    "howToUse": [
+      "Apply to clean, slightly damp skin as the last step.",
+      "Use morning and evening.",
+      "Press a second layer onto dry patches.",
+      "Follow with sunscreen in the morning."
+    ]
+  },
+  {
+    "slug": "missha-time-revolution-night-repair-ampoule-cream-5x",
+    "sku": "BC-MIS-001",
+    "name": "Time Revolution Night Repair Ampoule Cream 5X",
+    "brand": "MISSHA",
+    "brandSlug": "missha",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "moisturisers",
+    "format": "Cream",
+    "skinTypes": [
+      "All",
+      "Dry",
+      "Normal"
+    ],
+    "concerns": [
+      "Fine lines & firmness",
+      "Dullness & uneven tone"
+    ],
+    "keyIngredients": [
+      "Bifida ferment lysate",
+      "Niacinamide",
+      "Adenosine"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_50.jpg",
+      "Beauty Crib+256 78495665305_15_2026_51.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "The night cream version of Missha's most copied ampoule.",
+    "description": [
+      "Fermented bifida is the ingredient that made the Time Revolution ampoule famous, concentrated here into a cream you sleep in.",
+      "Skin reads smoother and more even by morning; the change in firmness takes a few weeks."
+    ],
+    "benefits": [
+      "Works overnight on texture and tone",
+      "Firms with adenosine",
+      "Fermented ingredients the skin takes up easily",
+      "Rich but not sticky"
+    ],
+    "howToUse": [
+      "Apply to clean, slightly damp skin as the last step.",
+      "Use morning and evening.",
+      "Press a second layer onto dry patches.",
+      "Follow with sunscreen in the morning."
+    ]
+  },
+  {
+    "slug": "medicube-pdrn-pink-collagen-capsule-cream",
+    "sku": "BC-MED-006",
+    "name": "PDRN Pink Collagen Capsule Cream",
+    "brand": "Medicube",
+    "brandSlug": "medicube",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "moisturisers",
+    "format": "Cream",
+    "skinTypes": [
+      "All",
+      "Dry",
+      "Normal"
+    ],
+    "concerns": [
+      "Fine lines & firmness",
+      "Dryness"
+    ],
+    "keyIngredients": [
+      "PDRN",
+      "Collagen",
+      "Peptides"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_52.jpg",
+      "Beauty Crib+256 78495665305_15_2026_53.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "PDRN and collagen capsules for firmness and bounce.",
+    "description": [
+      "The firming end of Medicube's PDRN range: collagen for structure, PDRN for repair, held in capsules until you press them out.",
+      "Best used at night, when skin is doing the repair work anyway."
+    ],
+    "benefits": [
+      "Firms and plumps over time",
+      "Repairs with PDRN",
+      "Capsules keep actives fresh",
+      "Rich night-time finish"
+    ],
+    "howToUse": [
+      "Apply to clean, slightly damp skin as the last step.",
+      "Use morning and evening.",
+      "Press a second layer onto dry patches.",
+      "Follow with sunscreen in the morning."
+    ]
+  },
+  {
+    "slug": "numbuzin-no-1-panthenolic-b5-active-soothing-cream",
+    "sku": "BC-NUM-002",
+    "name": "No.1 Panthenolic B5 Active Soothing Cream",
+    "brand": "numbuzin",
+    "brandSlug": "numbuzin",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "moisturisers",
+    "format": "Cream",
+    "skinTypes": [
+      "Sensitive",
+      "Dry",
+      "All"
+    ],
+    "concerns": [
+      "Sensitivity",
+      "Dryness"
+    ],
+    "keyIngredients": [
+      "Panthenol (vitamin B5)",
+      "Centella",
+      "Madecassoside"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_54.jpg",
+      "Beauty Crib+256 78495665305_15_2026_55.jpg",
+      "Beauty Crib+256 78495665305_15_2026_56.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Panthenol at the front of the list, for skin that is sore.",
+    "description": [
+      "numbuzin number their range by job, and No.1 is the soothing one: a high dose of B5 with centella behind it.",
+      "The texture is a light balm that melts, so it suits sore skin that does not want to be rubbed."
+    ],
+    "benefits": [
+      "High-dose panthenol for soreness",
+      "Calms redness and stinging",
+      "Melts in with no rubbing",
+      "Fragrance-free"
+    ],
+    "howToUse": [
+      "Apply to clean, slightly damp skin as the last step.",
+      "Use morning and evening.",
+      "Press a second layer onto dry patches.",
+      "Follow with sunscreen in the morning."
+    ]
+  },
+  {
+    "slug": "some-by-mi-yuja-niacin-brightening-moisture-gel-cream",
+    "sku": "BC-SOM-002",
+    "name": "Yuja Niacin Brightening Moisture Gel Cream",
+    "brand": "SOME BY MI",
+    "brandSlug": "some-by-mi",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "moisturisers",
+    "format": "Gel cream",
+    "skinTypes": [
+      "Oily",
+      "Combination",
+      "All"
+    ],
+    "concerns": [
+      "Dullness & uneven tone",
+      "Dark spots"
+    ],
+    "keyIngredients": [
+      "Yuja extract",
+      "Niacinamide",
+      "Vitamin C"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_57.jpg",
+      "Beauty Crib+256 78495665305_15_2026_58.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "A gel cream that brightens without the weight of a cream.",
+    "description": [
+      "Yuja and niacinamide on dull skin, in a gel base that disappears in Kampala humidity instead of sliding.",
+      "The brightening choice for oily and combination skin that cannot wear a proper cream."
+    ],
+    "benefits": [
+      "Brightens dull, tired skin",
+      "Gel finish for oily skin",
+      "Helps fade dark marks",
+      "Comfortable in heat and humidity"
+    ],
+    "howToUse": [
+      "Smooth over clean skin as the final step of your routine.",
+      "Use morning and evening.",
+      "A small amount is enough - it spreads further than a cream.",
+      "Follow with sunscreen in the morning."
+    ]
+  },
+  {
+    "slug": "purito-seoul-oat-in-calming-gel-cream",
+    "sku": "BC-PUR-002",
+    "name": "Oat In Calming Gel Cream",
+    "brand": "Purito Seoul",
+    "brandSlug": "purito-seoul",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "moisturisers",
+    "format": "Gel cream",
+    "skinTypes": [
+      "Sensitive",
+      "Oily",
+      "Combination"
+    ],
+    "concerns": [
+      "Sensitivity",
+      "Dryness"
+    ],
+    "keyIngredients": [
+      "Oat seed water",
+      "Panthenol",
+      "Glycerin"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_59.jpg",
+      "Beauty Crib+256 78495665305_15_2026_60.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Oat water in a gel, for sensitive skin that gets oily.",
+    "description": [
+      "Oat has calmed irritated skin since long before skincare was an industry, and here it is the base of the formula rather than a footnote.",
+      "A gel rather than a cream, so sensitive skin that shines by midday finally has something it can wear."
+    ],
+    "benefits": [
+      "Calms without richness",
+      "Oat-water base instead of plain water",
+      "Fresh gel finish",
+      "Short, gentle ingredient list"
+    ],
+    "howToUse": [
+      "Smooth over clean skin as the final step of your routine.",
+      "Use morning and evening.",
+      "A small amount is enough - it spreads further than a cream.",
+      "Follow with sunscreen in the morning."
+    ]
+  },
+  {
+    "slug": "beauty-of-joseon-dynasty-cream",
+    "sku": "BC-BEA-001",
+    "name": "Dynasty Cream",
+    "brand": "Beauty of Joseon",
+    "brandSlug": "beauty-of-joseon",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "moisturisers",
+    "format": "Cream",
+    "skinTypes": [
+      "All",
+      "Dry",
+      "Normal"
+    ],
+    "concerns": [
+      "Dryness",
+      "Fine lines & firmness"
+    ],
+    "keyIngredients": [
+      "Rice bran water",
+      "Niacinamide",
+      "Orchid extract"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_61.jpg",
+      "Beauty Crib+256 78495665305_15_2026_62.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Rice and orchid in the cream that made the brand.",
+    "description": [
+      "Beauty of Joseon build on hanbang, the old Korean court recipes, and the Dynasty Cream is the one people keep rebuying.",
+      "Rich without being greasy, which is a harder balance than it sounds."
+    ],
+    "benefits": [
+      "Deep moisture that lasts the night",
+      "Brightens gently with rice bran",
+      "Softens the look of fine lines",
+      "Classic hanbang formula"
+    ],
+    "howToUse": [
+      "Apply to clean, slightly damp skin as the last step.",
+      "Use morning and evening.",
+      "Press a second layer onto dry patches.",
+      "Follow with sunscreen in the morning."
+    ]
+  },
+  {
+    "slug": "skin1004-madagascar-centella-tea-trica-bb-cream",
+    "sku": "BC-SKI-003",
+    "name": "Madagascar Centella Tea-Trica BB Cream",
+    "brand": "SKIN1004",
+    "brandSlug": "skin1004",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "moisturisers",
+    "format": "Cream",
+    "skinTypes": [
+      "Oily",
+      "Acne-prone",
+      "Combination"
+    ],
+    "concerns": [
+      "Acne & breakouts",
+      "Dullness & uneven tone"
+    ],
+    "keyIngredients": [
+      "Centella asiatica",
+      "Tea tree",
+      "Zinc"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_63.jpg",
+      "Beauty Crib+256 78495665305_15_2026_64.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "A tinted centella cream for blemish-prone skin.",
+    "description": [
+      "Tea tree and centella treat what is underneath while the tint evens out what shows, so breakout-prone skin is not choosing between care and cover.",
+      "Light coverage only - this is skincare with a tint, not foundation."
+    ],
+    "benefits": [
+      "Evens out tone with light coverage",
+      "Tea tree works on blemishes",
+      "Centella calms the redness",
+      "Comfortable all day on oily skin"
+    ],
+    "howToUse": [
+      "Apply to clean, slightly damp skin as the last step.",
+      "Use morning and evening.",
+      "Press a second layer onto dry patches.",
+      "Follow with sunscreen in the morning."
+    ]
+  },
+  {
+    "slug": "celimax-pore-plus-dark-spot-brightening-cream",
+    "sku": "BC-CEL-002",
+    "name": "Pore + Dark Spot Brightening Cream",
+    "brand": "Celimax",
+    "brandSlug": "celimax",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "moisturisers",
+    "format": "Cream",
+    "skinTypes": [
+      "Oily",
+      "Combination",
+      "All"
+    ],
+    "concerns": [
+      "Pores & blackheads",
+      "Dark spots"
+    ],
+    "keyIngredients": [
+      "Niacinamide 3%",
+      "Tranexamic acid",
+      "Ceramide NP 0.3%"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_65.jpg",
+      "Beauty Crib+256 78495665305_15_2026_66.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Niacinamide and tranexamic acid, aimed at pores and marks together.",
+    "description": [
+      "Tranexamic acid is the pigment ingredient dermatologists reach for when niacinamide alone is not enough, and celimax pair the two at sensible strengths.",
+      "Ceramide NP keeps the barrier intact so the actives do not cost you comfort."
+    ],
+    "benefits": [
+      "Targets dark spots and stubborn pigmentation",
+      "Refines the look of pores",
+      "Ceramides protect the barrier",
+      "Light tube texture, no greasiness"
+    ],
+    "howToUse": [
+      "Apply to clean, slightly damp skin as the last step.",
+      "Use morning and evening.",
+      "Press a second layer onto dry patches.",
+      "Follow with sunscreen in the morning."
+    ]
+  },
+  {
+    "slug": "purito-seoul-wonder-releaf-centella-cream-unscented",
+    "sku": "BC-PUR-003",
+    "name": "Wonder Releaf Centella Cream Unscented",
+    "brand": "Purito Seoul",
+    "brandSlug": "purito-seoul",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "moisturisers",
+    "format": "Cream",
+    "skinTypes": [
+      "Sensitive",
+      "All",
+      "Dry"
+    ],
+    "concerns": [
+      "Sensitivity",
+      "Dryness"
+    ],
+    "keyIngredients": [
+      "Centella asiatica 49%",
+      "Panthenol",
+      "Ceramides"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_67.jpg",
+      "Beauty Crib+256 78495665305_15_2026_68.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Half the tube is centella, and there is no fragrance anywhere in it.",
+    "description": [
+      "49% centella with nothing added for scent, which is the version sensitive skin should be buying.",
+      "Purito's most recommended product for a reason: it is boring in exactly the right way."
+    ],
+    "benefits": [
+      "49% centella for real calming",
+      "Completely unscented",
+      "Rebuilds the barrier",
+      "Safe for reactive skin"
+    ],
+    "howToUse": [
+      "Apply to clean, slightly damp skin as the last step.",
+      "Use morning and evening.",
+      "Press a second layer onto dry patches.",
+      "Follow with sunscreen in the morning."
+    ]
+  },
+  {
+    "slug": "medicube-zero-pore-cream-2-0",
+    "sku": "BC-MED-007",
+    "name": "Zero Pore Cream 2.0",
+    "brand": "Medicube",
+    "brandSlug": "medicube",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "moisturisers",
+    "format": "Gel cream",
+    "skinTypes": [
+      "Oily",
+      "Combination",
+      "Acne-prone"
+    ],
+    "concerns": [
+      "Pores & blackheads",
+      "Oil control"
+    ],
+    "keyIngredients": [
+      "AHA and BHA",
+      "Panthenol",
+      "Allantoin"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_7.jpg",
+      "Beauty Crib+256 78495665305_15_2026_8.jpg",
+      "Beauty Crib+256 78495665305_15_2026_9.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "The pore line's moisturiser, with gentle acids kept in.",
+    "description": [
+      "Most pore products stop at the cleanse; this one carries low-level AHA and BHA through to the moisturising step so pores stay clear overnight.",
+      "The gel texture suits the skin that buys pore products in the first place."
+    ],
+    "benefits": [
+      "Keeps pores clear between cleanses",
+      "Controls oil through the day",
+      "Light gel, no film",
+      "Panthenol stops the acids drying you out"
+    ],
+    "howToUse": [
+      "Smooth over clean skin as the final step of your routine.",
+      "Use morning and evening.",
+      "A small amount is enough - it spreads further than a cream.",
+      "Follow with sunscreen in the morning."
+    ],
+    "caution": "Contains AHA and BHA. Wear sunscreen daily."
+  },
+  {
+    "slug": "skin1004-madagascar-centella-tone-brightening-capsule-cream",
+    "sku": "BC-SKI-004",
+    "name": "Madagascar Centella Tone Brightening Capsule Cream",
+    "brand": "SKIN1004",
+    "brandSlug": "skin1004",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "moisturisers",
+    "format": "Cream",
+    "skinTypes": [
+      "All",
+      "Normal",
+      "Combination"
+    ],
+    "concerns": [
+      "Dullness & uneven tone",
+      "Dark spots"
+    ],
+    "keyIngredients": [
+      "Centella asiatica",
+      "Niacinamide",
+      "Vitamin C capsules"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "n(1).jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "The brightening cream in the centella range, with vitamin capsules.",
+    "description": [
+      "Centella keeps the skin calm while niacinamide and vitamin capsules work on tone, which is the half most brightening creams leave out.",
+      "Light enough for daily use under sunscreen."
+    ],
+    "benefits": [
+      "Brightens without irritation",
+      "Calms as it works on tone",
+      "Capsule actives stay fresh",
+      "Everyday texture, morning or night"
+    ],
+    "howToUse": [
+      "Apply to clean, slightly damp skin as the last step.",
+      "Use morning and evening.",
+      "Press a second layer onto dry patches.",
+      "Follow with sunscreen in the morning."
+    ]
+  },
+  {
+    "slug": "medicube-azelaic-acid-16-bb-calming-serum-serum",
+    "sku": "BC-MED-008",
+    "name": "Azelaic Acid 16 BB Calming Serum",
+    "brand": "Medicube",
+    "brandSlug": "medicube",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "serums-treatments",
+    "format": "Serum",
+    "skinTypes": [
+      "Acne-prone",
+      "Sensitive",
+      "Combination"
+    ],
+    "concerns": [
+      "Acne & breakouts",
+      "Redness"
+    ],
+    "keyIngredients": [
+      "Azelaic acid 16%",
+      "Panthenol",
+      "Centella"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_108.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "16% azelaic acid for breakouts and the redness that comes with them.",
+    "description": [
+      "Azelaic acid is the rare active that works on spots, redness and dark marks at once, which makes it the sensible choice when skin is doing all three.",
+      "At 16% this is a clinical-strength dose, buffered with panthenol so it stays usable daily."
+    ],
+    "benefits": [
+      "Clears breakouts and closed bumps",
+      "Calms persistent facial redness",
+      "Fades post-acne marks",
+      "Gentle enough for sensitive skin"
+    ],
+    "howToUse": [
+      "Apply to clean skin after toner, before moisturiser.",
+      "Three to four drops is enough for the whole face.",
+      "Press in rather than rubbing.",
+      "Seal with a moisturiser, and sunscreen in the morning."
+    ],
+    "caution": "Introduce slowly. A light tingle on first use is normal; stop if it stings."
+  },
+  {
+    "slug": "k-secret-seoul-1988-royal-skin-glow-serum-niacinamide-70-plus-yuja",
+    "sku": "BC-KSE-002",
+    "name": "Seoul 1988 Royal Skin Glow Serum - Niacinamide 70% + Yuja",
+    "brand": "K-SECRET",
+    "brandSlug": "k-secret",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "serums-treatments",
+    "format": "Serum",
+    "skinTypes": [
+      "All",
+      "Combination",
+      "Normal"
+    ],
+    "concerns": [
+      "Dullness & uneven tone",
+      "Dark spots"
+    ],
+    "keyIngredients": [
+      "Niacinamide",
+      "Yuja (citron) extract",
+      "Glycerin"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_114.jpg",
+      "Beauty Crib+256 78495665305_15_2026_115.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "A high-niacinamide glow serum with Korean citron.",
+    "description": [
+      "Niacinamide at this concentration works on tone, pores and barrier strength together, which is why it is the one active almost every routine can carry.",
+      "Yuja adds the vitamin C side of brightening without the sting of a pure ascorbic serum."
+    ],
+    "benefits": [
+      "Evens out tone quickly",
+      "Tightens the look of pores",
+      "Brightens with yuja vitamin C",
+      "Layers under any moisturiser"
+    ],
+    "howToUse": [
+      "Apply to clean skin after toner, before moisturiser.",
+      "Three to four drops is enough for the whole face.",
+      "Press in rather than rubbing.",
+      "Seal with a moisturiser, and sunscreen in the morning."
+    ]
+  },
+  {
+    "slug": "medicube-collagen-glow-booster-serum",
+    "sku": "BC-MED-009",
+    "name": "Collagen Glow Booster Serum",
+    "brand": "Medicube",
+    "brandSlug": "medicube",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "serums-treatments",
+    "format": "Serum",
+    "skinTypes": [
+      "All",
+      "Dry",
+      "Normal"
+    ],
+    "concerns": [
+      "Fine lines & firmness",
+      "Dullness & uneven tone"
+    ],
+    "keyIngredients": [
+      "Collagen",
+      "Peptides",
+      "Niacinamide"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_116.jpg",
+      "Beauty Crib+256 78495665305_15_2026_117.jpg",
+      "Beauty Crib+256 78495665305_15_2026_118.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "A collagen booster in a click pen, for a lit finish.",
+    "description": [
+      "The pen format means a measured dose each time rather than a pipette guess, which matters with a serum you use on the whole face.",
+      "Collagen and peptides for bounce; the glow shows up long before the firmness does."
+    ],
+    "benefits": [
+      "Plumps and firms over time",
+      "Measured dose from the click pen",
+      "Gives an immediate lit finish",
+      "Absorbs without tack"
+    ],
+    "howToUse": [
+      "Apply to clean skin after toner, before moisturiser.",
+      "Three to four drops is enough for the whole face.",
+      "Press in rather than rubbing.",
+      "Seal with a moisturiser, and sunscreen in the morning."
+    ]
+  },
+  {
+    "slug": "medicube-kojic-acid-turmeric-niacinamide-serum-serum",
+    "sku": "BC-MED-010",
+    "name": "Kojic Acid Turmeric Niacinamide Serum",
+    "brand": "Medicube",
+    "brandSlug": "medicube",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "serums-treatments",
+    "format": "Serum",
+    "skinTypes": [
+      "All",
+      "Combination",
+      "Oily"
+    ],
+    "concerns": [
+      "Dark spots",
+      "Dullness & uneven tone"
+    ],
+    "keyIngredients": [
+      "Kojic acid",
+      "Turmeric extract",
+      "Niacinamide"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_119.jpg",
+      "Beauty Crib+256 78495665305_15_2026_120.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "The serum that started Medicube's kojic acid line.",
+    "description": [
+      "Kojic acid interrupts pigment at the source and turmeric handles the inflammation that keeps marks coming back, which is the pairing dark marks actually need.",
+      "Niacinamide underneath keeps the whole thing tolerable for daily use."
+    ],
+    "benefits": [
+      "Fades dark spots and post-acne marks",
+      "Works on uneven, patchy tone",
+      "Turmeric calms the inflammation behind marks",
+      "Light enough for morning use"
+    ],
+    "howToUse": [
+      "Apply to clean skin after toner, before moisturiser.",
+      "Three to four drops is enough for the whole face.",
+      "Press in rather than rubbing.",
+      "Seal with a moisturiser, and sunscreen in the morning."
+    ]
+  },
+  {
+    "slug": "celimax-retinal-shot-tightening-booster",
+    "sku": "BC-CEL-003",
+    "name": "Retinal Shot Tightening Booster",
+    "brand": "Celimax",
+    "brandSlug": "celimax",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "serums-treatments",
+    "format": "Treatment liquid",
+    "skinTypes": [
+      "Normal",
+      "Combination",
+      "All"
+    ],
+    "concerns": [
+      "Fine lines & firmness",
+      "Texture"
+    ],
+    "keyIngredients": [
+      "Retinal 0.1%",
+      "Peptides",
+      "Squalane"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_121.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Retinal, the faster cousin of retinol, in a small booster tube.",
+    "description": [
+      "Retinal converts to the active form in one step instead of two, so results on lines and texture arrive sooner than with retinol.",
+      "A booster rather than a full serum: a short course, then back to your usual routine."
+    ],
+    "benefits": [
+      "Firms and tightens visibly",
+      "Smooths rough texture",
+      "Faster-acting than retinol",
+      "Small tube for a focused course"
+    ],
+    "howToUse": [
+      "Wipe over clean skin, avoiding the eye area.",
+      "Start two or three nights a week and build up.",
+      "Use the textured side on areas that need more.",
+      "Follow with a moisturiser, and sunscreen the next morning."
+    ],
+    "caution": "Use at night only, two to three times a week to begin. Sunscreen is essential while using retinal."
+  },
+  {
+    "slug": "dr-althea-gentle-vitamin-c-serum",
+    "sku": "BC-DRA-004",
+    "name": "Gentle Vitamin C Serum",
+    "brand": "Dr. Althea",
+    "brandSlug": "dr-althea",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "serums-treatments",
+    "format": "Serum",
+    "skinTypes": [
+      "Sensitive",
+      "All",
+      "Normal"
+    ],
+    "concerns": [
+      "Dullness & uneven tone",
+      "Dark spots"
+    ],
+    "keyIngredients": [
+      "Vitamin C derivative",
+      "Niacinamide",
+      "Green tea"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_122.jpg",
+      "Beauty Crib+256 78495665305_15_2026_123.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Vitamin C for people whose skin hates vitamin C.",
+    "description": [
+      "A stable derivative rather than pure ascorbic acid, so you get the brightening without the sting, the flush or the bottle turning brown.",
+      "Gentle enough to use every morning from the first week."
+    ],
+    "benefits": [
+      "Brightens without irritation",
+      "No stinging or flushing",
+      "Stable - it will not oxidise in the bottle",
+      "Safe for sensitive skin"
+    ],
+    "howToUse": [
+      "Apply to clean skin after toner, before moisturiser.",
+      "Three to four drops is enough for the whole face.",
+      "Press in rather than rubbing.",
+      "Seal with a moisturiser, and sunscreen in the morning."
+    ]
+  },
+  {
+    "slug": "numbuzin-no-5-glutathione-vitamin-concentrated-serum",
+    "sku": "BC-NUM-003",
+    "name": "No.5 Glutathione Vitamin Concentrated Serum",
+    "brand": "numbuzin",
+    "brandSlug": "numbuzin",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "serums-treatments",
+    "format": "Serum",
+    "skinTypes": [
+      "All",
+      "Normal",
+      "Combination"
+    ],
+    "concerns": [
+      "Dullness & uneven tone",
+      "Dark spots"
+    ],
+    "keyIngredients": [
+      "Glutathione",
+      "Vitamin C",
+      "Niacinamide"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_124.jpg",
+      "Beauty Crib+256 78495665305_15_2026_125.jpg",
+      "Beauty Crib+256 78495665305_15_2026_132.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Glutathione and vitamin C, in the brightening number of the range.",
+    "description": [
+      "Glutathione is the brightening ingredient people usually look for in a supplement, concentrated here into a serum that works where you can see it.",
+      "The dark glass bottle is doing a job: these ingredients degrade in light."
+    ],
+    "benefits": [
+      "Brightens dull, grey-looking skin",
+      "Works on dark marks over time",
+      "Glutathione and vitamin C together",
+      "Light, fast-absorbing texture"
+    ],
+    "howToUse": [
+      "Apply to clean skin after toner, before moisturiser.",
+      "Three to four drops is enough for the whole face.",
+      "Press in rather than rubbing.",
+      "Seal with a moisturiser, and sunscreen in the morning."
+    ]
+  },
+  {
+    "slug": "anua-peach-70-niacin-serum",
+    "sku": "BC-ANU-010",
+    "name": "Peach 70 Niacin Serum",
+    "brand": "Anua",
+    "brandSlug": "anua",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "serums-treatments",
+    "format": "Serum",
+    "skinTypes": [
+      "All",
+      "Combination",
+      "Normal"
+    ],
+    "concerns": [
+      "Dullness & uneven tone",
+      "Pores & blackheads"
+    ],
+    "keyIngredients": [
+      "Peach extract 70%",
+      "Niacinamide",
+      "Panthenol"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_126.jpg",
+      "Beauty Crib+256 78495665305_15_2026_127.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "70% peach extract and niacinamide for a soft, even glow.",
+    "description": [
+      "Anua's peach line is the gentler sibling of the heartleaf one: the same restraint, aimed at tone rather than redness.",
+      "Niacinamide handles the pores while the peach extract keeps skin comfortable."
+    ],
+    "benefits": [
+      "Brightens and evens out tone",
+      "Refines the look of pores",
+      "Gentle enough for daily use",
+      "Leaves a soft, non-sticky finish"
+    ],
+    "howToUse": [
+      "Apply to clean skin after toner, before moisturiser.",
+      "Three to four drops is enough for the whole face.",
+      "Press in rather than rubbing.",
+      "Seal with a moisturiser, and sunscreen in the morning."
+    ]
+  },
+  {
+    "slug": "k-secret-seoul-1988-serum-retinal-liposome-2-plus-black-ginseng",
+    "sku": "BC-KSE-003",
+    "name": "Seoul 1988 Serum - Retinal Liposome 2% + Black Ginseng",
+    "brand": "K-SECRET",
+    "brandSlug": "k-secret",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "serums-treatments",
+    "format": "Serum",
+    "skinTypes": [
+      "Normal",
+      "All",
+      "Dry"
+    ],
+    "concerns": [
+      "Fine lines & firmness",
+      "Texture"
+    ],
+    "keyIngredients": [
+      "Retinal liposome 2%",
+      "Black ginseng",
+      "Niacinamide"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_128.jpg",
+      "Beauty Crib+256 78495665305_15_2026_129.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Liposomal retinal with black ginseng for firmness.",
+    "description": [
+      "Wrapping retinal in liposomes slows the release, so you get the results on lines without the peeling week that usually comes first.",
+      "Black ginseng is the hanbang half: traditional, warming, and good for skin that looks tired."
+    ],
+    "benefits": [
+      "Smooths lines and texture",
+      "Liposomes reduce the usual irritation",
+      "Black ginseng revives tired skin",
+      "Pump keeps the retinal stable"
+    ],
+    "howToUse": [
+      "Apply to clean skin after toner, before moisturiser.",
+      "Three to four drops is enough for the whole face.",
+      "Press in rather than rubbing.",
+      "Seal with a moisturiser, and sunscreen in the morning."
+    ],
+    "caution": "Night use only. Build up slowly and wear sunscreen every day."
+  },
+  {
+    "slug": "dr-althea-skin-relief-essence",
+    "sku": "BC-DRA-005",
+    "name": "Skin Relief Essence",
+    "brand": "Dr. Althea",
+    "brandSlug": "dr-althea",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "serums-treatments",
+    "format": "Essence",
+    "skinTypes": [
+      "Sensitive",
+      "Dry",
+      "All"
+    ],
+    "concerns": [
+      "Sensitivity",
+      "Dryness"
+    ],
+    "keyIngredients": [
+      "Centella",
+      "Panthenol",
+      "Madecassoside"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_130.jpg",
+      "Beauty Crib+256 78495665305_15_2026_131.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "A calming essence for the step before everything else.",
+    "description": [
+      "Thin enough to be a first treatment and calming enough to be the only one on a bad skin day.",
+      "Built around centella and panthenol, with nothing in it that could set reactive skin off."
+    ],
+    "benefits": [
+      "Settles redness and stinging",
+      "Preps skin for the rest of the routine",
+      "Light, watery texture",
+      "Fragrance-free"
+    ],
+    "howToUse": [
+      "Press onto clean, slightly damp skin after toner.",
+      "Use morning and evening.",
+      "Pat until it has sunk in rather than rubbing.",
+      "Follow with your serum and moisturiser."
+    ]
+  },
+  {
+    "slug": "eqqualberry-lush-blush-nad-plus-peptide-boosting-serum",
+    "sku": "BC-EQQ-002",
+    "name": "Lush Blush NAD+ Peptide Boosting Serum",
+    "brand": "Eqqualberry",
+    "brandSlug": "eqqualberry",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "serums-treatments",
+    "format": "Serum",
+    "skinTypes": [
+      "All",
+      "Normal",
+      "Combination"
+    ],
+    "concerns": [
+      "Fine lines & firmness",
+      "Dullness & uneven tone"
+    ],
+    "keyIngredients": [
+      "NAD+",
+      "Peptides",
+      "Hyaluronic acid"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_133.jpg",
+      "Beauty Crib+256 78495665305_15_2026_134.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "The serum in the NAD+ pair, for tired, flat-looking skin.",
+    "description": [
+      "NAD+ works on the energy side of ageing rather than the surface, so the change shows up as skin that looks awake rather than skin that looks coated.",
+      "Use it under the matching cream for the full course."
+    ],
+    "benefits": [
+      "Restores a healthy flush",
+      "Peptides firm over time",
+      "Lightweight and fast-absorbing",
+      "Pairs with the NAD+ cream"
+    ],
+    "howToUse": [
+      "Apply to clean skin after toner, before moisturiser.",
+      "Three to four drops is enough for the whole face.",
+      "Press in rather than rubbing.",
+      "Seal with a moisturiser, and sunscreen in the morning."
+    ]
+  },
+  {
+    "slug": "eqqualberry-glow-filter-vitamin-illuminating-serum",
+    "sku": "BC-EQQ-003",
+    "name": "Glow Filter Vitamin Illuminating Serum",
+    "brand": "Eqqualberry",
+    "brandSlug": "eqqualberry",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "serums-treatments",
+    "format": "Serum",
+    "skinTypes": [
+      "All",
+      "Normal",
+      "Dry"
+    ],
+    "concerns": [
+      "Dullness & uneven tone"
+    ],
+    "keyIngredients": [
+      "Vitamin C",
+      "Vitamin E",
+      "Niacinamide"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_135.jpg",
+      "Beauty Crib+256 78495665305_15_2026_136.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "A vitamin serum that gives an immediate filter-like glow.",
+    "description": [
+      "Named for what it does on camera: skin reads smoother and brighter straight away, with the vitamin work happening underneath over weeks.",
+      "Good under makeup, better on a bare face."
+    ],
+    "benefits": [
+      "Instant glow, no shimmer",
+      "Brightens properly over time",
+      "Vitamins C and E together",
+      "Sits well under foundation"
+    ],
+    "howToUse": [
+      "Apply to clean skin after toner, before moisturiser.",
+      "Three to four drops is enough for the whole face.",
+      "Press in rather than rubbing.",
+      "Seal with a moisturiser, and sunscreen in the morning."
+    ]
+  },
+  {
+    "slug": "anua-rice-7-plus-ceramide-hydrating-barrier-serum",
+    "sku": "BC-ANU-011",
+    "name": "Rice 7 + Ceramide Hydrating Barrier Serum",
+    "brand": "Anua",
+    "brandSlug": "anua",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "serums-treatments",
+    "format": "Serum",
+    "skinTypes": [
+      "Dry",
+      "Sensitive",
+      "Normal"
+    ],
+    "concerns": [
+      "Dryness",
+      "Dullness & uneven tone"
+    ],
+    "keyIngredients": [
+      "Rice extract",
+      "Ceramides",
+      "Panthenol"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_137.jpg",
+      "Beauty Crib+256 78495665305_15_2026_138.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Rice and ceramides, for a barrier that needs feeding.",
+    "description": [
+      "Rice water has been Korean skincare's quiet brightener for centuries; the ceramides are the modern half, patching a barrier that has stopped holding water.",
+      "A serum you can use twice a day without thinking about it."
+    ],
+    "benefits": [
+      "Strengthens the moisture barrier",
+      "Brightens gently with rice extract",
+      "Comfortable morning and night",
+      "No fragrance, no sting"
+    ],
+    "howToUse": [
+      "Apply to clean skin after toner, before moisturiser.",
+      "Three to four drops is enough for the whole face.",
+      "Press in rather than rubbing.",
+      "Seal with a moisturiser, and sunscreen in the morning."
+    ]
+  },
+  {
+    "slug": "medicube-triple-collagen-serum",
+    "sku": "BC-MED-011",
+    "name": "Triple Collagen Serum",
+    "brand": "Medicube",
+    "brandSlug": "medicube",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "serums-treatments",
+    "format": "Serum",
+    "skinTypes": [
+      "All",
+      "Dry",
+      "Normal"
+    ],
+    "concerns": [
+      "Fine lines & firmness",
+      "Dryness"
+    ],
+    "keyIngredients": [
+      "Hydrolysed collagen",
+      "Atelocollagen",
+      "Peptides"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_139.jpg",
+      "Beauty Crib+256 78495665305_15_2026_140.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Three forms of collagen in one pump bottle.",
+    "description": [
+      "Different collagen molecule sizes reach different depths, which is the argument for using three rather than one.",
+      "The texture is milky and light, so it works as a daily serum rather than a treat."
+    ],
+    "benefits": [
+      "Firms and plumps over weeks",
+      "Three collagen types at three depths",
+      "Milky, fast-absorbing texture",
+      "Suits every skin type"
+    ],
+    "howToUse": [
+      "Apply to clean skin after toner, before moisturiser.",
+      "Three to four drops is enough for the whole face.",
+      "Press in rather than rubbing.",
+      "Seal with a moisturiser, and sunscreen in the morning."
+    ]
+  },
+  {
+    "slug": "numbuzin-no-3-skin-softening-serum",
+    "sku": "BC-NUM-004",
+    "name": "No.3 Skin Softening Serum",
+    "brand": "numbuzin",
+    "brandSlug": "numbuzin",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "serums-treatments",
+    "format": "Serum",
+    "skinTypes": [
+      "All",
+      "Dry",
+      "Combination"
+    ],
+    "concerns": [
+      "Texture",
+      "Dryness"
+    ],
+    "keyIngredients": [
+      "Fermented rice extract",
+      "Niacinamide",
+      "Panthenol"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_141.jpg",
+      "Beauty Crib+256 78495665305_15_2026_142.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "The softening number: fermented rice for rough, tight skin.",
+    "description": [
+      "Fermentation breaks ingredients down into forms skin takes up more easily, which is why this reads smoother after one use rather than one month.",
+      "The texture people describe as a softening toner-serum hybrid."
+    ],
+    "benefits": [
+      "Softens rough, tight skin",
+      "Fermented rice absorbs easily",
+      "Smooths texture within days",
+      "Light enough to layer heavily"
+    ],
+    "howToUse": [
+      "Apply to clean skin after toner, before moisturiser.",
+      "Three to four drops is enough for the whole face.",
+      "Press in rather than rubbing.",
+      "Seal with a moisturiser, and sunscreen in the morning."
+    ]
+  },
+  {
+    "slug": "aprilskin-tea-purity-99-tea-niacinamide-toning-shot-bp-serum",
+    "sku": "BC-APR-003",
+    "name": "Tea Purity 99% Tea Niacinamide Toning Shot BP Serum",
+    "brand": "APRILSKIN",
+    "brandSlug": "aprilskin",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "serums-treatments",
+    "format": "Serum",
+    "skinTypes": [
+      "Oily",
+      "Acne-prone",
+      "Combination"
+    ],
+    "concerns": [
+      "Pores & blackheads",
+      "Dark spots"
+    ],
+    "keyIngredients": [
+      "Green tea 99%",
+      "Niacinamide",
+      "BHA"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_143.jpg",
+      "Beauty Crib+256 78495665305_15_2026_144.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "99% green tea with niacinamide, for oily skin with marks.",
+    "description": [
+      "Green tea instead of water as the base, which is where the 99% comes from, with niacinamide and a touch of BHA doing the work on pores.",
+      "Built for the skin that breaks out and then keeps the mark for months."
+    ],
+    "benefits": [
+      "Controls oil and shine",
+      "Clears and refines pores",
+      "Fades post-acne marks",
+      "Green tea base calms as it works"
+    ],
+    "howToUse": [
+      "Apply to clean skin after toner, before moisturiser.",
+      "Three to four drops is enough for the whole face.",
+      "Press in rather than rubbing.",
+      "Seal with a moisturiser, and sunscreen in the morning."
+    ]
+  },
+  {
+    "slug": "eqqualberry-deep-sera-bakuchiol-plumping-serum",
+    "sku": "BC-EQQ-004",
+    "name": "Deep Sera Bakuchiol Plumping Serum",
+    "brand": "Eqqualberry",
+    "brandSlug": "eqqualberry",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "serums-treatments",
+    "format": "Serum",
+    "skinTypes": [
+      "Sensitive",
+      "All",
+      "Dry"
+    ],
+    "concerns": [
+      "Fine lines & firmness",
+      "Sensitivity"
+    ],
+    "keyIngredients": [
+      "Bakuchiol",
+      "Peptides",
+      "Hyaluronic acid"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_145.jpg",
+      "Beauty Crib+256 78495665305_15_2026_146.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Bakuchiol, for skin that wants retinol results without retinol.",
+    "description": [
+      "Bakuchiol does similar work on lines and firmness without the peeling, the sun sensitivity or the pregnancy warnings.",
+      "The plumping comes from hyaluronic acid, and it shows up immediately."
+    ],
+    "benefits": [
+      "Firms without retinol irritation",
+      "Plumps fine lines straight away",
+      "Safe for sensitive skin",
+      "Can be used morning and night"
+    ],
+    "howToUse": [
+      "Apply to clean skin after toner, before moisturiser.",
+      "Three to four drops is enough for the whole face.",
+      "Press in rather than rubbing.",
+      "Seal with a moisturiser, and sunscreen in the morning."
+    ]
+  },
+  {
+    "slug": "abib-glutathione-dark-spot-serum",
+    "sku": "BC-ABI-001",
+    "name": "Glutathione Dark Spot Serum",
+    "brand": "Abib",
+    "brandSlug": "abib",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "serums-treatments",
+    "format": "Serum",
+    "skinTypes": [
+      "All",
+      "Normal",
+      "Combination"
+    ],
+    "concerns": [
+      "Dark spots",
+      "Dullness & uneven tone"
+    ],
+    "keyIngredients": [
+      "Glutathione",
+      "Niacinamide",
+      "Tranexamic acid"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_147.jpg",
+      "Beauty Crib+256 78495665305_15_2026_148.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Glutathione and tranexamic acid, aimed squarely at dark spots.",
+    "description": [
+      "Two of the strongest non-prescription pigment ingredients in one bottle, which is why this is the serum to reach for when niacinamide alone has stopped making a difference.",
+      "Expect weeks, not days - that is how pigment works."
+    ],
+    "benefits": [
+      "Targets stubborn dark spots",
+      "Works on sun damage and melasma-type marks",
+      "Evens out overall tone",
+      "Light serum texture"
+    ],
+    "howToUse": [
+      "Apply to clean skin after toner, before moisturiser.",
+      "Three to four drops is enough for the whole face.",
+      "Press in rather than rubbing.",
+      "Seal with a moisturiser, and sunscreen in the morning."
+    ],
+    "caution": "Daily sunscreen is not optional with this one - pigment comes straight back without it."
+  },
+  {
+    "slug": "medicube-deep-vita-a-retinol-serum",
+    "sku": "BC-MED-012",
+    "name": "Deep Vita A Retinol Serum",
+    "brand": "Medicube",
+    "brandSlug": "medicube",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "serums-treatments",
+    "format": "Serum",
+    "skinTypes": [
+      "Normal",
+      "All",
+      "Combination"
+    ],
+    "concerns": [
+      "Fine lines & firmness",
+      "Texture"
+    ],
+    "keyIngredients": [
+      "Retinol",
+      "Ceramides",
+      "Niacinamide"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_149.jpg",
+      "Beauty Crib+256 78495665305_15_2026_150.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "A retinol serum with the barrier support built in.",
+    "description": [
+      "Most retinol serums leave you to manage the dryness yourself; this one carries ceramides and niacinamide to take the edge off.",
+      "Still a retinol, so the usual rules apply."
+    ],
+    "benefits": [
+      "Smooths lines and rough texture",
+      "Ceramides reduce the peeling",
+      "Refines pores over time",
+      "Metal tube keeps it stable"
+    ],
+    "howToUse": [
+      "Apply to clean skin after toner, before moisturiser.",
+      "Three to four drops is enough for the whole face.",
+      "Press in rather than rubbing.",
+      "Seal with a moisturiser, and sunscreen in the morning."
+    ],
+    "caution": "Night use only. Start twice a week. Wear sunscreen every day."
+  },
+  {
+    "slug": "purito-seoul-wonder-releaf-centella-serum-unscented",
+    "sku": "BC-PUR-004",
+    "name": "Wonder Releaf Centella Serum Unscented",
+    "brand": "Purito Seoul",
+    "brandSlug": "purito-seoul",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "serums-treatments",
+    "format": "Serum",
+    "skinTypes": [
+      "Sensitive",
+      "All",
+      "Dry"
+    ],
+    "concerns": [
+      "Sensitivity",
+      "Redness"
+    ],
+    "keyIngredients": [
+      "Centella asiatica",
+      "Panthenol",
+      "Madecassoside"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_151.jpg",
+      "Beauty Crib+256 78495665305_15_2026_152.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "The serum half of Purito's most trusted centella pair.",
+    "description": [
+      "No fragrance, no essential oils, no colour - just centella in a concentration that actually does something about redness.",
+      "The serum to keep for the weeks when skin has turned on you."
+    ],
+    "benefits": [
+      "Calms visible redness",
+      "Entirely unscented",
+      "Speeds up barrier recovery",
+      "Layers under anything"
+    ],
+    "howToUse": [
+      "Apply to clean skin after toner, before moisturiser.",
+      "Three to four drops is enough for the whole face.",
+      "Press in rather than rubbing.",
+      "Seal with a moisturiser, and sunscreen in the morning."
+    ]
+  },
+  {
+    "slug": "i-m-from-rice-serum",
+    "sku": "BC-IMF-001",
+    "name": "Rice Serum",
+    "brand": "I'm From",
+    "brandSlug": "i-m-from",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "serums-treatments",
+    "format": "Serum",
+    "skinTypes": [
+      "Dry",
+      "All",
+      "Normal"
+    ],
+    "concerns": [
+      "Dullness & uneven tone",
+      "Dryness"
+    ],
+    "keyIngredients": [
+      "Rice extract 44%",
+      "Niacinamide",
+      "Squalane"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_153.jpg",
+      "Beauty Crib+256 78495665305_15_2026_154.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Rice at nearly half the bottle, for dull and dry skin.",
+    "description": [
+      "I'm From build single-ingredient products, and the rice line is the one people buy twice: brightening that comes with moisture instead of at the cost of it.",
+      "Milky, slightly rich, and it sinks in completely."
+    ],
+    "benefits": [
+      "Brightens dull skin naturally",
+      "Hydrates as it evens tone",
+      "High rice extract concentration",
+      "Comfortable on dry skin"
+    ],
+    "howToUse": [
+      "Apply to clean skin after toner, before moisturiser.",
+      "Three to four drops is enough for the whole face.",
+      "Press in rather than rubbing.",
+      "Seal with a moisturiser, and sunscreen in the morning."
+    ]
+  },
+  {
+    "slug": "purito-seoul-pure-vitamin-c-serum",
+    "sku": "BC-PUR-005",
+    "name": "Pure Vitamin C Serum",
+    "brand": "Purito Seoul",
+    "brandSlug": "purito-seoul",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "serums-treatments",
+    "format": "Serum",
+    "skinTypes": [
+      "Normal",
+      "All",
+      "Combination"
+    ],
+    "concerns": [
+      "Dullness & uneven tone",
+      "Dark spots"
+    ],
+    "keyIngredients": [
+      "Pure vitamin C",
+      "Vitamin E",
+      "Ferulic acid"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_155.jpg",
+      "Beauty Crib+256 78495665305_15_2026_156.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Pure ascorbic acid in dark glass, the way it should be sold.",
+    "description": [
+      "Pure vitamin C is the gold standard for brightening and the hardest form to keep stable, which is why the bottle is small and brown.",
+      "Vitamin E and ferulic acid are there to hold it together and multiply the effect."
+    ],
+    "benefits": [
+      "The strongest form of vitamin C",
+      "Visible brightening within weeks",
+      "Protects against daily damage",
+      "Dark glass keeps it potent"
+    ],
+    "howToUse": [
+      "Apply to clean skin after toner, before moisturiser.",
+      "Three to four drops is enough for the whole face.",
+      "Press in rather than rubbing.",
+      "Seal with a moisturiser, and sunscreen in the morning."
+    ],
+    "caution": "Use in the morning under sunscreen. Keep the bottle closed and out of light."
+  },
+  {
+    "slug": "nine-less-mela-pro-5-tranexamic-acid-serum",
+    "sku": "BC-NIN-006",
+    "name": "Mela-Pro 5% Tranexamic Acid Serum",
+    "brand": "Nineless",
+    "brandSlug": "nineless",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "serums-treatments",
+    "format": "Serum",
+    "skinTypes": [
+      "All",
+      "Normal",
+      "Combination"
+    ],
+    "concerns": [
+      "Dark spots",
+      "Dullness & uneven tone"
+    ],
+    "keyIngredients": [
+      "Tranexamic acid 5%",
+      "Niacinamide",
+      "Centella"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_157.jpg",
+      "Beauty Crib+256 78495665305_15_2026_158.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "5% tranexamic acid for pigment that will not shift.",
+    "description": [
+      "Tranexamic acid works on the pathway that drives melasma and stubborn sun marks, which is a different route from the brighteners most serums use.",
+      "At 5% it is a serious dose, so give it eight weeks before judging."
+    ],
+    "benefits": [
+      "Targets melasma and deep pigmentation",
+      "Works where niacinamide alone stalls",
+      "Evens out tone across the face",
+      "Centella keeps irritation down"
+    ],
+    "howToUse": [
+      "Apply to clean skin after toner, before moisturiser.",
+      "Three to four drops is enough for the whole face.",
+      "Press in rather than rubbing.",
+      "Seal with a moisturiser, and sunscreen in the morning."
+    ],
+    "caution": "Daily sunscreen is essential, otherwise the marks return."
+  },
+  {
+    "slug": "anua-peptide-hyaluronic-acid-capsule-100-serum",
+    "sku": "BC-ANU-012",
+    "name": "Peptide Hyaluronic Acid Capsule 100 Serum",
+    "brand": "Anua",
+    "brandSlug": "anua",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "serums-treatments",
+    "format": "Serum",
+    "skinTypes": [
+      "Dry",
+      "All",
+      "Normal"
+    ],
+    "concerns": [
+      "Dryness",
+      "Fine lines & firmness"
+    ],
+    "keyIngredients": [
+      "Peptides",
+      "Hyaluronic acid",
+      "Capsule complex"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_159.jpg",
+      "Beauty Crib+256 78495665305_15_2026_160.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Peptides and hyaluronic acid suspended as visible capsules.",
+    "description": [
+      "The capsules are not decoration: they hold the peptides separate until the moment you use them.",
+      "Deep hydration first, firmness over the following weeks."
+    ],
+    "benefits": [
+      "Deep, lasting hydration",
+      "Peptides firm over time",
+      "Capsules keep actives fresh",
+      "Plumps fine lines immediately"
+    ],
+    "howToUse": [
+      "Apply to clean skin after toner, before moisturiser.",
+      "Three to four drops is enough for the whole face.",
+      "Press in rather than rubbing.",
+      "Seal with a moisturiser, and sunscreen in the morning."
+    ]
+  },
+  {
+    "slug": "cosrx-advanced-the-vitamin-c-23-serum",
+    "sku": "BC-COS-001",
+    "name": "Advanced The Vitamin C 23 Serum",
+    "brand": "COSRX",
+    "brandSlug": "cosrx",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "serums-treatments",
+    "format": "Serum",
+    "skinTypes": [
+      "Normal",
+      "Combination",
+      "All"
+    ],
+    "concerns": [
+      "Dark spots",
+      "Dullness & uneven tone"
+    ],
+    "keyIngredients": [
+      "Pure vitamin C 23%",
+      "Vitamin E",
+      "Hyaluronic acid"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_161.jpg",
+      "Beauty Crib+256 78495665305_15_2026_162.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "23% pure vitamin C - the strong one.",
+    "description": [
+      "This is the high-dose end of vitamin C, for skin that has already got used to a gentler version and stopped seeing change.",
+      "Thick, slightly tacky, and it works."
+    ],
+    "benefits": [
+      "23% pure ascorbic acid",
+      "Serious work on dark spots",
+      "Brightens the whole face",
+      "Vitamin E boosts the effect"
+    ],
+    "howToUse": [
+      "Apply to clean skin after toner, before moisturiser.",
+      "Three to four drops is enough for the whole face.",
+      "Press in rather than rubbing.",
+      "Seal with a moisturiser, and sunscreen in the morning."
+    ],
+    "caution": "Not a starting point. A tingle is expected; patch test first and always wear sunscreen."
+  },
+  {
+    "slug": "abib-jericho-rose-bifida-serum",
+    "sku": "BC-ABI-002",
+    "name": "Jericho Rose Bifida Serum",
+    "brand": "Abib",
+    "brandSlug": "abib",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "serums-treatments",
+    "format": "Serum",
+    "skinTypes": [
+      "Dry",
+      "Sensitive",
+      "All"
+    ],
+    "concerns": [
+      "Dryness",
+      "Fine lines & firmness"
+    ],
+    "keyIngredients": [
+      "Bifida ferment lysate",
+      "Jericho rose extract",
+      "Peptides"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_163.jpg",
+      "Beauty Crib+256 78495665305_15_2026_164.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Fermented bifida and the desert rose that survives on nothing.",
+    "description": [
+      "Jericho rose is the plant that revives from completely dry, which is a neat image for what this serum is meant to do for dehydrated skin.",
+      "Fermented bifida does the repair work underneath."
+    ],
+    "benefits": [
+      "Restores badly dehydrated skin",
+      "Firms with fermented bifida",
+      "Soothes while it repairs",
+      "Milky texture, no residue"
+    ],
+    "howToUse": [
+      "Apply to clean skin after toner, before moisturiser.",
+      "Three to four drops is enough for the whole face.",
+      "Press in rather than rubbing.",
+      "Seal with a moisturiser, and sunscreen in the morning."
+    ]
+  },
+  {
+    "slug": "beauty-of-joseon-glow-serum-propolis-plus-niacinamide",
+    "sku": "BC-BEA-002",
+    "name": "Glow Serum - Propolis + Niacinamide",
+    "brand": "Beauty of Joseon",
+    "brandSlug": "beauty-of-joseon",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "serums-treatments",
+    "format": "Serum",
+    "skinTypes": [
+      "All",
+      "Combination",
+      "Oily"
+    ],
+    "concerns": [
+      "Dullness & uneven tone",
+      "Acne & breakouts"
+    ],
+    "keyIngredients": [
+      "Propolis extract",
+      "Niacinamide 2%",
+      "Panthenol"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_165.jpg",
+      "Beauty Crib+256 78495665305_15_2026_166.jpg",
+      "Beauty Crib+256 78495665305_15_2026_189.jpg",
+      "Beauty Crib+256 78495665305_15_2026_190.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Propolis and niacinamide, the brand's most reordered serum.",
+    "description": [
+      "Propolis is naturally antibacterial, which is why this suits skin that is dull and breaking out at the same time.",
+      "Slightly sticky going on, glowing within minutes."
+    ],
+    "benefits": [
+      "Brightens dull skin fast",
+      "Propolis helps with breakouts",
+      "Niacinamide evens out tone",
+      "Works morning and night"
+    ],
+    "howToUse": [
+      "Apply to clean skin after toner, before moisturiser.",
+      "Three to four drops is enough for the whole face.",
+      "Press in rather than rubbing.",
+      "Seal with a moisturiser, and sunscreen in the morning."
+    ]
+  },
+  {
+    "slug": "arencia-vitamin-c-booster-shot-face-and-eye-cream",
+    "sku": "BC-ARE-001",
+    "name": "Vitamin C Booster Shot Face and Eye Cream",
+    "brand": "Arencia",
+    "brandSlug": "arencia",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "serums-treatments",
+    "format": "Treatment liquid",
+    "skinTypes": [
+      "All",
+      "Normal",
+      "Dry"
+    ],
+    "concerns": [
+      "Dullness & uneven tone",
+      "Fine lines & firmness"
+    ],
+    "keyIngredients": [
+      "Vitamin C complex 15%",
+      "Glutathione",
+      "Peptides"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_167.jpg",
+      "Beauty Crib+256 78495665305_15_2026_168.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "A vitamin C booster you can take right up to the eye.",
+    "description": [
+      "Most vitamin C is too harsh for the eye area; this one is formulated for both, which saves a separate eye product.",
+      "15% vitamin C with glutathione behind it, in a small tube meant to be used up."
+    ],
+    "benefits": [
+      "Brightens face and eye area",
+      "Safe close to the eyes",
+      "Glutathione adds to the brightening",
+      "Small tube, used fresh"
+    ],
+    "howToUse": [
+      "Wipe over clean skin, avoiding the eye area.",
+      "Start two or three nights a week and build up.",
+      "Use the textured side on areas that need more.",
+      "Follow with a moisturiser, and sunscreen the next morning."
+    ]
+  },
+  {
+    "slug": "skin1004-madagascar-centella-retinol-0-2-boosting-shot-ampoule",
+    "sku": "BC-SKI-005",
+    "name": "Madagascar Centella Retinol 0.2 Boosting Shot Ampoule",
+    "brand": "SKIN1004",
+    "brandSlug": "skin1004",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "serums-treatments",
+    "format": "Ampoule",
+    "skinTypes": [
+      "Normal",
+      "Combination",
+      "All"
+    ],
+    "concerns": [
+      "Fine lines & firmness",
+      "Texture"
+    ],
+    "keyIngredients": [
+      "Retinol 0.2%",
+      "Centella spicule 500 shot",
+      "Squalane"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_169.jpg",
+      "Beauty Crib+256 78495665305_15_2026_170.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Retinol at a beginner-friendly 0.2%, cushioned with centella.",
+    "description": [
+      "0.2% is the strength to start on, and the centella in the base is doing the job of the moisturiser you would otherwise need afterwards.",
+      "Squalane keeps it comfortable through the adjustment weeks."
+    ],
+    "benefits": [
+      "A sensible entry into retinol",
+      "Centella prevents the usual flaking",
+      "Smooths texture and fine lines",
+      "Light ampoule texture"
+    ],
+    "howToUse": [
+      "Apply after toner, before your moisturiser.",
+      "Two or three drops, pressed into the skin.",
+      "Use morning and evening unless the caution says otherwise.",
+      "Follow with a moisturiser and daily sunscreen."
+    ],
+    "caution": "Night use only. Two nights a week to begin, and sunscreen every morning."
+  },
+  {
+    "slug": "beauty-of-joseon-revive-serum-ginseng-plus-snail-mucin",
+    "sku": "BC-BEA-003",
+    "name": "Revive Serum - Ginseng + Snail Mucin",
+    "brand": "Beauty of Joseon",
+    "brandSlug": "beauty-of-joseon",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "serums-treatments",
+    "format": "Serum",
+    "skinTypes": [
+      "Dry",
+      "All",
+      "Normal"
+    ],
+    "concerns": [
+      "Fine lines & firmness",
+      "Dryness"
+    ],
+    "keyIngredients": [
+      "Ginseng extract",
+      "Snail mucin",
+      "Niacinamide"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_181.jpg",
+      "Beauty Crib+256 78495665305_15_2026_182.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Ginseng and snail mucin, for skin that looks worn out.",
+    "description": [
+      "Snail mucin is the repair ingredient Korean skincare is best known for, and ginseng is the hanbang half that handles dullness and loss of bounce.",
+      "Thicker than their Glow serum, and better suited to night."
+    ],
+    "benefits": [
+      "Repairs and plumps tired skin",
+      "Snail mucin speeds up healing",
+      "Ginseng revives dull tone",
+      "Rich enough to end a night routine"
+    ],
+    "howToUse": [
+      "Apply to clean skin after toner, before moisturiser.",
+      "Three to four drops is enough for the whole face.",
+      "Press in rather than rubbing.",
+      "Seal with a moisturiser, and sunscreen in the morning."
+    ]
+  },
+  {
+    "slug": "tiam-vita-b3-source",
+    "sku": "BC-TIA-001",
+    "name": "Vita B3 Source",
+    "brand": "TIAM",
+    "brandSlug": "tiam",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "serums-treatments",
+    "format": "Serum",
+    "skinTypes": [
+      "All",
+      "Combination",
+      "Oily"
+    ],
+    "concerns": [
+      "Dark spots",
+      "Dullness & uneven tone"
+    ],
+    "keyIngredients": [
+      "Niacinamide 10%",
+      "Tranexamic acid 2%",
+      "Arbutin"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_183.jpg",
+      "Beauty Crib+256 78495665305_15_2026_184.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "10% niacinamide with tranexamic acid - the dark spot workhorse.",
+    "description": [
+      "TIAM's reputation rests on this bottle: a high niacinamide dose paired with tranexamic acid and arbutin, which is close to what a dermatologist would layer themselves.",
+      "Not elegant, very effective."
+    ],
+    "benefits": [
+      "10% niacinamide for serious tone work",
+      "Tranexamic acid on stubborn marks",
+      "Refines pores and controls oil",
+      "Excellent value for the strength"
+    ],
+    "howToUse": [
+      "Apply to clean skin after toner, before moisturiser.",
+      "Three to four drops is enough for the whole face.",
+      "Press in rather than rubbing.",
+      "Seal with a moisturiser, and sunscreen in the morning."
+    ],
+    "caution": "If you are new to niacinamide, start every other day."
+  },
+  {
+    "slug": "skin1004-madagascar-centella-tender-cica-intensive-ampoule",
+    "sku": "BC-SKI-006",
+    "name": "Madagascar Centella Tender Cica Intensive Ampoule",
+    "brand": "SKIN1004",
+    "brandSlug": "skin1004",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "serums-treatments",
+    "format": "Ampoule",
+    "skinTypes": [
+      "Sensitive",
+      "Dry",
+      "All"
+    ],
+    "concerns": [
+      "Sensitivity",
+      "Redness"
+    ],
+    "keyIngredients": [
+      "Centella asiatica",
+      "Madecassoside",
+      "Panthenol"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_185.jpg",
+      "Beauty Crib+256 78495665305_15_2026_186.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "The strongest centella concentration in the range.",
+    "description": [
+      "When the toner and cream are not enough, this is the ampoule that goes between them.",
+      "Dark glass, thick texture, and a noticeable drop in redness within days."
+    ],
+    "benefits": [
+      "Intensive calming for angry skin",
+      "Reduces visible redness",
+      "Speeds barrier repair",
+      "Use as a course, then pull back"
+    ],
+    "howToUse": [
+      "Apply after toner, before your moisturiser.",
+      "Two or three drops, pressed into the skin.",
+      "Use morning and evening unless the caution says otherwise.",
+      "Follow with a moisturiser and daily sunscreen."
+    ]
+  },
+  {
+    "slug": "skin1004-madagascar-centella-tone-brightening-capsule-ampoule",
+    "sku": "BC-SKI-007",
+    "name": "Madagascar Centella Tone Brightening Capsule Ampoule",
+    "brand": "SKIN1004",
+    "brandSlug": "skin1004",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "serums-treatments",
+    "format": "Ampoule",
+    "skinTypes": [
+      "All",
+      "Normal",
+      "Combination"
+    ],
+    "concerns": [
+      "Dullness & uneven tone",
+      "Dark spots"
+    ],
+    "keyIngredients": [
+      "Centella asiatica",
+      "Niacinamide",
+      "Vitamin capsules"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_187.jpg",
+      "Beauty Crib+256 78495665305_15_2026_188.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Brightening capsules in a centella base, so tone work stays gentle.",
+    "description": [
+      "The brightening ampoule for people whose skin usually objects to brightening products.",
+      "Capsules keep the vitamins intact until you press them out on the skin."
+    ],
+    "benefits": [
+      "Brightens without the irritation",
+      "Centella base keeps skin calm",
+      "Fresh vitamins at every use",
+      "Large bottle for daily use"
+    ],
+    "howToUse": [
+      "Apply after toner, before your moisturiser.",
+      "Two or three drops, pressed into the skin.",
+      "Use morning and evening unless the caution says otherwise.",
+      "Follow with a moisturiser and daily sunscreen."
+    ]
+  },
+  {
+    "slug": "dr-althea-345-relief-serum",
+    "sku": "BC-DRA-006",
+    "name": "345 Relief Serum",
+    "brand": "Dr. Althea",
+    "brandSlug": "dr-althea",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "serums-treatments",
+    "format": "Serum",
+    "skinTypes": [
+      "Sensitive",
+      "Dry",
+      "All"
+    ],
+    "concerns": [
+      "Sensitivity",
+      "Dryness"
+    ],
+    "keyIngredients": [
+      "Ceramide 3",
+      "Vitamin B5",
+      "Centella"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_191.jpg",
+      "Beauty Crib+256 78495665305_15_2026_192.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "A minimal relief serum for skin that is over it.",
+    "description": [
+      "The name is the formula: ceramide 3, panthenol and centella, with very little else in the bottle.",
+      "For the weeks after too much exfoliation, too much sun, or a product that went wrong."
+    ],
+    "benefits": [
+      "Short formula, nothing to react to",
+      "Rebuilds the barrier",
+      "Settles stinging and tightness",
+      "Safe on compromised skin"
+    ],
+    "howToUse": [
+      "Apply to clean skin after toner, before moisturiser.",
+      "Three to four drops is enough for the whole face.",
+      "Press in rather than rubbing.",
+      "Seal with a moisturiser, and sunscreen in the morning."
+    ]
+  },
+  {
+    "slug": "nine-less-b-boost-1-kojic-acid-serum",
+    "sku": "BC-NIN-007",
+    "name": "B-Boost 1% Kojic Acid Serum",
+    "brand": "Nineless",
+    "brandSlug": "nineless",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "serums-treatments",
+    "format": "Serum",
+    "skinTypes": [
+      "All",
+      "Combination",
+      "Normal"
+    ],
+    "concerns": [
+      "Dark spots",
+      "Dullness & uneven tone"
+    ],
+    "keyIngredients": [
+      "Kojic acid 1%",
+      "Niacinamide",
+      "Centella"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_193.jpg",
+      "Beauty Crib+256 78495665305_15_2026_194.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "1% kojic acid, targeted at dark spots and pigmentation.",
+    "description": [
+      "Kojic acid is derived from fermented rice and blocks pigment production directly, which makes it one of the more reliable options for dark marks.",
+      "Paired with niacinamide so the effect compounds rather than irritates."
+    ],
+    "benefits": [
+      "Targets dark spots and pigmentation",
+      "Brightens overall tone",
+      "Kojic acid and niacinamide together",
+      "Light, non-sticky serum"
+    ],
+    "howToUse": [
+      "Apply to clean skin after toner, before moisturiser.",
+      "Three to four drops is enough for the whole face.",
+      "Press in rather than rubbing.",
+      "Seal with a moisturiser, and sunscreen in the morning."
+    ],
+    "caution": "Wear sunscreen daily while using kojic acid."
+  },
+  {
+    "slug": "skin1004-madagascar-centella-hyalu-cica-blue-serum",
+    "sku": "BC-SKI-008",
+    "name": "Madagascar Centella Hyalu-Cica Blue Serum",
+    "brand": "SKIN1004",
+    "brandSlug": "skin1004",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "serums-treatments",
+    "format": "Serum",
+    "skinTypes": [
+      "Dry",
+      "Sensitive",
+      "All"
+    ],
+    "concerns": [
+      "Dryness",
+      "Sensitivity"
+    ],
+    "keyIngredients": [
+      "Centella asiatica",
+      "Hyaluronic acid",
+      "Blue tansy"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_199.jpg",
+      "Beauty Crib+256 78495665305_15_2026_200.jpg",
+      "Beauty Crib+256 78495665305_15_2026_201.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Hyaluronic acid and centella in the blue bottle of the range.",
+    "description": [
+      "The hydrating member of the centella family: water first, calming second, with nothing heavy left behind.",
+      "The one to use in the morning, under sunscreen, every day."
+    ],
+    "benefits": [
+      "Deep hydration without weight",
+      "Calms as it hydrates",
+      "Perfect morning serum",
+      "Layers under any sunscreen"
+    ],
+    "howToUse": [
+      "Apply to clean skin after toner, before moisturiser.",
+      "Three to four drops is enough for the whole face.",
+      "Press in rather than rubbing.",
+      "Seal with a moisturiser, and sunscreen in the morning."
+    ]
+  },
+  {
+    "slug": "dr-althea-aqua-marine-deep-serum-70",
+    "sku": "BC-DRA-007",
+    "name": "Aqua Marine Deep Serum 70%",
+    "brand": "Dr. Althea",
+    "brandSlug": "dr-althea",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "serums-treatments",
+    "format": "Serum",
+    "skinTypes": [
+      "Dry",
+      "All",
+      "Normal"
+    ],
+    "concerns": [
+      "Dryness"
+    ],
+    "keyIngredients": [
+      "Deep sea water 70%",
+      "Hyaluronic acid",
+      "Trehalose"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_94.jpg",
+      "Beauty Crib+256 78495665305_15_2026_95.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "70% deep sea water, for skin that is dehydrated rather than dry.",
+    "description": [
+      "Dehydrated skin needs minerals and water rather than oil, which is exactly what deep sea water brings.",
+      "Light, almost watery, and it disappears on contact."
+    ],
+    "benefits": [
+      "Rehydrates thirsty skin fast",
+      "Mineral-rich sea water base",
+      "Watery texture, no residue",
+      "Good under makeup"
+    ],
+    "howToUse": [
+      "Apply to clean skin after toner, before moisturiser.",
+      "Three to four drops is enough for the whole face.",
+      "Press in rather than rubbing.",
+      "Seal with a moisturiser, and sunscreen in the morning."
+    ]
+  },
+  {
+    "slug": "beauty-of-joseon-ginseng-essence-water",
+    "sku": "BC-BEA-004",
+    "name": "Ginseng Essence Water",
+    "brand": "Beauty of Joseon",
+    "brandSlug": "beauty-of-joseon",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "toners",
+    "format": "Essence",
+    "skinTypes": [
+      "All",
+      "Dry",
+      "Normal"
+    ],
+    "concerns": [
+      "Dullness & uneven tone",
+      "Dryness"
+    ],
+    "keyIngredients": [
+      "Ginseng root water",
+      "Niacinamide",
+      "Panthenol"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_222.jpg",
+      "Beauty Crib+256 78495665305_15_2026_223.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Ginseng water as the first step, in place of a plain toner.",
+    "description": [
+      "Ginseng is the backbone of hanbang skincare, and using it as the water in the formula rather than an added extract is what makes this essence worth the step.",
+      "Thin, slightly amber, and it sinks in before you have finished pressing it on."
+    ],
+    "benefits": [
+      "Brightens and revives dull skin",
+      "Preps skin to take the next steps",
+      "Hydrates without any weight",
+      "Traditional hanbang formulation"
+    ],
+    "howToUse": [
+      "Press onto clean, slightly damp skin after toner.",
+      "Use morning and evening.",
+      "Pat until it has sunk in rather than rubbing.",
+      "Follow with your serum and moisturiser."
+    ]
+  },
+  {
+    "slug": "medicube-kojic-acid-turmeric-resurfacing-toner",
+    "sku": "BC-MED-013",
+    "name": "Kojic Acid Turmeric Resurfacing Toner",
+    "brand": "Medicube",
+    "brandSlug": "medicube",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "toners",
+    "format": "Toner",
+    "skinTypes": [
+      "All",
+      "Combination",
+      "Oily"
+    ],
+    "concerns": [
+      "Dark spots",
+      "Texture"
+    ],
+    "keyIngredients": [
+      "Kojic acid",
+      "Turmeric extract",
+      "PHA"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_224.jpg",
+      "Beauty Crib+256 78495665305_15_2026_225.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "A resurfacing toner with kojic acid, for marks and rough texture.",
+    "description": [
+      "Gentle PHA exfoliation clears the way and kojic acid gets to work on pigment, which is how a toner ends up doing more than wiping.",
+      "The first step of Medicube's dark spot routine."
+    ],
+    "benefits": [
+      "Smooths rough, uneven texture",
+      "Fades dark marks over weeks",
+      "Preps skin for the serum that follows",
+      "Gentle enough for most skin"
+    ],
+    "howToUse": [
+      "Press onto clean skin with your hands or a cotton pad.",
+      "Use morning and evening, straight after cleansing.",
+      "Layer a second pass over dry areas.",
+      "Follow with your serum and moisturiser."
+    ],
+    "caution": "Contains exfoliating acids. Wear sunscreen daily."
+  },
+  {
+    "slug": "haruharu-wonder-black-rice-hyaluronic-toner",
+    "sku": "BC-HAR-001",
+    "name": "Black Rice Hyaluronic Toner",
+    "brand": "Haruharu Wonder",
+    "brandSlug": "haruharu-wonder",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "toners",
+    "format": "Toner",
+    "skinTypes": [
+      "Sensitive",
+      "Dry",
+      "All"
+    ],
+    "concerns": [
+      "Dryness",
+      "Sensitivity"
+    ],
+    "keyIngredients": [
+      "Fermented black rice extract",
+      "Hyaluronic acid",
+      "Centella"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_226.jpg",
+      "Beauty Crib+256 78495665305_15_2026_227.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Fermented black rice, with no alcohol and no fragrance anywhere.",
+    "description": [
+      "haruharu wonder ferment Korean black rice and use it instead of water, then leave out everything sensitive skin usually reacts to.",
+      "It is the toner people switch to when every other toner has stung."
+    ],
+    "benefits": [
+      "Alcohol-free and fragrance-free",
+      "Hydrates and brightens at once",
+      "Fermented rice absorbs easily",
+      "Suits the most reactive skin"
+    ],
+    "howToUse": [
+      "Press onto clean skin with your hands or a cotton pad.",
+      "Use morning and evening, straight after cleansing.",
+      "Layer a second pass over dry areas.",
+      "Follow with your serum and moisturiser."
+    ]
+  },
+  {
+    "slug": "skin1004-madagascar-centella-tone-brightening-boosting-toner",
+    "sku": "BC-SKI-009",
+    "name": "Madagascar Centella Tone Brightening Boosting Toner",
+    "brand": "SKIN1004",
+    "brandSlug": "skin1004",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "toners",
+    "format": "Toner",
+    "skinTypes": [
+      "All",
+      "Normal",
+      "Combination"
+    ],
+    "concerns": [
+      "Dullness & uneven tone",
+      "Dark spots"
+    ],
+    "keyIngredients": [
+      "Centella asiatica",
+      "Niacinamide",
+      "Vitamin C"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_228.jpg",
+      "Beauty Crib+256 78495665305_15_2026_229.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "The brightening toner of the centella range.",
+    "description": [
+      "A first step that starts the tone work rather than just wetting the skin, with centella keeping it gentle enough for daily use.",
+      "Pairs with the matching ampoule and cream."
+    ],
+    "benefits": [
+      "Begins brightening at the first step",
+      "Calms with centella",
+      "Preps skin for serums",
+      "Everyday texture"
+    ],
+    "howToUse": [
+      "Press onto clean skin with your hands or a cotton pad.",
+      "Use morning and evening, straight after cleansing.",
+      "Layer a second pass over dry areas.",
+      "Follow with your serum and moisturiser."
+    ]
+  },
+  {
+    "slug": "haruharu-wonder-black-rice-probiotics-barrier-essence",
+    "sku": "BC-HAR-002",
+    "name": "Black Rice Probiotics Barrier Essence",
+    "brand": "Haruharu Wonder",
+    "brandSlug": "haruharu-wonder",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "toners",
+    "format": "Essence",
+    "skinTypes": [
+      "Sensitive",
+      "Dry",
+      "All"
+    ],
+    "concerns": [
+      "Sensitivity",
+      "Dryness"
+    ],
+    "keyIngredients": [
+      "Fermented black rice",
+      "Probiotics",
+      "Panthenol"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_230.jpg",
+      "Beauty Crib+256 78495665305_15_2026_231.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "A probiotic essence built on makgeolli - fermented rice wine.",
+    "description": [
+      "The probiotic ferment is what makgeolli brewers have used for centuries, repurposed here to feed the skin's own microbiome.",
+      "Milky and light, and it goes on after the toner rather than instead of it."
+    ],
+    "benefits": [
+      "Supports the skin microbiome",
+      "Strengthens a weakened barrier",
+      "Fragrance-free and alcohol-free",
+      "Milky texture that sinks straight in"
+    ],
+    "howToUse": [
+      "Press onto clean, slightly damp skin after toner.",
+      "Use morning and evening.",
+      "Pat until it has sunk in rather than rubbing.",
+      "Follow with your serum and moisturiser."
+    ]
+  },
+  {
+    "slug": "nine-less-b-boost-kojic-acid-glow-pad",
+    "sku": "BC-NIN-008",
+    "name": "B-Boost Kojic Acid Glow Pad",
+    "brand": "Nineless",
+    "brandSlug": "nineless",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "toners",
+    "format": "Treatment liquid",
+    "skinTypes": [
+      "All",
+      "Combination",
+      "Oily"
+    ],
+    "concerns": [
+      "Dark spots",
+      "Texture"
+    ],
+    "keyIngredients": [
+      "Kojic acid",
+      "Niacinamide",
+      "Centella"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_232.jpg",
+      "Beauty Crib+256 78495665305_15_2026_233.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Soaked pads that exfoliate and brighten in one wipe.",
+    "description": [
+      "The pad does the physical work and the kojic acid does the chemical work, which together clear the dull top layer that makes marks look worse.",
+      "Sixty pads, so it lasts a proper course."
+    ],
+    "benefits": [
+      "Brightens and exfoliates in one step",
+      "Fades dark marks over time",
+      "No cotton pad or decanting needed",
+      "60 pads per tub"
+    ],
+    "howToUse": [
+      "Wipe over clean skin, avoiding the eye area.",
+      "Start two or three nights a week and build up.",
+      "Use the textured side on areas that need more.",
+      "Follow with a moisturiser, and sunscreen the next morning."
+    ],
+    "caution": "Start every other night. Wear sunscreen daily."
+  },
+  {
+    "slug": "anua-heartleaf-77-plus-pha-clear-pad",
+    "sku": "BC-ANU-013",
+    "name": "Heartleaf 77 + PHA Clear Pad",
+    "brand": "Anua",
+    "brandSlug": "anua",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "toners",
+    "format": "Treatment liquid",
+    "skinTypes": [
+      "Sensitive",
+      "Combination",
+      "Oily"
+    ],
+    "concerns": [
+      "Texture",
+      "Pores & blackheads"
+    ],
+    "keyIngredients": [
+      "Heartleaf extract 77%",
+      "PHA",
+      "Panthenol"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_234.jpg",
+      "Beauty Crib+256 78495665305_15_2026_235.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Gentle PHA pads in Anua's heartleaf base.",
+    "description": [
+      "PHA is the largest of the exfoliating acids, so it works on the surface and stays out of the deeper layers that react.",
+      "77% heartleaf in the liquid means the calming and the exfoliating happen together."
+    ],
+    "benefits": [
+      "Gentle enough for sensitive skin",
+      "Clears pores and smooths texture",
+      "Heartleaf calms as it exfoliates",
+      "Convenient pre-soaked pads"
+    ],
+    "howToUse": [
+      "Wipe over clean skin, avoiding the eye area.",
+      "Start two or three nights a week and build up.",
+      "Use the textured side on areas that need more.",
+      "Follow with a moisturiser, and sunscreen the next morning."
+    ],
+    "caution": "Contains PHA. Wear sunscreen daily."
+  },
+  {
+    "slug": "isntree-green-tea-fresh-toner",
+    "sku": "BC-ISN-001",
+    "name": "Green Tea Fresh Toner",
+    "brand": "Isntree",
+    "brandSlug": "isntree",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "toners",
+    "format": "Toner",
+    "skinTypes": [
+      "Oily",
+      "Combination",
+      "Acne-prone"
+    ],
+    "concerns": [
+      "Oil control",
+      "Pores & blackheads"
+    ],
+    "keyIngredients": [
+      "Green tea extract 80%",
+      "Niacinamide",
+      "BHA"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_236.jpg",
+      "Beauty Crib+256 78495665305_15_2026_237.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "80% green tea, for oily skin that needs a reset.",
+    "description": [
+      "Green tea is the plant answer to shine, and Isntree use it as the base of the formula rather than a line on the label.",
+      "A touch of BHA keeps pores from filling back up."
+    ],
+    "benefits": [
+      "Controls oil through the day",
+      "Keeps pores clear",
+      "Calms irritated, breakout-prone skin",
+      "Refreshing without alcohol"
+    ],
+    "howToUse": [
+      "Press onto clean skin with your hands or a cotton pad.",
+      "Use morning and evening, straight after cleansing.",
+      "Layer a second pass over dry areas.",
+      "Follow with your serum and moisturiser."
+    ]
+  },
+  {
+    "slug": "nine-less-a-control-azelaic-acid-toner",
+    "sku": "BC-NIN-009",
+    "name": "A-Control Azelaic Acid Toner",
+    "brand": "Nineless",
+    "brandSlug": "nineless",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "toners",
+    "format": "Toner",
+    "skinTypes": [
+      "Acne-prone",
+      "Oily",
+      "Sensitive"
+    ],
+    "concerns": [
+      "Acne & breakouts",
+      "Redness"
+    ],
+    "keyIngredients": [
+      "Azelaic acid",
+      "Niacinamide",
+      "Centella"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_238.jpg",
+      "Beauty Crib+256 78495665305_15_2026_239.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Azelaic acid in a toner, for skin that breaks out constantly.",
+    "description": [
+      "Getting azelaic acid into the first step means it is on the skin for the whole routine rather than in one thin layer.",
+      "Good for the bumpy, red, congested kind of breakout rather than the occasional spot."
+    ],
+    "benefits": [
+      "Works on constant breakouts",
+      "Reduces redness and bumps",
+      "Prevents new congestion",
+      "Gentle enough for daily use"
+    ],
+    "howToUse": [
+      "Press onto clean skin with your hands or a cotton pad.",
+      "Use morning and evening, straight after cleansing.",
+      "Layer a second pass over dry areas.",
+      "Follow with your serum and moisturiser."
+    ],
+    "caution": "Introduce gradually and wear sunscreen daily."
+  },
+  {
+    "slug": "k-secret-seoul-1988-time-shift-toner-snail-mucin-97-plus-rice",
+    "sku": "BC-KSE-004",
+    "name": "Seoul 1988 Time Shift Toner - Snail Mucin 97% + Rice",
+    "brand": "K-SECRET",
+    "brandSlug": "k-secret",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "toners",
+    "format": "Toner",
+    "skinTypes": [
+      "All",
+      "Dry",
+      "Normal"
+    ],
+    "concerns": [
+      "Fine lines & firmness",
+      "Dullness & uneven tone"
+    ],
+    "keyIngredients": [
+      "Snail mucin 97%",
+      "Rice extract",
+      "Niacinamide"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_240.jpg",
+      "Beauty Crib+256 78495665305_15_2026_241.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "97% snail mucin in a pump toner, with rice for tone.",
+    "description": [
+      "At 97% the mucin is essentially the product, which is the concentration you want if you are using it for repair rather than slip.",
+      "Rice extract handles the brightening side."
+    ],
+    "benefits": [
+      "Repairs and plumps with 97% snail mucin",
+      "Brightens with rice extract",
+      "Softens the look of fine lines",
+      "Pump bottle keeps it clean"
+    ],
+    "howToUse": [
+      "Press onto clean skin with your hands or a cotton pad.",
+      "Use morning and evening, straight after cleansing.",
+      "Layer a second pass over dry areas.",
+      "Follow with your serum and moisturiser."
+    ]
+  },
+  {
+    "slug": "skin1004-madagascar-centella-hyalu-cica-brightening-toner",
+    "sku": "BC-SKI-010",
+    "name": "Madagascar Centella Hyalu-Cica Brightening Toner",
+    "brand": "SKIN1004",
+    "brandSlug": "skin1004",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "toners",
+    "format": "Toner",
+    "skinTypes": [
+      "All",
+      "Dry",
+      "Sensitive"
+    ],
+    "concerns": [
+      "Dryness",
+      "Dullness & uneven tone"
+    ],
+    "keyIngredients": [
+      "Centella asiatica",
+      "Hyaluronic acid",
+      "Niacinamide"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_242.jpg",
+      "Beauty Crib+256 78495665305_15_2026_243.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "The hydrating-and-brightening toner in the blue line.",
+    "description": [
+      "Hyaluronic acid pulls the water in, centella keeps the skin calm, niacinamide handles the tone - a first step that covers three jobs.",
+      "Thin enough to use in several layers on a dry day."
+    ],
+    "benefits": [
+      "Hydrates deeply at the first step",
+      "Brightens gently over time",
+      "Calms with centella",
+      "Good for layering"
+    ],
+    "howToUse": [
+      "Press onto clean skin with your hands or a cotton pad.",
+      "Use morning and evening, straight after cleansing.",
+      "Layer a second pass over dry areas.",
+      "Follow with your serum and moisturiser."
+    ]
+  },
+  {
+    "slug": "some-by-mi-aha-bha-pha-30-days-miracle-toner",
+    "sku": "BC-SOM-003",
+    "name": "AHA BHA PHA 30 Days Miracle Toner",
+    "brand": "SOME BY MI",
+    "brandSlug": "some-by-mi",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "toners",
+    "format": "Toner",
+    "skinTypes": [
+      "Acne-prone",
+      "Oily",
+      "Combination"
+    ],
+    "concerns": [
+      "Acne & breakouts",
+      "Texture"
+    ],
+    "keyIngredients": [
+      "AHA, BHA and PHA",
+      "Tea tree 10%",
+      "Niacinamide"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_244.jpg",
+      "Beauty Crib+256 78495665305_15_2026_245.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "The toner behind the 30-day challenge everyone posted about.",
+    "description": [
+      "Three acids at once, which is why the 30-day framing exists: it is a course, not a forever product.",
+      "Tea tree sits underneath to keep breakouts from coming straight back."
+    ],
+    "benefits": [
+      "Clears breakouts and blackheads",
+      "Smooths texture over a month",
+      "Tea tree keeps skin clear after",
+      "The brand's best-known product"
+    ],
+    "howToUse": [
+      "Press onto clean skin with your hands or a cotton pad.",
+      "Use morning and evening, straight after cleansing.",
+      "Layer a second pass over dry areas.",
+      "Follow with your serum and moisturiser."
+    ],
+    "caution": "Use at night, starting every other day. Sunscreen is essential."
+  },
+  {
+    "slug": "i-m-from-rice-toner",
+    "sku": "BC-IMF-002",
+    "name": "Rice Toner",
+    "brand": "I'm From",
+    "brandSlug": "i-m-from",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "toners",
+    "format": "Toner",
+    "skinTypes": [
+      "Dry",
+      "All",
+      "Normal"
+    ],
+    "concerns": [
+      "Dullness & uneven tone",
+      "Dryness"
+    ],
+    "keyIngredients": [
+      "Rice extract 77%",
+      "Niacinamide",
+      "Glycerin"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_246.jpg",
+      "Beauty Crib+256 78495665305_15_2026_247.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "77% rice extract - the cult toner for dull, dry skin.",
+    "description": [
+      "Thicker than most toners, closer to an essence, and it is the product that put I'm From on every shelf.",
+      "Rice brightens slowly and hydrates immediately, which is a good combination to start a routine with."
+    ],
+    "benefits": [
+      "Brightens dull skin over weeks",
+      "Immediate, lasting hydration",
+      "77% rice extract",
+      "Essence-like texture"
+    ],
+    "howToUse": [
+      "Press onto clean skin with your hands or a cotton pad.",
+      "Use morning and evening, straight after cleansing.",
+      "Layer a second pass over dry areas.",
+      "Follow with your serum and moisturiser."
+    ]
+  },
+  {
+    "slug": "anua-rice-70-plus-ceramide-glow-milky-toner",
+    "sku": "BC-ANU-014",
+    "name": "Rice 70 + Ceramide Glow Milky Toner",
+    "brand": "Anua",
+    "brandSlug": "anua",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "toners",
+    "format": "Toner",
+    "skinTypes": [
+      "Dry",
+      "Sensitive",
+      "Normal"
+    ],
+    "concerns": [
+      "Dryness",
+      "Dullness & uneven tone"
+    ],
+    "keyIngredients": [
+      "Rice extract 70%",
+      "Ceramides",
+      "Panthenol"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_248.jpg",
+      "Beauty Crib+256 78495665305_15_2026_249.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "A milky rice toner with ceramides folded in.",
+    "description": [
+      "Milky toners suit dry skin better than watery ones, and the ceramides mean this one repairs rather than just wets.",
+      "Anua's answer for skin that is dull because it is dehydrated."
+    ],
+    "benefits": [
+      "Hydrates and brightens together",
+      "Ceramides repair the barrier",
+      "Milky texture for dry skin",
+      "Gentle enough for sensitive skin"
+    ],
+    "howToUse": [
+      "Press onto clean skin with your hands or a cotton pad.",
+      "Use morning and evening, straight after cleansing.",
+      "Layer a second pass over dry areas.",
+      "Follow with your serum and moisturiser."
+    ]
+  },
+  {
+    "slug": "medicube-triple-collagen-toner",
+    "sku": "BC-MED-014",
+    "name": "Triple Collagen Toner",
+    "brand": "Medicube",
+    "brandSlug": "medicube",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "toners",
+    "format": "Toner",
+    "skinTypes": [
+      "All",
+      "Dry",
+      "Normal"
+    ],
+    "concerns": [
+      "Fine lines & firmness",
+      "Dryness"
+    ],
+    "keyIngredients": [
+      "Hydrolysed collagen",
+      "Atelocollagen",
+      "Panthenol"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_250.jpg",
+      "Beauty Crib+256 78495665305_15_2026_251.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "The toner that starts Medicube's collagen routine.",
+    "description": [
+      "Collagen in the first step gets it onto bare skin, where it has the best chance of being taken up.",
+      "Light and slightly milky, so it works under the matching serum and cream."
+    ],
+    "benefits": [
+      "Starts the firming work early",
+      "Plumps and hydrates",
+      "Pairs with the collagen serum and cream",
+      "Light milky texture"
+    ],
+    "howToUse": [
+      "Press onto clean skin with your hands or a cotton pad.",
+      "Use morning and evening, straight after cleansing.",
+      "Layer a second pass over dry areas.",
+      "Follow with your serum and moisturiser."
+    ]
+  },
+  {
+    "slug": "skin1004-madagascar-centella-probio-cica-essence-toner",
+    "sku": "BC-SKI-011",
+    "name": "Madagascar Centella Probio-Cica Essence Toner",
+    "brand": "SKIN1004",
+    "brandSlug": "skin1004",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "toners",
+    "format": "Essence",
+    "skinTypes": [
+      "Sensitive",
+      "Combination",
+      "All"
+    ],
+    "concerns": [
+      "Sensitivity",
+      "Acne & breakouts"
+    ],
+    "keyIngredients": [
+      "Centella asiatica",
+      "Probiotic ferment",
+      "Panthenol"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_252.jpg",
+      "Beauty Crib+256 78495665305_15_2026_253.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "A probiotic centella essence for an unsettled microbiome.",
+    "description": [
+      "Skin that breaks out and reacts at the same time usually has a microbiome problem, which is what the probiotic ferment is for.",
+      "Centella handles the visible redness while that settles."
+    ],
+    "benefits": [
+      "Balances the skin microbiome",
+      "Calms redness and reactivity",
+      "Helps with stress breakouts",
+      "Essence texture, no stickiness"
+    ],
+    "howToUse": [
+      "Press onto clean, slightly damp skin after toner.",
+      "Use morning and evening.",
+      "Pat until it has sunk in rather than rubbing.",
+      "Follow with your serum and moisturiser."
+    ]
+  },
+  {
+    "slug": "purito-seoul-oat-pdrn-gentle-refining-toner",
+    "sku": "BC-PUR-006",
+    "name": "Oat PDRN Gentle Refining Toner",
+    "brand": "Purito Seoul",
+    "brandSlug": "purito-seoul",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "toners",
+    "format": "Toner",
+    "skinTypes": [
+      "Sensitive",
+      "All",
+      "Combination"
+    ],
+    "concerns": [
+      "Texture",
+      "Sensitivity"
+    ],
+    "keyIngredients": [
+      "Oat seed water",
+      "PDRN",
+      "Panthenol"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_254.jpg",
+      "Beauty Crib+256 78495665305_15_2026_255.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "PDRN repair with oat water, in a toner gentle enough for daily use.",
+    "description": [
+      "Refining usually means acid; here it means PDRN and oat, which get to smoother skin without the sting.",
+      "A good choice if your skin cannot tolerate an exfoliating toner but needs one."
+    ],
+    "benefits": [
+      "Refines texture without acids",
+      "Oat water calms as it works",
+      "PDRN supports repair",
+      "Safe for sensitive skin daily"
+    ],
+    "howToUse": [
+      "Press onto clean skin with your hands or a cotton pad.",
+      "Use morning and evening, straight after cleansing.",
+      "Layer a second pass over dry areas.",
+      "Follow with your serum and moisturiser."
+    ]
+  },
+  {
+    "slug": "skin1004-madagascar-centella-toning-toner",
+    "sku": "BC-SKI-012",
+    "name": "Madagascar Centella Toning Toner",
+    "brand": "SKIN1004",
+    "brandSlug": "skin1004",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "toners",
+    "format": "Toner",
+    "skinTypes": [
+      "All",
+      "Combination",
+      "Normal"
+    ],
+    "concerns": [
+      "Dullness & uneven tone",
+      "Texture"
+    ],
+    "keyIngredients": [
+      "Centella asiatica",
+      "Niacinamide",
+      "Witch hazel"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_256.jpg",
+      "Beauty Crib+256 78495665305_15_2026_257.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "The everyday centella toner, for tone and balance.",
+    "description": [
+      "The plain one in the range, and the one most people end up buying repeatedly.",
+      "Balances oil, evens out tone, and gets the next step absorbing properly."
+    ],
+    "benefits": [
+      "Balances oily and dry areas",
+      "Evens out tone over time",
+      "Centella keeps it gentle",
+      "Good value in a large bottle"
+    ],
+    "howToUse": [
+      "Press onto clean skin with your hands or a cotton pad.",
+      "Use morning and evening, straight after cleansing.",
+      "Layer a second pass over dry areas.",
+      "Follow with your serum and moisturiser."
+    ]
+  },
+  {
+    "slug": "eqqualberry-swimming-pool-toner",
+    "sku": "BC-EQQ-005",
+    "name": "Swimming Pool Toner",
+    "brand": "Eqqualberry",
+    "brandSlug": "eqqualberry",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "toners",
+    "format": "Toner",
+    "skinTypes": [
+      "All",
+      "Combination",
+      "Oily"
+    ],
+    "concerns": [
+      "Texture",
+      "Dryness"
+    ],
+    "keyIngredients": [
+      "Sodium hyaluronate",
+      "Panthenol",
+      "PHA"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_258.jpg",
+      "Beauty Crib+256 78495665305_15_2026_259.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "A big bottle of moisture-exfoliating toner, named for how much of it there is.",
+    "description": [
+      "400ml, so you can use it with a cotton pad every morning without counting.",
+      "Gentle PHA keeps the skin smooth while the hyaluronic acid holds the water in."
+    ],
+    "benefits": [
+      "Exfoliates gently while hydrating",
+      "Large 400ml bottle",
+      "Good for body use as well as face",
+      "Smooths rough, bumpy skin"
+    ],
+    "howToUse": [
+      "Press onto clean skin with your hands or a cotton pad.",
+      "Use morning and evening, straight after cleansing.",
+      "Layer a second pass over dry areas.",
+      "Follow with your serum and moisturiser."
+    ]
+  },
+  {
+    "slug": "medicube-exosome-cica-toner",
+    "sku": "BC-MED-015",
+    "name": "Exosome Cica Toner",
+    "brand": "Medicube",
+    "brandSlug": "medicube",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "toners",
+    "format": "Toner",
+    "skinTypes": [
+      "Sensitive",
+      "Acne-prone",
+      "Combination"
+    ],
+    "concerns": [
+      "Sensitivity",
+      "Acne & breakouts"
+    ],
+    "keyIngredients": [
+      "Exosomes",
+      "Centella",
+      "Heartleaf and tea tree"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_260.jpg",
+      "Beauty Crib+256 78495665305_15_2026_261.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Exosome technology in the calming toner of the range.",
+    "description": [
+      "Exosomes are the signalling ingredient Korean clinics moved into home care, and here they sit alongside centella, heartleaf and tea tree.",
+      "Aimed at skin that is irritated and breaking out at once."
+    ],
+    "benefits": [
+      "Calms irritated, reactive skin",
+      "Tea tree helps with breakouts",
+      "Exosomes support repair",
+      "210ml for daily use"
+    ],
+    "howToUse": [
+      "Press onto clean skin with your hands or a cotton pad.",
+      "Use morning and evening, straight after cleansing.",
+      "Layer a second pass over dry areas.",
+      "Follow with your serum and moisturiser."
+    ]
+  },
+  {
+    "slug": "anua-heartleaf-77-plus-hyaluron-soothing-toner",
+    "sku": "BC-ANU-015",
+    "name": "Heartleaf 77 + Hyaluron Soothing Toner",
+    "brand": "Anua",
+    "brandSlug": "anua",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "toners",
+    "format": "Toner",
+    "skinTypes": [
+      "Sensitive",
+      "All",
+      "Dry"
+    ],
+    "concerns": [
+      "Sensitivity",
+      "Dryness"
+    ],
+    "keyIngredients": [
+      "Heartleaf extract 77%",
+      "Hyaluronic acid",
+      "Panthenol"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_262.jpg",
+      "Beauty Crib+256 78495665305_15_2026_263.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "The hydrating version of Anua's famous heartleaf toner.",
+    "description": [
+      "The original heartleaf toner calms; this one calms and holds water, which is what skin needs when it is both reactive and dehydrated.",
+      "250ml, and most people use it in several layers."
+    ],
+    "benefits": [
+      "Calms redness and reactivity",
+      "Holds hydration at the first step",
+      "77% heartleaf extract",
+      "Layers well, several at a time"
+    ],
+    "howToUse": [
+      "Press onto clean skin with your hands or a cotton pad.",
+      "Use morning and evening, straight after cleansing.",
+      "Layer a second pass over dry areas.",
+      "Follow with your serum and moisturiser."
+    ]
+  },
+  {
+    "slug": "skin1004-madagascar-centella-tea-trica-purifying-toner",
+    "sku": "BC-SKI-013",
+    "name": "Madagascar Centella Tea-Trica Purifying Toner",
+    "brand": "SKIN1004",
+    "brandSlug": "skin1004",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "toners",
+    "format": "Toner",
+    "skinTypes": [
+      "Oily",
+      "Acne-prone",
+      "Combination"
+    ],
+    "concerns": [
+      "Acne & breakouts",
+      "Pores & blackheads"
+    ],
+    "keyIngredients": [
+      "Centella asiatica",
+      "Tea tree",
+      "Salicylic acid"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_264.jpg",
+      "Beauty Crib+256 78495665305_15_2026_265.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Tea tree and centella, for congested, oily skin.",
+    "description": [
+      "The purifying member of the centella family: tea tree and a little salicylic acid for pores, centella so your skin does not pay for it.",
+      "The toner for the oily, blemish-prone end of the range."
+    ],
+    "benefits": [
+      "Clears congested pores",
+      "Controls oil and shine",
+      "Tea tree works on blemishes",
+      "Centella keeps irritation low"
+    ],
+    "howToUse": [
+      "Press onto clean skin with your hands or a cotton pad.",
+      "Use morning and evening, straight after cleansing.",
+      "Layer a second pass over dry areas.",
+      "Follow with your serum and moisturiser."
+    ],
+    "caution": "Contains salicylic acid. Wear sunscreen daily."
+  },
+  {
+    "slug": "medicube-deep-vita-c-pad",
+    "sku": "BC-MED-016",
+    "name": "Deep Vita C Pad",
+    "brand": "Medicube",
+    "brandSlug": "medicube",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "toners",
+    "format": "Treatment liquid",
+    "skinTypes": [
+      "All",
+      "Normal",
+      "Combination"
+    ],
+    "concerns": [
+      "Dullness & uneven tone",
+      "Dark spots"
+    ],
+    "keyIngredients": [
+      "Vitamin C",
+      "Vitamin E",
+      "Niacinamide 3%"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_296.jpg",
+      "Beauty Crib+256 78495665305_15_2026_297.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Vitamin C pads, for brightening without a separate bottle.",
+    "description": [
+      "A soaked pad is an easy way to get vitamin C onto the whole face evenly, and the wipe takes the dull top layer with it.",
+      "70 pads, which is roughly a two-month course."
+    ],
+    "benefits": [
+      "Brightens the whole face evenly",
+      "No decanting or cotton wool",
+      "Fades dark marks over weeks",
+      "70 pads per tub"
+    ],
+    "howToUse": [
+      "Wipe over clean skin, avoiding the eye area.",
+      "Start two or three nights a week and build up.",
+      "Use the textured side on areas that need more.",
+      "Follow with a moisturiser, and sunscreen the next morning."
+    ]
+  },
+  {
+    "slug": "anua-brightening-pad-niacinamide-3-plus-txa",
+    "sku": "BC-ANU-016",
+    "name": "Brightening Pad - Niacinamide 3 + TXA",
+    "brand": "Anua",
+    "brandSlug": "anua",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "toners",
+    "format": "Treatment liquid",
+    "skinTypes": [
+      "All",
+      "Combination",
+      "Normal"
+    ],
+    "concerns": [
+      "Dark spots",
+      "Dullness & uneven tone"
+    ],
+    "keyIngredients": [
+      "Niacinamide 3%",
+      "Tranexamic acid",
+      "Panthenol"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_315.jpg",
+      "Beauty Crib+256 78495665305_15_2026_316.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Niacinamide and tranexamic acid pads, for marks that linger.",
+    "description": [
+      "The two best-evidenced pigment ingredients short of prescription, delivered on a pad so they go on evenly.",
+      "60 pads, used at night after cleansing."
+    ],
+    "benefits": [
+      "Targets dark spots directly",
+      "Evens out overall tone",
+      "Textured pad lifts dead skin",
+      "60 pads per tub"
+    ],
+    "howToUse": [
+      "Wipe over clean skin, avoiding the eye area.",
+      "Start two or three nights a week and build up.",
+      "Use the textured side on areas that need more.",
+      "Follow with a moisturiser, and sunscreen the next morning."
+    ],
+    "caution": "Use sunscreen daily, or the marks come back."
+  },
+  {
+    "slug": "anua-azelaic-acid-10-plus-hyaluron-redness-soothing-pad",
+    "sku": "BC-ANU-017",
+    "name": "Azelaic Acid 10 + Hyaluron Redness Soothing Pad",
+    "brand": "Anua",
+    "brandSlug": "anua",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "toners",
+    "format": "Treatment liquid",
+    "skinTypes": [
+      "Sensitive",
+      "Acne-prone",
+      "Combination"
+    ],
+    "concerns": [
+      "Redness",
+      "Acne & breakouts"
+    ],
+    "keyIngredients": [
+      "Azelaic acid 10%",
+      "Hyaluronic acid",
+      "Panthenol"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_317.jpg",
+      "Beauty Crib+256 78495665305_15_2026_318.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "10% azelaic acid pads, aimed at redness and bumps.",
+    "description": [
+      "Azelaic acid is the ingredient for skin that is red, bumpy and breaking out at once, and a pad is the easiest way to cover the whole face with it.",
+      "Hyaluronic acid keeps the dryness that normally follows at bay."
+    ],
+    "benefits": [
+      "Calms persistent facial redness",
+      "Clears small bumps and breakouts",
+      "10% azelaic acid in an easy format",
+      "Hydrates so skin does not dry out"
+    ],
+    "howToUse": [
+      "Wipe over clean skin, avoiding the eye area.",
+      "Start two or three nights a week and build up.",
+      "Use the textured side on areas that need more.",
+      "Follow with a moisturiser, and sunscreen the next morning."
+    ],
+    "caution": "Introduce slowly. Wear sunscreen daily."
+  },
+  {
+    "slug": "medicube-zero-pore-pad",
+    "sku": "BC-MED-017",
+    "name": "Zero Pore Pad",
+    "brand": "Medicube",
+    "brandSlug": "medicube",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "toners",
+    "format": "Treatment liquid",
+    "skinTypes": [
+      "Oily",
+      "Combination",
+      "Acne-prone"
+    ],
+    "concerns": [
+      "Pores & blackheads",
+      "Oil control"
+    ],
+    "keyIngredients": [
+      "AHA and BHA",
+      "Panthenol",
+      "Allantoin"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_319.jpg",
+      "Beauty Crib+256 78495665305_15_2026_320.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "The pore pads that made Medicube a household name.",
+    "description": [
+      "AHA on the surface and BHA down in the pore, on a textured pad that does some of the lifting itself.",
+      "The single product most people buy from Medicube first."
+    ],
+    "benefits": [
+      "Visibly clears blackheads",
+      "Tightens the look of pores",
+      "Controls oil for the rest of the day",
+      "70 pads per tub"
+    ],
+    "howToUse": [
+      "Wipe over clean skin, avoiding the eye area.",
+      "Start two or three nights a week and build up.",
+      "Use the textured side on areas that need more.",
+      "Follow with a moisturiser, and sunscreen the next morning."
+    ],
+    "caution": "Contains AHA and BHA. Start every other night and wear sunscreen daily."
+  },
+  {
+    "slug": "numbuzin-no-5-vitamin-niacinamide-pad",
+    "sku": "BC-NUM-005",
+    "name": "No.5 Vitamin-Niacinamide Pad",
+    "brand": "numbuzin",
+    "brandSlug": "numbuzin",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "toners",
+    "format": "Treatment liquid",
+    "skinTypes": [
+      "All",
+      "Normal",
+      "Combination"
+    ],
+    "concerns": [
+      "Dullness & uneven tone",
+      "Dark spots"
+    ],
+    "keyIngredients": [
+      "Vitamin C",
+      "Niacinamide",
+      "Glutathione"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_321.jpg",
+      "Beauty Crib+256 78495665305_15_2026_322.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "The brightening number of the range, in pad form.",
+    "description": [
+      "Same brightening set as the No.5 serum, on a pad for the nights when you want the step to take ten seconds.",
+      "The embossed side lifts dull surface skin as you wipe."
+    ],
+    "benefits": [
+      "Brightens dull, tired skin",
+      "Evens out tone over weeks",
+      "Textured side gently exfoliates",
+      "70 pads per tub"
+    ],
+    "howToUse": [
+      "Wipe over clean skin, avoiding the eye area.",
+      "Start two or three nights a week and build up.",
+      "Use the textured side on areas that need more.",
+      "Follow with a moisturiser, and sunscreen the next morning."
+    ]
+  },
+  {
+    "slug": "medicube-collagen-night-wrapping-mask",
+    "sku": "BC-MED-018",
+    "name": "Collagen Night Wrapping Mask",
+    "brand": "Medicube",
+    "brandSlug": "medicube",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "masks",
+    "format": "Mask",
+    "skinTypes": [
+      "All",
+      "Dry",
+      "Normal"
+    ],
+    "concerns": [
+      "Fine lines & firmness",
+      "Dryness"
+    ],
+    "keyIngredients": [
+      "Collagen",
+      "Peptides",
+      "Hyaluronic acid"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_179.jpg",
+      "Beauty Crib+256 78495665305_15_2026_180.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "A collagen mask you sleep in and rinse off in the morning.",
+    "description": [
+      "A wrapping mask seals the collagen against the skin overnight instead of letting it evaporate, which is the whole reason the format exists.",
+      "Skin is noticeably bouncier by morning; the firmness builds over a few weeks of twice-weekly use."
+    ],
+    "benefits": [
+      "Plumps and firms overnight",
+      "Seals in moisture while you sleep",
+      "Visible difference by morning",
+      "Two or three nights a week"
+    ],
+    "howToUse": [
+      "Apply an even layer to clean skin as the last step.",
+      "Leave on overnight, or for the time on the pack.",
+      "Rinse with lukewarm water.",
+      "Use two or three times a week."
+    ]
+  },
+  {
+    "slug": "medicube-zero-pore-blackhead-mud-mask",
+    "sku": "BC-MED-019",
+    "name": "Zero Pore Blackhead Mud Mask",
+    "brand": "Medicube",
+    "brandSlug": "medicube",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "masks",
+    "format": "Mask",
+    "skinTypes": [
+      "Oily",
+      "Combination",
+      "Acne-prone"
+    ],
+    "concerns": [
+      "Pores & blackheads",
+      "Oil control"
+    ],
+    "keyIngredients": [
+      "Kaolin clay",
+      "BHA",
+      "Charcoal"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_278.jpg",
+      "Beauty Crib+256 78495665305_15_2026_279.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "A clay mask aimed at the blackheads on the nose and chin.",
+    "description": [
+      "Clay pulls the oil out and BHA loosens what is stuck in the pore, which is more effective than either on its own.",
+      "Fifteen minutes, twice a week, on the areas that need it rather than the whole face."
+    ],
+    "benefits": [
+      "Lifts blackheads out of pores",
+      "Absorbs excess oil",
+      "Leaves skin matte, not stripped",
+      "Use on the T-zone twice weekly"
+    ],
+    "howToUse": [
+      "Apply an even layer to clean skin as the last step.",
+      "Leave on overnight, or for the time on the pack.",
+      "Rinse with lukewarm water.",
+      "Use two or three times a week."
+    ]
+  },
+  {
+    "slug": "beauty-of-joseon-red-bean-refreshing-pore-mask",
+    "sku": "BC-BEA-005",
+    "name": "Red Bean Refreshing Pore Mask",
+    "brand": "Beauty of Joseon",
+    "brandSlug": "beauty-of-joseon",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "masks",
+    "format": "Mask",
+    "skinTypes": [
+      "Oily",
+      "Combination",
+      "Normal"
+    ],
+    "concerns": [
+      "Pores & blackheads",
+      "Texture"
+    ],
+    "keyIngredients": [
+      "Red bean extract",
+      "Kaolin",
+      "Niacinamide"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_298.jpg",
+      "Beauty Crib+256 78495665305_15_2026_299.jpg",
+      "Beauty Crib+256 78495665305_15_2026_300.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "Ground red bean, the old Korean answer to clogged pores.",
+    "description": [
+      "Red bean powder has been used as a face wash in Korea for centuries, and Beauty of Joseon simply put it back where it belongs.",
+      "Gentler than a clay mask, so it suits skin that finds clay drying."
+    ],
+    "benefits": [
+      "Clears and tightens pores",
+      "Smooths rough texture",
+      "Gentler than a straight clay mask",
+      "Traditional hanbang ingredient"
+    ],
+    "howToUse": [
+      "Apply an even layer to clean skin as the last step.",
+      "Leave on overnight, or for the time on the pack.",
+      "Rinse with lukewarm water.",
+      "Use two or three times a week."
+    ]
+  },
+  {
+    "slug": "medicube-kojic-acid-turmeric-night-wrapping-mask",
+    "sku": "BC-MED-020",
+    "name": "Kojic Acid Turmeric Night Wrapping Mask",
+    "brand": "Medicube",
+    "brandSlug": "medicube",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "masks",
+    "format": "Mask",
+    "skinTypes": [
+      "All",
+      "Combination",
+      "Normal"
+    ],
+    "concerns": [
+      "Dark spots",
+      "Dullness & uneven tone"
+    ],
+    "keyIngredients": [
+      "Kojic acid",
+      "Turmeric extract",
+      "Niacinamide"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_313.jpg",
+      "Beauty Crib+256 78495665305_15_2026_314.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "The dark spot line's overnight mask.",
+    "description": [
+      "Eight hours of contact is what pigment ingredients want, and a wrapping mask is the only way to get it without the product rubbing off on the pillow.",
+      "Rinse in the morning; the brightening shows up over weeks."
+    ],
+    "benefits": [
+      "Works on dark marks overnight",
+      "Brightens dull, uneven tone",
+      "Seals the actives against the skin",
+      "Two or three nights a week"
+    ],
+    "howToUse": [
+      "Apply an even layer to clean skin as the last step.",
+      "Leave on overnight, or for the time on the pack.",
+      "Rinse with lukewarm water.",
+      "Use two or three times a week."
+    ],
+    "caution": "Wear sunscreen the following day."
+  },
+  {
+    "slug": "kojic-acid-secret-kojic-acid-secret-white-skin-lightening-soap",
+    "sku": "BC-KOJ-001",
+    "name": "Kojic Acid Secret White Skin Lightening Soap",
+    "brand": "Kojic Acid Secret",
+    "brandSlug": "kojic-acid-secret",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "soap",
+    "format": "Soap",
+    "skinTypes": [
+      "All",
+      "Normal",
+      "Combination"
+    ],
+    "concerns": [
+      "Dark spots",
+      "Dullness & uneven tone"
+    ],
+    "keyIngredients": [
+      "Kojic acid",
+      "Glycerin",
+      "Coconut oil"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_267.jpg",
+      "Beauty Crib+256 78495665305_15_2026_268.jpg",
+      "Beauty Crib+256 78495665305_15_2026_269.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "A kojic acid cleansing bar for body areas that have darkened.",
+    "description": [
+      "Kojic acid works on pigment wherever it is, and a bar is the practical way to use it on knees, elbows, underarms and the back.",
+      "Lather, leave it on for a minute or two, then rinse."
+    ],
+    "benefits": [
+      "Evens out dark patches on the body",
+      "Works on knees, elbows and underarms",
+      "Gentle enough for daily use",
+      "Glycerin keeps skin from drying out"
+    ],
+    "howToUse": [
+      "Wet the skin and work the bar into a lather.",
+      "Leave the lather on for a minute or two.",
+      "Rinse thoroughly with clean water.",
+      "Follow with a body moisturiser."
+    ],
+    "caution": "For body use. Sunscreen on exposed areas while using kojic acid, and stop if skin becomes irritated."
+  },
+  {
+    "slug": "kojic-acid-secret-kojic-acid-secret-white-face-and-body-scrub",
+    "sku": "BC-KOJ-002",
+    "name": "Kojic Acid Secret White Face & Body Scrub",
+    "brand": "Kojic Acid Secret",
+    "brandSlug": "kojic-acid-secret",
+    "price": null,
+    "salePrice": null,
+    "category": "skincare",
+    "subcategory": "scrubs",
+    "format": "Scrub",
+    "skinTypes": [
+      "All",
+      "Normal",
+      "Combination"
+    ],
+    "concerns": [
+      "Texture",
+      "Dark spots"
+    ],
+    "keyIngredients": [
+      "Kojic acid",
+      "Exfoliating granules",
+      "Glycerin"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_270.jpg",
+      "Beauty Crib+256 78495665305_15_2026_271.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "The scrub that goes with the kojic acid bar.",
+    "description": [
+      "Physical exfoliation lifts the dull surface layer so the kojic acid underneath reaches live skin rather than dead.",
+      "Twice a week on the body, once a week at most on the face."
+    ],
+    "benefits": [
+      "Smooths rough, bumpy skin",
+      "Helps fade dark patches",
+      "Works on face and body",
+      "Use once or twice a week"
+    ],
+    "howToUse": [
+      "Massage onto damp skin in small circles.",
+      "Avoid broken or irritated skin.",
+      "Rinse thoroughly with lukewarm water.",
+      "Use once or twice a week."
+    ],
+    "caution": "Do not scrub broken or irritated skin. Wear sunscreen on exposed areas."
+  },
+  {
+    "slug": "some-by-mi-cica-peptide-anti-hair-loss-derma-scalp-treatment",
+    "sku": "BC-SOM-005",
+    "name": "Cica Peptide Anti Hair Loss Derma Scalp Treatment",
+    "brand": "SOME BY MI",
+    "brandSlug": "some-by-mi",
+    "price": null,
+    "salePrice": null,
+    "category": "hair-care",
+    "subcategory": "",
+    "format": "Treatment liquid",
+    "skinTypes": [
+      "All",
+      "Sensitive",
+      "Oily"
+    ],
+    "concerns": [
+      "Sensitivity",
+      "Oil control"
+    ],
+    "keyIngredients": [
+      "Centella asiatica",
+      "Peptide complex",
+      "Niacinamide"
+    ],
+    "match": "\u0000no-fragment-match\u0000",
+    "matchFiles": [
+      "Beauty Crib+256 78495665305_15_2026_202.jpg",
+      "Beauty Crib+256 78495665305_15_2026_203.jpg"
+    ],
+    "featured": false,
+    "featuredLarge": false,
+    "bestSeller": false,
+    "stock": "in-stock",
+    "excerpt": "A centella and peptide scalp treatment for hair that is thinning.",
+    "description": [
+      "Hair loss usually starts at the scalp rather than the strand, which is why this is formulated as skincare: centella to settle an irritated, flaking scalp and peptides to support the follicle underneath.",
+      "A clinical-solution tube with a nozzle that parts the hair, so the product reaches the scalp instead of sitting on the lengths."
+    ],
+    "benefits": [
+      "Targets thinning and shedding at the root",
+      "Calms an itchy, flaking scalp",
+      "Peptides support healthier regrowth",
+      "Nozzle applies directly to the scalp, not the hair"
+    ],
+    "howToUse": [
+      "Part dry or towel-dried hair and apply along the scalp.",
+      "Massage in with your fingertips for a minute.",
+      "Leave in - there is no need to rinse.",
+      "Use once or twice daily, consistently, for at least eight weeks."
     ]
   }
 ]

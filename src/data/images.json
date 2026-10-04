@@ -1,4 +1,1849 @@
 {
+  "products/anua-brightening-pad-niacinamide-3-plus-txa-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/anua-brightening-pad-niacinamide-3-plus-txa-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/medicube-deep-vita-c-pad-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/medicube-deep-vita-c-pad-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/skin1004-madagascar-centella-tea-trica-purifying-toner-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/skin1004-madagascar-centella-tea-trica-purifying-toner-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/anua-heartleaf-77-plus-hyaluron-soothing-toner-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/anua-heartleaf-77-plus-hyaluron-soothing-toner-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/medicube-triple-collagen-serum-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/medicube-triple-collagen-serum-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/medicube-exosome-cica-toner-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/medicube-exosome-cica-toner-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/aprilskin-tea-purity-99-tea-niacinamide-toning-shot-bp-serum-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/aprilskin-tea-purity-99-tea-niacinamide-toning-shot-bp-serum-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/numbuzin-no-3-skin-softening-serum-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/numbuzin-no-3-skin-softening-serum-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/anua-rice-7-plus-ceramide-hydrating-barrier-serum-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/anua-rice-7-plus-ceramide-hydrating-barrier-serum-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/eqqualberry-glow-filter-vitamin-illuminating-serum-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/eqqualberry-glow-filter-vitamin-illuminating-serum-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/beauty-of-joseon-red-bean-refreshing-pore-mask-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/beauty-of-joseon-red-bean-refreshing-pore-mask-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/beauty-of-joseon-red-bean-refreshing-pore-mask-3": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/medicube-kojic-acid-turmeric-night-wrapping-mask-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/medicube-kojic-acid-turmeric-night-wrapping-mask-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/kojic-acid-secret-kojic-acid-secret-white-face-and-body-scrub-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/kojic-acid-secret-kojic-acid-secret-white-face-and-body-scrub-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/kojic-acid-secret-kojic-acid-secret-white-skin-lightening-soap-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/kojic-acid-secret-kojic-acid-secret-white-skin-lightening-soap-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/kojic-acid-secret-kojic-acid-secret-white-skin-lightening-soap-3": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/medicube-collagen-night-wrapping-mask-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/medicube-collagen-night-wrapping-mask-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/medicube-zero-pore-blackhead-mud-mask-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/medicube-zero-pore-blackhead-mud-mask-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/anua-azelaic-acid-10-plus-hyaluron-redness-soothing-pad-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/anua-azelaic-acid-10-plus-hyaluron-redness-soothing-pad-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/medicube-zero-pore-pad-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/medicube-zero-pore-pad-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/numbuzin-no-5-vitamin-niacinamide-pad-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/numbuzin-no-5-vitamin-niacinamide-pad-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/medicube-triple-collagen-toner-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/medicube-triple-collagen-toner-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/skin1004-madagascar-centella-probio-cica-essence-toner-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/skin1004-madagascar-centella-probio-cica-essence-toner-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/purito-seoul-oat-pdrn-gentle-refining-toner-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/purito-seoul-oat-pdrn-gentle-refining-toner-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/skin1004-madagascar-centella-toning-toner-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/skin1004-madagascar-centella-toning-toner-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/eqqualberry-swimming-pool-toner-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/eqqualberry-swimming-pool-toner-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/k-secret-seoul-1988-time-shift-toner-snail-mucin-97-plus-rice-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/k-secret-seoul-1988-time-shift-toner-snail-mucin-97-plus-rice-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/skin1004-madagascar-centella-hyalu-cica-brightening-toner-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/skin1004-madagascar-centella-hyalu-cica-brightening-toner-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/some-by-mi-aha-bha-pha-30-days-miracle-toner-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/some-by-mi-aha-bha-pha-30-days-miracle-toner-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/i-m-from-rice-toner-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/i-m-from-rice-toner-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/anua-rice-70-plus-ceramide-glow-milky-toner-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/anua-rice-70-plus-ceramide-glow-milky-toner-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2498
+  },
+  "products/haruharu-wonder-black-rice-probiotics-barrier-essence-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2498
+  },
+  "products/haruharu-wonder-black-rice-probiotics-barrier-essence-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/nine-less-b-boost-kojic-acid-glow-pad-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/nine-less-b-boost-kojic-acid-glow-pad-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/anua-heartleaf-77-plus-pha-clear-pad-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/anua-heartleaf-77-plus-pha-clear-pad-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/isntree-green-tea-fresh-toner-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/isntree-green-tea-fresh-toner-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/nine-less-a-control-azelaic-acid-toner-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/nine-less-a-control-azelaic-acid-toner-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/dr-althea-aqua-marine-deep-serum-70-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2498
+  },
+  "products/dr-althea-aqua-marine-deep-serum-70-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/beauty-of-joseon-ginseng-essence-water-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/beauty-of-joseon-ginseng-essence-water-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/medicube-kojic-acid-turmeric-resurfacing-toner-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/medicube-kojic-acid-turmeric-resurfacing-toner-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/haruharu-wonder-black-rice-hyaluronic-toner-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/haruharu-wonder-black-rice-hyaluronic-toner-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/skin1004-madagascar-centella-tone-brightening-boosting-toner-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/skin1004-madagascar-centella-tone-brightening-boosting-toner-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/skin1004-madagascar-centella-tender-cica-intensive-ampoule-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/skin1004-madagascar-centella-tender-cica-intensive-ampoule-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/skin1004-madagascar-centella-tone-brightening-capsule-ampoule-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/skin1004-madagascar-centella-tone-brightening-capsule-ampoule-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2498
+  },
+  "products/dr-althea-345-relief-serum-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/dr-althea-345-relief-serum-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/nine-less-b-boost-1-kojic-acid-serum-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/nine-less-b-boost-1-kojic-acid-serum-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2498
+  },
+  "products/skin1004-madagascar-centella-hyalu-cica-blue-serum-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/skin1004-madagascar-centella-hyalu-cica-blue-serum-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2498
+  },
+  "products/skin1004-madagascar-centella-hyalu-cica-blue-serum-3": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/beauty-of-joseon-glow-serum-propolis-plus-niacinamide-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/beauty-of-joseon-glow-serum-propolis-plus-niacinamide-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2498
+  },
+  "products/beauty-of-joseon-glow-serum-propolis-plus-niacinamide-3": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/beauty-of-joseon-glow-serum-propolis-plus-niacinamide-4": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/arencia-vitamin-c-booster-shot-face-and-eye-cream-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/arencia-vitamin-c-booster-shot-face-and-eye-cream-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/skin1004-madagascar-centella-retinol-0-2-boosting-shot-ampoule-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2498
+  },
+  "products/skin1004-madagascar-centella-retinol-0-2-boosting-shot-ampoule-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/beauty-of-joseon-revive-serum-ginseng-plus-snail-mucin-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/beauty-of-joseon-revive-serum-ginseng-plus-snail-mucin-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/tiam-vita-b3-source-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2498
+  },
+  "products/tiam-vita-b3-source-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/purito-seoul-pure-vitamin-c-serum-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2498
+  },
+  "products/purito-seoul-pure-vitamin-c-serum-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/nine-less-mela-pro-5-tranexamic-acid-serum-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/nine-less-mela-pro-5-tranexamic-acid-serum-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/anua-peptide-hyaluronic-acid-capsule-100-serum-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/anua-peptide-hyaluronic-acid-capsule-100-serum-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/cosrx-advanced-the-vitamin-c-23-serum-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/cosrx-advanced-the-vitamin-c-23-serum-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/abib-jericho-rose-bifida-serum-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2498
+  },
+  "products/abib-jericho-rose-bifida-serum-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/eqqualberry-deep-sera-bakuchiol-plumping-serum-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/eqqualberry-deep-sera-bakuchiol-plumping-serum-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/abib-glutathione-dark-spot-serum-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/abib-glutathione-dark-spot-serum-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2498
+  },
+  "products/medicube-deep-vita-a-retinol-serum-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/medicube-deep-vita-a-retinol-serum-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/purito-seoul-wonder-releaf-centella-serum-unscented-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/purito-seoul-wonder-releaf-centella-serum-unscented-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/i-m-from-rice-serum-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/i-m-from-rice-serum-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/numbuzin-no-5-glutathione-vitamin-concentrated-serum-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2498
+  },
+  "products/numbuzin-no-5-glutathione-vitamin-concentrated-serum-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/numbuzin-no-5-glutathione-vitamin-concentrated-serum-3": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/anua-peach-70-niacin-serum-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2498
+  },
+  "products/anua-peach-70-niacin-serum-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/k-secret-seoul-1988-serum-retinal-liposome-2-plus-black-ginseng-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/k-secret-seoul-1988-serum-retinal-liposome-2-plus-black-ginseng-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/dr-althea-skin-relief-essence-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/dr-althea-skin-relief-essence-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/eqqualberry-lush-blush-nad-plus-peptide-boosting-serum-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/eqqualberry-lush-blush-nad-plus-peptide-boosting-serum-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/k-secret-seoul-1988-royal-skin-glow-serum-niacinamide-70-plus-yuja-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/k-secret-seoul-1988-royal-skin-glow-serum-niacinamide-70-plus-yuja-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/medicube-collagen-glow-booster-serum-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/medicube-collagen-glow-booster-serum-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/medicube-collagen-glow-booster-serum-3": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/medicube-kojic-acid-turmeric-niacinamide-serum-serum-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/medicube-kojic-acid-turmeric-niacinamide-serum-serum-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/celimax-retinal-shot-tightening-booster-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/dr-althea-gentle-vitamin-c-serum-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2498
+  },
+  "products/dr-althea-gentle-vitamin-c-serum-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/celimax-pore-plus-dark-spot-brightening-cream-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/celimax-pore-plus-dark-spot-brightening-cream-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/purito-seoul-wonder-releaf-centella-cream-unscented-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2498
+  },
+  "products/purito-seoul-wonder-releaf-centella-cream-unscented-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/medicube-zero-pore-cream-2-0-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/medicube-zero-pore-cream-2-0-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2498
+  },
+  "products/medicube-zero-pore-cream-2-0-3": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/skin1004-madagascar-centella-tone-brightening-capsule-cream-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/medicube-azelaic-acid-16-bb-calming-serum-serum-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/numbuzin-no-1-panthenolic-b5-active-soothing-cream-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/numbuzin-no-1-panthenolic-b5-active-soothing-cream-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2498
+  },
+  "products/numbuzin-no-1-panthenolic-b5-active-soothing-cream-3": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/some-by-mi-yuja-niacin-brightening-moisture-gel-cream-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/some-by-mi-yuja-niacin-brightening-moisture-gel-cream-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/purito-seoul-oat-in-calming-gel-cream-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/purito-seoul-oat-in-calming-gel-cream-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/beauty-of-joseon-dynasty-cream-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/beauty-of-joseon-dynasty-cream-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/skin1004-madagascar-centella-tea-trica-bb-cream-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/skin1004-madagascar-centella-tea-trica-bb-cream-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/skin1004-madagascar-centella-tender-cica-rescue-cream-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2502
+  },
+  "products/skin1004-madagascar-centella-tender-cica-rescue-cream-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/skin1004-madagascar-centella-tender-cica-rescue-cream-3": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/k-secret-seoul-1988-fiber-capsule-cream-niacinamide-5-plus-yuja-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/k-secret-seoul-1988-fiber-capsule-cream-niacinamide-5-plus-yuja-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2502
+  },
+  "products/axis-y-dark-spot-correcting-glow-cream-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/axis-y-dark-spot-correcting-glow-cream-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2498
+  },
+  "products/missha-time-revolution-night-repair-ampoule-cream-5x-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/missha-time-revolution-night-repair-ampoule-cream-5x-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/medicube-pdrn-pink-collagen-capsule-cream-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/medicube-pdrn-pink-collagen-capsule-cream-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/some-by-mi-aha-bha-pha-14-days-super-miracle-spot-all-kill-cream-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2498
+  },
+  "products/anua-heartleaf-70-plus-ceramide-intense-calming-cream-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/anua-heartleaf-70-plus-ceramide-intense-calming-cream-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/medicube-deep-vita-c-capsule-cream-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2498
+  },
+  "products/medicube-deep-vita-c-capsule-cream-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/aplb-retinol-vitamin-c-vitamin-e-cream-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2498
+  },
+  "products/aplb-retinol-vitamin-c-vitamin-e-cream-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/medicube-hyaluronic-moisturizing-capsule-cream-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/medicube-hyaluronic-moisturizing-capsule-cream-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/medicube-collagen-jelly-cream-110ml-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/medicube-collagen-jelly-cream-110ml-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/medicube-kojic-acid-turmeric-vita-capsule-cream-cream-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2498
+  },
+  "products/medicube-kojic-acid-turmeric-vita-capsule-cream-cream-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/medicube-pdrn-pink-hyaluronic-moisturizing-cream-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/medicube-pdrn-pink-hyaluronic-moisturizing-cream-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/purito-seoul-mighty-bamboo-panthenol-cream-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/purito-seoul-mighty-bamboo-panthenol-cream-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/eqqualberry-lush-blush-nad-plus-peptide-boosting-cream-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/eqqualberry-lush-blush-nad-plus-peptide-boosting-cream-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/eqqualberry-lush-blush-nad-plus-peptide-boosting-cream-3": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/eqqualberry-lush-blush-nad-plus-peptide-boosting-cream-4": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/some-by-mi-cica-peptide-anti-hair-loss-derma-scalp-treatment-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/some-by-mi-cica-peptide-anti-hair-loss-derma-scalp-treatment-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/skin-by-zaron-sun-protection-day-cream-spf50-plus-pa-plus-plus-plus-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/skin-by-zaron-sun-protection-day-cream-spf50-plus-pa-plus-plus-plus-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/skin-by-zaron-sun-protection-day-cream-spf50-plus-pa-plus-plus-plus-3": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/skin-by-zaron-sun-protection-day-cream-spf50-plus-pa-plus-plus-plus-4": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.25
+  },
+  "products/tocobo-multi-ceramide-cream-1": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
+  "products/tocobo-multi-ceramide-cream-2": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2501
+  },
+  "products/tocobo-multi-ceramide-cream-3": {
+    "widths": [
+      400,
+      700,
+      1000,
+      1500
+    ],
+    "ratio": 1.2499
+  },
   "products/anua-3-ceramide-panthenol-moisture-barrier-cream-1": {
     "widths": [
       400,

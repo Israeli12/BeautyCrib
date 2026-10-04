@@ -9,3 +9,10 @@ node_modules/
 Thumbs.db
 desktop.ini
 *.log
+
+# derived import artefacts
+tools/newdata/new-images*.tgz
+tools/newdata/zip-list.txt
+tools/newdata/todo-slugs.txt
+tools/newdata/live-import.json
+tools/newdata/products.backup.json

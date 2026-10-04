@@ -50,158 +50,52 @@
       {
         "slug": "sun-care",
         "name": "Sun Care",
-        "comingSoon": true
+        "title": "Sunscreen in Uganda: SPF50+ Face Sunscreen | Beauty Crib",
+        "meta": "Shop genuine sunscreen in Uganda: broad-spectrum SPF50+ day creams for all skin types. Delivery countrywide from Kampala.",
+        "tagline": "The step that decides whether the rest was worth it.",
+        "intro": "Uganda sits on the equator, so the sun here is strong every month of the year. Sunscreen is the one product that protects the work every other product is doing: without it, dark marks come back, serums stop showing results and skin ages faster than it should. This shelf keeps it simple - broad-spectrum protection you will actually wear every morning.",
+        "seoText": "Beauty Crib stocks authentic broad-spectrum sunscreen in Uganda, sourced genuine and dispatched from Kampala."
       },
       {
-        "slug": "masks-exfoliants",
-        "name": "Masks & Exfoliants",
-        "comingSoon": true
-      }
-    ]
-  },
-  {
-    "slug": "makeup",
-    "name": "Makeup",
-    "index": "02",
-    "image": "editorial/category-makeup",
-    "imageAlt": "Editorial beauty portrait with a glossy lip",
-    "comingSoon": true,
-    "title": "Makeup Products in Uganda | Beauty Crib",
-    "meta": "Makeup at Beauty Crib: complexion, eyes and lips chosen for deeper skin tones. Join the list to hear when the makeup edit arrives in Uganda.",
-    "tagline": "Complexion first, colour second.",
-    "intro": "Our makeup edit is being built around a simple test: does it hold up in Kampala heat, and does the shade range treat deeper skin tones as the default rather than an afterthought. Face, eyes and lips arrive together.",
-    "seoText": "Beauty Crib is curating an authentic makeup range for Uganda, with foundations, lipsticks and complexion products selected for deeper skin tones.",
-    "subcategories": [
-      {
-        "slug": "face",
-        "name": "Face",
-        "comingSoon": true
+        "slug": "masks",
+        "name": "Masks",
+        "title": "Face Masks in Uganda: Medicube & Beauty of Joseon | Beauty Crib",
+        "meta": "Shop genuine face masks in Uganda: overnight wrapping masks, clay and mud masks for pores, breakouts and dull skin. Delivery countrywide.",
+        "tagline": "Twenty minutes, once a week.",
+        "intro": "A mask is the step you take when skin needs more than a routine can give it in one night: a mud mask to pull congestion out of a blocked pore, or a wrapping mask that stays on until morning.",
+        "seoText": "Face masks from Medicube and Beauty of Joseon, sourced genuine and dispatched from Kampala."
       },
       {
-        "slug": "eyes",
-        "name": "Eyes",
-        "comingSoon": true
+        "slug": "scrubs",
+        "name": "Scrubs",
+        "title": "Scrubs in Uganda | Beauty Crib",
+        "meta": "Shop genuine scrubs in Uganda at Beauty Crib. Sourced genuine, dispatched from Kampala, delivered countrywide.",
+        "tagline": "Exfoliation, without the sandpaper.",
+        "intro": "A scrub earns its place when it polishes rather than scours. This shelf stays small on purpose.",
+        "seoText": "Beauty Crib stocks authentic scrubs in Uganda, dispatched from Kampala."
       },
       {
-        "slug": "lips",
-        "name": "Lips",
-        "comingSoon": true
+        "slug": "soap",
+        "name": "Soap",
+        "title": "Soap in Uganda | Beauty Crib",
+        "meta": "Shop genuine soap in Uganda at Beauty Crib. Sourced genuine, dispatched from Kampala, delivered countrywide.",
+        "tagline": "Cleansing, in its simplest form.",
+        "intro": "Bar soap is still the most straightforward way to wash, and the right bar does more than lather.",
+        "seoText": "Beauty Crib stocks authentic soap in Uganda, dispatched from Kampala."
       }
     ]
   },
   {
     "slug": "hair-care",
     "name": "Hair Care",
-    "index": "03",
-    "image": "editorial/category-hair-care",
-    "imageAlt": "Black and white portrait of a woman with sculpted finger waves",
-    "comingSoon": true,
-    "title": "Hair Care Products in Uganda | Beauty Crib",
-    "meta": "Hair care at Beauty Crib: cleansing, treatment and styling for textured hair. Join the list to hear when the hair edit arrives in Uganda.",
-    "tagline": "Built for textured hair.",
-    "intro": "Textured hair needs moisture, protein and protection in the right order, not a shelf of products fighting each other. The hair edit is being assembled with that sequence in mind.",
-    "seoText": "Beauty Crib is building a hair care range for Uganda, focused on shampoos, treatments and styling products that suit textured and natural hair.",
-    "subcategories": [
-      {
-        "slug": "shampoo-conditioner",
-        "name": "Shampoo & Conditioner",
-        "comingSoon": true
-      },
-      {
-        "slug": "treatments",
-        "name": "Treatments",
-        "comingSoon": true
-      },
-      {
-        "slug": "styling",
-        "name": "Styling",
-        "comingSoon": true
-      }
-    ]
-  },
-  {
-    "slug": "body-care",
-    "name": "Body Care",
-    "index": "04",
-    "image": "editorial/category-body-care",
-    "imageAlt": "Warm portrait of glowing, well-cared-for skin",
-    "comingSoon": true,
-    "title": "Body Care Products in Uganda | Beauty Crib",
-    "meta": "Body care at Beauty Crib: washes, scrubs, lotions and oils for soft, even skin. Join the list to hear when the body edit arrives in Uganda.",
-    "tagline": "The glow below the neck.",
-    "intro": "Most people give their face five steps and their body none. The body edit is being chosen to close that gap: cleansing that does not strip, exfoliation that is not sandpaper, and moisture that lasts a full day.",
-    "seoText": "Beauty Crib is curating body care for Uganda, including body washes, scrubs, lotions and oils for smooth, even-toned skin.",
-    "subcategories": [
-      {
-        "slug": "wash",
-        "name": "Wash",
-        "comingSoon": true
-      },
-      {
-        "slug": "lotions-oils",
-        "name": "Lotions & Oils",
-        "comingSoon": true
-      },
-      {
-        "slug": "scrubs",
-        "name": "Scrubs",
-        "comingSoon": true
-      }
-    ]
-  },
-  {
-    "slug": "fragrance",
-    "name": "Fragrance",
-    "index": "05",
-    "image": "editorial/category-fragrance",
-    "imageAlt": "Dramatic beauty portrait with water on the skin",
-    "comingSoon": true,
-    "title": "Fragrance & Perfume in Uganda | Beauty Crib",
-    "meta": "Fragrance at Beauty Crib: perfumes and body mists chosen to last in warm weather. Join the list to hear when the fragrance edit arrives in Uganda.",
-    "tagline": "Worn, not announced.",
-    "intro": "Heat changes how a fragrance behaves. The fragrance edit is being selected for scents that hold their shape through a warm afternoon rather than disappearing by midday.",
-    "seoText": "Beauty Crib is curating authentic perfume and body mist for Uganda, chosen to perform in a warm climate.",
-    "subcategories": [
-      {
-        "slug": "perfume",
-        "name": "Perfume",
-        "comingSoon": true
-      },
-      {
-        "slug": "body-mist",
-        "name": "Body Mist",
-        "comingSoon": true
-      }
-    ]
-  },
-  {
-    "slug": "beauty-tools",
-    "name": "Beauty Tools",
-    "index": "06",
-    "image": "editorial/category-beauty-tools",
-    "imageAlt": "Close-up of a hand resting against glowing skin",
-    "comingSoon": true,
-    "title": "Beauty Tools & Accessories in Uganda | Beauty Crib",
-    "meta": "Beauty tools at Beauty Crib: brushes, sponges and devices that make a routine work. Join the list to hear when the tools edit arrives in Uganda.",
-    "tagline": "The quiet half of a routine.",
-    "intro": "Good tools make ordinary products perform better. Brushes, sponges, cleansing tools and the small accessories that keep a routine running are on their way.",
-    "seoText": "Beauty Crib is curating beauty tools and accessories for Uganda, including brushes, sponges and cleansing devices.",
-    "subcategories": [
-      {
-        "slug": "brushes",
-        "name": "Brushes",
-        "comingSoon": true
-      },
-      {
-        "slug": "sponges",
-        "name": "Sponges",
-        "comingSoon": true
-      },
-      {
-        "slug": "devices",
-        "name": "Devices",
-        "comingSoon": true
-      }
-    ]
+    "index": "02",
+    "image": "editorial/category-skincare",
+    "imageAlt": "Close portrait of a woman with healthy hair and scalp",
+    "title": "Hair & Scalp Care in Uganda | Beauty Crib",
+    "meta": "Shop genuine hair and scalp care in Uganda: scalp treatments for thinning hair and irritated scalps. Delivery countrywide from Kampala.",
+    "tagline": "Hair starts at the scalp.",
+    "intro": "Scalp skin is skin, and it responds to the same things the face does: a calmed barrier, the right actives, and consistency. This shelf is small and deliberate - treatments that work on the scalp itself rather than coating the hair.",
+    "seoText": "Beauty Crib stocks authentic hair and scalp care in Uganda, sourced genuine and dispatched from Kampala.",
+    "subcategories": []
   }
 ]

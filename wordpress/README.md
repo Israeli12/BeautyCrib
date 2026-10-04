@@ -58,8 +58,25 @@ The handful of options worth recording: WooCommerce image sizes, the enabled
 payment gateways, Astra's layout keys for posts, the Elementor display
 conditions, and the WhatsApp alert settings (credentials are never exported).
 
+## The October 2026 intake
+
+97 products were added from the `Products/` folder: 26 moisturisers, 38
+serums, 27 toners, 4 masks, a scrub, a soap, a sunscreen and one scalp
+treatment. Each carries its description, benefits, key ingredients, how to
+use, any caution, its brand, its shelf and the skin type, concern and format
+attributes the shop filter reads, plus every photograph as featured image
+and gallery.
+
+They sit as **drafts**, and only because none of them has a price: the
+packaging does not print one. Prices are the owner's to set, after which the
+drafts can be published as they are.
+
+The same intake added two shelves: `sun-care` under Skincare and `hair-care`
+at the top level.
+
 ## Still open
 
+- Prices for the 97 drafts, then publish them.
 - WhatsApp API credentials (Cloud API or Twilio) so alerts send automatically.
 - Instagram feed needs @beautycrib_256 connected in the WordPress admin.
 - Delivery rates, physical address, opening hours and the payment provider

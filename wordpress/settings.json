@@ -1,35 +1,49 @@
 {
     "woocommerce": {
-        "published_products": 61,
-        "drafts": 2,
+        "published_products": 63,
+        "drafts": 97,
         "categories_in_use": [
-            "cleansers (17)",
-            "moisturisers (15)",
-            "serums-treatments (18)",
-            "skincare (61)",
-            "toners (11)"
+            "cleansers (17, under skincare)",
+            "hair-care (1, top level)",
+            "masks (4, under skincare)",
+            "moisturisers (42, under skincare)",
+            "scrubs (1, under skincare)",
+            "serums-treatments (55, under skincare)",
+            "sun-care (1, under skincare)",
+            "toners (38, under skincare)"
         ],
         "brands": [
+            "Abib",
             "Anua",
             "APLB",
             "APRILSKIN",
+            "Arencia",
             "AXIS-Y",
+            "Beauty of Joseon",
             "Celimax",
             "COSRX",
             "Dr. Althea",
             "Eqqualberry",
             "Haruharu Wonder",
+            "I'm From",
             "Isntree",
             "JUMISO",
             "K-SECRET",
+            "Kojic Acid Secret",
             "Medicube",
+            "MISSHA",
             "Nineless",
             "numbuzin",
             "PanOxyl",
+            "Purito Seoul",
+            "Skin by Zaron",
             "SKIN1004",
-            "SOME BY MI"
+            "SOME BY MI",
+            "TIAM",
+            "TOCOBO"
         ],
-        "products_per_page": 24
+        "products_per_page": 24,
+        "draft_note": "The 97 drafts are the October 2026 intake. They carry full copy, categories, attributes and photographs; they are unpublished only because they have no price yet."
     },
     "shop_filter": {
         "taxonomies": [
@@ -51,8 +65,8 @@
     },
     "elementor_conditions": {
         "archive": {
-            "298": [
-                "include/shop_page"
+            "153": [
+                "include/product_archive"
             ],
             "216": [
                 "include/archive/category",
@@ -61,16 +75,16 @@
                 "include/archive/author",
                 "include/archive/search"
             ],
-            "153": [
-                "include/product_archive"
+            "298": [
+                "include/shop_page"
             ]
         },
         "single": {
-            "214": [
-                "include/singular/post"
-            ],
             "155": [
                 "include/product"
+            ],
+            "214": [
+                "include/singular/post"
             ]
         }
     },
