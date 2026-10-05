@@ -377,6 +377,13 @@ const navCategories = categories
   .map((c) => `<li><a href="${categoryUrl(c)}">${esc(c.name)}${c.comingSoon ? ' <span class="nav__soon">soon</span>' : ''}</a></li>`)
   .join('\n');
 
+/* The menu's second column used to be written by hand, so it outlived a renamed
+   shelf and never gained the three that were added after it. It is built from
+   the same data as everything else now. */
+const navSkincare = (categories.find((c) => c.slug === 'skincare') || { subcategories: [] }).subcategories
+  .map((s) => `<li><a href="${categoryUrl(s, 'skincare')}">${esc(s.name)}</a></li>`)
+  .join('\n                    ');
+
 /** The shots a product actually has, in order. Not every product has a carton shot. */
 const productShots = (p) => [1, 2, 3, 4].filter((n) => images[`products/${p.slug}-${n}`]);
 const shotAlt = (p, n) => (n === 1 ? `${p.brand} ${p.name}` : n === 2 ? `${p.brand} ${p.name} with its carton` : `${p.brand} ${p.name} shown from another angle`);
@@ -423,6 +430,7 @@ const galleryCaptions = {
 
 const slots = {
   navCategories,
+  navSkincare,
   featuredLarge: featuredLarge ? productCard(featuredLarge, { modifier: 'feature', sizes: '(min-width: 768px) 50vw, 100vw' }) : '',
   featuredGrid: featuredSmall.map((p) => productCard(p)).join('\n'),
   bestSellers: bestSellers.map((p) => productCard(p, { withRating: true })).join('\n'),
