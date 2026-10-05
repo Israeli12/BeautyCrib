@@ -152,6 +152,31 @@ add_action('wp_head', function () {
   .bc-mega__promo-note{font-family:var(--e-global-typography-bcuil-font-family),sans-serif;font-size:13px;
     color:var(--e-global-color-bcmid)}
 }
+
+/* The burger menu, below the mega menu's breakpoint.
+
+   Elementor positions its dropdown against the nearest positioned ancestor,
+   which here is the header column holding the nav. On a phone that column
+   shrinks to the width of the burger itself - 48px - and the dropdown
+   inherits it, so every label is squeezed into a 48px strip and clipped.
+   Pinning it to the viewport gives it the full width, and reuses the header
+   measurement the mega menu already keeps up to date. */
+@media (max-width:1024px){
+  .elementor-nav-menu--dropdown{
+    position:fixed!important;
+    top:var(--bc-header-bottom,64px)!important;
+    left:0!important;
+    right:0!important;
+    width:100vw!important;
+    max-width:100vw!important;
+    max-height:calc(100vh - var(--bc-header-bottom,64px));
+    overflow-y:auto;
+    overscroll-behavior:contain;
+  }
+  .elementor-nav-menu--dropdown .elementor-nav-menu--dropdown,
+  .elementor-nav-menu--dropdown ul{width:100%!important;max-width:100%!important}
+  .elementor-nav-menu--dropdown a.elementor-item{white-space:normal}
+}
 </style>
 <?php
 }, 3);
