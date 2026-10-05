@@ -23,7 +23,7 @@ file is loaded on each request.
 | `bc-product-shipping-tab.php` | Adds the Shipping and returns tab to a product page, and drops the duplicate Additional information tab now that skin type, concern and format sit in the summary. |
 | `bc-mega-menu.php` | The Shop mega menu: a three-column panel under Shop in the header, with the top-level shelves, the skincare shelves and an editorial card for Cleansers. Every column is read from WooCommerce, and empty shelves are left out, so it follows the catalogue instead of being written by hand. |
 | `bc-shop-match.php` | Brings the WooCommerce shop in line with the prototype: the toolbar reads "63 products" and "Featured" instead of WooCommerce's own wording, the wishlist heart moves onto the photograph and the add-to-cart button waits for a hover, a product with no price says "Price on request" and offers to ask on WhatsApp rather than showing a bare "Read more", and the filter opens as a drawer. |
-| `bc-shop-filter.php` | The shop filter: shorter group headings than WooCommerce's taxonomy labels, the assets HUSKY declines to load because the filter lives in a template, and the `[bc_shop_filter]` wrapper that folds the panel behind a tap on a phone. |
+| `bc-shop-filter.php` | The shop filter: shorter group headings than WooCommerce's taxonomy labels (Brand, Skin type, Concern, Format), the assets HUSKY declines to load because the filter lives in a template, and the `[bc_shop_filter]` wrapper that `bc-shop-match.php` turns into a drawer. Original note follows:  shorter group headings than WooCommerce's taxonomy labels, the assets HUSKY declines to load because the filter lives in a template, and the `[bc_shop_filter]` wrapper that folds the panel behind a tap on a phone. |
 
 ## elementor/
 

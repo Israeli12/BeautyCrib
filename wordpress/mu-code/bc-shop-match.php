@@ -23,6 +23,26 @@
 
 if (!defined('ABSPATH')) { exit; }
 
+/**
+ * Detach a hook that a plugin or theme registered on an object instance.
+ * remove_action() needs the identical callable, and we do not hold the object,
+ * so the callback is matched on its class and method names instead.
+ */
+function bc_remove_object_action($hook, $class, $method) {
+    global $wp_filter;
+    if (empty($wp_filter[$hook])) { return false; }
+    foreach ($wp_filter[$hook]->callbacks as $priority => $callbacks) {
+        foreach ($callbacks as $id => $callback) {
+            $fn = $callback['function'];
+            if (is_array($fn) && is_object($fn[0]) && $fn[0] instanceof $class && $fn[1] === $method) {
+                unset($wp_filter[$hook]->callbacks[$priority][$id]);
+                return true;
+            }
+        }
+    }
+    return false;
+}
+
 /** The shop and the category archives, and nothing else. */
 function bc_is_catalogue_page() {
     return function_exists('is_shop') && (is_shop() || is_product_taxonomy());
@@ -34,7 +54,29 @@ function bc_is_catalogue_page() {
 
 add_filter('woocommerce_result_count_params', '__return_empty_array', 20);
 
-remove_action('woocommerce_before_shop_loop', 'woocommerce_result_count', 20);
+/* This file is loaded before WooCommerce registers its template hooks, so a
+   remove_action() here would find nothing attached and silently do nothing.
+   Every removal therefore waits for init. */
+add_action('init', function () {
+    remove_action('woocommerce_before_shop_loop', 'woocommerce_result_count', 20);
+    remove_action('woocommerce_after_shop_loop_item', 'woocommerce_template_loop_add_to_cart', 10);
+    // Astra prints its own button over the image. Ours replaces it, so two
+    // would otherwise sit on top of each other. Astra registers it on a
+    // singleton instance rather than statically, so it cannot be removed by
+    // class name - the callback has to be found and detached by identity.
+    bc_remove_object_action('woocommerce_after_shop_loop_item', 'Astra_Woocommerce', 'add_modern_triggers_on_image');
+    // The wishlist plugin prints a second heart below the card.
+    remove_action('woocommerce_after_shop_loop_item', 'tinvwl_view_addto_htmlloop', 20);
+}, 99);
+
+// Astra builds the text under the card from a list of parts, and "add_cart" is
+// one of them - the third add-to-cart button on every card. The design has one,
+// on the photograph, so the part is dropped here rather than hidden in CSS.
+add_filter('astra_get_option_shop-product-structure', function ($parts) {
+    if (!is_array($parts)) { return $parts; }
+    return array_values(array_diff($parts, ['add_cart']));
+});
+
 add_action('woocommerce_before_shop_loop', function () {
     global $wp_query;
     $total = (int) $wp_query->found_posts;
@@ -75,14 +117,8 @@ add_action('woocommerce_before_shop_loop_item_title', function () {
     echo '</div></div>';
 }, 99);
 
-// ...and stop it printing a second time in its usual place.
-add_action('init', function () {
-    if (class_exists('TInvWL_Public_AddToWishlist')) {
-        remove_action('woocommerce_after_shop_loop_item', ['TInvWL_Public_AddToWishlist', 'htmlout'], 15);
-    }
-}, 20);
-
-remove_action('woocommerce_after_shop_loop_item', 'woocommerce_template_loop_add_to_cart', 10);
+// The wishlist button and the add-to-cart button are detached from their usual
+// places at init, above.
 
 /* ------------------------------------------------------------------ *
  * 3. Products the business has not priced yet

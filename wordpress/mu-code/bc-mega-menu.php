@@ -24,17 +24,10 @@ function bc_menu_terms($parent = 0) {
         'exclude'    => [get_option('default_product_cat')],
     ]);
     if (is_wp_error($terms)) { return []; }
-    // A shelf with nothing on it is a dead end for a customer.
-    return array_values(array_filter($terms, function ($t) {
-        return $t->count > 0 || bc_term_has_children_with_products($t);
-    }));
-}
-
-function bc_term_has_children_with_products($term) {
-    $children = get_terms(['taxonomy' => 'product_cat', 'hide_empty' => false, 'parent' => $term->term_id]);
-    if (is_wp_error($children)) { return false; }
-    foreach ($children as $child) { if ($child->count > 0) { return true; } }
-    return false;
+    // Every shelf is listed, whether or not WooCommerce has counted anything
+    // onto it yet: the count only follows published products, so filtering on
+    // it hides shelves that are real and about to fill.
+    return $terms;
 }
 
 /**

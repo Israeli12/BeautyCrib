@@ -11,7 +11,7 @@ if (!defined('ABSPATH')) { exit; }
 
 foreach ([
     'pa_skin-type' => 'Skin type',
-    'pa_concern'   => 'Targets',
+    'pa_concern'   => 'Concern',
     'pa_format'    => 'Format',
 ] as $taxonomy => $label) {
     add_filter('woocommerce_taxonomy_args_' . $taxonomy, function ($args) use ($label) {
