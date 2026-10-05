@@ -21,6 +21,7 @@ file is loaded on each request.
 | `bc-fonts.php` | Serves Instrument Serif and Instrument Sans from this server and preloads them, instead of fetching every weight from Google on each visit. |
 | `bc-front-stability.php` | Stops the page reflowing after it has painted: loads the header's widget styles in `<head>`, and leaves out the product filter's assets on pages that do not use it. |
 | `bc-product-shipping-tab.php` | Adds the Shipping and returns tab to a product page, and drops the duplicate Additional information tab now that skin type, concern and format sit in the summary. |
+| `bc-shop-match.php` | Brings the WooCommerce shop in line with the prototype: the toolbar reads "63 products" and "Featured" instead of WooCommerce's own wording, the wishlist heart moves onto the photograph and the add-to-cart button waits for a hover, a product with no price says "Price on request" and offers to ask on WhatsApp rather than showing a bare "Read more", and the filter opens as a drawer. |
 | `bc-shop-filter.php` | The shop filter: shorter group headings than WooCommerce's taxonomy labels, the assets HUSKY declines to load because the filter lives in a template, and the `[bc_shop_filter]` wrapper that folds the panel behind a tap on a phone. |
 
 ## elementor/

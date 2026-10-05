@@ -60,5 +60,7 @@ add_action('wp_enqueue_scripts', function () {
 add_shortcode('bc_shop_filter', function () {
     $inner = do_shortcode('[woof]');
     if (trim($inner) === '') { return ''; }
+    // bc-shop-match.php wraps this in the drawer's heading and its close button.
+    $inner = apply_filters('bc_shop_filter_inner', $inner);
     return '<details class="bc-filter"><summary class="bc-filter__summary">Filter products</summary><div class="bc-filter__body">' . $inner . '</div></details>';
 });
