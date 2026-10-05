@@ -70,7 +70,9 @@
     }
 
     if (prices.length) {
-      var price = Number(card.getAttribute('data-price'));
+      var raw = card.getAttribute('data-price');
+      if (raw === 'null' || raw === '') return false;
+      var price = Number(raw);
       var inRange = prices.some(function (range) {
         var bounds = range.split('-');
         return price >= Number(bounds[0]) && price < Number(bounds[1]);
@@ -87,8 +89,19 @@
     var sorted = cards.slice();
 
     if (mode === 'price-asc' || mode === 'price-desc') {
+      // Unpriced products have no place in a price order, so they go last
+      // whichever way round the sort runs.
+      var priceOf = function (card) {
+        var raw = card.getAttribute('data-price');
+        return raw === 'null' || raw === '' ? null : Number(raw);
+      };
       sorted.sort(function (a, b) {
-        var diff = Number(a.getAttribute('data-price')) - Number(b.getAttribute('data-price'));
+        var pa = priceOf(a);
+        var pb = priceOf(b);
+        if (pa === null && pb === null) return 0;
+        if (pa === null) return 1;
+        if (pb === null) return -1;
+        var diff = pa - pb;
         return mode === 'price-asc' ? diff : -diff;
       });
     } else if (mode === 'name-asc') {

@@ -129,6 +129,11 @@ function rating(product) {
 }
 
 function priceBlock(p, className = 'price') {
+  // A product with no price is in the catalogue but not yet for sale: say so,
+  // rather than printing UGX 0 and inviting an order at nothing.
+  if (p.price == null) {
+    return `<p class="${className} price--on-request">Price on request</p>`;
+  }
   if (p.salePrice) {
     return `<p class="${className}"><span class="price__was">${money(p.price)}</span> <span class="price__now">${money(p.salePrice)}</span> <span class="price__tag">Sale</span></p>`;
   }
@@ -158,7 +163,9 @@ function productCard(p, o = {}) {
         <button class="wishlist-toggle" type="button" data-wishlist ${productData(p)}
                 aria-label="${attr(`Save ${p.brand} ${p.name} to your wishlist`)}" aria-pressed="false">${heartSvg}</button>
         <div class="product-card__quick">
-          <button class="btn btn--solid btn--block btn--sm" type="button" data-add-to-cart ${productData(p)}>Quick add</button>
+          ${p.price == null
+            ? `<a class="btn btn--solid btn--block btn--sm" href="${productUrl(p)}">Enquire</a>`
+            : `<button class="btn btn--solid btn--block btn--sm" type="button" data-add-to-cart ${productData(p)}>Quick add</button>`}
         </div>
       </div>
       <div class="product-card__body">
@@ -421,6 +428,16 @@ const slots = {
   bestSellers: bestSellers.map((p) => productCard(p, { withRating: true })).join('\n'),
   categoryTiles: categories.map(categoryTile).join('\n'),
   shopGrid: products.map((p) => productCard(p)).join('\n'),
+  // Every shelf that actually holds something, so the row cannot drift from
+  // the catalogue the way a hand-written list does.
+  shopPills: [
+    '<li><a class="pill is-active" href="/shop/">All</a></li>',
+    ...categories.flatMap((c) =>
+      (c.subcategories || []).length
+        ? c.subcategories.map((s) => `<li><a class="pill" href="${categoryUrl(s, c.slug)}">${esc(s.name)}</a></li>`)
+        : [`<li><a class="pill" href="${categoryUrl(c)}">${esc(c.name)}</a></li>`]
+    )
+  ].join('\n        '),
   shopFilters: filtersHtml,
   productCount: String(products.length),
   brandCount: String(brands.length),
@@ -619,6 +636,12 @@ for (const p of products) {
       .map((n, i) => `<button class="product-gallery__thumb ${i === 0 ? 'is-active' : ''}" type="button" data-thumb="${i}" aria-label="Show image ${i + 1}">${picture(`products/${p.slug}-${n}`, { alt: '', sizes: '90px', className: 'product-gallery__thumb-image' })}</button>`)
       .join('\n'),
     productData: productData(p),
+    buyButton: p.price == null
+      ? `<a class="btn btn--solid product-buy__add" href="https://wa.me/${site.contact.whatsappHref}?text=${encodeURIComponent(`Hello Beauty Crib, what is the price of the ${p.brand} ${p.name}?`)}" target="_blank" rel="noopener">Ask for the price</a>`
+      : `<button class="btn btn--solid product-buy__add" type="button" data-add-to-cart ${productData(p)}>Add to bag</button>`,
+    stickyBuyButton: p.price == null
+      ? `<a class="btn btn--solid btn--sm" href="https://wa.me/${site.contact.whatsappHref}?text=${encodeURIComponent(`Hello Beauty Crib, what is the price of the ${p.brand} ${p.name}?`)}" target="_blank" rel="noopener">Ask for the price</a>`
+      : `<button class="btn btn--solid btn--sm" type="button" data-add-to-cart ${productData(p)}>Add to bag</button>`,
     skinTypes: (p.skinTypes || []).map((s) => `<li class="chip">${esc(s)}</li>`).join(''),
     concerns: (p.concerns || []).map((s) => `<li class="chip">${esc(s)}</li>`).join(''),
     format: esc(p.format),

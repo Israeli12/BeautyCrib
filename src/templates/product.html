@@ -39,7 +39,7 @@
               <input type="number" min="1" value="1" data-qty-input aria-label="Quantity">
               <button type="button" data-qty-step="1" aria-label="Increase quantity">+</button>
             </span>
-            <button class="btn btn--solid product-buy__add" type="button" data-add-to-cart {{productData}}>Add to bag</button>
+            {{buyButton}}
             <button class="product-buy__wishlist" type="button" data-wishlist {{productData}} aria-pressed="false">
               <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20.2 4.6 13a4.4 4.4 0 0 1 0-6.2 4.4 4.4 0 0 1 6.2 0l1.2 1.2 1.2-1.2a4.4 4.4 0 0 1 6.2 0 4.4 4.4 0 0 1 0 6.2z"/></svg>
               Save for later
@@ -106,5 +106,5 @@
         <p class="sticky-buy__name">{{brand}} {{name}}</p>
         <p class="sticky-buy__price">{{price}}</p>
       </div>
-      <button class="btn btn--solid btn--sm" type="button" data-add-to-cart {{productData}}>Add to bag</button>
+      {{stickyBuyButton}}
     </div>

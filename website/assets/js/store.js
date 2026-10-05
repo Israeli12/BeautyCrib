@@ -40,6 +40,8 @@
   var BC = window.BC || {};
 
   BC.money = function (value) {
+    // A product the business has not priced yet says so, rather than UGX 0.
+    if (value === null || value === undefined || value === '') return 'Price on request';
     var n = Math.round(Number(value) || 0);
     return 'UGX ' + n.toLocaleString('en-US');
   };
