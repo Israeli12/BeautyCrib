@@ -1,0 +1,186 @@
+[
+ {
+  "idx": [
+   67,
+   68
+  ],
+  "n": "B-Boost 1% Kojic Acid Serum (30 ml)",
+  "b": "Nineless",
+  "cat": "serums-treatments",
+  "fmt": "Serum",
+  "size": "30 ml",
+  "st": [
+   "All",
+   "Combination",
+   "Normal"
+  ],
+  "cn": [
+   "Dark spots",
+   "Dullness & uneven tone"
+  ],
+  "ki": [
+   "Kojic acid 1%",
+   "Niacinamide 100,000 ppm",
+   "Tranexamic acid 20,000 ppm",
+   "Panthenol 20,000 ppm",
+   "Glutathione 1,000 ppm"
+  ],
+  "ex": "1% kojic acid with niacinamide, for dull and lacklustre skin.",
+  "d": [
+   "Kojic acid at 1% alongside a high niacinamide dose, tranexamic acid and glutathione - a fuller formula than the strength alone suggests.",
+   "Built for skin the label calls dull and lacklustre rather than actively breaking out."
+  ],
+  "caution": "Wear sunscreen daily while using kojic acid.",
+  "flag": "A product of this name is already in the store. Confirm whether this is a restock, a different size, or a reformulation before publishing."
+ },
+ {
+  "idx": [
+   145
+  ],
+  "n": "5+ Glutathione Vitamin Concentrated Serum (single shot)",
+  "b": "numbuzin",
+  "cat": "serums-treatments",
+  "fmt": "Serum",
+  "size": "",
+  "st": [
+   "All",
+   "Normal",
+   "Combination"
+  ],
+  "cn": [
+   "Dullness & uneven tone",
+   "Dark spots"
+  ],
+  "ki": [
+   "Glutathione",
+   "Vitamin C"
+  ],
+  "ex": "The glutathione brightening serum from the No.5 line.",
+  "d": [
+   "Glutathione and vitamin C concentrated into a dark glass bottle that keeps them stable.",
+   "Light enough to layer under a moisturiser morning and night."
+  ],
+  "flag": "Already in the store. Confirm whether this is a restock or a different size before publishing."
+ },
+ {
+  "idx": [
+   166,
+   167
+  ],
+  "n": "Advanced The Vitamin C 23 Serum (20 g)",
+  "b": "COSRX",
+  "cat": "serums-treatments",
+  "fmt": "Serum",
+  "size": "20 g",
+  "st": [
+   "Normal",
+   "Combination",
+   "All"
+  ],
+  "cn": [
+   "Dark spots",
+   "Dullness & uneven tone"
+  ],
+  "ki": [
+   "Pure vitamin C 23%",
+   "Vitamin E",
+   "Hyaluronic acid"
+  ],
+  "ex": "23% pure vitamin C, in the 20 g size.",
+  "d": [
+   "The high-dose end of vitamin C, for skin already used to a gentler version.",
+   "Thick and slightly tacky going on, and it works."
+  ],
+  "caution": "Not a starting point. Patch test first and wear sunscreen daily.",
+  "flag": "Already in the store. Confirm whether this 20 g is a different listing from the existing one."
+ },
+ {
+  "idx": [
+   172,
+   173
+  ],
+  "n": "345 Relief Serum (30 ml)",
+  "b": "Dr. Althea",
+  "cat": "serums-treatments",
+  "fmt": "Serum",
+  "size": "30 ml",
+  "st": [
+   "Sensitive",
+   "Dry",
+   "All"
+  ],
+  "cn": [
+   "Sensitivity",
+   "Dryness"
+  ],
+  "ki": [
+   "Ceramide NP",
+   "Panthenol",
+   "Madecassoside",
+   "Cica Teca leaf water"
+  ],
+  "ex": "A short relief formula for skin that has had enough.",
+  "d": [
+   "Three ingredients for relief, four for nourishing and five for soothing - which is where the name comes from.",
+   "For the weeks after too much exfoliation, too much sun, or a product that went wrong."
+  ],
+  "flag": "Already in the store. Confirm whether this is a restock before publishing."
+ },
+ {
+  "idx": [
+   226
+  ],
+  "n": "Oil-Free Ultra-Moisturizing Lotion (with Birch Sap), second shot",
+  "b": "COSRX",
+  "cat": "moisturisers",
+  "fmt": "Lotion",
+  "size": "100 ml",
+  "st": [
+   "Oily",
+   "Combination",
+   "Sensitive"
+  ],
+  "cn": [
+   "Dryness",
+   "Oil control"
+  ],
+  "ki": [
+   "Birch sap 70.8%"
+  ],
+  "ex": "70.8% birch sap, and not a drop of oil.",
+  "d": [
+   "Oily skin still gets dehydrated, and most moisturisers answer that with oils it does not need.",
+   "Thin, fast and calming, and it layers under sunscreen without pilling."
+  ],
+  "flag": "This is the same product as the first listing in the intake. Merge the images into one listing rather than creating two."
+ },
+ {
+  "idx": [
+   79,
+   80
+  ],
+  "n": "9+ NAD+ Eye Patch",
+  "b": "numbuzin",
+  "cat": "serums-treatments",
+  "fmt": "Mask",
+  "size": "",
+  "st": [
+   "All",
+   "Dry",
+   "Normal"
+  ],
+  "cn": [
+   "Fine lines & firmness",
+   "Dryness"
+  ],
+  "ki": [
+   "NAD+",
+   "Peptides"
+  ],
+  "ex": "Hydrogel eye patches from the NAD+ line.",
+  "d": [
+   "The No.9 NAD+ formula in a patch, for the mornings when the eye area needs more than a cream.",
+   "Hydrogel rather than cotton, so they stay put while they work."
+  ]
+ }
+]

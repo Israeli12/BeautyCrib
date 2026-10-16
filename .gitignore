@@ -16,3 +16,7 @@ tools/newdata/zip-list.txt
 tools/newdata/todo-slugs.txt
 tools/newdata/live-import.json
 tools/newdata/products.backup.json
+
+tools/newdata/intake-img/
+tools/newdata/intake-payload.json
+tools/newdata/new-images-b.tgz

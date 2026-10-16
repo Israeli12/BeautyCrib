@@ -1,0 +1,1192 @@
+[
+ {
+  "idx": [
+   92,
+   135,
+   136
+  ],
+  "n": "Vitamin C Brightening & Moisturizing Body Lotion",
+  "b": "Skin by Zaron",
+  "cat": "body-care",
+  "fmt": "Lotion",
+  "size": "500 ml",
+  "st": [
+   "All",
+   "Dry",
+   "Normal"
+  ],
+  "cn": [
+   "Dullness & uneven tone",
+   "Dryness"
+  ],
+  "ki": [
+   "Vitamin C",
+   "Alpha arbutin",
+   "Collagen",
+   "Vitamin E"
+  ],
+  "ex": "A brightening body lotion in a size you can actually use daily.",
+  "d": [
+   "Vitamin C and alpha arbutin work on uneven tone across the body the same way they do on the face, and a 500 ml pump makes that practical.",
+   "Hydrating, firming and brightening in one step, for all skin types."
+  ]
+ },
+ {
+  "idx": [
+   93,
+   137,
+   138
+  ],
+  "n": "Vitamin C Body Wash",
+  "b": "Skin by Zaron",
+  "cat": "body-care",
+  "fmt": "Body wash",
+  "size": "500 ml",
+  "st": [
+   "All",
+   "Normal",
+   "Combination"
+  ],
+  "cn": [
+   "Dullness & uneven tone",
+   "Texture"
+  ],
+  "ki": [
+   "Vitamin C",
+   "Glycolic acid",
+   "Castor oil"
+  ],
+  "ex": "Vitamin C and glycolic acid, in the washing step.",
+  "d": [
+   "Glycolic acid in a body wash clears the dull surface layer that makes tone look patchy, and vitamin C works underneath it.",
+   "Brightening, exfoliating and anti-oxidant, for all skin types."
+  ],
+  "caution": "Contains glycolic acid. Wear sunscreen on exposed skin."
+ },
+ {
+  "idx": [
+   94,
+   141,
+   142
+  ],
+  "n": "Papaya Brightening Body Wash",
+  "b": "Skin by Zaron",
+  "cat": "body-care",
+  "fmt": "Body wash",
+  "size": "",
+  "st": [
+   "Oily",
+   "Combination",
+   "Acne-prone"
+  ],
+  "cn": [
+   "Acne & breakouts",
+   "Texture"
+  ],
+  "ki": [
+   "Salicylic acid",
+   "Aloe vera",
+   "Tea tree oil",
+   "Niacinamide"
+  ],
+  "ex": "Salicylic acid and tea tree, for body breakouts.",
+  "d": [
+   "Back and chest breakouts need the same salicylic acid the face does, at a size that covers them.",
+   "Papaya and aloe keep it from stripping, and niacinamide works on the marks left behind."
+  ],
+  "caution": "Contains salicylic acid. Wear sunscreen on exposed skin."
+ },
+ {
+  "idx": [
+   95,
+   139,
+   140
+  ],
+  "n": "Men Face & Body Lotion",
+  "b": "Skin by Zaron",
+  "cat": "body-care",
+  "fmt": "Lotion",
+  "size": "500 ml",
+  "st": [
+   "All",
+   "Normal",
+   "Dry"
+  ],
+  "cn": [
+   "Dryness",
+   "Dullness & uneven tone"
+  ],
+  "ki": [
+   "Collagen",
+   "Alpha arbutin",
+   "Niacinamide"
+  ],
+  "ex": "One lotion for face and body, built for men's skin.",
+  "d": [
+   "Moisturising, firming, anti-ageing and hydrating in a single bottle, which is the routine most men will actually keep up.",
+   "Collagen and niacinamide do the work; the texture absorbs fast enough for the morning."
+  ]
+ },
+ {
+  "idx": [
+   143,
+   144
+  ],
+  "n": "Men 5-in-1 Body Wash",
+  "b": "Skin by Zaron",
+  "cat": "body-care",
+  "fmt": "Body wash",
+  "size": "500 ml",
+  "st": [
+   "All",
+   "Normal",
+   "Oily"
+  ],
+  "cn": [
+   "Oil control",
+   "Texture"
+  ],
+  "ki": [
+   "Activated charcoal",
+   "Aloe vera",
+   "Peppermint",
+   "Vitamin E",
+   "Green tea"
+  ],
+  "ex": "Face, hair, beard, body and moisture, in one bottle.",
+  "d": [
+   "Activated charcoal and peppermint for the clean, aloe and vitamin E so it does not strip.",
+   "Built to replace four products in the shower, for all skin types."
+  ]
+ },
+ {
+  "idx": [
+   129,
+   130
+  ],
+  "n": "Skin Glow Therapy Ultra Moisturizing Body Lotion",
+  "b": "Skin by Zaron",
+  "cat": "body-care",
+  "fmt": "Lotion",
+  "size": "500 ml",
+  "st": [
+   "Dry",
+   "All",
+   "Normal"
+  ],
+  "cn": [
+   "Dryness"
+  ],
+  "ki": [
+   "Vitamin E",
+   "Alpha arbutin",
+   "Collagen"
+  ],
+  "ex": "The richest body lotion in the Zaron range.",
+  "d": [
+   "For skin that stays tight and ashy after washing, where a light lotion has stopped being enough.",
+   "Hydrating, firming and brightening, in a 500 ml pump."
+  ]
+ },
+ {
+  "idx": [
+   146
+  ],
+  "n": "Glow & Hydration Body Oil",
+  "b": "Skin by Zaron",
+  "cat": "body-care",
+  "fmt": "Oil",
+  "size": "200 ml",
+  "st": [
+   "Dry",
+   "All",
+   "Normal"
+  ],
+  "cn": [
+   "Dryness"
+  ],
+  "ki": [
+   "Collagen",
+   "Argan oil",
+   "Baobab oil",
+   "Sweet almond oil"
+  ],
+  "ex": "Argan, baobab and sweet almond, for a lit finish.",
+  "d": [
+   "Three oils that absorb rather than sit, which is the difference between a body oil you use and one you do not.",
+   "Hydrating and firming, for all skin types."
+  ]
+ },
+ {
+  "idx": [
+   64
+  ],
+  "n": "Deep Moisturizing Hand Cream",
+  "b": "Skin by Zaron",
+  "cat": "body-care",
+  "fmt": "Cream",
+  "size": "50 ml",
+  "st": [
+   "Dry",
+   "All",
+   "Normal"
+  ],
+  "cn": [
+   "Dryness"
+  ],
+  "ki": [],
+  "ex": "A deep hand cream for all skin types.",
+  "d": [
+   "Hands get washed more than anything else and moisturised least, which is why they age first.",
+   "A 50 ml tube, small enough to carry."
+  ]
+ },
+ {
+  "idx": [
+   99,
+   100
+  ],
+  "n": "Kojic Acid Turmeric Vita Brightening Body Wash",
+  "b": "Medicube",
+  "cat": "body-care",
+  "fmt": "Body wash",
+  "size": "400 ml",
+  "st": [
+   "All",
+   "Normal",
+   "Combination"
+  ],
+  "cn": [
+   "Dullness & uneven tone",
+   "Dark spots"
+  ],
+  "ki": [
+   "Kojic acid",
+   "Turmeric extract",
+   "Vitamin C",
+   "Niacinamide 2%"
+  ],
+  "ex": "The kojic acid line, scaled up for the body.",
+  "d": [
+   "The same brightening set as the face range, in a wash that covers the areas that actually darken: knees, elbows, underarms, back.",
+   "Niacinamide at 2% keeps it working between washes."
+  ],
+  "caution": "Wear sunscreen on exposed skin while using brightening products."
+ },
+ {
+  "idx": [
+   101,
+   102
+  ],
+  "n": "Red Acne Body Wash",
+  "b": "Medicube",
+  "cat": "body-care",
+  "fmt": "Body wash",
+  "size": "400 g",
+  "st": [
+   "Acne-prone",
+   "Oily",
+   "Combination"
+  ],
+  "cn": [
+   "Acne & breakouts",
+   "Texture"
+  ],
+  "ki": [
+   "AHA",
+   "BHA",
+   "PHA",
+   "Niacinamide"
+  ],
+  "ex": "Three acids and niacinamide, for body acne.",
+  "d": [
+   "Body acne is usually treated with whatever is in the shower; this is formulated for it specifically.",
+   "Non-comedogenic and dermatologist tested, so it suits daily use on the back and chest."
+  ],
+  "caution": "Contains exfoliating acids. Wear sunscreen on exposed skin."
+ },
+ {
+  "idx": [
+   103,
+   104
+  ],
+  "n": "AHA.BHA.PHA Miracle Calming Body Lotion",
+  "b": "SOME BY MI",
+  "cat": "body-care",
+  "fmt": "Lotion",
+  "size": "200 ml",
+  "st": [
+   "Acne-prone",
+   "Combination",
+   "Sensitive"
+  ],
+  "cn": [
+   "Texture",
+   "Acne & breakouts"
+  ],
+  "ki": [
+   "Tea tree 10%",
+   "Niacinamide 2%",
+   "AHA",
+   "BHA",
+   "PHA"
+  ],
+  "ex": "The 30 Days Miracle formula, as a body lotion.",
+  "d": [
+   "A light moisturising lotion with the three acids that made the face range famous, for bumpy, uneven body skin.",
+   "Tea tree at 10% soothes while the acids clear dead skin and congestion."
+  ],
+  "caution": "Contains exfoliating acids. Wear sunscreen on exposed skin."
+ },
+ {
+  "idx": [
+   123,
+   124
+  ],
+  "n": "Dark Spot Correcting Body Lotion",
+  "b": "Olay",
+  "cat": "body-care",
+  "fmt": "Lotion",
+  "size": "",
+  "st": [
+   "All",
+   "Normal",
+   "Dry"
+  ],
+  "cn": [
+   "Dark spots",
+   "Dullness & uneven tone"
+  ],
+  "ki": [
+   "AHA",
+   "Vitamin C",
+   "Niacinamide"
+  ],
+  "ex": "AHA and vitamin C, aimed at stubborn body dark spots.",
+  "d": [
+   "A pH-activated formula that exfoliates discolouration while the vitamin C and niacinamide work on the tone underneath.",
+   "Four weeks is the window the label gives for stubborn spots to start fading."
+  ],
+  "caution": "Contains AHA. Wear sunscreen on exposed skin."
+ },
+ {
+  "idx": [
+   125,
+   126
+  ],
+  "n": "Firming Body Lotion",
+  "b": "Olay",
+  "cat": "body-care",
+  "fmt": "Lotion",
+  "size": "",
+  "st": [
+   "All",
+   "Dry",
+   "Normal"
+  ],
+  "cn": [
+   "Fine lines & firmness",
+   "Dryness"
+  ],
+  "ki": [
+   "Collagen peptide",
+   "Niacinamide",
+   "Lipids"
+  ],
+  "ex": "Collagen peptide for firmer, more resilient body skin.",
+  "d": [
+   "Weightless moisture with a collagen peptide complex, built to strengthen rather than just soften.",
+   "The label claims 91% stronger, more resilient skin in four weeks."
+  ]
+ },
+ {
+  "idx": [
+   121,
+   122
+  ],
+  "n": "Retinol + Ferulic Acid Age Rewind Body Cream",
+  "b": "Medix 5.5",
+  "cat": "body-care",
+  "fmt": "Cream",
+  "size": "444 ml",
+  "st": [
+   "All",
+   "Dry",
+   "Normal"
+  ],
+  "cn": [
+   "Fine lines & firmness",
+   "Texture"
+  ],
+  "ki": [
+   "Retinol",
+   "Ferulic acid",
+   "Vitamin A complex"
+  ],
+  "ex": "Retinol for the body, in a 444 ml bottle.",
+  "d": [
+   "Retinol smooths and firms crepey skin on arms and legs the same way it does on the face, and ferulic acid keeps it stable.",
+   "No added fragrance, no parabens, and dermatologist and allergy tested."
+  ],
+  "caution": "Contains retinol. Wear sunscreen on exposed skin and introduce gradually."
+ },
+ {
+  "idx": [
+   127,
+   128
+  ],
+  "n": "Vitamin C + Turmeric Brighten + Firm Body Cream",
+  "b": "Medix 5.5",
+  "cat": "body-care",
+  "fmt": "Cream",
+  "size": "444 ml",
+  "st": [
+   "All",
+   "Normal",
+   "Dry"
+  ],
+  "cn": [
+   "Dullness & uneven tone",
+   "Fine lines & firmness"
+  ],
+  "ki": [
+   "Vitamin C",
+   "Turmeric",
+   "Curcumin"
+  ],
+  "ex": "Vitamin C and turmeric, for dull and uneven body skin.",
+  "d": [
+   "Vitamin C brightens and turmeric brings the antioxidant side, in a cream sized for daily full-body use.",
+   "Dermatologist and allergy tested, with no parabens."
+  ]
+ },
+ {
+  "idx": [
+   109,
+   110
+  ],
+  "n": "Advanced Korean Skin Bright & Moisture Body Lotion",
+  "b": "Advanced Korean Skin",
+  "cat": "body-care",
+  "fmt": "Lotion",
+  "size": "500 ml",
+  "st": [
+   "All",
+   "Dry",
+   "Normal"
+  ],
+  "cn": [
+   "Dullness & uneven tone",
+   "Dryness"
+  ],
+  "ki": [],
+  "ex": "A brightening body lotion, three jobs in one jar.",
+  "d": [
+   "Formulated with rich ingredients to balance skin complexion and protect the barrier while it brightens.",
+   "Paraben free, cruelty free and vegan."
+  ]
+ },
+ {
+  "idx": [
+   113,
+   114
+  ],
+  "n": "Advanced Korean Skin Bright & Dewy Radiance Body Lotion",
+  "b": "Advanced Korean Skin",
+  "cat": "body-care",
+  "fmt": "Lotion",
+  "size": "500 ml",
+  "st": [
+   "All",
+   "Dry",
+   "Normal"
+  ],
+  "cn": [
+   "Dullness & uneven tone",
+   "Dryness"
+  ],
+  "ki": [],
+  "ex": "The dewy finish version, for a lit rather than matte look.",
+  "d": [
+   "A tested brightening body lotion with maximum moisture retention, finished dewy rather than flat.",
+   "Paraben free, cruelty free and vegan."
+  ]
+ },
+ {
+  "idx": [
+   111,
+   112
+  ],
+  "n": "Kojic Acid Secret White Skin Lightening Body Lotion",
+  "b": "Kojic Acid Secret",
+  "cat": "body-care",
+  "fmt": "Lotion",
+  "size": "",
+  "st": [
+   "All",
+   "Normal",
+   "Combination"
+  ],
+  "cn": [
+   "Dark spots",
+   "Dullness & uneven tone"
+  ],
+  "ki": [
+   "Kojic acid"
+  ],
+  "ex": "The body lotion that goes with the kojic acid bar.",
+  "d": [
+   "Kojic acid over larger areas, for the knees, elbows and underarms that darken first.",
+   "The classic formula, for a lighter and even skin tone."
+  ],
+  "caution": "Wear sunscreen on exposed areas while using kojic acid."
+ },
+ {
+  "idx": [
+   119,
+   120
+  ],
+  "n": "Glutathione Niacinamide Body Lotion",
+  "b": "APLB",
+  "cat": "body-care",
+  "fmt": "Lotion",
+  "size": "300 ml",
+  "st": [
+   "All",
+   "Normal",
+   "Dry"
+  ],
+  "cn": [
+   "Dullness & uneven tone",
+   "Dark spots"
+  ],
+  "ki": [
+   "Glutathione",
+   "Niacinamide",
+   "Lipo Gluta Niac Cen 12.5%"
+  ],
+  "ex": "APLB's glutathione pair, formulated for the body.",
+  "d": [
+   "The same Lipo Gluta Niac complex as the face range, at 12.5%, in a lotion for everywhere else.",
+   "Mild ingredients with the brand's usual short formula."
+  ]
+ },
+ {
+  "idx": [
+   117,
+   118
+  ],
+  "n": "Skin Tone Corrector Alpha Arbutin + Niacinamide Brightening Lotion",
+  "b": "Pro Lab",
+  "cat": "body-care",
+  "fmt": "Lotion",
+  "size": "500 ml",
+  "st": [
+   "All",
+   "Normal",
+   "Dry"
+  ],
+  "cn": [
+   "Dullness & uneven tone",
+   "Dark spots"
+  ],
+  "ki": [
+   "Alpha arbutin",
+   "Niacinamide"
+  ],
+  "ex": "Alpha arbutin and niacinamide, for visible body brightening.",
+  "d": [
+   "Two of the better-tolerated pigment ingredients, paired in a daily lotion rather than a short course.",
+   "Visible brightening, evens skin tone, daily moisture - the three claims on the bottle."
+  ]
+ },
+ {
+  "idx": [
+   115,
+   116
+  ],
+  "n": "Shea Better 24H Moisture Body Lotion, Vanilla Cashmere",
+  "b": "eos",
+  "cat": "body-care",
+  "fmt": "Lotion",
+  "size": "473 ml",
+  "st": [
+   "Dry",
+   "All",
+   "Sensitive"
+  ],
+  "cn": [
+   "Dryness"
+  ],
+  "ki": [
+   "Shea oil",
+   "Seven nourishing oils and butters"
+  ],
+  "ex": "Shea oil and 24-hour moisture, in vanilla cashmere.",
+  "d": [
+   "A 24-hour moisture lotion built on shea oil, which absorbs quickly instead of sitting greasy.",
+   "Dermatologist recommended, paraben and phthalate free."
+  ]
+ },
+ {
+  "idx": [
+   133,
+   134
+  ],
+  "n": "Moisturising Cream",
+  "b": "CeraVe",
+  "cat": "body-care",
+  "fmt": "Cream",
+  "size": "340 g",
+  "st": [
+   "Dry",
+   "Sensitive",
+   "All"
+  ],
+  "cn": [
+   "Dryness",
+   "Sensitivity"
+  ],
+  "ki": [
+   "Three essential ceramides",
+   "Hyaluronic acid"
+  ],
+  "ex": "The ceramide cream dermatologists keep recommending.",
+  "d": [
+   "Three essential ceramides and hyaluronic acid, for dry to very dry skin on the face and body.",
+   "Developed with dermatologists, and about as uncontroversial as skincare gets."
+  ]
+ },
+ {
+  "idx": [
+   131,
+   132
+  ],
+  "n": "Vitamin C Advanced Brightening Cream",
+  "b": "Advanced Clinicals",
+  "cat": "body-care",
+  "fmt": "Cream",
+  "size": "454 g",
+  "st": [
+   "All",
+   "Dry",
+   "Normal"
+  ],
+  "cn": [
+   "Dark spots",
+   "Dullness & uneven tone"
+  ],
+  "ki": [
+   "Vitamin C",
+   "Ferulic acid",
+   "Coconut oil",
+   "Vitamin E"
+  ],
+  "ex": "A large jar of vitamin C cream for dark spots.",
+  "d": [
+   "Brightens the appearance of dark spots and diminishes the look of uneven skin tone, on the face or the body.",
+   "Dermatologist tested, in a 16 oz jar meant for generous use."
+  ]
+ },
+ {
+  "idx": [
+   96
+  ],
+  "n": "Skin Complex",
+  "b": "Vital Proteins",
+  "cat": "supplements",
+  "fmt": "Supplement",
+  "size": "",
+  "st": [
+   "All"
+  ],
+  "cn": [
+   "Fine lines & firmness",
+   "Dryness"
+  ],
+  "ki": [
+   "Collagen peptides"
+  ],
+  "ex": "An unflavoured collagen powder aimed at skin.",
+  "d": [
+   "A dietary supplement formulated around collagen peptides for skin hydration and elasticity.",
+   "Unflavoured, so it mixes into coffee or water without changing the taste."
+  ],
+  "caution": "A dietary supplement, not a medicine. Follow the directions on the pack."
+ },
+ {
+  "idx": [
+   97
+  ],
+  "n": "Collagen Creamer, Mocha",
+  "b": "Vital Proteins",
+  "cat": "supplements",
+  "fmt": "Supplement",
+  "size": "311 g",
+  "st": [
+   "All"
+  ],
+  "cn": [
+   "Fine lines & firmness"
+  ],
+  "ki": [
+   "Collagen peptides 10 g per serving",
+   "Coconut milk powder"
+  ],
+  "ex": "Ten grams of collagen peptides, in your coffee.",
+  "d": [
+   "A dairy-free, gluten-free creamer that carries 10 g of collagen peptides per serving.",
+   "Made with coconut milk powder, and flavoured with other natural flavours."
+  ],
+  "caution": "A dietary supplement, not a medicine. Follow the directions on the pack."
+ },
+ {
+  "idx": [
+   98
+  ],
+  "n": "Collagen Creamer, Original",
+  "b": "Vital Proteins",
+  "cat": "supplements",
+  "fmt": "Supplement",
+  "size": "293 g",
+  "st": [
+   "All"
+  ],
+  "cn": [
+   "Fine lines & firmness"
+  ],
+  "ki": [
+   "Collagen peptides 10 g per serving",
+   "Coconut milk powder"
+  ],
+  "ex": "The unflavoured creamer, without the plastic scoop.",
+  "d": [
+   "The same collagen creamer in its original flavour, with 10 g of collagen peptides per serving.",
+   "Dairy free and gluten free, made with coconut milk powder."
+  ],
+  "caution": "A dietary supplement, not a medicine. Follow the directions on the pack."
+ },
+ {
+  "idx": [
+   105
+  ],
+  "n": "Liquid Morning Multivitamin + Hair Growth, Peach Mango",
+  "b": "Mary Ruth's",
+  "cat": "supplements",
+  "fmt": "Supplement",
+  "size": "11.23 fl. oz.",
+  "st": [
+   "All"
+  ],
+  "cn": [],
+  "ki": [
+   "Lustriva"
+  ],
+  "ex": "A liquid morning multivitamin with Lustriva.",
+  "d": [
+   "A liquid rather than a tablet, which suits anyone who struggles with capsules.",
+   "Peach mango, flavoured with other natural flavours."
+  ],
+  "caution": "A dietary supplement, not a medicine. Follow the directions on the pack."
+ },
+ {
+  "idx": [
+   107
+  ],
+  "n": "Liquid Morning Multivitamin + Hair Growth, Peach Mango, 30 fl. oz.",
+  "b": "Mary Ruth's",
+  "cat": "supplements",
+  "fmt": "Supplement",
+  "size": "30 fl. oz.",
+  "st": [
+   "All"
+  ],
+  "cn": [],
+  "ki": [
+   "Lustriva"
+  ],
+  "ex": "The large bottle of the liquid morning multivitamin.",
+  "d": [
+   "The same formula in a 30 fl. oz. bottle, for anyone already through the smaller one.",
+   "Peach mango, flavoured with other natural flavours."
+  ],
+  "caution": "A dietary supplement, not a medicine. Follow the directions on the pack."
+ },
+ {
+  "idx": [
+   106
+  ],
+  "n": "Goodnight Low Molecular Collagen",
+  "b": "BB Lab",
+  "cat": "supplements",
+  "fmt": "Supplement",
+  "size": "",
+  "st": [
+   "All"
+  ],
+  "cn": [
+   "Fine lines & firmness"
+  ],
+  "ki": [
+   "Low molecular fish collagen"
+  ],
+  "ex": "A low-molecular collagen stick, taken at night.",
+  "d": [
+   "Low molecular fish collagen, in single-serving sticks meant to be taken before bed.",
+   "The format is powder, so there is nothing to swallow."
+  ],
+  "caution": "A dietary supplement, not a medicine. Follow the directions on the pack."
+ },
+ {
+  "idx": [
+   52,
+   53
+  ],
+  "n": "Cranberry Plus Probiotic with Vitamin C, 60 tablets",
+  "b": "21st Century",
+  "cat": "supplements",
+  "fmt": "Supplement",
+  "size": "60 tablets",
+  "st": [
+   "All"
+  ],
+  "cn": [],
+  "ki": [
+   "Cranberry concentrate",
+   "Probiotic",
+   "Vitamin C"
+  ],
+  "ex": "Cranberry and probiotic tablets for urinary tract health.",
+  "d": [
+   "A cranberry supplement with added probiotic and vitamin C, in a 60-tablet bottle.",
+   "The label positions it as flushing support for urinary tract cleanliness."
+  ],
+  "caution": "A dietary supplement, not a medicine. Follow the directions on the pack."
+ },
+ {
+  "idx": [
+   108
+  ],
+  "n": "Gluta Collagen Pink",
+  "b": "Gluta Collagen",
+  "cat": "supplements",
+  "fmt": "Supplement",
+  "size": "30 sachets",
+  "st": [
+   "All"
+  ],
+  "cn": [
+   "Dullness & uneven tone"
+  ],
+  "ki": [
+   "Glutathione",
+   "Collagen",
+   "Mixed fruit extracts"
+  ],
+  "ex": "A mixed-fruit collagen and glutathione drink, in sachets.",
+  "d": [
+   "A powdered dietary supplement combining collagen with glutathione and fruit extracts.",
+   "Thirty sachets, one per day."
+  ],
+  "caution": "A dietary supplement, not a medicine. Follow the directions on the pack."
+ },
+ {
+  "idx": [
+   147,
+   148,
+   149,
+   150
+  ],
+  "n": "Lip Oil",
+  "b": "Skin by Zaron",
+  "cat": "lip-care",
+  "fmt": "Lip oil",
+  "size": "",
+  "st": [
+   "All"
+  ],
+  "cn": [
+   "Dryness"
+  ],
+  "ki": [],
+  "ex": "A glossy, hydrating lip oil in five shades.",
+  "d": [
+   "A lip oil rather than a gloss: it conditions as it shines, so it can be worn on bare lips overnight.",
+   "Photographed here in all five shades - confirm which are in stock before publishing."
+  ],
+  "flag": "Five shades shown. Decide whether this is one product with variants or five separate listings."
+ },
+ {
+  "idx": [
+   151,
+   152,
+   153
+  ],
+  "n": "Lip Hydrating Therapy Lip Scrub",
+  "b": "Skin by Zaron",
+  "cat": "lip-care",
+  "fmt": "Scrub",
+  "size": "",
+  "st": [
+   "All"
+  ],
+  "cn": [
+   "Dryness",
+   "Texture"
+  ],
+  "ki": [],
+  "ex": "A sugar lip scrub, in Blush Candy and Bumble Bee.",
+  "d": [
+   "Lips flake before the rest of the face and cannot be exfoliated with anything meant for skin.",
+   "Two scents photographed: Blush Candy and Bumble Bee."
+  ],
+  "flag": "Two scents shown. Confirm whether both are stocked and whether they are separate listings."
+ },
+ {
+  "idx": [
+   158,
+   159
+  ],
+  "n": "Vita Glazed Lip Mask",
+  "b": "TOCOBO",
+  "cat": "lip-care",
+  "fmt": "Mask",
+  "size": "10 ml",
+  "st": [
+   "All",
+   "Dry"
+  ],
+  "cn": [
+   "Dryness"
+  ],
+  "ki": [
+   "Vitamin complex"
+  ],
+  "ex": "A glazed overnight lip mask.",
+  "d": [
+   "Thick enough to stay put overnight, glossy enough to wear during the day.",
+   "TOCOBO's most reordered product, and the reason most people find the brand."
+  ]
+ },
+ {
+  "idx": [
+   156,
+   157
+  ],
+  "n": "Fruity Water Tint",
+  "b": "Colorgram",
+  "cat": "lip-care",
+  "fmt": "Lip tint",
+  "size": "",
+  "st": [
+   "All"
+  ],
+  "cn": [],
+  "ex": "A watery lip tint with a lasting stain.",
+  "d": [
+   "A water tint rather than a cream: it stains rather than coats, so it survives a glass of water.",
+   "Colorgram are the Korean colour brand built for exactly this finish."
+  ]
+ },
+ {
+  "idx": [
+   74,
+   75
+  ],
+  "n": "Rice Daily Glow Duo",
+  "b": "Anua",
+  "cat": "sets",
+  "fmt": "Set",
+  "size": "250 ml + 30 ml",
+  "st": [
+   "All",
+   "Dry",
+   "Normal"
+  ],
+  "cn": [
+   "Dullness & uneven tone",
+   "Dryness"
+  ],
+  "ki": [
+   "Rice extract",
+   "Ceramides"
+  ],
+  "ex": "The rice toner and the rice serum, bought together.",
+  "d": [
+   "Anua's Rice 70 Glow Milky Toner at 250 ml with the Rice 7 Ceramide Hydrating Barrier Serum at 30 ml.",
+   "The two steps are built to be layered, which is the argument for the set."
+  ]
+ },
+ {
+  "idx": [
+   76,
+   71
+  ],
+  "n": "Double Cleansing Duo",
+  "b": "SKIN1004",
+  "cat": "sets",
+  "fmt": "Set",
+  "size": "",
+  "st": [
+   "All",
+   "Combination",
+   "Oily"
+  ],
+  "cn": [
+   "Makeup removal",
+   "Pores & blackheads"
+  ],
+  "ki": [
+   "Centella asiatica"
+  ],
+  "ex": "The cleansing oil and the ampoule foam, as a pair.",
+  "d": [
+   "Oil first to dissolve sunscreen and makeup, foam second to clean the skin underneath - the routine the set is named for.",
+   "Both built on Madagascar centella, so neither step strips."
+  ]
+ },
+ {
+  "idx": [
+   170,
+   171
+  ],
+  "n": "Madagascar Centella Travel Kit",
+  "b": "SKIN1004",
+  "cat": "sets",
+  "fmt": "Set",
+  "size": "5 pieces",
+  "st": [
+   "Sensitive",
+   "All",
+   "Dry"
+  ],
+  "cn": [
+   "Sensitivity",
+   "Dryness"
+  ],
+  "ki": [
+   "Centella asiatica"
+  ],
+  "ex": "Five centella miniatures, in a travel box.",
+  "d": [
+   "The core centella routine in travel sizes: cleansing oil, toner, ampoule, essence and cream.",
+   "The easiest way into the range without committing to full sizes."
+  ]
+ },
+ {
+  "idx": [
+   174,
+   175
+  ],
+  "n": "Madagascar Centella Tea-Trica Travel Kit",
+  "b": "SKIN1004",
+  "cat": "sets",
+  "fmt": "Set",
+  "size": "5 pieces",
+  "st": [
+   "Oily",
+   "Acne-prone",
+   "Combination"
+  ],
+  "cn": [
+   "Acne & breakouts",
+   "Pores & blackheads"
+  ],
+  "ki": [
+   "Centella asiatica",
+   "Tea tree"
+  ],
+  "ex": "The Tea-Trica routine, in travel sizes.",
+  "d": [
+   "The blemish-focused half of the centella range, in five miniatures.",
+   "Tea tree and centella through every step, for congested skin."
+  ]
+ },
+ {
+  "idx": [
+   58,
+   59
+  ],
+  "n": "Beta Panthenol Repair Starter Kit",
+  "b": "SOME BY MI",
+  "cat": "sets",
+  "fmt": "Set",
+  "size": "4 pieces",
+  "st": [
+   "Sensitive",
+   "Dry",
+   "All"
+  ],
+  "cn": [
+   "Sensitivity",
+   "Dryness"
+  ],
+  "ki": [
+   "Beta-sitosterol",
+   "D-panthenol"
+  ],
+  "ex": "The Beta Panthenol routine in four miniatures.",
+  "d": [
+   "Toner, serum, cream and gel cream in starter sizes, built around beta-sitosterol and panthenol.",
+   "Non-comedogenic and dermatologist tested, for skin repairing a damaged barrier."
+  ]
+ },
+ {
+  "idx": [
+   88,
+   89
+  ],
+  "n": "Glow Vanilla Fragrance Mist",
+  "b": "Medicube",
+  "cat": "body-care",
+  "fmt": "Mist",
+  "size": "100 ml",
+  "st": [
+   "All"
+  ],
+  "cn": [
+   "Dryness"
+  ],
+  "ki": [
+   "Kojic acid",
+   "Hyaluronic acid"
+  ],
+  "ex": "A vanilla body mist with skincare worked in.",
+  "d": [
+   "A fragrance mist carrying kojic acid and hyaluronic acid, so it conditions the skin it lands on.",
+   "Vanilla, and light enough to layer over a body lotion."
+  ]
+ },
+ {
+  "idx": [
+   90,
+   91
+  ],
+  "n": "Kojic Acid Turmeric Vitamin Water Mist",
+  "b": "Medicube",
+  "cat": "body-care",
+  "fmt": "Mist",
+  "size": "100 ml",
+  "st": [
+   "All",
+   "Normal",
+   "Combination"
+  ],
+  "cn": [
+   "Dullness & uneven tone",
+   "Dark spots"
+  ],
+  "ki": [
+   "Vitamin water 74.5%",
+   "Kojic acid",
+   "Turmeric",
+   "Vitamin C"
+  ],
+  "ex": "74.5% vitamin water, in a mist from the kojic acid line.",
+  "d": [
+   "A brightening mist rather than a plain one, carrying the same kojic acid and turmeric as the rest of the range.",
+   "Use it through the day over the body or the face."
+  ],
+  "flag": "Shot in low light; confirm the exact product name on the carton before publishing."
+ }
+]
