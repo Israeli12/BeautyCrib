@@ -178,6 +178,16 @@ Medicube Glow Vanilla Fragrance Mist (100 ml).
 
 ---
 
+## Status: all 116 created
+
+Every product in this inventory now exists on beautycrib.ug as a **draft**,
+with its images, categories, brand, attributes and copy in place. Four
+shelves were added to hold them: Body Care, Supplements, Lip Care and
+Sets & Kits.
+
+Nothing is published, and nothing is purchasable, because none of them has
+a price.
+
 ## What is needed before anything can be published
 
 1. **Prices.** All 116. Nothing publishes without them.
